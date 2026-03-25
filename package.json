@@ -1,0 +1,34 @@
+{
+  "name": "@ops-dss/starter-subnational-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^5.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.0.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OPS-DSS/starter-subnational-astro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OPS-DSS/starter-subnational-astro/issues"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
