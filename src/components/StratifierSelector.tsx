@@ -5,7 +5,7 @@ import {
   SelectContent,
   SelectItem,
   SelectGroup,
-} from '../ui/select'
+} from './ui/select'
 
 const stratifiers = [
   { value: 'total', label: 'Total' },

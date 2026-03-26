@@ -2,7 +2,7 @@
 import { AnalyticsPanel } from './AnalyticsPanel'
 import type { AnalyticsDataRow } from '@/lib/parquet'
 import type { EducationIndicator } from '@/lib/parquet'
-import { MunicipalitiesMapPanel } from '../map/MunicipalitiesMapPanel'
+import { MunicipalitiesMapPanel } from './MunicipalitiesMapPanel'
 
 interface Props {
   title: string
@@ -20,6 +20,7 @@ const { title, text, data, csvPath, geojsonUrls, csvUrl } = Astro.props
   <h1 class="text-3xl font-bold my-6">{title}</h1>
   <p class="text-gray-700">{text}</p>
   {data && <AnalyticsPanel data={data} csvPath={csvPath} client:load />}
+  <h2 class="text-3xl font-bold my-6">Mapa de Municipios</h2>
   <MunicipalitiesMapPanel
     geojsonUrls={geojsonUrls}
     csvUrl={csvUrl}

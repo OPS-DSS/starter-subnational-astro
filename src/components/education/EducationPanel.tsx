@@ -40,12 +40,12 @@ export const EducationPanel = ({ data, csvPath }: EducationPanelProps) => {
               <polyline points="7 10 12 15 17 10" />
               <line x1="12" y1="15" x2="12" y2="3" />
             </svg>
-            Descargar CSV
+            Descargar Tablas
           </a>
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-10">
         {INDICATORS.map((ind) => (
           <div key={ind.value}>
             <h2 className="text-lg font-semibold text-gray-800 mb-4">

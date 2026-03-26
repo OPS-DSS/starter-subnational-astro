@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { StratifierSelector } from './StratifierSelector'
+import { StratifierSelector } from '../StratifierSelector'
 import { MaternalMortalityChart } from './MaternalMortalityChart'
 import { MaternalMortalityGapsChart } from './MaternalMortalityGapsChart'
 import type { SuicideDataRow, GapsChartPoint } from '@/lib/parquet'
