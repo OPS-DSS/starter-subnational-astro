@@ -1,0 +1,31 @@
+---
+import { maternalMortalityIndicators as indicators } from '@/data/indicators'
+
+const { title, text } = Astro.props
+
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : import.meta.env.BASE_URL + '/'
+---
+
+<div class="flex flex-col gap-2">
+  <h1 class="text-3xl font-bold my-6">{title}</h1>
+  <p class="text-gray-700">{text}</p>
+  <ul class="mt-6 flex flex-col gap-4">
+    {
+      indicators.map((ind) => (
+        <li>
+          <a
+            href={`${base}${ind.slug}`}
+            class="block rounded-lg border border-gray-200 p-4 hover:border-blue-400 hover:shadow-sm transition-all"
+          >
+            <h2 class="mt-1 text-lg font-semibold text-gray-900">
+              {ind.title}
+            </h2>
+            <p class="mt-1 text-sm text-gray-600">{ind.description}</p>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>
