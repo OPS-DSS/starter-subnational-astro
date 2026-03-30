@@ -16,17 +16,17 @@ export const maternalMortalityIndicators: IndicatorMeta[] = [
     description:
       'Indicadores de educación, incluyendo tasa de deserción escolar, entre otros.',
     date: '2026-01-01',
-    category: 'Indicadores',
+    category: 'dss',
     priority: true,
   },
   {
-    slug: 'empleo',
-    title: 'Empleo',
-    text: 'Indicadores de empleo, incluyendo tasa de desempleo, entre otros.',
+    slug: 'pobreza',
+    title: 'Pobreza',
+    text: 'Indicadores de pobreza, incluyendo tasa de pobreza, entre otros.',
     description:
-      'Indicadores de empleo, incluyendo tasa de desempleo, entre otros.',
+      'Indicadores de pobreza, incluyendo tasa de pobreza, entre otros.',
     date: '2026-01-01',
-    category: 'Indicadores',
+    category: 'dss',
     priority: true,
   },
 ]
