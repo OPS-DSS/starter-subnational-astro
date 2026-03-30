@@ -16,6 +16,7 @@ interface Props {
   scatterMaternalData?: ScatterMaternalRow[]
   csvPath?: string
   geojsonUrls: Record<EducationIndicator, string>
+  maternalGeojsonUrl?: string
   csvUrl?: string
 }
 
@@ -27,6 +28,7 @@ const {
   scatterMaternalData,
   csvPath,
   geojsonUrls,
+  maternalGeojsonUrl,
   csvUrl,
 } = Astro.props
 ---
@@ -44,6 +46,7 @@ const {
   <h2 class="text-3xl font-bold my-6">Mapa de Municipios</h2>
   <MunicipalitiesMapPanel
     geojsonUrls={geojsonUrls}
+    maternalGeojsonUrl={maternalGeojsonUrl}
     csvUrl={csvUrl}
     client:only="react"
   />

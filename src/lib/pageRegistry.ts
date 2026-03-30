@@ -106,6 +106,7 @@ export const pageRegistry: Record<string, PageRegistryEntry> = {
         reprobaci_n: base(baseUrl, 'huila_reprobacion.geojson'),
         repitencia: base(baseUrl, 'huila_repitencia.geojson'),
       },
+      maternalGeojsonUrl: base(baseUrl, 'huila_maternal_mortality.geojson'),
       csvUrl: base(baseUrl, 'huila_map.csv'),
     }),
   },
