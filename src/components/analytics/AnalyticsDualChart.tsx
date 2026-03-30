@@ -1,16 +1,24 @@
 import { DSLineChart } from '@ops-dss/charts/line-chart'
-import type { AnalyticsDataRow } from '@/lib/parquet'
+import type { AnalyticsMaternalRow } from '@/lib/parquet'
+import {
+  ANALYTICS_INDICATORS,
+  type AnalyticsIndicatorKey,
+} from './educationIndicators'
 
 interface AnalyticsDualChartProps {
-  data: AnalyticsDataRow[]
+  data: AnalyticsMaternalRow[]
+  selectedIndicator?: AnalyticsIndicatorKey
 }
 
 /**
- * Two side-by-side line charts mirroring the R ggplot facet_wrap output:
- *   - Left:  Mortalidad por suicidio (100.000 hab.)
- *   - Right: Deserción escolar (%)
+ * Two side-by-side line charts:
+ *   - Left:  Mortalidad materna (Huila, por 100.000 NV)
+ *   - Right: Selected education indicator (Huila weighted mean)
  */
-export const AnalyticsDualChart = ({ data }: AnalyticsDualChartProps) => {
+export const AnalyticsDualChart = ({
+  data,
+  selectedIndicator = 'desercion',
+}: AnalyticsDualChartProps) => {
   if (!data || data.length === 0) {
     return (
       <p className="text-gray-500 italic py-8 text-center">
@@ -19,47 +27,51 @@ export const AnalyticsDualChart = ({ data }: AnalyticsDualChartProps) => {
     )
   }
 
-  const suicideData = data.map((row) => ({ anio: row.anio, valor: row.valor }))
-  const desercionData = data.map((row) => ({
+  const indicatorMeta = ANALYTICS_INDICATORS[selectedIndicator]
+  const mortalityData = data.map((row) => ({ anio: row.anio, valor: row.valor }))
+  const indicatorData = data.map((row) => ({
     anio: row.anio,
-    desercion: row.desercion,
+    [selectedIndicator]: row[selectedIndicator],
   }))
 
   return (
     <div className="flex flex-col gap-4">
       <h2 className="text-lg font-semibold text-gray-800">
-        Tendencia temporal de A y B
+        Tendencias temporales — Huila
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="flex flex-col gap-2">
           <p className="text-sm font-semibold text-center text-gray-600">
-            Mortalidad por suicidio (100.000 hab.)
+            Mortalidad materna (×100.000 NV)
           </p>
           <DSLineChart
-            data={suicideData}
+            data={mortalityData}
             xAxisKey="anio"
             lines={[
               {
                 dataKey: 'valor',
-                name: 'Mortalidad por suicidio (100.000 hab.)',
-                color: '#ef4444',
+                name: 'Mortalidad materna (×100k NV)',
+                color: '#e11d48',
               },
             ]}
             height={320}
           />
         </div>
         <div className="flex flex-col gap-2">
-          <p className="text-sm font-semibold text-center text-gray-600">
-            Deserción escolar (%)
+          <p
+            className="text-sm font-semibold text-center"
+            style={{ color: indicatorMeta.color }}
+          >
+            {indicatorMeta.label}
           </p>
           <DSLineChart
-            data={desercionData}
+            data={indicatorData}
             xAxisKey="anio"
             lines={[
               {
-                dataKey: 'desercion',
-                name: 'Deserción escolar (%)',
-                color: '#3b82f6',
+                dataKey: selectedIndicator,
+                name: indicatorMeta.label,
+                color: indicatorMeta.color,
               },
             ]}
             height={320}

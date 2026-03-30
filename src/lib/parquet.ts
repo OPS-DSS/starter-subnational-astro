@@ -425,6 +425,126 @@ export function filterMaternalMortalityGapsRows(
   return result.sort((a, b) => a.anio - b.anio)
 }
 
+// ── Maternal mortality analytics: temporal data (Huila rate + education avg) ──
+// Parquet columns: anio[0], valor[1], cobertura_bruta[2], cobertura_neta[3],
+//   desercion[4], aprobacion[5], reprobacion[6], repitencia[7]
+export type AnalyticsMaternalRawRow = unknown[]
+
+export type AnalyticsMaternalRow = {
+  anio: number
+  valor: number
+  cobertura_bruta: number
+  cobertura_neta: number
+  desercion: number
+  aprobacion: number
+  reprobacion: number
+  repitencia: number
+}
+
+export function filterAnalyticsMaternalRows(
+  rows: AnalyticsMaternalRawRow[],
+): AnalyticsMaternalRow[] {
+  const result: AnalyticsMaternalRow[] = []
+  for (const row of rows) {
+    const anio = Number(row[0])
+    const valor = Number(row[1])
+    if (!Number.isFinite(anio) || !Number.isFinite(valor)) continue
+    result.push({
+      anio,
+      valor,
+      cobertura_bruta: Number(row[2]),
+      cobertura_neta: Number(row[3]),
+      desercion: Number(row[4]),
+      aprobacion: Number(row[5]),
+      reprobacion: Number(row[6]),
+      repitencia: Number(row[7]),
+    })
+  }
+  return result.sort((a, b) => a.anio - b.anio)
+}
+
+// ── Maternal mortality scatter: cross-sectional municipality data ──────────────
+// Parquet columns: anio[0], territorio[1], valor[2], cobertura_bruta[3],
+//   cobertura_neta[4], desercion[5], aprobacion[6], reprobacion[7],
+//   repitencia[8], nacimientos[9]
+export type ScatterMaternalRawRow = unknown[]
+
+export type ScatterMaternalRow = {
+  anio: number
+  territorio: string
+  valor: number
+  cobertura_bruta: number
+  cobertura_neta: number
+  desercion: number
+  aprobacion: number
+  reprobacion: number
+  repitencia: number
+  nacimientos: number
+}
+
+export function filterScatterMaternalRows(
+  rows: ScatterMaternalRawRow[],
+): ScatterMaternalRow[] {
+  const result: ScatterMaternalRow[] = []
+  for (const row of rows) {
+    const anio = Number(row[0])
+    const territorio = String(row[1])
+    const valor = Number(row[2])
+    if (!Number.isFinite(anio) || !Number.isFinite(valor)) continue
+    result.push({
+      anio,
+      territorio,
+      valor,
+      cobertura_bruta: Number(row[3]),
+      cobertura_neta: Number(row[4]),
+      desercion: Number(row[5]),
+      aprobacion: Number(row[6]),
+      reprobacion: Number(row[7]),
+      repitencia: Number(row[8]),
+      nacimientos: Number(row[9]),
+    })
+  }
+  return result
+}
+
+// ── Forest plot / Correlation data types ─────────────────────────────────────
+// Parquet columns (by index):
+//   indicador[0], label[1], correlacion[2], ci_lower[3], ci_upper[4],
+//   p_value[5], n[6]
+export type ForestPlotRawRow = unknown[]
+
+export type ForestPlotDataRow = {
+  indicador: string
+  label: string
+  correlacion: number
+  ci_lower: number
+  ci_upper: number
+  p_value: number
+  n: number
+}
+
+export function filterForestPlotRows(
+  rows: ForestPlotRawRow[],
+): ForestPlotDataRow[] {
+  const result: ForestPlotDataRow[] = []
+  for (const row of rows) {
+    const indicador = String(row[0])
+    const label = String(row[1])
+    const correlacion = Number(row[2])
+    if (!indicador || !label || !Number.isFinite(correlacion)) continue
+    result.push({
+      indicador,
+      label,
+      correlacion,
+      ci_lower: Number(row[3]),
+      ci_upper: Number(row[4]),
+      p_value: Number(row[5]),
+      n: Number(row[6]),
+    })
+  }
+  return result
+}
+
 export function pivotGaps(rows: GapsRow[]): GapsChartPoint[] {
   const byYear = new Map<number, GapsChartPoint>()
 

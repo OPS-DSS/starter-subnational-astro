@@ -1,13 +1,7 @@
-indicador,label,metrica,metrica_label,correlacion,ci_lower,ci_upper,p_value,n
-cobertura_bruta,Cobertura Bruta,brecha_absoluta,Brecha Absoluta,0.35099679837150244,-0.22069071996304118,0.7431786410556369,0.21851418883984608,14
-cobertura_neta,Cobertura Neta,brecha_absoluta,Brecha Absoluta,0.3024312036282757,-0.2717652216943395,0.7178309363445321,0.29327694521220476,14
-desercion,Deserción Escolar,brecha_absoluta,Brecha Absoluta,-0.09281818953389745,-0.5941449525587618,0.46044519019146674,0.752308981240161,14
-aprobacion,Tasa de Aprobación,brecha_absoluta,Brecha Absoluta,0.07284839211484012,-0.476142997267108,0.5809794287939121,0.8045302830632186,14
-reprobacion,Tasa de Reprobación,brecha_absoluta,Brecha Absoluta,-0.1348073705135177,-0.6209779368953926,0.42626976537221806,0.6458873711296558,14
-repitencia,Tasa de Repitencia,brecha_absoluta,Brecha Absoluta,-0.10375377058780261,-0.6012424193325965,0.4516998039722,0.7241098130956384,14
-cobertura_bruta,Cobertura Bruta,razon,Razón Hombre/Mujer,NA,NA,NA,NA,3
-cobertura_neta,Cobertura Neta,razon,Razón Hombre/Mujer,NA,NA,NA,NA,3
-desercion,Deserción Escolar,razon,Razón Hombre/Mujer,NA,NA,NA,NA,3
-aprobacion,Tasa de Aprobación,razon,Razón Hombre/Mujer,NA,NA,NA,NA,3
-reprobacion,Tasa de Reprobación,razon,Razón Hombre/Mujer,NA,NA,NA,NA,3
-repitencia,Tasa de Repitencia,razon,Razón Hombre/Mujer,NA,NA,NA,NA,3
+indicador,label,correlacion,ci_lower,ci_upper,p_value,n
+aprobacion,Aprobación,-0.09075294375525825,-0.4029288658146402,0.24033902922142217,0.5932128249505854,37
+reprobacion,Reprobación,0.05125741565858181,-0.2773739136793408,0.36915083555999206,0.7631983437514918,37
+repitencia,Repitencia,0.2794227211582611,-0.049042058062546905,0.5533472820380101,0.09395912579758153,37
+desercion,Deserción,0.28593858711721043,-0.04197496012388394,0.5582414184978495,0.08623046713183737,37
+cobertura_bruta,Cobertura Bruta,0.3169184182159007,-0.007919333328509932,0.5812543173237051,0.05598329320940896,37
+cobertura_neta,Cobertura Neta,0.31971065097551216,-0.004812406323739292,0.5833079182287135,0.05373792444877115,37

@@ -1,25 +1,46 @@
 ---
 import { AnalyticsPanel } from './AnalyticsPanel'
-import type { AnalyticsDataRow } from '@/lib/parquet'
+import type {
+  ForestPlotDataRow,
+  AnalyticsMaternalRow,
+  ScatterMaternalRow,
+} from '@/lib/parquet'
 import type { EducationIndicator } from '@/lib/parquet'
 import { MunicipalitiesMapPanel } from './MunicipalitiesMapPanel'
 
 interface Props {
   title: string
   text: string
-  data?: AnalyticsDataRow[]
+  forestPlotData?: ForestPlotDataRow[]
+  analyticsMaternalData?: AnalyticsMaternalRow[]
+  scatterMaternalData?: ScatterMaternalRow[]
   csvPath?: string
   geojsonUrls: Record<EducationIndicator, string>
   csvUrl?: string
 }
 
-const { title, text, data, csvPath, geojsonUrls, csvUrl } = Astro.props
+const {
+  title,
+  text,
+  forestPlotData,
+  analyticsMaternalData,
+  scatterMaternalData,
+  csvPath,
+  geojsonUrls,
+  csvUrl,
+} = Astro.props
 ---
 
 <div class="flex flex-col gap-2">
   <h1 class="text-3xl font-bold my-6">{title}</h1>
   <p class="text-gray-700">{text}</p>
-  {data && <AnalyticsPanel data={data} csvPath={csvPath} client:load />}
+  <AnalyticsPanel
+    forestPlotData={forestPlotData}
+    analyticsMaternalData={analyticsMaternalData}
+    scatterMaternalData={scatterMaternalData}
+    csvPath={csvPath}
+    client:load
+  />
   <h2 class="text-3xl font-bold my-6">Mapa de Municipios</h2>
   <MunicipalitiesMapPanel
     geojsonUrls={geojsonUrls}

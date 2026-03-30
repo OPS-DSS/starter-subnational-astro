@@ -9,6 +9,9 @@ import {
   filterMaternalMortalityRateRows,
   filterMaternalMortalityQuintilRows,
   filterMaternalMortalityGapsRows,
+  filterForestPlotRows,
+  filterAnalyticsMaternalRows,
+  filterScatterMaternalRows,
 } from './parquet'
 import { maternalMortalityIndicators } from '@/data/indicators'
 
@@ -27,6 +30,12 @@ import type {
   MaternalMortalityQuintilRow,
   MaternalMortalityGapsRawRow,
   MaternalMortalityGapsRow,
+  ForestPlotRawRow,
+  ForestPlotDataRow,
+  AnalyticsMaternalRawRow,
+  AnalyticsMaternalRow,
+  ScatterMaternalRawRow,
+  ScatterMaternalRow,
 } from './parquet'
 
 // ─── Loaded datasets ─────────────────────────────────────────────────────────
@@ -38,6 +47,9 @@ export interface PageDatasets {
   educationData: EducationDataRow[]
   educationRawRows: EducationRow[]
   analyticsData: AnalyticsDataRow[]
+  forestPlotData: ForestPlotDataRow[]
+  analyticsMaternalData: AnalyticsMaternalRow[]
+  scatterMaternalData: ScatterMaternalRow[]
   maternalMortalityRateData: MaternalMortalityRateRow[]
   maternalMortalityQuintilData: MaternalMortalityQuintilRow[]
   maternalMortalityGapsData: MaternalMortalityGapsRow[]
@@ -86,6 +98,36 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
     analyticsData = buildAnalyticsData(suicideRawRows, educationRawRows)
   }
 
+  let forestPlotData: ForestPlotDataRow[] = []
+  try {
+    const rows = await readParquet<ForestPlotRawRow>(
+      dataPath('forest_plot_suaza.parquet'),
+    )
+    forestPlotData = filterForestPlotRows(rows)
+  } catch (e) {
+    console.error('[loadAllDatasets] forest_plot_suaza:', e)
+  }
+
+  let analyticsMaternalData: AnalyticsMaternalRow[] = []
+  try {
+    const rows = await readParquet<AnalyticsMaternalRawRow>(
+      dataPath('analytics_maternal.parquet'),
+    )
+    analyticsMaternalData = filterAnalyticsMaternalRows(rows)
+  } catch (e) {
+    console.error('[loadAllDatasets] analytics_maternal:', e)
+  }
+
+  let scatterMaternalData: ScatterMaternalRow[] = []
+  try {
+    const rows = await readParquet<ScatterMaternalRawRow>(
+      dataPath('scatter_maternal.parquet'),
+    )
+    scatterMaternalData = filterScatterMaternalRows(rows)
+  } catch (e) {
+    console.error('[loadAllDatasets] scatter_maternal:', e)
+  }
+
   let maternalMortalityRateData: MaternalMortalityRateRow[] = []
   try {
     const rows = await readParquet<MaternalMortalityRateRawRow>(
@@ -123,6 +165,9 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
     educationData,
     educationRawRows,
     analyticsData,
+    forestPlotData,
+    analyticsMaternalData,
+    scatterMaternalData,
     maternalMortalityRateData,
     maternalMortalityQuintilData,
     maternalMortalityGapsData,
@@ -138,6 +183,9 @@ export interface PageDefinition {
   date: string
   navbar: boolean
   data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
+  forestPlotData?: ForestPlotDataRow[]
+  analyticsMaternalData?: AnalyticsMaternalRow[]
+  scatterMaternalData?: ScatterMaternalRow[]
   gapsData?: GapsChartPoint[]
   quintilData?: MaternalMortalityQuintilRow[]
   maternalGapsData?: MaternalMortalityGapsRow[]
@@ -204,7 +252,9 @@ export function buildPages(datasets: PageDatasets): PageDefinition[] {
       category: 'Tendencia',
       navbar: false,
       priority: false,
-      data: datasets.analyticsData,
+      forestPlotData: datasets.forestPlotData,
+      analyticsMaternalData: datasets.analyticsMaternalData,
+      scatterMaternalData: datasets.scatterMaternalData,
     },
   ]
 

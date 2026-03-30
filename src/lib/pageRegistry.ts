@@ -15,6 +15,9 @@ import type {
   MaternalMortalityRateRow,
   MaternalMortalityQuintilRow,
   MaternalMortalityGapsRow,
+  ForestPlotDataRow,
+  AnalyticsMaternalRow,
+  ScatterMaternalRow,
 } from '@/lib/parquet'
 
 export interface PageProps {
@@ -24,6 +27,9 @@ export interface PageProps {
   slug: string | undefined
   date: Date
   data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
+  forestPlotData?: ForestPlotDataRow[]
+  analyticsMaternalData?: AnalyticsMaternalRow[]
+  scatterMaternalData?: ScatterMaternalRow[]
   gapsData?: GapsChartPoint[]
   quintilData?: MaternalMortalityQuintilRow[]
   maternalGapsData?: MaternalMortalityGapsRow[]
@@ -82,11 +88,16 @@ export const pageRegistry: Record<string, PageRegistryEntry> = {
   },
   'analisis/mortalidad-materna': {
     component: Analytics,
-    resolveProps: ({ title, text, data }, baseUrl) => ({
+    resolveProps: (
+      { title, text, forestPlotData, analyticsMaternalData, scatterMaternalData },
+      baseUrl,
+    ) => ({
       title,
       text,
-      data,
-      csvPath: base(baseUrl, 'analytics_suaza.csv'),
+      forestPlotData,
+      analyticsMaternalData,
+      scatterMaternalData,
+      csvPath: base(baseUrl, 'analytics_maternal.csv'),
       geojsonUrls: {
         cobertura_bruta: base(baseUrl, 'huila_cobertura_bruta.geojson'),
         cobertura_neta: base(baseUrl, 'huila_cobertura_neta.geojson'),
