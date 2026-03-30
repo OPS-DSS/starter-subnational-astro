@@ -13,6 +13,7 @@ interface Props {
 }
 
 const { title, text, section } = Astro.props
+const showCategoryToggle = section === 'determinantes-de-la-salud'
 ---
 
 <div class="flex flex-col">
@@ -27,12 +28,40 @@ const { title, text, section } = Astro.props
     <p class="text-slate-600">
       {text}
     </p>
+
+    {
+      showCategoryToggle && (
+        <div class="flex gap-3 items-center">
+          <span class="text-sm text-gray-600 font-medium">Ver indicadores de:</span>
+          <div class="flex rounded-lg border border-gray-300 overflow-hidden text-sm">
+            <button
+              id="category-btn-dss"
+              type="button"
+              aria-pressed="true"
+              class="px-4 py-2 font-medium bg-gray-800 text-white transition-colors"
+            >
+              Determinantes Sociales de la Salud
+            </button>
+            <button
+              id="category-btn-policy"
+              type="button"
+              aria-pressed="false"
+              class="px-4 py-2 font-medium bg-white text-gray-700 hover:bg-gray-50 transition-colors"
+            >
+              Política
+            </button>
+          </div>
+        </div>
+      )
+    }
+
     <ul class="flex gap-2">
       {
         priorities.map((priority) => (
           <li class="w-1/2">
             <a
               href={`${base}${section}/${priority.slug}`}
+              data-base-href={`${base}${section}/${priority.slug}`}
               class="h-full rounded-lg border bg-fuchsia-100 border-fuchsia-300 p-4 hover:border-blue-400 hover:shadow-sm hover:bg-blue-100 transition-all flex gap-5"
             >
               <div>
@@ -63,3 +92,56 @@ const { title, text, section } = Astro.props
     </ul>
   </div>
 </div>
+
+{
+  showCategoryToggle && (
+    <script>
+      const _params = new URLSearchParams(window.location.search)
+      const _cat = _params.get('category')
+      let selectedCategory: string = _cat === 'dss' || _cat === 'policy' ? _cat : 'dss'
+
+      function updateLinks() {
+        document.querySelectorAll<HTMLAnchorElement>('[data-base-href]').forEach((link) => {
+          const baseHref = link.getAttribute('data-base-href')!
+          link.setAttribute('href', `${baseHref}?category=${selectedCategory}`)
+        })
+      }
+
+      function updateToggle() {
+        const btnDss = document.getElementById('category-btn-dss')
+        const btnPolicy = document.getElementById('category-btn-policy')
+
+        if (selectedCategory === 'dss') {
+          btnDss?.classList.add('bg-gray-800', 'text-white')
+          btnDss?.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-50')
+          btnPolicy?.classList.remove('bg-gray-800', 'text-white')
+          btnPolicy?.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-50')
+          btnDss?.setAttribute('aria-pressed', 'true')
+          btnPolicy?.setAttribute('aria-pressed', 'false')
+        } else {
+          btnPolicy?.classList.add('bg-gray-800', 'text-white')
+          btnPolicy?.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-50')
+          btnDss?.classList.remove('bg-gray-800', 'text-white')
+          btnDss?.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-50')
+          btnPolicy?.setAttribute('aria-pressed', 'true')
+          btnDss?.setAttribute('aria-pressed', 'false')
+        }
+      }
+
+      document.getElementById('category-btn-dss')?.addEventListener('click', () => {
+        selectedCategory = 'dss'
+        updateToggle()
+        updateLinks()
+      })
+
+      document.getElementById('category-btn-policy')?.addEventListener('click', () => {
+        selectedCategory = 'policy'
+        updateToggle()
+        updateLinks()
+      })
+
+      updateToggle()
+      updateLinks()
+    </script>
+  )
+}
