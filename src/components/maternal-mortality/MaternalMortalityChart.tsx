@@ -1,106 +1,60 @@
 import { useState, useMemo } from 'react'
 import { DSLineChart } from '@ops-dss/charts/line-chart'
+import type { MaternalMortalityRateRow } from '@/lib/parquet'
 
-type MaternalMortalityDataRow = {
-  anio: number
-  territorio: string
-  sexo: string
-  valor: number
-}
-
-interface MaternalMortalityChartProps {
-  data: MaternalMortalityDataRow[]
-  csvPath?: string
-  stratifier?: string
-}
-
-// Total mode: one line per territory
-const TOTAL_COLORS: Record<string, string> = {
+const COLORS: Record<string, string> = {
   Nacional: '#6b7280',
   Huila: '#3b82f6',
-  Suaza: '#10b981',
 }
 
-// Sexo mode: one line per territory+sex combination
-const SEXO_COLORS: Record<string, string> = {
-  'Nacional Femenino': '#f43f5e',
-  'Nacional Masculino': '#6b7280',
-  'Huila Femenino': '#ec4899',
-  'Huila Masculino': '#3b82f6',
-  'Suaza Femenino': '#f97316',
-  'Suaza Masculino': '#10b981',
-}
+const ORDER = ['Nacional', 'Huila']
 
-const FALLBACK_COLORS = ['#8b5cf6', '#f59e0b', '#ef4444', '#14b8a6']
-
-// Preferred display order
-const TOTAL_ORDER = ['Nacional', 'Huila', 'Suaza']
-const SEXO_ORDER = [
-  'Nacional Femenino',
-  'Nacional Masculino',
-  'Huila Femenino',
-  'Huila Masculino',
-  'Suaza Femenino',
-  'Suaza Masculino',
-]
-
-function pivotRows(rows: MaternalMortalityDataRow[], stratifier: string) {
+function pivotRows(rows: MaternalMortalityRateRow[]) {
   const byYear = new Map<number, Record<string, number>>()
 
   for (const row of rows) {
-    const isTotal = stratifier === 'total'
-    if (isTotal && row.sexo !== 'Total') continue
-    if (!isTotal && row.sexo === 'Total') continue
-
-    const key = isTotal ? row.territorio : `${row.territorio} ${row.sexo}`
     if (!byYear.has(row.anio)) byYear.set(row.anio, {})
-    byYear.get(row.anio)![key] = row.valor
+    byYear.get(row.anio)![row.territorio] = row.valor
   }
 
   const chartData = Array.from(byYear.entries())
     .sort(([a], [b]) => a - b)
     .map(([anio, vals]) => ({ anio, ...vals }))
 
-  const order = stratifier === 'total' ? TOTAL_ORDER : SEXO_ORDER
-  const colorMap = stratifier === 'total' ? TOTAL_COLORS : SEXO_COLORS
-  const getOrderIndex = (key: string): number => {
-    const idx = order.indexOf(key)
-    return idx === -1 ? Number.POSITIVE_INFINITY : idx
-  }
   const keys = Array.from(
     new Set(
       chartData.flatMap((row) => Object.keys(row).filter((k) => k !== 'anio')),
     ),
   ).sort((a, b) => {
-    const indexA = getOrderIndex(a)
-    const indexB = getOrderIndex(b)
-    if (indexA === indexB) {
-      // For keys not present in the preferred order, fall back to alphabetical order
-      return a.localeCompare(b)
-    }
-    return indexA - indexB
+    const ia = ORDER.indexOf(a)
+    const ib = ORDER.indexOf(b)
+    if (ia === -1 && ib === -1) return a.localeCompare(b)
+    if (ia === -1) return 1
+    if (ib === -1) return -1
+    return ia - ib
   })
 
-  const lines = keys.map((key, i) => ({
+  const lines = keys.map((key) => ({
     dataKey: key,
     name: key,
-    color: colorMap[key] ?? FALLBACK_COLORS[i % FALLBACK_COLORS.length],
+    color: COLORS[key] ?? '#8b5cf6',
   }))
 
   return { chartData, lines, keys }
 }
 
+interface MaternalMortalityChartProps {
+  data: MaternalMortalityRateRow[]
+  csvPath?: string
+}
+
 export const MaternalMortalityChart = ({
   data,
   csvPath,
-  stratifier = 'total',
 }: MaternalMortalityChartProps) => {
   const [view, setView] = useState<'chart' | 'table'>('chart')
 
-  const { chartData, lines, keys } = useMemo(
-    () => pivotRows(data, stratifier),
-    [data, stratifier],
-  )
+  const { chartData, lines, keys } = useMemo(() => pivotRows(data), [data])
 
   if (!data || data.length === 0) {
     return (
@@ -175,9 +129,9 @@ export const MaternalMortalityChart = ({
             <thead className="bg-gray-50 text-gray-600 uppercase text-xs">
               <tr>
                 <th className="px-4 py-3 font-medium">Año</th>
-                {keys.map((cat) => (
-                  <th key={cat} className="px-4 py-3 font-medium">
-                    {cat}
+                {keys.map((k) => (
+                  <th key={k} className="px-4 py-3 font-medium">
+                    {k}
                   </th>
                 ))}
               </tr>
@@ -191,10 +145,10 @@ export const MaternalMortalityChart = ({
                   <td className="px-4 py-3 font-medium text-gray-900">
                     {row.anio}
                   </td>
-                  {keys.map((cat) => {
-                    const value = (row as Record<string, unknown>)[cat]
+                  {keys.map((k) => {
+                    const value = (row as Record<string, unknown>)[k]
                     return (
-                      <td key={cat} className="px-4 py-3 text-gray-600">
+                      <td key={k} className="px-4 py-3 text-gray-600">
                         {typeof value === 'number' ? value.toFixed(2) : '—'}
                       </td>
                     )

@@ -318,6 +318,113 @@ export function buildAnalyticsData(
   return result.sort((a, b) => a.anio - b.anio)
 }
 
+// ── Maternal Mortality data types ─────────────────────────────────────────────
+
+/**
+ * Row from maternal_mortality_rate.parquet
+ * Columns (by index): iso3[0], Territorio[1], cod_local[2], anio[3], valor[4]
+ */
+export type MaternalMortalityRateRawRow = unknown[]
+
+export type MaternalMortalityRateRow = {
+  territorio: string
+  anio: number
+  valor: number
+}
+
+export function filterMaternalMortalityRateRows(
+  rows: MaternalMortalityRateRawRow[],
+): MaternalMortalityRateRow[] {
+  const result: MaternalMortalityRateRow[] = []
+  for (const row of rows) {
+    const territorio = String(row[1])
+    const anio = Number(row[3])
+    const valor = Number(row[4])
+    if (!Number.isFinite(anio) || !Number.isFinite(valor)) continue
+    result.push({ territorio, anio, valor })
+  }
+  return result.sort((a, b) => a.anio - b.anio)
+}
+
+/**
+ * Row from maternal_mortality_quintiles.parquet (resumen dataframe)
+ * Columns: anio[0], quintil_dss[1], tasa_ponderada[2], n[3], total_pob[4],
+ *          sd_pond[5], se[6], ic_inf[7], ic_sup[8]
+ */
+export type MaternalMortalityQuintilRawRow = unknown[]
+
+export type MaternalMortalityQuintilRow = {
+  anio: number
+  quintil_dss: number
+  tasa_ponderada: number
+  n: number
+  total_pob: number
+  se: number
+  ic_inf: number
+  ic_sup: number
+}
+
+export function filterMaternalMortalityQuintilRows(
+  rows: MaternalMortalityQuintilRawRow[],
+): MaternalMortalityQuintilRow[] {
+  const result: MaternalMortalityQuintilRow[] = []
+  for (const row of rows) {
+    const anio = Number(row[0])
+    const quintil_dss = Number(row[1])
+    const tasa_ponderada = Number(row[2])
+    const n = Number(row[3])
+    const total_pob = Number(row[4])
+    const se = Number(row[6])
+    const ic_inf = Number(row[7])
+    const ic_sup = Number(row[8])
+    if (!Number.isFinite(anio) || !Number.isFinite(quintil_dss)) continue
+    result.push({ anio, quintil_dss, tasa_ponderada, n, total_pob, se, ic_inf, ic_sup })
+  }
+  return result.sort((a, b) => a.anio - b.anio || a.quintil_dss - b.quintil_dss)
+}
+
+/**
+ * Row from maternal_mortality_gaps.parquet (brecha_quintiles dataframe)
+ * Columns: anio[0], valor_ref[1], valor_comp[2],
+ *          brecha_absoluta[3], ic_inf_abs[4], ic_sup_abs[5],
+ *          brecha_relativa[6], ic_inf_rel[7], ic_sup_rel[8]
+ */
+export type MaternalMortalityGapsRawRow = unknown[]
+
+export type MaternalMortalityGapsRow = {
+  anio: number
+  valor_ref: number
+  valor_comp: number
+  brecha_absoluta: number
+  ic_inf_abs: number
+  ic_sup_abs: number
+  brecha_relativa: number
+  ic_inf_rel: number
+  ic_sup_rel: number
+}
+
+export function filterMaternalMortalityGapsRows(
+  rows: MaternalMortalityGapsRawRow[],
+): MaternalMortalityGapsRow[] {
+  const result: MaternalMortalityGapsRow[] = []
+  for (const row of rows) {
+    const anio = Number(row[0])
+    if (!Number.isFinite(anio)) continue
+    result.push({
+      anio,
+      valor_ref: Number(row[1]),
+      valor_comp: Number(row[2]),
+      brecha_absoluta: Number(row[3]),
+      ic_inf_abs: Number(row[4]),
+      ic_sup_abs: Number(row[5]),
+      brecha_relativa: Number(row[6]),
+      ic_inf_rel: Number(row[7]),
+      ic_sup_rel: Number(row[8]),
+    })
+  }
+  return result.sort((a, b) => a.anio - b.anio)
+}
+
 export function pivotGaps(rows: GapsRow[]): GapsChartPoint[] {
   const byYear = new Map<number, GapsChartPoint>()
 

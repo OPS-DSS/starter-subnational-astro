@@ -1,32 +1,32 @@
 ---
 import { MaternalMortalityPanel } from './MaternalMortalityPanel'
-
-type MaternalMortalityDataRow = {
-  anio: number
-  territorio: string
-  sexo: string
-  valor: number
-}
-type GapsChartPoint = {
-  anio: number
-  brechaHuila?: number
-  brechaNacional?: number
-  brechaSuaza?: number
-  razonHuila?: number
-  razonNacional?: number
-  razonSuaza?: number
-}
+import type {
+  MaternalMortalityRateRow,
+  MaternalMortalityQuintilRow,
+  MaternalMortalityGapsRow,
+} from '@/lib/parquet'
 
 interface Props {
   title: string
   text: string
-  data: MaternalMortalityDataRow[] | undefined
-  gapsData?: GapsChartPoint[]
+  data: MaternalMortalityRateRow[] | undefined
+  quintilData?: MaternalMortalityQuintilRow[]
+  maternalGapsData?: MaternalMortalityGapsRow[]
   csvPath?: string
+  quintilCsvPath?: string
   gapsCsvPath?: string
 }
 
-const { title, text, data, gapsData = [], csvPath, gapsCsvPath } = Astro.props
+const {
+  title,
+  text,
+  data,
+  quintilData = [],
+  maternalGapsData = [],
+  csvPath,
+  quintilCsvPath,
+  gapsCsvPath,
+} = Astro.props
 ---
 
 <div class="flex flex-col gap-2">
@@ -36,8 +36,10 @@ const { title, text, data, gapsData = [], csvPath, gapsCsvPath } = Astro.props
     data && (
       <MaternalMortalityPanel
         data={data}
-        gapsData={gapsData}
+        quintilData={quintilData}
+        maternalGapsData={maternalGapsData}
         csvPath={csvPath}
+        quintilCsvPath={quintilCsvPath}
         gapsCsvPath={gapsCsvPath}
         client:load
       />

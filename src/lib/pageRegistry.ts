@@ -7,14 +7,26 @@ import Welcome from '@/components/Welcome.astro'
 import MaternalMortalitySDoH from '@/components/maternal-mortality/MaternalMortalitySDoH.astro'
 import PrioritySelector from '@/components/PrioritySelector.astro'
 
+import type {
+  SuicideDataRow,
+  GapsChartPoint,
+  EducationDataRow,
+  AnalyticsDataRow,
+  MaternalMortalityRateRow,
+  MaternalMortalityQuintilRow,
+  MaternalMortalityGapsRow,
+} from '@/lib/parquet'
+
 export interface PageProps {
   title: string
   text: string
   pages: unknown[]
   slug: string | undefined
   date: Date
-  data?: MaternalMortalityDataRow[] | EducationDataRow[] | AnalyticsDataRow[]
+  data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
   gapsData?: GapsChartPoint[]
+  quintilData?: MaternalMortalityQuintilRow[]
+  maternalGapsData?: MaternalMortalityGapsRow[]
 }
 
 type PropsResolver = (
@@ -57,13 +69,15 @@ export const pageRegistry: Record<string, PageRegistryEntry> = {
   },
   'analisis-de-inequidad/mortalidad-materna': {
     component: MaternalMortalityInequity,
-    resolveProps: ({ title, text, data, gapsData }, baseUrl) => ({
+    resolveProps: ({ title, text, data, quintilData, maternalGapsData }, baseUrl) => ({
       title,
       text,
       data,
-      gapsData,
-      csvPath: base(baseUrl, 'maternal_mortality_huila.csv'),
-      gapsCsvPath: base(baseUrl, 'maternal_mortality_huila_gaps.csv'),
+      quintilData,
+      maternalGapsData,
+      csvPath: base(baseUrl, 'maternal_mortality_rate.csv'),
+      quintilCsvPath: base(baseUrl, 'maternal_mortality_quintiles.csv'),
+      gapsCsvPath: base(baseUrl, 'maternal_mortality_gaps.csv'),
     }),
   },
   'analisis/mortalidad-materna': {

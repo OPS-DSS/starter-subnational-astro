@@ -6,6 +6,9 @@ import {
   filterEducationRows,
   filterAnalyticsRows,
   buildAnalyticsData,
+  filterMaternalMortalityRateRows,
+  filterMaternalMortalityQuintilRows,
+  filterMaternalMortalityGapsRows,
 } from './parquet'
 import { maternalMortalityIndicators } from '@/data/indicators'
 
@@ -18,6 +21,12 @@ import type {
   EducationDataRow,
   AnalyticsRow,
   AnalyticsDataRow,
+  MaternalMortalityRateRawRow,
+  MaternalMortalityRateRow,
+  MaternalMortalityQuintilRawRow,
+  MaternalMortalityQuintilRow,
+  MaternalMortalityGapsRawRow,
+  MaternalMortalityGapsRow,
 } from './parquet'
 
 // ─── Loaded datasets ─────────────────────────────────────────────────────────
@@ -29,6 +38,9 @@ export interface PageDatasets {
   educationData: EducationDataRow[]
   educationRawRows: EducationRow[]
   analyticsData: AnalyticsDataRow[]
+  maternalMortalityRateData: MaternalMortalityRateRow[]
+  maternalMortalityQuintilData: MaternalMortalityQuintilRow[]
+  maternalMortalityGapsData: MaternalMortalityGapsRow[]
 }
 
 export async function loadAllDatasets(): Promise<PageDatasets> {
@@ -74,6 +86,36 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
     analyticsData = buildAnalyticsData(suicideRawRows, educationRawRows)
   }
 
+  let maternalMortalityRateData: MaternalMortalityRateRow[] = []
+  try {
+    const rows = await readParquet<MaternalMortalityRateRawRow>(
+      dataPath('maternal_mortality_rate.parquet'),
+    )
+    maternalMortalityRateData = filterMaternalMortalityRateRows(rows)
+  } catch (e) {
+    console.error('[loadAllDatasets] maternal_mortality_rate:', e)
+  }
+
+  let maternalMortalityQuintilData: MaternalMortalityQuintilRow[] = []
+  try {
+    const rows = await readParquet<MaternalMortalityQuintilRawRow>(
+      dataPath('maternal_mortality_quintiles.parquet'),
+    )
+    maternalMortalityQuintilData = filterMaternalMortalityQuintilRows(rows)
+  } catch (e) {
+    console.error('[loadAllDatasets] maternal_mortality_quintiles:', e)
+  }
+
+  let maternalMortalityGapsData: MaternalMortalityGapsRow[] = []
+  try {
+    const rows = await readParquet<MaternalMortalityGapsRawRow>(
+      dataPath('maternal_mortality_gaps.parquet'),
+    )
+    maternalMortalityGapsData = filterMaternalMortalityGapsRows(rows)
+  } catch (e) {
+    console.error('[loadAllDatasets] maternal_mortality_gaps:', e)
+  }
+
   return {
     suicideData,
     suicideRawRows,
@@ -81,6 +123,9 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
     educationData,
     educationRawRows,
     analyticsData,
+    maternalMortalityRateData,
+    maternalMortalityQuintilData,
+    maternalMortalityGapsData,
   }
 }
 
@@ -92,8 +137,10 @@ export interface PageDefinition {
   text: string
   date: string
   navbar: boolean
-  data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[]
+  data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
   gapsData?: GapsChartPoint[]
+  quintilData?: MaternalMortalityQuintilRow[]
+  maternalGapsData?: MaternalMortalityGapsRow[]
   description?: string
   category?: string
   priority?: boolean
@@ -121,8 +168,9 @@ export function buildPages(datasets: PageDatasets): PageDefinition[] {
       text: 'Problemas, gráficos de tendencias y mediciones de brechas',
       date: '2026-01-01',
       navbar: false,
-      data: datasets.suicideData,
-      gapsData: datasets.suicideGapsData,
+      data: datasets.maternalMortalityRateData,
+      quintilData: datasets.maternalMortalityQuintilData,
+      maternalGapsData: datasets.maternalMortalityGapsData,
     },
     {
       slug: 'determinantes-de-la-salud',
