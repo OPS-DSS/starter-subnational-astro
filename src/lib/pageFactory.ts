@@ -182,7 +182,11 @@ export interface PageDefinition {
   text: string
   date: string
   navbar: boolean
-  data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
+  data?:
+    | SuicideDataRow[]
+    | EducationDataRow[]
+    | AnalyticsDataRow[]
+    | MaternalMortalityRateRow[]
   forestPlotData?: ForestPlotDataRow[]
   analyticsMaternalData?: AnalyticsMaternalRow[]
   scatterMaternalData?: ScatterMaternalRow[]
@@ -238,14 +242,14 @@ export function buildPages(datasets: PageDatasets): PageDefinition[] {
     },
     {
       slug: 'analisis',
-      title: 'Análisis',
+      title: 'Análisis Avanzado',
       text: 'Análisis de relaciones',
       date: '2026-01-01',
       navbar: true,
     },
     {
       slug: 'analisis/mortalidad-materna',
-      title: 'Análisis',
+      title: 'Análisis de Mortalidad Materna',
       text: 'Análisis de relaciones',
       description: 'Indicadores de análisis de datos y visualización.',
       date: '2026-01-01',
