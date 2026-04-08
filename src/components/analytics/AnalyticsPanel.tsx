@@ -46,9 +46,10 @@ export const AnalyticsPanel = ({
   const selectedMeta = ANALYTICS_INDICATORS[selectedIndicator]
 
   // Build scatter data: filter last year, use municipality as label + nacimientos as size
-  const lastYear = scatterMaternalData && scatterMaternalData.length > 0
-    ? Math.max(...scatterMaternalData.map((r) => r.anio))
-    : null
+  const lastYear =
+    scatterMaternalData && scatterMaternalData.length > 0
+      ? Math.max(...scatterMaternalData.map((r) => r.anio))
+      : null
 
   const scatterPoints =
     scatterMaternalData && lastYear !== null
@@ -64,10 +65,10 @@ export const AnalyticsPanel = ({
       : []
 
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-row gap-10">
       {/* ── Correlation chart ── */}
       {forestPlotData && forestPlotData.length > 0 && (
-        <section className="flex flex-col gap-3">
+        <section className="flex w-1/3 flex-col gap-3">
           <div>
             <h2 className="text-xl font-bold text-gray-900">
               Correlaciones con mortalidad materna
@@ -87,67 +88,68 @@ export const AnalyticsPanel = ({
           />
         </section>
       )}
-
-      {/* ── Temporal trends ── */}
-      {analyticsMaternalData && analyticsMaternalData.length > 0 && (
-        <section className="flex flex-col gap-4">
-          <div className="flex items-center justify-end gap-2 flex-wrap">
-            {csvPath && (
-              <a
-                href={csvPath}
-                download
-                className="flex items-center gap-1.5 px-4 py-1.5 text-sm rounded-lg border border-gray-200 bg-white text-gray-600 hover:bg-gray-50 transition-colors"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+      <div className="flex flex-col gap-10">
+        {/* ── Temporal trends ── */}
+        {analyticsMaternalData && analyticsMaternalData.length > 0 && (
+          <section className="flex flex-col gap-4">
+            <div className="flex items-center justify-end gap-2 flex-wrap">
+              {csvPath && (
+                <a
+                  href={csvPath}
+                  download
+                  className="flex items-center gap-1.5 px-4 py-1.5 text-sm rounded-lg border border-gray-200 bg-white text-gray-600 hover:bg-gray-50 transition-colors"
                 >
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-                Descargar datos
-              </a>
-            )}
-          </div>
-          <AnalyticsDualChart
-            data={analyticsMaternalData}
-            selectedIndicator={selectedIndicator}
-          />
-        </section>
-      )}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Descargar datos
+                </a>
+              )}
+            </div>
+            <AnalyticsDualChart
+              data={analyticsMaternalData}
+              selectedIndicator={selectedIndicator}
+            />
+          </section>
+        )}
 
-      {/* ── Scatter chart ── */}
-      {scatterPoints.length > 0 && (
-        <section className="flex flex-col gap-3">
-          <div>
-            <h2 className="text-xl font-bold text-gray-900">
-              Dispersión:{' '}
-              <span style={{ color: selectedMeta.color }}>
-                {selectedMeta.label}
-              </span>{' '}
-              vs mortalidad materna
-            </h2>
-            <p className="text-sm text-gray-500 mt-1">
-              Cada punto es un municipio de Huila (último año disponible). El
-              tamaño refleja el número de nacidos vivos. La línea punteada
-              muestra la tendencia lineal.
-            </p>
-          </div>
-          <DSScatterChart
-            data={scatterPoints}
-            xLabel={selectedMeta.label}
-            yLabel="Mortalidad materna (×100k NV)"
-          />
-        </section>
-      )}
+        {/* ── Scatter chart ── */}
+        {scatterPoints.length > 0 && (
+          <section className="flex flex-col gap-3">
+            <div>
+              <h2 className="text-xl font-bold text-gray-900">
+                Dispersión:{' '}
+                <span style={{ color: selectedMeta.color }}>
+                  {selectedMeta.label}
+                </span>{' '}
+                vs mortalidad materna
+              </h2>
+              <p className="text-sm text-gray-500 mt-1">
+                Cada punto es un municipio de Huila (último año disponible). El
+                tamaño refleja el número de nacidos vivos. La línea punteada
+                muestra la tendencia lineal.
+              </p>
+            </div>
+            <DSScatterChart
+              data={scatterPoints}
+              xLabel={selectedMeta.label}
+              yLabel="Mortalidad materna (×100k NV)"
+            />
+          </section>
+        )}
+      </div>
     </div>
   )
 }

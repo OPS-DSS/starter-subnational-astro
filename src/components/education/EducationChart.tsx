@@ -112,6 +112,7 @@ export const EducationChart = ({
           xAxisKey="anio"
           lines={lines}
           height={400}
+          yAxisDomain={[0, 100]}
         />
       ) : (
         <div className="overflow-x-auto rounded-lg border border-gray-200">
