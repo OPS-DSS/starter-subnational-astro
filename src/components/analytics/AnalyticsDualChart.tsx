@@ -12,8 +12,8 @@ interface AnalyticsDualChartProps {
 
 /**
  * Two side-by-side line charts:
- *   - Left:  Mortalidad materna (Huila, por 100.000 NV)
- *   - Right: Selected education indicator (Huila weighted mean)
+ *   - Left:  Mortalidad materna (San Martin del Valle, por 100.000 NV)
+ *   - Right: Selected education indicator (San Martin del Valle weighted mean)
  */
 export const AnalyticsDualChart = ({
   data,

@@ -272,8 +272,8 @@ export const AnalyticsPageContent = ({
             </h2>
             <p className="text-sm text-gray-500 mt-1">
               Correlación de Spearman entre cada indicador educativo y la
-              mortalidad materna (municipios de Huila, último año disponible).
-              Haz clic en un indicador para explorar su relación.
+              mortalidad materna (municipios de San Martin del Valle, último año
+              disponible). Haz clic en un indicador para explorar su relación.
             </p>
             <DSForestPlot
               data={forestPlotData}
@@ -308,9 +308,9 @@ export const AnalyticsPageContent = ({
                 vs mortalidad materna
               </h2>
               <p className="text-sm text-gray-500 mt-1">
-                Cada punto es un municipio de Huila (último año disponible). El
-                tamaño refleja el número de nacidos vivos. La línea punteada
-                muestra la tendencia lineal.
+                Cada punto es un municipio de San Martin del Valle (último año
+                disponible). El tamaño refleja el número de nacidos vivos. La
+                línea punteada muestra la tendencia lineal.
               </p>
             </div>
             <DSScatterChart
