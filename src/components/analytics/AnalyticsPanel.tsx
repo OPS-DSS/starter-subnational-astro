@@ -65,20 +65,18 @@ export const AnalyticsPanel = ({
       : []
 
   return (
-    <div className="flex flex-row gap-10">
+    <div className="flex flex-col gap-10">
       {/* ── Correlation chart ── */}
       {forestPlotData && forestPlotData.length > 0 && (
-        <section className="flex w-1/3 flex-col gap-3">
-          <div>
-            <h2 className="text-xl font-bold text-gray-900">
-              Correlaciones con mortalidad materna
-            </h2>
-            <p className="text-sm text-gray-500 mt-1">
-              Correlación de Spearman entre cada indicador educativo y la
-              mortalidad materna (municipios de Huila, último año disponible).
-              Haz clic en un indicador para explorar su relación.
-            </p>
-          </div>
+        <section>
+          <h2 className="text-xl font-bold text-gray-900">
+            Correlaciones con mortalidad materna
+          </h2>
+          <p className="text-sm text-gray-500 mt-1">
+            Correlación de Spearman entre cada indicador educativo y la
+            mortalidad materna (municipios de Huila, último año disponible). Haz
+            clic en un indicador para explorar su relación.
+          </p>
           <DSForestPlot
             data={forestPlotData}
             selectedIndicator={selectedIndicator}
