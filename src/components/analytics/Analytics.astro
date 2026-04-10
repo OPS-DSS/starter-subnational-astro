@@ -1,12 +1,11 @@
 ---
-import { AnalyticsPanel } from './AnalyticsPanel'
+import { AnalyticsPageContent } from './AnalyticsPageContent'
 import type {
   ForestPlotDataRow,
   AnalyticsMaternalRow,
   ScatterMaternalRow,
 } from '@/lib/parquet'
 import type { EducationIndicator } from '@/lib/parquet'
-import { MunicipalitiesMapPanel } from './MunicipalitiesMapPanel'
 
 interface Props {
   title: string
@@ -33,21 +32,19 @@ const {
 } = Astro.props
 ---
 
-<div class="flex flex-col gap-2">
-  <h1 class="text-3xl font-bold my-6">{title}</h1>
-  <p class="text-gray-700">{text}</p>
-  <AnalyticsPanel
-    forestPlotData={forestPlotData}
-    analyticsMaternalData={analyticsMaternalData}
-    scatterMaternalData={scatterMaternalData}
-    csvPath={csvPath}
-    client:load
-  />
-  <h2 class="text-3xl font-bold my-6">Mapa de Municipios</h2>
-  <MunicipalitiesMapPanel
-    geojsonUrls={geojsonUrls}
-    maternalGeojsonUrl={maternalGeojsonUrl}
-    csvUrl={csvUrl}
-    client:only="react"
-  />
+<div class="mx-auto max-w-[120em] px-2 sm:px-6 lg:px-10 mb-16">
+  <div class="flex flex-col gap-2">
+    <h1 class="text-3xl font-bold my-6">{title}</h1>
+    <!-- <p class="text-gray-700">{text}</p> -->
+    <AnalyticsPageContent
+      forestPlotData={forestPlotData}
+      analyticsMaternalData={analyticsMaternalData}
+      scatterMaternalData={scatterMaternalData}
+      csvPath={csvPath}
+      geojsonUrls={geojsonUrls}
+      maternalGeojsonUrl={maternalGeojsonUrl}
+      csvUrl={csvUrl}
+      client:only="react"
+    />
+  </div>
 </div>

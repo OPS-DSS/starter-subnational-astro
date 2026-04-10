@@ -20,13 +20,7 @@ const { title, date, pages, currentPage } = Astro.props
   </head>
   <body>
     {pages && <NavBarMenu pages={pages} />}
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
-      <slot />
-      {
-        pages && (
-          <CiteThis title={title} date={date} currentPage={currentPage} />
-        )
-      }
-    </div>
+    <slot />
+    {pages && <CiteThis title={title} date={date} currentPage={currentPage} />}
   </body>
 </html>

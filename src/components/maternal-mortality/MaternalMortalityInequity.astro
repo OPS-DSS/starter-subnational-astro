@@ -29,20 +29,22 @@ const {
 } = Astro.props
 ---
 
-<div class="flex flex-col gap-2">
-  <h1 class="text-3xl font-bold my-6">{title}</h1>
-  <p class="text-gray-700">{text}</p>
-  {
-    data && (
-      <MaternalMortalityPanel
-        data={data}
-        quintilData={quintilData}
-        maternalGapsData={maternalGapsData}
-        csvPath={csvPath}
-        quintilCsvPath={quintilCsvPath}
-        gapsCsvPath={gapsCsvPath}
-        client:load
-      />
-    )
-  }
+<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
+  <div class="flex flex-col gap-2">
+    <h1 class="text-3xl font-bold my-6">{title}</h1>
+    <p class="text-gray-700">{text}</p>
+    {
+      data && (
+        <MaternalMortalityPanel
+          data={data}
+          quintilData={quintilData}
+          maternalGapsData={maternalGapsData}
+          csvPath={csvPath}
+          quintilCsvPath={quintilCsvPath}
+          gapsCsvPath={gapsCsvPath}
+          client:load
+        />
+      )
+    }
+  </div>
 </div>

@@ -12,13 +12,12 @@ export function getBasePath() {
 }
 ---
 
-<div class="mt-8 py-6 border-t border-gray-200">
-  <h2 class="font-semibold uppercase text-slate-400">Cite este trabajo</h2>
-  <p class="text-slate-600 pb-2">
-    Si desea citar este trabajo, utilice el siguiente formato:
-  </p>
-  <pre
-    class="bg-gray-100 p-6 rounded-md text-sm text-gray-700 overflow-x-auto">
-"{title}". Observatorio de Determinantes Sociales de la Salud del Huila, {format(date, 'dd/MM/yyyy')}, {currentPage == undefined ? getBasePath() : getBasePath() + currentPage}
-</pre>
+<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
+  <div class="mt-8 py-6 border-t border-gray-200">
+    <h2 class="font-semibold uppercase text-slate-400">Cite este trabajo</h2>
+    <p class="text-slate-600 pb-2">
+      Si desea citar este trabajo, utilice el siguiente formato:
+    </p>
+    <pre class="bg-gray-100 p-6 rounded-md text-sm text-gray-700 overflow-x-auto">"{title}". Observatorio de Determinantes Sociales de la Salud del Huila, {format(date, 'dd/MM/yyyy')}, {currentPage == undefined ? getBasePath() : getBasePath() + currentPage}</pre>
+  </div>
 </div>
