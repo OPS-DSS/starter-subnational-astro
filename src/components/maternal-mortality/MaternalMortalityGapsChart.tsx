@@ -176,7 +176,11 @@ export const MaternalMortalityGapsChart = ({
             No hay datos disponibles.
           </p>
         ) : quintilView === 'chart' ? (
-          <DSQuintilBarChart data={quintilChartData} height={400} />
+          <DSQuintilBarChart
+            data={quintilChartData}
+            height={400}
+            yAxisLabel="Tasa (×100.000 NV)"
+          />
         ) : (
           <div className="overflow-x-auto rounded-lg border border-gray-200">
             <table className="w-full text-sm text-left">
@@ -255,6 +259,8 @@ export const MaternalMortalityGapsChart = ({
             valueLabel={isAbs ? 'Brecha absoluta' : 'Brecha relativa'}
             referenceLine={isAbs ? 0 : 1}
             decimals={isAbs ? 1 : 2}
+            xAxisLabel="Año"
+            yAxisLabel={isAbs ? 'Brecha (×100.000 NV)' : 'Razón Q5/Q1'}
           />
         ) : (
           <div className="overflow-x-auto rounded-lg border border-gray-200">

@@ -49,10 +49,10 @@ export const MaternalMortalityPanel = ({
       <p className="text-sm text-gray-600">
         La brecha absoluta se estimó para todos los años con información
         disponible. La razón entre grupos (brecha relativa) se calculó
-        únicamente cuando ambas tasas fueron mayores que cero, debido a que
-        los valores iguales a cero no permiten distinguir con certeza entre
-        ausencia real del evento y posibles limitaciones del dato reportado.
-        Los intervalos de confianza al 95% se calcularon con base en el error
+        únicamente cuando ambas tasas fueron mayores que cero, debido a que los
+        valores iguales a cero no permiten distinguir con certeza entre ausencia
+        real del evento y posibles limitaciones del dato reportado. Los
+        intervalos de confianza al 95% se calcularon con base en el error
         estándar ponderado de cada quintil.
       </p>
 

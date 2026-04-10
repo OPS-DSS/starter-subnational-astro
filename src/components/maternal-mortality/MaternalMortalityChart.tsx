@@ -122,6 +122,8 @@ export const MaternalMortalityChart = ({
           xAxisKey="anio"
           lines={lines}
           height={400}
+          xAxisLabel="Año"
+          yAxisLabel="Tasa (×100.000 NV)"
         />
       ) : (
         <div className="overflow-x-auto rounded-lg border border-gray-200">

@@ -113,6 +113,8 @@ export const EducationChart = ({
           lines={lines}
           height={400}
           yAxisDomain={[0, 100]}
+          xAxisLabel="Año"
+          yAxisLabel="Porcentaje (%)"
         />
       ) : (
         <div className="overflow-x-auto rounded-lg border border-gray-200">
