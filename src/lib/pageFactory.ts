@@ -60,7 +60,7 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
   let suicideData: SuicideDataRow[] = []
   try {
     suicideRawRows = await readParquet<SuicideRow>(
-      dataPath('suicide_huila.parquet'),
+      dataPath('suicide_mortality.parquet'),
     )
     suicideData = filterSuicideRows(suicideRawRows)
   } catch (e) {
@@ -70,7 +70,7 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
   let suicideGapsData: GapsChartPoint[] = []
   try {
     const rows = await readParquet<GapsRow>(
-      dataPath('suicide_huila_gaps.parquet'),
+      dataPath('suicide_mortality_gaps.parquet'),
     )
     suicideGapsData = pivotGaps(rows)
   } catch (e) {
@@ -81,7 +81,7 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
   let educationData: EducationDataRow[] = []
   try {
     educationRawRows = await readParquet<EducationRow>(
-      dataPath('education_suaza.parquet'),
+      dataPath('education.parquet'),
     )
     educationData = filterEducationRows(educationRawRows)
   } catch (e) {
@@ -91,7 +91,7 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
   let analyticsData: AnalyticsDataRow[] = []
   try {
     const rows = await readParquet<AnalyticsRow>(
-      dataPath('analytics_suaza.parquet'),
+      dataPath('analytics.parquet'),
     )
     analyticsData = filterAnalyticsRows(rows)
   } catch {
@@ -101,7 +101,7 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
   let forestPlotData: ForestPlotDataRow[] = []
   try {
     const rows = await readParquet<ForestPlotRawRow>(
-      dataPath('forest_plot_suaza.parquet'),
+      dataPath('forest_plot.parquet'),
     )
     forestPlotData = filterForestPlotRows(rows)
   } catch (e) {
