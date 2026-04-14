@@ -1,0 +1,81 @@
+anio,valor,sexo,grupo_edad,zona
+2016,34.48300132802125,Hombre,Todas las edades,Todas las zonas
+2016,33.32411812961444,Mujer,Todas las edades,Todas las zonas
+2016,33.98524305555556,Todos/as,15-19,Todas las zonas
+2016,33.83542449286251,Todos/as,20-34,Todas las zonas
+2016,33.9245373543523,Todos/as,35-49,Todas las zonas
+2016,34.05676235197953,Todos/as,Todas las edades,Todas las zonas
+2016,52.7099891422367,Todos/as,Todas las edades,rural
+2016,21.73362521891418,Todos/as,Todas las edades,urbano
+2017,34.74920562868815,Hombre,Todas las edades,Todas las zonas
+2017,34.30884569615232,Mujer,Todas las edades,Todas las zonas
+2017,33.4604609929078,Todos/as,15-19,Todas las zonas
+2017,34.50206069689022,Todos/as,20-34,Todas las zonas
+2017,34.9345405767941,Todos/as,35-49,Todas las zonas
+2017,33.97692562757635,Todos/as,Todas las edades,Todas las zonas
+2017,53.93254009311951,Todos/as,Todas las edades,rural
+2017,21.06538874955213,Todos/as,Todas las edades,urbano
+2018,30.6696838458207,Hombre,Todas las edades,Todas las zonas
+2018,30.95219907407407,Mujer,Todas las edades,Todas las zonas
+2018,30.4443729903537,Todos/as,15-19,Todas las zonas
+2018,31.06966131907308,Todos/as,20-34,Todas las zonas
+2018,30.50040705563094,Todos/as,35-49,Todas las zonas
+2018,31.654534676289725,Todos/as,Todas las edades,Todas las zonas
+2018,48.41037076840409,Todos/as,Todas las edades,rural
+2018,20.0502302631579,Todos/as,Todas las edades,urbano
+2019,33.68293973941368,Hombre,Todas las edades,Todas las zonas
+2019,34.474263565891484,Mujer,Todas las edades,Todas las zonas
+2019,33.83344537815126,Todos/as,15-19,Todas las zonas
+2019,34.3660437235543,Todos/as,20-34,Todas las zonas
+2019,33.69214953271028,Todos/as,35-49,Todas las zonas
+2019,35.21455722981433,Todos/as,Todas las edades,Todas las zonas
+2019,53.84541188738269,Todos/as,Todas las edades,rural
+2019,21.93502245028865,Todos/as,Todas las edades,urbano
+2020,32.41429209468513,Hombre,Todas las edades,Todas las zonas
+2020,32.30820149875104,Mujer,Todas las edades,Todas las zonas
+2020,32.86471663619744,Todos/as,15-19,Todas las zonas
+2020,32.25573092822247,Todos/as,20-34,Todas las zonas
+2020,32.35896720167481,Todos/as,35-49,Todas las zonas
+2020,32.35601884144286,Todos/as,Todas las edades,Todas las zonas
+2020,47.76097313735428,Todos/as,Todas las edades,rural
+2020,20.9698275862069,Todos/as,Todas las edades,urbano
+2021,31.4395,Hombre,Todas las edades,Todas las zonas
+2021,31.90178041543027,Mujer,Todas las edades,Todas las zonas
+2021,31.99725806451613,Todos/as,15-19,Todas las zonas
+2021,31.6190621814475,Todos/as,20-34,Todas las zonas
+2021,31.68219178082192,Todos/as,35-49,Todas las zonas
+2021,31.025852821069922,Todos/as,Todas las edades,Todas las zonas
+2021,47.51458897922313,Todos/as,Todas las edades,rural
+2021,19.52279666897988,Todos/as,Todas las edades,urbano
+2022,32.13192821368948,Hombre,Todas las edades,Todas las zonas
+2022,32.3629217791411,Mujer,Todas las edades,Todas las zonas
+2022,31.7136288998358,Todos/as,15-19,Todas las zonas
+2022,31.93386299435028,Todos/as,20-34,Todas las zonas
+2022,33.03921944977607,Todos/as,35-49,Todas las zonas
+2022,31.886839608399832,Todos/as,Todas las edades,Todas las zonas
+2022,47.83501413760603,Todos/as,Todas las edades,rural
+2022,20.77886884108258,Todos/as,Todas las edades,urbano
+2023,29.25590163934426,Hombre,Todas las edades,Todas las zonas
+2023,29.33813526939243,Mujer,Todas las edades,Todas las zonas
+2023,28.9608557844691,Todos/as,15-19,Todas las zonas
+2023,29.19213639526792,Todos/as,20-34,Todas las zonas
+2023,29.6326030927835,Todos/as,35-49,Todas las zonas
+2023,29.26914346897247,Todos/as,Todas las edades,Todas las zonas
+2023,44.62819361277445,Todos/as,Todas las edades,rural
+2023,19.23596462495906,Todos/as,Todas las edades,urbano
+2024,31.43300790330079,Hombre,Todas las edades,Todas las zonas
+2024,31.3378970917226,Mujer,Todas las edades,Todas las zonas
+2024,31.09119373776908,Todos/as,15-19,Todas las zonas
+2024,31.5040676600886,Todos/as,20-34,Todas las zonas
+2024,31.27902298850575,Todos/as,35-49,Todas las zonas
+2024,31.774933543347974,Todos/as,Todas las edades,Todas las zonas
+2024,48.566,Todos/as,Todas las edades,rural
+2024,19.97803490136571,Todos/as,Todas las edades,urbano
+2025,31.41183605186115,Hombre,Todas las edades,Todas las zonas
+2025,31.19434335443038,Mujer,Todas las edades,Todas las zonas
+2025,31.08824476650564,Todos/as,15-19,Todas las zonas
+2025,31.45371163454675,Todos/as,20-34,Todas las zonas
+2025,31.10020053475936,Todos/as,35-49,Todas las zonas
+2025,31.961452097064786,Todos/as,Todas las edades,Todas las zonas
+2025,47.16699532952777,Todos/as,Todas las edades,rural
+2025,21.08094919786096,Todos/as,Todas las edades,urbano
