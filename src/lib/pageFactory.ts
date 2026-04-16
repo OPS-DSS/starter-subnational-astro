@@ -1,8 +1,6 @@
 import {
   readParquet,
   dataPath,
-  filterSuicideRows,
-  pivotGaps,
   filterEducationRows,
   filterAnalyticsRows,
   buildAnalyticsData,
@@ -16,10 +14,6 @@ import {
 import { maternalMortalityIndicators } from '@/data/indicators'
 
 import type {
-  SuicideRow,
-  SuicideDataRow,
-  GapsRow,
-  GapsChartPoint,
   EducationRow,
   EducationDataRow,
   AnalyticsRow,
@@ -41,9 +35,6 @@ import type {
 // ─── Loaded datasets ─────────────────────────────────────────────────────────
 
 export interface PageDatasets {
-  suicideData: SuicideDataRow[]
-  suicideRawRows: SuicideRow[]
-  suicideGapsData: GapsChartPoint[]
   educationData: EducationDataRow[]
   educationRawRows: EducationRow[]
   analyticsData: AnalyticsDataRow[]
@@ -56,27 +47,6 @@ export interface PageDatasets {
 }
 
 export async function loadAllDatasets(): Promise<PageDatasets> {
-  let suicideRawRows: SuicideRow[] = []
-  let suicideData: SuicideDataRow[] = []
-  try {
-    suicideRawRows = await readParquet<SuicideRow>(
-      dataPath('suicide_mortality.parquet'),
-    )
-    suicideData = filterSuicideRows(suicideRawRows)
-  } catch (e) {
-    console.error('[loadAllDatasets] suicide:', e)
-  }
-
-  let suicideGapsData: GapsChartPoint[] = []
-  try {
-    const rows = await readParquet<GapsRow>(
-      dataPath('suicide_mortality_gaps.parquet'),
-    )
-    suicideGapsData = pivotGaps(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] gaps:', e)
-  }
-
   let educationRawRows: EducationRow[] = []
   let educationData: EducationDataRow[] = []
   try {
@@ -90,12 +60,10 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
 
   let analyticsData: AnalyticsDataRow[] = []
   try {
-    const rows = await readParquet<AnalyticsRow>(
-      dataPath('analytics.parquet'),
-    )
+    const rows = await readParquet<AnalyticsRow>(dataPath('analytics.parquet'))
     analyticsData = filterAnalyticsRows(rows)
-  } catch {
-    analyticsData = buildAnalyticsData(suicideRawRows, educationRawRows)
+  } catch (e) {
+    console.error('[loadAllDatasets] analytics:', e)
   }
 
   let forestPlotData: ForestPlotDataRow[] = []
@@ -159,9 +127,6 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
   }
 
   return {
-    suicideData,
-    suicideRawRows,
-    suicideGapsData,
     educationData,
     educationRawRows,
     analyticsData,
@@ -182,15 +147,10 @@ export interface PageDefinition {
   text: string
   date: string
   navbar: boolean
-  data?:
-    | SuicideDataRow[]
-    | EducationDataRow[]
-    | AnalyticsDataRow[]
-    | MaternalMortalityRateRow[]
+  data?: EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
   forestPlotData?: ForestPlotDataRow[]
   analyticsMaternalData?: AnalyticsMaternalRow[]
   scatterMaternalData?: ScatterMaternalRow[]
-  gapsData?: GapsChartPoint[]
   quintilData?: MaternalMortalityQuintilRow[]
   maternalGapsData?: MaternalMortalityGapsRow[]
   description?: string
@@ -237,8 +197,6 @@ export function buildPages(datasets: PageDatasets): PageDefinition[] {
       text: 'Problemas, gráficos de tendencias y mediciones de brechas',
       date: '2026-01-01',
       navbar: false,
-      data: datasets.suicideData,
-      gapsData: datasets.suicideGapsData,
     },
     {
       slug: 'analisis',
