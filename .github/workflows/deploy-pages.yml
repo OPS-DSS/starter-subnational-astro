@@ -27,11 +27,19 @@ jobs:
         with:
           node-version: '23'
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build with Astro
-        run: npm run build
+        run: pnpm run build
+
+      - name: Debug dist contents
+        run: find ./dist -type f | head -50
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
