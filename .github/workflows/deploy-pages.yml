@@ -38,9 +38,6 @@ jobs:
       - name: Build with Astro
         run: pnpm run build
 
-      - name: Debug dist contents
-        run: find ./dist -type f | head -50
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
