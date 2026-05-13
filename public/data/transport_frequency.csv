@@ -1,81 +1,121 @@
-anio,valor,sexo,grupo_edad,zona
-2016,3.432142857142857,Hombre,Todas las edades,Todas las zonas
-2016,3.370833333333333,Mujer,Todas las edades,Todas las zonas
-2016,3.313636363636363,Todos/as,15-19,Todas las zonas
-2016,3.395833333333333,Todos/as,20-34,Todas las zonas
-2016,3.473529411764706,Todos/as,35-49,Todas las zonas
-2016,4.634287691675689,Todos/as,Todas las edades,Todas las zonas
-2016,2.534799131378936,Todos/as,Todas las edades,rural
-2016,6.001751313485114,Todos/as,Todas las edades,urbano
-2017,3.713157894736842,Hombre,Todas las edades,Todas las zonas
-2017,3.793181818181818,Mujer,Todas las edades,Todas las zonas
-2017,3.5625,Todos/as,15-19,Todas las zonas
-2017,3.728888888888889,Todos/as,20-34,Todas las zonas
-2017,3.851724137931035,Todos/as,35-49,Todas las zonas
-2017,4.540796617843077,Todos/as,Todas las edades,Todas las zonas
-2017,2.610294878427315,Todos/as,Todas las edades,rural
-2017,5.8912217843067,Todos/as,Todas las edades,urbano
-2018,3.612941176470588,Hombre,Todas las edades,Todas las zonas
-2018,3.535064935064935,Mujer,Todas las edades,Todas las zonas
-2018,3.361904761904762,Todos/as,15-19,Todas las zonas
-2018,3.6,Todos/as,20-34,Todas las zonas
-2018,3.628205128205128,Todos/as,35-49,Todas las zonas
-2018,4.878886548666392,Todos/as,Todas las edades,Todas las zonas
-2018,2.745459430413756,Todos/as,Todas las edades,rural
-2018,6.363190789473684,Todos/as,Todas las edades,urbano
-2019,3.214814814814815,Hombre,Todas las edades,Todas las zonas
-2019,3.16,Mujer,Todas las edades,Todas las zonas
-2019,3.094117647058824,Todos/as,15-19,Todas las zonas
-2019,3.169444444444444,Todos/as,20-34,Todas las zonas
-2019,3.245,Todos/as,35-49,Todas las zonas
-2019,4.9053291317106575,Todos/as,Todas las edades,Todas las zonas
-2019,2.884619395203337,Todos/as,Todas las edades,rural
-2019,6.347883258499038,Todos/as,Todas las edades,urbano
-2020,4.543589743589743,Hombre,Todas las edades,Todas las zonas
-2020,4.629670329670329,Mujer,Todas las edades,Todas las zonas
-2020,4.504,Todos/as,15-19,Todas las zonas
-2020,4.547777777777778,Todos/as,20-34,Todas las zonas
-2020,4.7,Todos/as,35-49,Todas las zonas
-2020,5.065132151670304,Todos/as,Todas las edades,Todas las zonas
-2020,2.99432336543335,Todos/as,Todas las edades,rural
-2020,6.493403298350825,Todos/as,Todas las edades,urbano
-2021,1.270666666666667,Hombre,Todas las edades,Todas las zonas
-2021,1.267032967032967,Mujer,Todas las edades,Todas las zonas
-2021,1.157142857142857,Todos/as,15-19,Todas las zonas
-2021,1.248275862068966,Todos/as,20-34,Todas las zonas
-2021,1.364705882352941,Todos/as,35-49,Todas las zonas
-2021,4.968652948599575,Todos/as,Todas las edades,Todas las zonas
-2021,2.989159891598916,Todos/as,Todas las edades,rural
-2021,6.264191533657183,Todos/as,Todas las edades,urbano
-2022,2.636111111111111,Hombre,Todas las edades,Todas las zonas
-2022,2.737662337662337,Mujer,Todas las edades,Todas las zonas
-2022,2.61,Todos/as,15-19,Todas las zonas
-2022,2.747126436781609,Todos/as,20-34,Todas las zonas
-2022,2.605769230769231,Todos/as,35-49,Todas las zonas
-2022,5.321428429523046,Todos/as,Todas las edades,Todas las zonas
-2022,3.00937794533459,Todos/as,Todas las edades,rural
-2022,6.89292158223456,Todos/as,Todas las edades,urbano
-2023,3.645454545454546,Hombre,Todas las edades,Todas las zonas
-2023,3.729090909090909,Mujer,Todas las edades,Todas las zonas
-2023,4.046153846153846,Todos/as,15-19,Todas las zonas
-2023,3.592156862745098,Todos/as,20-34,Todas las zonas
-2023,3.705714285714286,Todos/as,35-49,Todas las zonas
-2023,5.089760088432185,Todos/as,Todas las edades,Todas las zonas
-2023,3.11122754491018,Todos/as,Todas las edades,rural
-2023,6.508286930887651,Todos/as,Todas las edades,urbano
-2024,2.572131147540984,Hombre,Todas las edades,Todas las zonas
-2024,2.672881355932204,Mujer,Todas las edades,Todas las zonas
-2024,2.472222222222222,Todos/as,15-19,Todas las zonas
-2024,2.693442622950819,Todos/as,20-34,Todas las zonas
-2024,2.580487804878049,Todos/as,35-49,Todas las zonas
-2024,5.064368892238823,Todos/as,Todas las edades,Todas las zonas
-2024,3.082171428571429,Todos/as,Todas las edades,rural
-2024,6.427503793626707,Todos/as,Todas las edades,urbano
-2025,3.331944444444444,Hombre,Todas las edades,Todas las zonas
-2025,3.458571428571429,Mujer,Todas las edades,Todas las zonas
-2025,3.29375,Todos/as,15-19,Todas las zonas
-2025,3.392391304347826,Todos/as,20-34,Todas las zonas
-2025,3.447058823529412,Todos/as,35-49,Todas las zonas
-2025,5.478476764405284,Todos/as,Todas las edades,Todas las zonas
-2025,3.445147898287494,Todos/as,Todas las edades,rural
-2025,6.828643048128343,Todos/as,Todas las edades,urbano
+iso3,NAME_2,cod_local,anio,zona,etnia,valor
+COL,San Martín del Valle,NA,2016,Total,Indígena,0.1525
+COL,San Martín del Valle,NA,2016,Total,No indígena,0.2269
+COL,San Martín del Valle,NA,2016,Total,Total,0.2031
+COL,San Martín del Valle,NA,2016,periurbano,Indígena,0.1774
+COL,San Martín del Valle,NA,2016,periurbano,No indígena,0.2274
+COL,San Martín del Valle,NA,2016,periurbano,Total,0.2124
+COL,San Martín del Valle,NA,2016,rural,Indígena,0.0986
+COL,San Martín del Valle,NA,2016,rural,No indígena,0.1448
+COL,San Martín del Valle,NA,2016,rural,Total,0.1239
+COL,San Martín del Valle,NA,2016,urbano,Indígena,0.274
+COL,San Martín del Valle,NA,2016,urbano,No indígena,0.3205
+COL,San Martín del Valle,NA,2016,urbano,Total,0.3134
+COL,San Martín del Valle,NA,2017,Total,Indígena,0.18
+COL,San Martín del Valle,NA,2017,Total,No indígena,0.256
+COL,San Martín del Valle,NA,2017,Total,Total,0.2317
+COL,San Martín del Valle,NA,2017,periurbano,Indígena,0.2072
+COL,San Martín del Valle,NA,2017,periurbano,No indígena,0.257
+COL,San Martín del Valle,NA,2017,periurbano,Total,0.242
+COL,San Martín del Valle,NA,2017,rural,Indígena,0.1246
+COL,San Martín del Valle,NA,2017,rural,No indígena,0.1733
+COL,San Martín del Valle,NA,2017,rural,Total,0.1514
+COL,San Martín del Valle,NA,2017,urbano,Indígena,0.2992
+COL,San Martín del Valle,NA,2017,urbano,No indígena,0.3496
+COL,San Martín del Valle,NA,2017,urbano,Total,0.3423
+COL,San Martín del Valle,NA,2018,Total,Indígena,0.2091
+COL,San Martín del Valle,NA,2018,Total,No indígena,0.2857
+COL,San Martín del Valle,NA,2018,Total,Total,0.2612
+COL,San Martín del Valle,NA,2018,periurbano,Indígena,0.2368
+COL,San Martín del Valle,NA,2018,periurbano,No indígena,0.2868
+COL,San Martín del Valle,NA,2018,periurbano,Total,0.2718
+COL,San Martín del Valle,NA,2018,rural,Indígena,0.153
+COL,San Martín del Valle,NA,2018,rural,No indígena,0.2016
+COL,San Martín del Valle,NA,2018,rural,Total,0.1797
+COL,San Martín del Valle,NA,2018,urbano,Indígena,0.3292
+COL,San Martín del Valle,NA,2018,urbano,No indígena,0.3803
+COL,San Martín del Valle,NA,2018,urbano,Total,0.3728
+COL,San Martín del Valle,NA,2019,Total,Indígena,0.2386
+COL,San Martín del Valle,NA,2019,Total,No indígena,0.3159
+COL,San Martín del Valle,NA,2019,Total,Total,0.2913
+COL,San Martín del Valle,NA,2019,periurbano,Indígena,0.2668
+COL,San Martín del Valle,NA,2019,periurbano,No indígena,0.3172
+COL,San Martín del Valle,NA,2019,periurbano,Total,0.3021
+COL,San Martín del Valle,NA,2019,rural,Indígena,0.1818
+COL,San Martín del Valle,NA,2019,rural,No indígena,0.2316
+COL,San Martín del Valle,NA,2019,rural,Total,0.2092
+COL,San Martín del Valle,NA,2019,urbano,Indígena,0.3592
+COL,San Martín del Valle,NA,2019,urbano,No indígena,0.4103
+COL,San Martín del Valle,NA,2019,urbano,Total,0.4028
+COL,San Martín del Valle,NA,2020,Total,Indígena,0.2004
+COL,San Martín del Valle,NA,2020,Total,No indígena,0.2759
+COL,San Martín del Valle,NA,2020,Total,Total,0.2518
+COL,San Martín del Valle,NA,2020,periurbano,Indígena,0.2272
+COL,San Martín del Valle,NA,2020,periurbano,No indígena,0.2772
+COL,San Martín del Valle,NA,2020,periurbano,Total,0.2623
+COL,San Martín del Valle,NA,2020,rural,Indígena,0.144
+COL,San Martín del Valle,NA,2020,rural,No indígena,0.1913
+COL,San Martín del Valle,NA,2020,rural,Total,0.1699
+COL,San Martín del Valle,NA,2020,urbano,Indígena,0.3232
+COL,San Martín del Valle,NA,2020,urbano,No indígena,0.3702
+COL,San Martín del Valle,NA,2020,urbano,Total,0.3631
+COL,San Martín del Valle,NA,2021,Total,Indígena,0.23
+COL,San Martín del Valle,NA,2021,Total,No indígena,0.3056
+COL,San Martín del Valle,NA,2021,Total,Total,0.2815
+COL,San Martín del Valle,NA,2021,periurbano,Indígena,0.258
+COL,San Martín del Valle,NA,2021,periurbano,No indígena,0.3073
+COL,San Martín del Valle,NA,2021,periurbano,Total,0.2925
+COL,San Martín del Valle,NA,2021,rural,Indígena,0.1726
+COL,San Martín del Valle,NA,2021,rural,No indígena,0.2216
+COL,San Martín del Valle,NA,2021,rural,Total,0.1996
+COL,San Martín del Valle,NA,2021,urbano,Indígena,0.3492
+COL,San Martín del Valle,NA,2021,urbano,No indígena,0.3998
+COL,San Martín del Valle,NA,2021,urbano,Total,0.3921
+COL,San Martín del Valle,NA,2022,Total,Indígena,0.2734
+COL,San Martín del Valle,NA,2022,Total,No indígena,0.3493
+COL,San Martín del Valle,NA,2022,Total,Total,0.325
+COL,San Martín del Valle,NA,2022,periurbano,Indígena,0.3015
+COL,San Martín del Valle,NA,2022,periurbano,No indígena,0.3513
+COL,San Martín del Valle,NA,2022,periurbano,Total,0.3364
+COL,San Martín del Valle,NA,2022,rural,Indígena,0.2178
+COL,San Martín del Valle,NA,2022,rural,No indígena,0.2667
+COL,San Martín del Valle,NA,2022,rural,Total,0.2446
+COL,San Martín del Valle,NA,2022,urbano,Indígena,0.3892
+COL,San Martín del Valle,NA,2022,urbano,No indígena,0.4401
+COL,San Martín del Valle,NA,2022,urbano,Total,0.4326
+COL,San Martín del Valle,NA,2023,Total,Indígena,0.3228
+COL,San Martín del Valle,NA,2023,Total,No indígena,0.3991
+COL,San Martín del Valle,NA,2023,Total,Total,0.3747
+COL,San Martín del Valle,NA,2023,periurbano,Indígena,0.3512
+COL,San Martín del Valle,NA,2023,periurbano,No indígena,0.4017
+COL,San Martín del Valle,NA,2023,periurbano,Total,0.3865
+COL,San Martín del Valle,NA,2023,rural,Indígena,0.2663
+COL,San Martín del Valle,NA,2023,rural,No indígena,0.3167
+COL,San Martín del Valle,NA,2023,rural,Total,0.2941
+COL,San Martín del Valle,NA,2023,urbano,Indígena,0.4392
+COL,San Martín del Valle,NA,2023,urbano,No indígena,0.49
+COL,San Martín del Valle,NA,2023,urbano,Total,0.4823
+COL,San Martín del Valle,NA,2024,Total,Indígena,0.363
+COL,San Martín del Valle,NA,2024,Total,No indígena,0.439
+COL,San Martín del Valle,NA,2024,Total,Total,0.4147
+COL,San Martín del Valle,NA,2024,periurbano,Indígena,0.3916
+COL,San Martín del Valle,NA,2024,periurbano,No indígena,0.4415
+COL,San Martín del Valle,NA,2024,periurbano,Total,0.4265
+COL,San Martín del Valle,NA,2024,rural,Indígena,0.3063
+COL,San Martín del Valle,NA,2024,rural,No indígena,0.3567
+COL,San Martín del Valle,NA,2024,rural,Total,0.3341
+COL,San Martín del Valle,NA,2024,urbano,Indígena,0.4792
+COL,San Martín del Valle,NA,2024,urbano,No indígena,0.53
+COL,San Martín del Valle,NA,2024,urbano,Total,0.5223
+COL,San Martín del Valle,NA,2025,Total,Indígena,0.4034
+COL,San Martín del Valle,NA,2025,Total,No indígena,0.4791
+COL,San Martín del Valle,NA,2025,Total,Total,0.4548
+COL,San Martín del Valle,NA,2025,periurbano,Indígena,0.432
+COL,San Martín del Valle,NA,2025,periurbano,No indígena,0.4815
+COL,San Martín del Valle,NA,2025,periurbano,Total,0.4666
+COL,San Martín del Valle,NA,2025,rural,Indígena,0.3467
+COL,San Martín del Valle,NA,2025,rural,No indígena,0.3968
+COL,San Martín del Valle,NA,2025,rural,Total,0.3743
+COL,San Martín del Valle,NA,2025,urbano,Indígena,0.5192
+COL,San Martín del Valle,NA,2025,urbano,No indígena,0.5699
+COL,San Martín del Valle,NA,2025,urbano,Total,0.5623

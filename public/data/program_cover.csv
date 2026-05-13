@@ -1,81 +1,361 @@
-anio,valor,sexo,grupo_edad,zona
-2016,0.3928571428571428,Hombre,Todas las edades,Todas las zonas
-2016,0.4791666666666667,Mujer,Todas las edades,Todas las zonas
-2016,0.4545454545454545,Todos/as,15-19,Todas las zonas
-2016,0.4375,Todos/as,20-34,Todas las zonas
-2016,0.4117647058823529,Todos/as,35-49,Todas las zonas
-2016,0.5224655313362263,Todos/as,Todas las edades,Todas las zonas
-2016,0.3583061889250814,Todos/as,Todas las edades,rural
-2016,0.6287215411558669,Todos/as,Todas las edades,urbano
-2017,0.3684210526315789,Hombre,Todas las edades,Todas las zonas
-2017,0.3409090909090909,Mujer,Todas las edades,Todas las zonas
-2017,0.125,Todos/as,15-19,Todas las zonas
-2017,0.2888888888888889,Todos/as,20-34,Todas las zonas
-2017,0.5172413793103449,Todos/as,35-49,Todas las zonas
-2017,0.5324410544831738,Todos/as,Todas las edades,Todas las zonas
-2017,0.3704086911536472,Todos/as,Todas las edades,rural
-2017,0.638480831243282,Todos/as,Todas las edades,urbano
-2018,0.3176470588235294,Hombre,Todas las edades,Todas las zonas
-2018,0.3766233766233766,Mujer,Todas las edades,Todas las zonas
-2018,0.1904761904761905,Todos/as,15-19,Todas las zonas
-2018,0.3627450980392157,Todos/as,20-34,Todas las zonas
-2018,0.3846153846153846,Todos/as,35-49,Todas las zonas
-2018,0.5362489040558561,Todos/as,Todas las edades,Todas las zonas
-2018,0.4137560451370231,Todos/as,Todas las edades,rural
-2018,0.6240131578947369,Todos/as,Todas las edades,urbano
-2019,0.4259259259259259,Hombre,Todas las edades,Todas las zonas
-2019,0.4533333333333333,Mujer,Todas las edades,Todas las zonas
-2019,0.3529411764705883,Todos/as,15-19,Todas las zonas
-2019,0.4444444444444444,Todos/as,20-34,Todas las zonas
-2019,0.475,Todos/as,35-49,Todas las zonas
-2019,0.5155907983795767,Todos/as,Todas las edades,Todas las zonas
-2019,0.3347236704900938,Todos/as,Todas las edades,rural
-2019,0.6343810134701732,Todos/as,Todas las edades,urbano
-2020,0.4358974358974359,Hombre,Todas las edades,Todas las zonas
-2020,0.5604395604395604,Mujer,Todas las edades,Todas las zonas
-2020,0.56,Todos/as,15-19,Todas las zonas
-2020,0.4333333333333333,Todos/as,20-34,Todas las zonas
-2020,0.5925925925925926,Todos/as,35-49,Todas las zonas
-2020,0.5761807938727359,Todos/as,Todas las edades,Todas las zonas
-2020,0.4348707551951343,Todos/as,Todas las edades,rural
-2020,0.6686656671664168,Todos/as,Todas las edades,urbano
-2021,0.4,Hombre,Todas las edades,Todas las zonas
-2021,0.2747252747252747,Mujer,Todas las edades,Todas las zonas
-2021,0.3214285714285715,Todos/as,15-19,Todas las zonas
-2021,0.3448275862068966,Todos/as,20-34,Todas las zonas
-2021,0.3137254901960784,Todos/as,35-49,Todas las zonas
-2021,0.5900649773607514,Todos/as,Todas las edades,Todas las zonas
-2021,0.4363143631436314,Todos/as,Todas las edades,rural
-2021,0.6995142262317835,Todos/as,Todas las edades,urbano
-2022,0.4583333333333333,Hombre,Todas las edades,Todas las zonas
-2022,0.3896103896103896,Mujer,Todas las edades,Todas las zonas
-2022,0.3,Todos/as,15-19,Todas las zonas
-2022,0.4597701149425287,Todos/as,20-34,Todas las zonas
-2022,0.3846153846153846,Todos/as,35-49,Todas las zonas
-2022,0.623752032646411,Todos/as,Todas las edades,Todas las zonas
-2022,0.4707822808671065,Todos/as,Todas las edades,rural
-2022,0.7411519777931992,Todos/as,Todas las edades,urbano
-2023,0.7272727272727273,Hombre,Todas las edades,Todas las zonas
-2023,0.6,Mujer,Todas las edades,Todas las zonas
-2023,0.6923076923076923,Todos/as,15-19,Todas las zonas
-2023,0.6274509803921569,Todos/as,20-34,Todas las zonas
-2023,0.6857142857142857,Todos/as,35-49,Todas las zonas
-2023,0.6094875086323152,Todos/as,Todas las edades,Todas las zonas
-2023,0.4600798403193613,Todos/as,Todas las edades,rural
-2023,0.7114313789715034,Todos/as,Todas las edades,urbano
-2024,0.4426229508196721,Hombre,Todas las edades,Todas las zonas
-2024,0.4745762711864407,Mujer,Todas las edades,Todas las zonas
-2024,0.4444444444444444,Todos/as,15-19,Todas las zonas
-2024,0.4426229508196721,Todos/as,20-34,Todas las zonas
-2024,0.4878048780487805,Todos/as,35-49,Todas las zonas
-2024,0.6246564191170102,Todos/as,Todas las edades,Todas las zonas
-2024,0.4497142857142857,Todos/as,Todas las edades,rural
-2024,0.742412746585736,Todos/as,Todas las edades,urbano
-2025,0.6666666666666666,Hombre,Todas las edades,Todas las zonas
-2025,0.7,Mujer,Todas las edades,Todas las zonas
-2025,0.625,Todos/as,15-19,Todas las zonas
-2025,0.6847826086956522,Todos/as,20-34,Todas las zonas
-2025,0.7058823529411765,Todos/as,35-49,Todas las zonas
-2025,0.6258551652863727,Todos/as,Todas las edades,Todas las zonas
-2025,0.4763881681370005,Todos/as,Todas las edades,rural
-2025,0.7399732620320856,Todos/as,Todas las edades,urbano
+iso3,NAME_2,cod_local,anio,zona,valor
+COL,Altos del Sol,NA,2016,periurbano,NA
+COL,Altos del Sol,NA,2017,periurbano,NA
+COL,Altos del Sol,NA,2018,periurbano,NA
+COL,Altos del Sol,NA,2019,periurbano,0.155
+COL,Altos del Sol,NA,2020,periurbano,0.115
+COL,Altos del Sol,NA,2021,periurbano,0.135
+COL,Altos del Sol,NA,2022,periurbano,0.215
+COL,Altos del Sol,NA,2023,periurbano,0.275
+COL,Altos del Sol,NA,2024,periurbano,0.275
+COL,Altos del Sol,NA,2025,periurbano,0.275
+COL,Bosques del Valle,NA,2016,periurbano,NA
+COL,Bosques del Valle,NA,2017,periurbano,NA
+COL,Bosques del Valle,NA,2018,periurbano,NA
+COL,Bosques del Valle,NA,2019,periurbano,0.1195
+COL,Bosques del Valle,NA,2020,periurbano,0.0795
+COL,Bosques del Valle,NA,2021,periurbano,0.0995
+COL,Bosques del Valle,NA,2022,periurbano,0.1795
+COL,Bosques del Valle,NA,2023,periurbano,0.2395
+COL,Bosques del Valle,NA,2024,periurbano,0.2395
+COL,Bosques del Valle,NA,2025,periurbano,0.2395
+COL,Colinas del Valle,NA,2016,rural,NA
+COL,Colinas del Valle,NA,2017,rural,NA
+COL,Colinas del Valle,NA,2018,rural,NA
+COL,Colinas del Valle,NA,2019,rural,0.0124
+COL,Colinas del Valle,NA,2020,rural,0.01
+COL,Colinas del Valle,NA,2021,rural,0.0124
+COL,Colinas del Valle,NA,2022,rural,0.0724
+COL,Colinas del Valle,NA,2023,rural,0.1324
+COL,Colinas del Valle,NA,2024,rural,0.1324
+COL,Colinas del Valle,NA,2025,rural,0.1324
+COL,El Carmen,NA,2016,periurbano,NA
+COL,El Carmen,NA,2017,periurbano,NA
+COL,El Carmen,NA,2018,periurbano,NA
+COL,El Carmen,NA,2019,periurbano,0.1597
+COL,El Carmen,NA,2020,periurbano,0.1197
+COL,El Carmen,NA,2021,periurbano,0.1397
+COL,El Carmen,NA,2022,periurbano,0.2197
+COL,El Carmen,NA,2023,periurbano,0.2797
+COL,El Carmen,NA,2024,periurbano,0.2797
+COL,El Carmen,NA,2025,periurbano,0.2797
+COL,El Edén,NA,2016,periurbano,NA
+COL,El Edén,NA,2017,periurbano,NA
+COL,El Edén,NA,2018,periurbano,NA
+COL,El Edén,NA,2019,periurbano,0.1434
+COL,El Edén,NA,2020,periurbano,0.1034
+COL,El Edén,NA,2021,periurbano,0.1234
+COL,El Edén,NA,2022,periurbano,0.2034
+COL,El Edén,NA,2023,periurbano,0.2634
+COL,El Edén,NA,2024,periurbano,0.2634
+COL,El Edén,NA,2025,periurbano,0.2634
+COL,El Mirador,NA,2016,rural,NA
+COL,El Mirador,NA,2017,rural,NA
+COL,El Mirador,NA,2018,rural,NA
+COL,El Mirador,NA,2019,rural,0.1214
+COL,El Mirador,NA,2020,rural,0.1014
+COL,El Mirador,NA,2021,rural,0.1214
+COL,El Mirador,NA,2022,rural,0.1814
+COL,El Mirador,NA,2023,rural,0.2414
+COL,El Mirador,NA,2024,rural,0.2414
+COL,El Mirador,NA,2025,rural,0.2414
+COL,El Porvenir,NA,2016,rural,NA
+COL,El Porvenir,NA,2017,rural,NA
+COL,El Porvenir,NA,2018,rural,NA
+COL,El Porvenir,NA,2019,rural,0.0706
+COL,El Porvenir,NA,2020,rural,0.0506
+COL,El Porvenir,NA,2021,rural,0.0706
+COL,El Porvenir,NA,2022,rural,0.1306
+COL,El Porvenir,NA,2023,rural,0.1906
+COL,El Porvenir,NA,2024,rural,0.1906
+COL,El Porvenir,NA,2025,rural,0.1906
+COL,La Alameda,NA,2016,rural,NA
+COL,La Alameda,NA,2017,rural,NA
+COL,La Alameda,NA,2018,rural,NA
+COL,La Alameda,NA,2019,rural,0.0675
+COL,La Alameda,NA,2020,rural,0.0475
+COL,La Alameda,NA,2021,rural,0.0675
+COL,La Alameda,NA,2022,rural,0.1275
+COL,La Alameda,NA,2023,rural,0.1875
+COL,La Alameda,NA,2024,rural,0.1875
+COL,La Alameda,NA,2025,rural,0.1875
+COL,La Arboleda,NA,2016,periurbano,NA
+COL,La Arboleda,NA,2017,periurbano,NA
+COL,La Arboleda,NA,2018,periurbano,NA
+COL,La Arboleda,NA,2019,periurbano,0.1305
+COL,La Arboleda,NA,2020,periurbano,0.0905
+COL,La Arboleda,NA,2021,periurbano,0.1105
+COL,La Arboleda,NA,2022,periurbano,0.1905
+COL,La Arboleda,NA,2023,periurbano,0.2505
+COL,La Arboleda,NA,2024,periurbano,0.2505
+COL,La Arboleda,NA,2025,periurbano,0.2505
+COL,La Cañada,NA,2016,rural,NA
+COL,La Cañada,NA,2017,rural,NA
+COL,La Cañada,NA,2018,rural,NA
+COL,La Cañada,NA,2019,rural,0.01
+COL,La Cañada,NA,2020,rural,0.01
+COL,La Cañada,NA,2021,rural,0.01
+COL,La Cañada,NA,2022,rural,0.0386
+COL,La Cañada,NA,2023,rural,0.0986
+COL,La Cañada,NA,2024,rural,0.0986
+COL,La Cañada,NA,2025,rural,0.0986
+COL,La Esperanza,NA,2016,urbano,NA
+COL,La Esperanza,NA,2017,urbano,NA
+COL,La Esperanza,NA,2018,urbano,NA
+COL,La Esperanza,NA,2019,urbano,0.3215
+COL,La Esperanza,NA,2020,urbano,0.2615
+COL,La Esperanza,NA,2021,urbano,0.2815
+COL,La Esperanza,NA,2022,urbano,0.3615
+COL,La Esperanza,NA,2023,urbano,0.4215
+COL,La Esperanza,NA,2024,urbano,0.4215
+COL,La Esperanza,NA,2025,urbano,0.4215
+COL,La Primavera,NA,2016,periurbano,NA
+COL,La Primavera,NA,2017,periurbano,NA
+COL,La Primavera,NA,2018,periurbano,NA
+COL,La Primavera,NA,2019,periurbano,0.0994
+COL,La Primavera,NA,2020,periurbano,0.0594
+COL,La Primavera,NA,2021,periurbano,0.0794
+COL,La Primavera,NA,2022,periurbano,0.1594
+COL,La Primavera,NA,2023,periurbano,0.2194
+COL,La Primavera,NA,2024,periurbano,0.2194
+COL,La Primavera,NA,2025,periurbano,0.2194
+COL,La Rivera,NA,2016,urbano,NA
+COL,La Rivera,NA,2017,urbano,NA
+COL,La Rivera,NA,2018,urbano,NA
+COL,La Rivera,NA,2019,urbano,0.359
+COL,La Rivera,NA,2020,urbano,0.299
+COL,La Rivera,NA,2021,urbano,0.319
+COL,La Rivera,NA,2022,urbano,0.399
+COL,La Rivera,NA,2023,urbano,0.459
+COL,La Rivera,NA,2024,urbano,0.459
+COL,La Rivera,NA,2025,urbano,0.459
+COL,Las Brisas,NA,2016,rural,NA
+COL,Las Brisas,NA,2017,rural,NA
+COL,Las Brisas,NA,2018,rural,NA
+COL,Las Brisas,NA,2019,rural,0.0794
+COL,Las Brisas,NA,2020,rural,0.0594
+COL,Las Brisas,NA,2021,rural,0.0794
+COL,Las Brisas,NA,2022,rural,0.1394
+COL,Las Brisas,NA,2023,rural,0.1994
+COL,Las Brisas,NA,2024,rural,0.1994
+COL,Las Brisas,NA,2025,rural,0.1994
+COL,Las Palmas,NA,2016,periurbano,NA
+COL,Las Palmas,NA,2017,periurbano,NA
+COL,Las Palmas,NA,2018,periurbano,NA
+COL,Las Palmas,NA,2019,periurbano,0.1212
+COL,Las Palmas,NA,2020,periurbano,0.0812
+COL,Las Palmas,NA,2021,periurbano,0.1012
+COL,Las Palmas,NA,2022,periurbano,0.1812
+COL,Las Palmas,NA,2023,periurbano,0.2412
+COL,Las Palmas,NA,2024,periurbano,0.2412
+COL,Las Palmas,NA,2025,periurbano,0.2412
+COL,Los Arrayanes,NA,2016,rural,NA
+COL,Los Arrayanes,NA,2017,rural,NA
+COL,Los Arrayanes,NA,2018,rural,NA
+COL,Los Arrayanes,NA,2019,rural,0.0752
+COL,Los Arrayanes,NA,2020,rural,0.0552
+COL,Los Arrayanes,NA,2021,rural,0.0752
+COL,Los Arrayanes,NA,2022,rural,0.1352
+COL,Los Arrayanes,NA,2023,rural,0.1952
+COL,Los Arrayanes,NA,2024,rural,0.1952
+COL,Los Arrayanes,NA,2025,rural,0.1952
+COL,Los Pinos,NA,2016,rural,NA
+COL,Los Pinos,NA,2017,rural,NA
+COL,Los Pinos,NA,2018,rural,NA
+COL,Los Pinos,NA,2019,rural,0.0452
+COL,Los Pinos,NA,2020,rural,0.0252
+COL,Los Pinos,NA,2021,rural,0.0452
+COL,Los Pinos,NA,2022,rural,0.1052
+COL,Los Pinos,NA,2023,rural,0.1652
+COL,Los Pinos,NA,2024,rural,0.1652
+COL,Los Pinos,NA,2025,rural,0.1652
+COL,Los Álamos,NA,2016,rural,NA
+COL,Los Álamos,NA,2017,rural,NA
+COL,Los Álamos,NA,2018,rural,NA
+COL,Los Álamos,NA,2019,rural,0.0146
+COL,Los Álamos,NA,2020,rural,0.01
+COL,Los Álamos,NA,2021,rural,0.0146
+COL,Los Álamos,NA,2022,rural,0.0746
+COL,Los Álamos,NA,2023,rural,0.1346
+COL,Los Álamos,NA,2024,rural,0.1346
+COL,Los Álamos,NA,2025,rural,0.1346
+COL,Nueva Esperanza,NA,2016,periurbano,NA
+COL,Nueva Esperanza,NA,2017,periurbano,NA
+COL,Nueva Esperanza,NA,2018,periurbano,NA
+COL,Nueva Esperanza,NA,2019,periurbano,0.1738
+COL,Nueva Esperanza,NA,2020,periurbano,0.1338
+COL,Nueva Esperanza,NA,2021,periurbano,0.1538
+COL,Nueva Esperanza,NA,2022,periurbano,0.2338
+COL,Nueva Esperanza,NA,2023,periurbano,0.5138
+COL,Nueva Esperanza,NA,2024,periurbano,0.5138
+COL,Nueva Esperanza,NA,2025,periurbano,0.5138
+COL,Nueva Vida,NA,2016,periurbano,NA
+COL,Nueva Vida,NA,2017,periurbano,NA
+COL,Nueva Vida,NA,2018,periurbano,NA
+COL,Nueva Vida,NA,2019,periurbano,0.1533
+COL,Nueva Vida,NA,2020,periurbano,0.1133
+COL,Nueva Vida,NA,2021,periurbano,0.1333
+COL,Nueva Vida,NA,2022,periurbano,0.2133
+COL,Nueva Vida,NA,2023,periurbano,0.2733
+COL,Nueva Vida,NA,2024,periurbano,0.2733
+COL,Nueva Vida,NA,2025,periurbano,0.2733
+COL,Plaza del Valle,NA,2016,rural,NA
+COL,Plaza del Valle,NA,2017,rural,NA
+COL,Plaza del Valle,NA,2018,rural,NA
+COL,Plaza del Valle,NA,2019,rural,0.0683
+COL,Plaza del Valle,NA,2020,rural,0.0483
+COL,Plaza del Valle,NA,2021,rural,0.0683
+COL,Plaza del Valle,NA,2022,rural,0.1283
+COL,Plaza del Valle,NA,2023,rural,0.1883
+COL,Plaza del Valle,NA,2024,rural,0.1883
+COL,Plaza del Valle,NA,2025,rural,0.1883
+COL,San Isidro,NA,2016,rural,NA
+COL,San Isidro,NA,2017,rural,NA
+COL,San Isidro,NA,2018,rural,NA
+COL,San Isidro,NA,2019,rural,0.01
+COL,San Isidro,NA,2020,rural,0.01
+COL,San Isidro,NA,2021,rural,0.01
+COL,San Isidro,NA,2022,rural,0.0492
+COL,San Isidro,NA,2023,rural,0.1092
+COL,San Isidro,NA,2024,rural,0.1092
+COL,San Isidro,NA,2025,rural,0.1092
+COL,San Joaquín,NA,2016,periurbano,NA
+COL,San Joaquín,NA,2017,periurbano,NA
+COL,San Joaquín,NA,2018,periurbano,NA
+COL,San Joaquín,NA,2019,periurbano,0.16
+COL,San Joaquín,NA,2020,periurbano,0.12
+COL,San Joaquín,NA,2021,periurbano,0.14
+COL,San Joaquín,NA,2022,periurbano,0.22
+COL,San Joaquín,NA,2023,periurbano,0.28
+COL,San Joaquín,NA,2024,periurbano,0.28
+COL,San Joaquín,NA,2025,periurbano,0.28
+COL,San Martín del Valle,NA,2016,Total,NA
+COL,San Martín del Valle,NA,2016,periurbano,NA
+COL,San Martín del Valle,NA,2016,rural,NA
+COL,San Martín del Valle,NA,2016,urbano,NA
+COL,San Martín del Valle,NA,2017,Total,NA
+COL,San Martín del Valle,NA,2017,periurbano,NA
+COL,San Martín del Valle,NA,2017,rural,NA
+COL,San Martín del Valle,NA,2017,urbano,NA
+COL,San Martín del Valle,NA,2018,Total,NA
+COL,San Martín del Valle,NA,2018,periurbano,NA
+COL,San Martín del Valle,NA,2018,rural,NA
+COL,San Martín del Valle,NA,2018,urbano,NA
+COL,San Martín del Valle,NA,2019,Total,0.1536
+COL,San Martín del Valle,NA,2019,periurbano,0.1532
+COL,San Martín del Valle,NA,2019,rural,0.0578
+COL,San Martín del Valle,NA,2019,urbano,0.3325
+COL,San Martín del Valle,NA,2020,Total,0.1178
+COL,San Martín del Valle,NA,2020,periurbano,0.1131
+COL,San Martín del Valle,NA,2020,rural,0.0435
+COL,San Martín del Valle,NA,2020,urbano,0.2726
+COL,San Martín del Valle,NA,2021,Total,0.1362
+COL,San Martín del Valle,NA,2021,periurbano,0.1332
+COL,San Martín del Valle,NA,2021,rural,0.0577
+COL,San Martín del Valle,NA,2021,urbano,0.2926
+COL,San Martín del Valle,NA,2022,Total,0.2092
+COL,San Martín del Valle,NA,2022,periurbano,0.2132
+COL,San Martín del Valle,NA,2022,rural,0.1125
+COL,San Martín del Valle,NA,2022,urbano,0.3726
+COL,San Martín del Valle,NA,2023,Total,0.2786
+COL,San Martín del Valle,NA,2023,periurbano,0.2901
+COL,San Martín del Valle,NA,2023,rural,0.1725
+COL,San Martín del Valle,NA,2023,urbano,0.4326
+COL,San Martín del Valle,NA,2024,Total,0.2785
+COL,San Martín del Valle,NA,2024,periurbano,0.29
+COL,San Martín del Valle,NA,2024,rural,0.1725
+COL,San Martín del Valle,NA,2024,urbano,0.4326
+COL,San Martín del Valle,NA,2025,Total,0.2786
+COL,San Martín del Valle,NA,2025,periurbano,0.29
+COL,San Martín del Valle,NA,2025,rural,0.1728
+COL,San Martín del Valle,NA,2025,urbano,0.4325
+COL,San Rafael,NA,2016,urbano,NA
+COL,San Rafael,NA,2017,urbano,NA
+COL,San Rafael,NA,2018,urbano,NA
+COL,San Rafael,NA,2019,urbano,0.3123
+COL,San Rafael,NA,2020,urbano,0.2523
+COL,San Rafael,NA,2021,urbano,0.2723
+COL,San Rafael,NA,2022,urbano,0.3523
+COL,San Rafael,NA,2023,urbano,0.4123
+COL,San Rafael,NA,2024,urbano,0.4123
+COL,San Rafael,NA,2025,urbano,0.4123
+COL,Santa Ana,NA,2016,rural,NA
+COL,Santa Ana,NA,2017,rural,NA
+COL,Santa Ana,NA,2018,rural,NA
+COL,Santa Ana,NA,2019,rural,0.1149
+COL,Santa Ana,NA,2020,rural,0.0949
+COL,Santa Ana,NA,2021,rural,0.1149
+COL,Santa Ana,NA,2022,rural,0.1749
+COL,Santa Ana,NA,2023,rural,0.2349
+COL,Santa Ana,NA,2024,rural,0.2349
+COL,Santa Ana,NA,2025,rural,0.2349
+COL,Santa Elena,NA,2016,periurbano,NA
+COL,Santa Elena,NA,2017,periurbano,NA
+COL,Santa Elena,NA,2018,periurbano,NA
+COL,Santa Elena,NA,2019,periurbano,0.1536
+COL,Santa Elena,NA,2020,periurbano,0.1136
+COL,Santa Elena,NA,2021,periurbano,0.1336
+COL,Santa Elena,NA,2022,periurbano,0.2136
+COL,Santa Elena,NA,2023,periurbano,0.2736
+COL,Santa Elena,NA,2024,periurbano,0.2736
+COL,Santa Elena,NA,2025,periurbano,0.2736
+COL,Santa Lucía,NA,2016,rural,NA
+COL,Santa Lucía,NA,2017,rural,NA
+COL,Santa Lucía,NA,2018,rural,NA
+COL,Santa Lucía,NA,2019,rural,0.01
+COL,Santa Lucía,NA,2020,rural,0.01
+COL,Santa Lucía,NA,2021,rural,0.01
+COL,Santa Lucía,NA,2022,rural,0.0372
+COL,Santa Lucía,NA,2023,rural,0.0972
+COL,Santa Lucía,NA,2024,rural,0.0972
+COL,Santa Lucía,NA,2025,rural,0.0972
+COL,Santa Rosa,NA,2016,periurbano,NA
+COL,Santa Rosa,NA,2017,periurbano,NA
+COL,Santa Rosa,NA,2018,periurbano,NA
+COL,Santa Rosa,NA,2019,periurbano,0.2292
+COL,Santa Rosa,NA,2020,periurbano,0.1892
+COL,Santa Rosa,NA,2021,periurbano,0.2092
+COL,Santa Rosa,NA,2022,periurbano,0.2892
+COL,Santa Rosa,NA,2023,periurbano,0.3492
+COL,Santa Rosa,NA,2024,periurbano,0.3492
+COL,Santa Rosa,NA,2025,periurbano,0.3492
+COL,Villa Esperanza,NA,2016,rural,NA
+COL,Villa Esperanza,NA,2017,rural,NA
+COL,Villa Esperanza,NA,2018,rural,NA
+COL,Villa Esperanza,NA,2019,rural,0.0749
+COL,Villa Esperanza,NA,2020,rural,0.0549
+COL,Villa Esperanza,NA,2021,rural,0.0749
+COL,Villa Esperanza,NA,2022,rural,0.1349
+COL,Villa Esperanza,NA,2023,rural,0.1949
+COL,Villa Esperanza,NA,2024,rural,0.1949
+COL,Villa Esperanza,NA,2025,rural,0.1949
+COL,Villa Norte,NA,2016,periurbano,NA
+COL,Villa Norte,NA,2017,periurbano,NA
+COL,Villa Norte,NA,2018,periurbano,NA
+COL,Villa Norte,NA,2019,periurbano,0.1874
+COL,Villa Norte,NA,2020,periurbano,0.1474
+COL,Villa Norte,NA,2021,periurbano,0.1674
+COL,Villa Norte,NA,2022,periurbano,0.2474
+COL,Villa Norte,NA,2023,periurbano,0.3074
+COL,Villa Norte,NA,2024,periurbano,0.3074
+COL,Villa Norte,NA,2025,periurbano,0.3074
+COL,Villa Sur,NA,2016,rural,NA
+COL,Villa Sur,NA,2017,rural,NA
+COL,Villa Sur,NA,2018,rural,NA
+COL,Villa Sur,NA,2019,rural,0.0885
+COL,Villa Sur,NA,2020,rural,0.0685
+COL,Villa Sur,NA,2021,rural,0.0885
+COL,Villa Sur,NA,2022,rural,0.1485
+COL,Villa Sur,NA,2023,rural,0.2085
+COL,Villa Sur,NA,2024,rural,0.2085
+COL,Villa Sur,NA,2025,rural,0.2085
+COL,Vista Hermosa,NA,2016,rural,NA
+COL,Vista Hermosa,NA,2017,rural,NA
+COL,Vista Hermosa,NA,2018,rural,NA
+COL,Vista Hermosa,NA,2019,rural,0.0619
+COL,Vista Hermosa,NA,2020,rural,0.0419
+COL,Vista Hermosa,NA,2021,rural,0.0619
+COL,Vista Hermosa,NA,2022,rural,0.1219
+COL,Vista Hermosa,NA,2023,rural,0.1819
+COL,Vista Hermosa,NA,2024,rural,0.1819
+COL,Vista Hermosa,NA,2025,rural,0.1819
