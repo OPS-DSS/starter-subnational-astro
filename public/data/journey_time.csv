@@ -1,1081 +1,1081 @@
-iso3,NAME_2,cod_local,anio,sexo,zona,etnia,valor
-COL,Altos del Sol,NA,2016,Mujeres,periurbano,Indígena,0.2961
-COL,Altos del Sol,NA,2016,Mujeres,periurbano,No indígena,0.2361
-COL,Altos del Sol,NA,2016,Mujeres,periurbano,Total,0.2538
-COL,Altos del Sol,NA,2017,Mujeres,periurbano,Indígena,0.3066
-COL,Altos del Sol,NA,2017,Mujeres,periurbano,No indígena,0.2466
-COL,Altos del Sol,NA,2017,Mujeres,periurbano,Total,0.2643
-COL,Altos del Sol,NA,2018,Mujeres,periurbano,Indígena,0.2974
-COL,Altos del Sol,NA,2018,Mujeres,periurbano,No indígena,0.2374
-COL,Altos del Sol,NA,2018,Mujeres,periurbano,Total,0.2554
-COL,Altos del Sol,NA,2019,Mujeres,periurbano,Indígena,0.3081
-COL,Altos del Sol,NA,2019,Mujeres,periurbano,No indígena,0.2481
-COL,Altos del Sol,NA,2019,Mujeres,periurbano,Total,0.2661
-COL,Altos del Sol,NA,2020,Mujeres,periurbano,Indígena,0.3363
-COL,Altos del Sol,NA,2020,Mujeres,periurbano,No indígena,0.2763
-COL,Altos del Sol,NA,2020,Mujeres,periurbano,Total,0.2945
-COL,Altos del Sol,NA,2021,Mujeres,periurbano,Indígena,0.3258
-COL,Altos del Sol,NA,2021,Mujeres,periurbano,No indígena,0.2658
-COL,Altos del Sol,NA,2021,Mujeres,periurbano,Total,0.2834
-COL,Altos del Sol,NA,2022,Mujeres,periurbano,Indígena,0.3058
-COL,Altos del Sol,NA,2022,Mujeres,periurbano,No indígena,0.2458
-COL,Altos del Sol,NA,2022,Mujeres,periurbano,Total,0.2641
-COL,Altos del Sol,NA,2023,Mujeres,periurbano,Indígena,0.307
-COL,Altos del Sol,NA,2023,Mujeres,periurbano,No indígena,0.247
-COL,Altos del Sol,NA,2023,Mujeres,periurbano,Total,0.2653
-COL,Altos del Sol,NA,2024,Mujeres,periurbano,Indígena,0.3005
-COL,Altos del Sol,NA,2024,Mujeres,periurbano,No indígena,0.2405
-COL,Altos del Sol,NA,2024,Mujeres,periurbano,Total,0.2588
-COL,Altos del Sol,NA,2025,Mujeres,periurbano,Indígena,0.2962
-COL,Altos del Sol,NA,2025,Mujeres,periurbano,No indígena,0.2362
-COL,Altos del Sol,NA,2025,Mujeres,periurbano,Total,0.2537
-COL,Bosques del Valle,NA,2016,Mujeres,periurbano,Indígena,0.4057
-COL,Bosques del Valle,NA,2016,Mujeres,periurbano,No indígena,0.3457
-COL,Bosques del Valle,NA,2016,Mujeres,periurbano,Total,0.364
-COL,Bosques del Valle,NA,2017,Mujeres,periurbano,Indígena,0.4162
-COL,Bosques del Valle,NA,2017,Mujeres,periurbano,No indígena,0.3562
-COL,Bosques del Valle,NA,2017,Mujeres,periurbano,Total,0.3744
-COL,Bosques del Valle,NA,2018,Mujeres,periurbano,Indígena,0.407
-COL,Bosques del Valle,NA,2018,Mujeres,periurbano,No indígena,0.347
-COL,Bosques del Valle,NA,2018,Mujeres,periurbano,Total,0.3648
-COL,Bosques del Valle,NA,2019,Mujeres,periurbano,Indígena,0.4178
-COL,Bosques del Valle,NA,2019,Mujeres,periurbano,No indígena,0.3578
-COL,Bosques del Valle,NA,2019,Mujeres,periurbano,Total,0.3755
-COL,Bosques del Valle,NA,2020,Mujeres,periurbano,Indígena,0.4459
-COL,Bosques del Valle,NA,2020,Mujeres,periurbano,No indígena,0.3859
-COL,Bosques del Valle,NA,2020,Mujeres,periurbano,Total,0.4035
-COL,Bosques del Valle,NA,2021,Mujeres,periurbano,Indígena,0.4355
-COL,Bosques del Valle,NA,2021,Mujeres,periurbano,No indígena,0.3755
-COL,Bosques del Valle,NA,2021,Mujeres,periurbano,Total,0.3936
-COL,Bosques del Valle,NA,2022,Mujeres,periurbano,Indígena,0.4154
-COL,Bosques del Valle,NA,2022,Mujeres,periurbano,No indígena,0.3554
-COL,Bosques del Valle,NA,2022,Mujeres,periurbano,Total,0.3732
-COL,Bosques del Valle,NA,2023,Mujeres,periurbano,Indígena,0.4167
-COL,Bosques del Valle,NA,2023,Mujeres,periurbano,No indígena,0.3567
-COL,Bosques del Valle,NA,2023,Mujeres,periurbano,Total,0.3748
-COL,Bosques del Valle,NA,2024,Mujeres,periurbano,Indígena,0.4101
-COL,Bosques del Valle,NA,2024,Mujeres,periurbano,No indígena,0.3501
-COL,Bosques del Valle,NA,2024,Mujeres,periurbano,Total,0.3682
-COL,Bosques del Valle,NA,2025,Mujeres,periurbano,Indígena,0.4058
-COL,Bosques del Valle,NA,2025,Mujeres,periurbano,No indígena,0.3458
-COL,Bosques del Valle,NA,2025,Mujeres,periurbano,Total,0.3639
-COL,Colinas del Valle,NA,2016,Mujeres,rural,Indígena,0.5947
-COL,Colinas del Valle,NA,2016,Mujeres,rural,No indígena,0.5347
-COL,Colinas del Valle,NA,2016,Mujeres,rural,Total,0.5613
-COL,Colinas del Valle,NA,2017,Mujeres,rural,Indígena,0.6051
-COL,Colinas del Valle,NA,2017,Mujeres,rural,No indígena,0.5451
-COL,Colinas del Valle,NA,2017,Mujeres,rural,Total,0.5718
-COL,Colinas del Valle,NA,2018,Mujeres,rural,Indígena,0.5959
-COL,Colinas del Valle,NA,2018,Mujeres,rural,No indígena,0.5359
-COL,Colinas del Valle,NA,2018,Mujeres,rural,Total,0.5626
-COL,Colinas del Valle,NA,2019,Mujeres,rural,Indígena,0.6067
-COL,Colinas del Valle,NA,2019,Mujeres,rural,No indígena,0.5467
-COL,Colinas del Valle,NA,2019,Mujeres,rural,Total,0.5733
-COL,Colinas del Valle,NA,2020,Mujeres,rural,Indígena,0.6348
-COL,Colinas del Valle,NA,2020,Mujeres,rural,No indígena,0.5748
-COL,Colinas del Valle,NA,2020,Mujeres,rural,Total,0.6012
-COL,Colinas del Valle,NA,2021,Mujeres,rural,Indígena,0.6244
-COL,Colinas del Valle,NA,2021,Mujeres,rural,No indígena,0.5644
-COL,Colinas del Valle,NA,2021,Mujeres,rural,Total,0.5921
-COL,Colinas del Valle,NA,2022,Mujeres,rural,Indígena,0.6043
-COL,Colinas del Valle,NA,2022,Mujeres,rural,No indígena,0.5443
-COL,Colinas del Valle,NA,2022,Mujeres,rural,Total,0.571
-COL,Colinas del Valle,NA,2023,Mujeres,rural,Indígena,0.6136
-COL,Colinas del Valle,NA,2023,Mujeres,rural,No indígena,0.5536
-COL,Colinas del Valle,NA,2023,Mujeres,rural,Total,0.5813
-COL,Colinas del Valle,NA,2024,Mujeres,rural,Indígena,0.607
-COL,Colinas del Valle,NA,2024,Mujeres,rural,No indígena,0.547
-COL,Colinas del Valle,NA,2024,Mujeres,rural,Total,0.5747
-COL,Colinas del Valle,NA,2025,Mujeres,rural,Indígena,0.6027
-COL,Colinas del Valle,NA,2025,Mujeres,rural,No indígena,0.5427
-COL,Colinas del Valle,NA,2025,Mujeres,rural,Total,0.5704
-COL,El Carmen,NA,2016,Mujeres,periurbano,Indígena,0.4594
-COL,El Carmen,NA,2016,Mujeres,periurbano,No indígena,0.3994
-COL,El Carmen,NA,2016,Mujeres,periurbano,Total,0.4172
-COL,El Carmen,NA,2017,Mujeres,periurbano,Indígena,0.4699
-COL,El Carmen,NA,2017,Mujeres,periurbano,No indígena,0.4099
-COL,El Carmen,NA,2017,Mujeres,periurbano,Total,0.4277
-COL,El Carmen,NA,2018,Mujeres,periurbano,Indígena,0.4607
-COL,El Carmen,NA,2018,Mujeres,periurbano,No indígena,0.4007
-COL,El Carmen,NA,2018,Mujeres,periurbano,Total,0.4188
-COL,El Carmen,NA,2019,Mujeres,periurbano,Indígena,0.4715
-COL,El Carmen,NA,2019,Mujeres,periurbano,No indígena,0.4115
-COL,El Carmen,NA,2019,Mujeres,periurbano,Total,0.4296
-COL,El Carmen,NA,2020,Mujeres,periurbano,Indígena,0.4996
-COL,El Carmen,NA,2020,Mujeres,periurbano,No indígena,0.4396
-COL,El Carmen,NA,2020,Mujeres,periurbano,Total,0.4576
-COL,El Carmen,NA,2021,Mujeres,periurbano,Indígena,0.4892
-COL,El Carmen,NA,2021,Mujeres,periurbano,No indígena,0.4292
-COL,El Carmen,NA,2021,Mujeres,periurbano,Total,0.4468
-COL,El Carmen,NA,2022,Mujeres,periurbano,Indígena,0.4691
-COL,El Carmen,NA,2022,Mujeres,periurbano,No indígena,0.4091
-COL,El Carmen,NA,2022,Mujeres,periurbano,Total,0.4272
-COL,El Carmen,NA,2023,Mujeres,periurbano,Indígena,0.4704
-COL,El Carmen,NA,2023,Mujeres,periurbano,No indígena,0.4104
-COL,El Carmen,NA,2023,Mujeres,periurbano,Total,0.4288
-COL,El Carmen,NA,2024,Mujeres,periurbano,Indígena,0.4638
-COL,El Carmen,NA,2024,Mujeres,periurbano,No indígena,0.4038
-COL,El Carmen,NA,2024,Mujeres,periurbano,Total,0.4222
-COL,El Carmen,NA,2025,Mujeres,periurbano,Indígena,0.4595
-COL,El Carmen,NA,2025,Mujeres,periurbano,No indígena,0.3995
-COL,El Carmen,NA,2025,Mujeres,periurbano,Total,0.4171
-COL,El Edén,NA,2016,Mujeres,periurbano,Indígena,0.4456
-COL,El Edén,NA,2016,Mujeres,periurbano,No indígena,0.3856
-COL,El Edén,NA,2016,Mujeres,periurbano,Total,0.4038
-COL,El Edén,NA,2017,Mujeres,periurbano,Indígena,0.4561
-COL,El Edén,NA,2017,Mujeres,periurbano,No indígena,0.3961
-COL,El Edén,NA,2017,Mujeres,periurbano,Total,0.4139
-COL,El Edén,NA,2018,Mujeres,periurbano,Indígena,0.4469
-COL,El Edén,NA,2018,Mujeres,periurbano,No indígena,0.3869
-COL,El Edén,NA,2018,Mujeres,periurbano,Total,0.4047
-COL,El Edén,NA,2019,Mujeres,periurbano,Indígena,0.4576
-COL,El Edén,NA,2019,Mujeres,periurbano,No indígena,0.3976
-COL,El Edén,NA,2019,Mujeres,periurbano,Total,0.4155
-COL,El Edén,NA,2020,Mujeres,periurbano,Indígena,0.4858
-COL,El Edén,NA,2020,Mujeres,periurbano,No indígena,0.4258
-COL,El Edén,NA,2020,Mujeres,periurbano,Total,0.444
-COL,El Edén,NA,2021,Mujeres,periurbano,Indígena,0.4753
-COL,El Edén,NA,2021,Mujeres,periurbano,No indígena,0.4153
-COL,El Edén,NA,2021,Mujeres,periurbano,Total,0.4331
-COL,El Edén,NA,2022,Mujeres,periurbano,Indígena,0.4553
-COL,El Edén,NA,2022,Mujeres,periurbano,No indígena,0.3953
-COL,El Edén,NA,2022,Mujeres,periurbano,Total,0.4134
-COL,El Edén,NA,2023,Mujeres,periurbano,Indígena,0.4565
-COL,El Edén,NA,2023,Mujeres,periurbano,No indígena,0.3965
-COL,El Edén,NA,2023,Mujeres,periurbano,Total,0.4146
-COL,El Edén,NA,2024,Mujeres,periurbano,Indígena,0.45
-COL,El Edén,NA,2024,Mujeres,periurbano,No indígena,0.39
-COL,El Edén,NA,2024,Mujeres,periurbano,Total,0.4083
-COL,El Edén,NA,2025,Mujeres,periurbano,Indígena,0.4457
-COL,El Edén,NA,2025,Mujeres,periurbano,No indígena,0.3857
-COL,El Edén,NA,2025,Mujeres,periurbano,Total,0.4034
-COL,El Mirador,NA,2016,Mujeres,rural,Indígena,0.685
-COL,El Mirador,NA,2016,Mujeres,rural,No indígena,0.625
-COL,El Mirador,NA,2016,Mujeres,rural,Total,0.6517
-COL,El Mirador,NA,2017,Mujeres,rural,Indígena,0.6955
-COL,El Mirador,NA,2017,Mujeres,rural,No indígena,0.6355
-COL,El Mirador,NA,2017,Mujeres,rural,Total,0.6622
-COL,El Mirador,NA,2018,Mujeres,rural,Indígena,0.6863
-COL,El Mirador,NA,2018,Mujeres,rural,No indígena,0.6263
-COL,El Mirador,NA,2018,Mujeres,rural,Total,0.653
-COL,El Mirador,NA,2019,Mujeres,rural,Indígena,0.6971
-COL,El Mirador,NA,2019,Mujeres,rural,No indígena,0.6371
-COL,El Mirador,NA,2019,Mujeres,rural,Total,0.6637
-COL,El Mirador,NA,2020,Mujeres,rural,Indígena,0.7252
-COL,El Mirador,NA,2020,Mujeres,rural,No indígena,0.6652
-COL,El Mirador,NA,2020,Mujeres,rural,Total,0.6916
-COL,El Mirador,NA,2021,Mujeres,rural,Indígena,0.7148
-COL,El Mirador,NA,2021,Mujeres,rural,No indígena,0.6548
-COL,El Mirador,NA,2021,Mujeres,rural,Total,0.6825
-COL,El Mirador,NA,2022,Mujeres,rural,Indígena,0.6947
-COL,El Mirador,NA,2022,Mujeres,rural,No indígena,0.6347
-COL,El Mirador,NA,2022,Mujeres,rural,Total,0.6624
-COL,El Mirador,NA,2023,Mujeres,rural,Indígena,0.704
-COL,El Mirador,NA,2023,Mujeres,rural,No indígena,0.644
-COL,El Mirador,NA,2023,Mujeres,rural,Total,0.6717
-COL,El Mirador,NA,2024,Mujeres,rural,Indígena,0.6974
-COL,El Mirador,NA,2024,Mujeres,rural,No indígena,0.6374
-COL,El Mirador,NA,2024,Mujeres,rural,Total,0.6651
-COL,El Mirador,NA,2025,Mujeres,rural,Indígena,0.6931
-COL,El Mirador,NA,2025,Mujeres,rural,No indígena,0.6331
-COL,El Mirador,NA,2025,Mujeres,rural,Total,0.6608
-COL,El Porvenir,NA,2016,Mujeres,rural,Indígena,0.6399
-COL,El Porvenir,NA,2016,Mujeres,rural,No indígena,0.5799
-COL,El Porvenir,NA,2016,Mujeres,rural,Total,0.6062
-COL,El Porvenir,NA,2017,Mujeres,rural,Indígena,0.6504
-COL,El Porvenir,NA,2017,Mujeres,rural,No indígena,0.5904
-COL,El Porvenir,NA,2017,Mujeres,rural,Total,0.6166
-COL,El Porvenir,NA,2018,Mujeres,rural,Indígena,0.6412
-COL,El Porvenir,NA,2018,Mujeres,rural,No indígena,0.5812
-COL,El Porvenir,NA,2018,Mujeres,rural,Total,0.6074
-COL,El Porvenir,NA,2019,Mujeres,rural,Indígena,0.652
-COL,El Porvenir,NA,2019,Mujeres,rural,No indígena,0.592
-COL,El Porvenir,NA,2019,Mujeres,rural,Total,0.6191
-COL,El Porvenir,NA,2020,Mujeres,rural,Indígena,0.6801
-COL,El Porvenir,NA,2020,Mujeres,rural,No indígena,0.6201
-COL,El Porvenir,NA,2020,Mujeres,rural,Total,0.647
-COL,El Porvenir,NA,2021,Mujeres,rural,Indígena,0.6697
-COL,El Porvenir,NA,2021,Mujeres,rural,No indígena,0.6097
-COL,El Porvenir,NA,2021,Mujeres,rural,Total,0.6368
-COL,El Porvenir,NA,2022,Mujeres,rural,Indígena,0.6496
-COL,El Porvenir,NA,2022,Mujeres,rural,No indígena,0.5896
-COL,El Porvenir,NA,2022,Mujeres,rural,Total,0.6167
-COL,El Porvenir,NA,2023,Mujeres,rural,Indígena,0.6589
-COL,El Porvenir,NA,2023,Mujeres,rural,No indígena,0.5989
-COL,El Porvenir,NA,2023,Mujeres,rural,Total,0.626
-COL,El Porvenir,NA,2024,Mujeres,rural,Indígena,0.6523
-COL,El Porvenir,NA,2024,Mujeres,rural,No indígena,0.5923
-COL,El Porvenir,NA,2024,Mujeres,rural,Total,0.6194
-COL,El Porvenir,NA,2025,Mujeres,rural,Indígena,0.648
-COL,El Porvenir,NA,2025,Mujeres,rural,No indígena,0.588
-COL,El Porvenir,NA,2025,Mujeres,rural,Total,0.6151
-COL,La Alameda,NA,2016,Mujeres,rural,Indígena,0.687
-COL,La Alameda,NA,2016,Mujeres,rural,No indígena,0.627
-COL,La Alameda,NA,2016,Mujeres,rural,Total,0.6534
-COL,La Alameda,NA,2017,Mujeres,rural,Indígena,0.6974
-COL,La Alameda,NA,2017,Mujeres,rural,No indígena,0.6374
-COL,La Alameda,NA,2017,Mujeres,rural,Total,0.6638
-COL,La Alameda,NA,2018,Mujeres,rural,Indígena,0.6882
-COL,La Alameda,NA,2018,Mujeres,rural,No indígena,0.6282
-COL,La Alameda,NA,2018,Mujeres,rural,Total,0.6546
-COL,La Alameda,NA,2019,Mujeres,rural,Indígena,0.699
-COL,La Alameda,NA,2019,Mujeres,rural,No indígena,0.639
-COL,La Alameda,NA,2019,Mujeres,rural,Total,0.6654
-COL,La Alameda,NA,2020,Mujeres,rural,Indígena,0.7271
-COL,La Alameda,NA,2020,Mujeres,rural,No indígena,0.6671
-COL,La Alameda,NA,2020,Mujeres,rural,Total,0.6946
-COL,La Alameda,NA,2021,Mujeres,rural,Indígena,0.7167
-COL,La Alameda,NA,2021,Mujeres,rural,No indígena,0.6567
-COL,La Alameda,NA,2021,Mujeres,rural,Total,0.6842
-COL,La Alameda,NA,2022,Mujeres,rural,Indígena,0.6966
-COL,La Alameda,NA,2022,Mujeres,rural,No indígena,0.6366
-COL,La Alameda,NA,2022,Mujeres,rural,Total,0.663
-COL,La Alameda,NA,2023,Mujeres,rural,Indígena,0.7059
-COL,La Alameda,NA,2023,Mujeres,rural,No indígena,0.6459
-COL,La Alameda,NA,2023,Mujeres,rural,Total,0.6734
-COL,La Alameda,NA,2024,Mujeres,rural,Indígena,0.6993
-COL,La Alameda,NA,2024,Mujeres,rural,No indígena,0.6393
-COL,La Alameda,NA,2024,Mujeres,rural,Total,0.6668
-COL,La Alameda,NA,2025,Mujeres,rural,Indígena,0.695
-COL,La Alameda,NA,2025,Mujeres,rural,No indígena,0.635
-COL,La Alameda,NA,2025,Mujeres,rural,Total,0.6625
-COL,La Arboleda,NA,2016,Mujeres,periurbano,Indígena,0.4166
-COL,La Arboleda,NA,2016,Mujeres,periurbano,No indígena,0.3566
-COL,La Arboleda,NA,2016,Mujeres,periurbano,Total,0.3749
-COL,La Arboleda,NA,2017,Mujeres,periurbano,Indígena,0.427
-COL,La Arboleda,NA,2017,Mujeres,periurbano,No indígena,0.367
-COL,La Arboleda,NA,2017,Mujeres,periurbano,Total,0.3854
-COL,La Arboleda,NA,2018,Mujeres,periurbano,Indígena,0.4178
-COL,La Arboleda,NA,2018,Mujeres,periurbano,No indígena,0.3578
-COL,La Arboleda,NA,2018,Mujeres,periurbano,Total,0.3753
-COL,La Arboleda,NA,2019,Mujeres,periurbano,Indígena,0.4286
-COL,La Arboleda,NA,2019,Mujeres,periurbano,No indígena,0.3686
-COL,La Arboleda,NA,2019,Mujeres,periurbano,Total,0.3861
-COL,La Arboleda,NA,2020,Mujeres,periurbano,Indígena,0.4567
-COL,La Arboleda,NA,2020,Mujeres,periurbano,No indígena,0.3967
-COL,La Arboleda,NA,2020,Mujeres,periurbano,Total,0.4144
-COL,La Arboleda,NA,2021,Mujeres,periurbano,Indígena,0.4463
-COL,La Arboleda,NA,2021,Mujeres,periurbano,No indígena,0.3863
-COL,La Arboleda,NA,2021,Mujeres,periurbano,Total,0.4045
-COL,La Arboleda,NA,2022,Mujeres,periurbano,Indígena,0.4262
-COL,La Arboleda,NA,2022,Mujeres,periurbano,No indígena,0.3662
-COL,La Arboleda,NA,2022,Mujeres,periurbano,Total,0.3841
-COL,La Arboleda,NA,2023,Mujeres,periurbano,Indígena,0.4275
-COL,La Arboleda,NA,2023,Mujeres,periurbano,No indígena,0.3675
-COL,La Arboleda,NA,2023,Mujeres,periurbano,Total,0.3853
-COL,La Arboleda,NA,2024,Mujeres,periurbano,Indígena,0.4209
-COL,La Arboleda,NA,2024,Mujeres,periurbano,No indígena,0.3609
-COL,La Arboleda,NA,2024,Mujeres,periurbano,Total,0.3788
-COL,La Arboleda,NA,2025,Mujeres,periurbano,Indígena,0.4166
-COL,La Arboleda,NA,2025,Mujeres,periurbano,No indígena,0.3566
-COL,La Arboleda,NA,2025,Mujeres,periurbano,Total,0.3745
-COL,La Cañada,NA,2016,Mujeres,rural,Indígena,0.8043
-COL,La Cañada,NA,2016,Mujeres,rural,No indígena,0.7443
-COL,La Cañada,NA,2016,Mujeres,rural,Total,0.7715
-COL,La Cañada,NA,2017,Mujeres,rural,Indígena,0.8147
-COL,La Cañada,NA,2017,Mujeres,rural,No indígena,0.7547
-COL,La Cañada,NA,2017,Mujeres,rural,Total,0.782
-COL,La Cañada,NA,2018,Mujeres,rural,Indígena,0.8055
-COL,La Cañada,NA,2018,Mujeres,rural,No indígena,0.7455
-COL,La Cañada,NA,2018,Mujeres,rural,Total,0.7728
-COL,La Cañada,NA,2019,Mujeres,rural,Indígena,0.8163
-COL,La Cañada,NA,2019,Mujeres,rural,No indígena,0.7563
-COL,La Cañada,NA,2019,Mujeres,rural,Total,0.7836
-COL,La Cañada,NA,2020,Mujeres,rural,Indígena,0.8444
-COL,La Cañada,NA,2020,Mujeres,rural,No indígena,0.7844
-COL,La Cañada,NA,2020,Mujeres,rural,Total,0.8114
-COL,La Cañada,NA,2021,Mujeres,rural,Indígena,0.834
-COL,La Cañada,NA,2021,Mujeres,rural,No indígena,0.774
-COL,La Cañada,NA,2021,Mujeres,rural,Total,0.7997
-COL,La Cañada,NA,2022,Mujeres,rural,Indígena,0.8139
-COL,La Cañada,NA,2022,Mujeres,rural,No indígena,0.7539
-COL,La Cañada,NA,2022,Mujeres,rural,Total,0.7812
-COL,La Cañada,NA,2023,Mujeres,rural,Indígena,0.8232
-COL,La Cañada,NA,2023,Mujeres,rural,No indígena,0.7632
-COL,La Cañada,NA,2023,Mujeres,rural,Total,0.7905
-COL,La Cañada,NA,2024,Mujeres,rural,Indígena,0.8166
-COL,La Cañada,NA,2024,Mujeres,rural,No indígena,0.7566
-COL,La Cañada,NA,2024,Mujeres,rural,Total,0.7839
-COL,La Cañada,NA,2025,Mujeres,rural,Indígena,0.8123
-COL,La Cañada,NA,2025,Mujeres,rural,No indígena,0.7523
-COL,La Cañada,NA,2025,Mujeres,rural,Total,0.7796
-COL,La Esperanza,NA,2016,Mujeres,urbano,Indígena,0.1628
-COL,La Esperanza,NA,2016,Mujeres,urbano,No indígena,0.1028
-COL,La Esperanza,NA,2016,Mujeres,urbano,Total,0.1117
-COL,La Esperanza,NA,2017,Mujeres,urbano,Indígena,0.1733
-COL,La Esperanza,NA,2017,Mujeres,urbano,No indígena,0.1133
-COL,La Esperanza,NA,2017,Mujeres,urbano,Total,0.1221
-COL,La Esperanza,NA,2018,Mujeres,urbano,Indígena,0.1641
-COL,La Esperanza,NA,2018,Mujeres,urbano,No indígena,0.1041
-COL,La Esperanza,NA,2018,Mujeres,urbano,Total,0.113
-COL,La Esperanza,NA,2019,Mujeres,urbano,Indígena,0.1748
-COL,La Esperanza,NA,2019,Mujeres,urbano,No indígena,0.1148
-COL,La Esperanza,NA,2019,Mujeres,urbano,Total,0.1238
-COL,La Esperanza,NA,2020,Mujeres,urbano,Indígena,0.203
-COL,La Esperanza,NA,2020,Mujeres,urbano,No indígena,0.143
-COL,La Esperanza,NA,2020,Mujeres,urbano,Total,0.1519
-COL,La Esperanza,NA,2021,Mujeres,urbano,Indígena,0.1925
-COL,La Esperanza,NA,2021,Mujeres,urbano,No indígena,0.1325
-COL,La Esperanza,NA,2021,Mujeres,urbano,Total,0.1418
-COL,La Esperanza,NA,2022,Mujeres,urbano,Indígena,0.1725
-COL,La Esperanza,NA,2022,Mujeres,urbano,No indígena,0.1125
-COL,La Esperanza,NA,2022,Mujeres,urbano,Total,0.1215
-COL,La Esperanza,NA,2023,Mujeres,urbano,Indígena,0.1717
-COL,La Esperanza,NA,2023,Mujeres,urbano,No indígena,0.1117
-COL,La Esperanza,NA,2023,Mujeres,urbano,Total,0.1209
-COL,La Esperanza,NA,2024,Mujeres,urbano,Indígena,0.1651
-COL,La Esperanza,NA,2024,Mujeres,urbano,No indígena,0.1051
-COL,La Esperanza,NA,2024,Mujeres,urbano,Total,0.1143
-COL,La Esperanza,NA,2025,Mujeres,urbano,Indígena,0.1608
-COL,La Esperanza,NA,2025,Mujeres,urbano,No indígena,0.1008
-COL,La Esperanza,NA,2025,Mujeres,urbano,Total,0.11
-COL,La Primavera,NA,2016,Mujeres,periurbano,Indígena,0.4879
-COL,La Primavera,NA,2016,Mujeres,periurbano,No indígena,0.4279
-COL,La Primavera,NA,2016,Mujeres,periurbano,Total,0.4458
-COL,La Primavera,NA,2017,Mujeres,periurbano,Indígena,0.4983
-COL,La Primavera,NA,2017,Mujeres,periurbano,No indígena,0.4383
-COL,La Primavera,NA,2017,Mujeres,periurbano,Total,0.4563
-COL,La Primavera,NA,2018,Mujeres,periurbano,Indígena,0.4892
-COL,La Primavera,NA,2018,Mujeres,periurbano,No indígena,0.4292
-COL,La Primavera,NA,2018,Mujeres,periurbano,Total,0.4473
-COL,La Primavera,NA,2019,Mujeres,periurbano,Indígena,0.4999
-COL,La Primavera,NA,2019,Mujeres,periurbano,No indígena,0.4399
-COL,La Primavera,NA,2019,Mujeres,periurbano,Total,0.4581
-COL,La Primavera,NA,2020,Mujeres,periurbano,Indígena,0.5281
-COL,La Primavera,NA,2020,Mujeres,periurbano,No indígena,0.4681
-COL,La Primavera,NA,2020,Mujeres,periurbano,Total,0.4858
-COL,La Primavera,NA,2021,Mujeres,periurbano,Indígena,0.5176
-COL,La Primavera,NA,2021,Mujeres,periurbano,No indígena,0.4576
-COL,La Primavera,NA,2021,Mujeres,periurbano,Total,0.4757
-COL,La Primavera,NA,2022,Mujeres,periurbano,Indígena,0.4976
-COL,La Primavera,NA,2022,Mujeres,periurbano,No indígena,0.4376
-COL,La Primavera,NA,2022,Mujeres,periurbano,Total,0.4554
-COL,La Primavera,NA,2023,Mujeres,periurbano,Indígena,0.4988
-COL,La Primavera,NA,2023,Mujeres,periurbano,No indígena,0.4388
-COL,La Primavera,NA,2023,Mujeres,periurbano,Total,0.4567
-COL,La Primavera,NA,2024,Mujeres,periurbano,Indígena,0.4922
-COL,La Primavera,NA,2024,Mujeres,periurbano,No indígena,0.4322
-COL,La Primavera,NA,2024,Mujeres,periurbano,Total,0.4501
-COL,La Primavera,NA,2025,Mujeres,periurbano,Indígena,0.4879
-COL,La Primavera,NA,2025,Mujeres,periurbano,No indígena,0.4279
-COL,La Primavera,NA,2025,Mujeres,periurbano,Total,0.446
-COL,La Rivera,NA,2016,Mujeres,urbano,Indígena,0.0352
+iso3,Territorio,cod_local,anio,sexo,zona,etnia,valor
+COL,Altos del Sol,NA,2016,Mujeres,periurbano,Indígena,0.356
+COL,Altos del Sol,NA,2016,Mujeres,periurbano,No indígena,0.296
+COL,Altos del Sol,NA,2016,Mujeres,periurbano,Total,0.3137
+COL,Altos del Sol,NA,2017,Mujeres,periurbano,Indígena,0.3538
+COL,Altos del Sol,NA,2017,Mujeres,periurbano,No indígena,0.2938
+COL,Altos del Sol,NA,2017,Mujeres,periurbano,Total,0.3115
+COL,Altos del Sol,NA,2018,Mujeres,periurbano,Indígena,0.3492
+COL,Altos del Sol,NA,2018,Mujeres,periurbano,No indígena,0.2892
+COL,Altos del Sol,NA,2018,Mujeres,periurbano,Total,0.3072
+COL,Altos del Sol,NA,2019,Mujeres,periurbano,Indígena,0.454
+COL,Altos del Sol,NA,2019,Mujeres,periurbano,No indígena,0.394
+COL,Altos del Sol,NA,2019,Mujeres,periurbano,Total,0.412
+COL,Altos del Sol,NA,2020,Mujeres,periurbano,Indígena,0.6954
+COL,Altos del Sol,NA,2020,Mujeres,periurbano,No indígena,0.6354
+COL,Altos del Sol,NA,2020,Mujeres,periurbano,Total,0.6536
+COL,Altos del Sol,NA,2021,Mujeres,periurbano,Indígena,0.5814
+COL,Altos del Sol,NA,2021,Mujeres,periurbano,No indígena,0.5214
+COL,Altos del Sol,NA,2021,Mujeres,periurbano,Total,0.539
+COL,Altos del Sol,NA,2022,Mujeres,periurbano,Indígena,0.422
+COL,Altos del Sol,NA,2022,Mujeres,periurbano,No indígena,0.362
+COL,Altos del Sol,NA,2022,Mujeres,periurbano,Total,0.3803
+COL,Altos del Sol,NA,2023,Mujeres,periurbano,Indígena,0.3604
+COL,Altos del Sol,NA,2023,Mujeres,periurbano,No indígena,0.3004
+COL,Altos del Sol,NA,2023,Mujeres,periurbano,Total,0.3187
+COL,Altos del Sol,NA,2024,Mujeres,periurbano,Indígena,0.2732
+COL,Altos del Sol,NA,2024,Mujeres,periurbano,No indígena,0.2132
+COL,Altos del Sol,NA,2024,Mujeres,periurbano,Total,0.2315
+COL,Altos del Sol,NA,2025,Mujeres,periurbano,Indígena,0.3761
+COL,Altos del Sol,NA,2025,Mujeres,periurbano,No indígena,0.3161
+COL,Altos del Sol,NA,2025,Mujeres,periurbano,Total,0.3337
+COL,Bosques del Valle,NA,2016,Mujeres,periurbano,Indígena,0.3034
+COL,Bosques del Valle,NA,2016,Mujeres,periurbano,No indígena,0.2434
+COL,Bosques del Valle,NA,2016,Mujeres,periurbano,Total,0.2616
+COL,Bosques del Valle,NA,2017,Mujeres,periurbano,Indígena,0.4476
+COL,Bosques del Valle,NA,2017,Mujeres,periurbano,No indígena,0.3876
+COL,Bosques del Valle,NA,2017,Mujeres,periurbano,Total,0.4058
+COL,Bosques del Valle,NA,2018,Mujeres,periurbano,Indígena,0.4069
+COL,Bosques del Valle,NA,2018,Mujeres,periurbano,No indígena,0.3469
+COL,Bosques del Valle,NA,2018,Mujeres,periurbano,Total,0.3647
+COL,Bosques del Valle,NA,2019,Mujeres,periurbano,Indígena,0.5023
+COL,Bosques del Valle,NA,2019,Mujeres,periurbano,No indígena,0.4423
+COL,Bosques del Valle,NA,2019,Mujeres,periurbano,Total,0.4601
+COL,Bosques del Valle,NA,2020,Mujeres,periurbano,Indígena,0.5755
+COL,Bosques del Valle,NA,2020,Mujeres,periurbano,No indígena,0.5155
+COL,Bosques del Valle,NA,2020,Mujeres,periurbano,Total,0.5331
+COL,Bosques del Valle,NA,2021,Mujeres,periurbano,Indígena,0.3696
+COL,Bosques del Valle,NA,2021,Mujeres,periurbano,No indígena,0.3096
+COL,Bosques del Valle,NA,2021,Mujeres,periurbano,Total,0.3277
+COL,Bosques del Valle,NA,2022,Mujeres,periurbano,Indígena,0.4643
+COL,Bosques del Valle,NA,2022,Mujeres,periurbano,No indígena,0.4043
+COL,Bosques del Valle,NA,2022,Mujeres,periurbano,Total,0.4221
+COL,Bosques del Valle,NA,2023,Mujeres,periurbano,Indígena,0.5082
+COL,Bosques del Valle,NA,2023,Mujeres,periurbano,No indígena,0.4482
+COL,Bosques del Valle,NA,2023,Mujeres,periurbano,Total,0.4663
+COL,Bosques del Valle,NA,2024,Mujeres,periurbano,Indígena,0.4044
+COL,Bosques del Valle,NA,2024,Mujeres,periurbano,No indígena,0.3444
+COL,Bosques del Valle,NA,2024,Mujeres,periurbano,Total,0.3625
+COL,Bosques del Valle,NA,2025,Mujeres,periurbano,Indígena,0.5469
+COL,Bosques del Valle,NA,2025,Mujeres,periurbano,No indígena,0.4869
+COL,Bosques del Valle,NA,2025,Mujeres,periurbano,Total,0.505
+COL,Colinas del Valle,NA,2016,Mujeres,rural,Indígena,0.6991
+COL,Colinas del Valle,NA,2016,Mujeres,rural,No indígena,0.6391
+COL,Colinas del Valle,NA,2016,Mujeres,rural,Total,0.6658
+COL,Colinas del Valle,NA,2017,Mujeres,rural,Indígena,0.7288
+COL,Colinas del Valle,NA,2017,Mujeres,rural,No indígena,0.6688
+COL,Colinas del Valle,NA,2017,Mujeres,rural,Total,0.6955
+COL,Colinas del Valle,NA,2018,Mujeres,rural,Indígena,0.7387
+COL,Colinas del Valle,NA,2018,Mujeres,rural,No indígena,0.6787
+COL,Colinas del Valle,NA,2018,Mujeres,rural,Total,0.7054
+COL,Colinas del Valle,NA,2019,Mujeres,rural,Indígena,0.6102
+COL,Colinas del Valle,NA,2019,Mujeres,rural,No indígena,0.5502
+COL,Colinas del Valle,NA,2019,Mujeres,rural,Total,0.5769
+COL,Colinas del Valle,NA,2020,Mujeres,rural,Indígena,0.7211
+COL,Colinas del Valle,NA,2020,Mujeres,rural,No indígena,0.6611
+COL,Colinas del Valle,NA,2020,Mujeres,rural,Total,0.6875
+COL,Colinas del Valle,NA,2021,Mujeres,rural,Indígena,0.79990000000000006
+COL,Colinas del Valle,NA,2021,Mujeres,rural,No indígena,0.7399
+COL,Colinas del Valle,NA,2021,Mujeres,rural,Total,0.7676
+COL,Colinas del Valle,NA,2022,Mujeres,rural,Indígena,0.5772
+COL,Colinas del Valle,NA,2022,Mujeres,rural,No indígena,0.5172
+COL,Colinas del Valle,NA,2022,Mujeres,rural,Total,0.5439
+COL,Colinas del Valle,NA,2023,Mujeres,rural,Indígena,0.5841
+COL,Colinas del Valle,NA,2023,Mujeres,rural,No indígena,0.5241
+COL,Colinas del Valle,NA,2023,Mujeres,rural,Total,0.5518
+COL,Colinas del Valle,NA,2024,Mujeres,rural,Indígena,0.5944
+COL,Colinas del Valle,NA,2024,Mujeres,rural,No indígena,0.5344
+COL,Colinas del Valle,NA,2024,Mujeres,rural,Total,0.5621
+COL,Colinas del Valle,NA,2025,Mujeres,rural,Indígena,0.6362
+COL,Colinas del Valle,NA,2025,Mujeres,rural,No indígena,0.5762
+COL,Colinas del Valle,NA,2025,Mujeres,rural,Total,0.6039
+COL,El Carmen,NA,2016,Mujeres,periurbano,Indígena,0.6234
+COL,El Carmen,NA,2016,Mujeres,periurbano,No indígena,0.5634
+COL,El Carmen,NA,2016,Mujeres,periurbano,Total,0.5812
+COL,El Carmen,NA,2017,Mujeres,periurbano,Indígena,0.6449
+COL,El Carmen,NA,2017,Mujeres,periurbano,No indígena,0.5849
+COL,El Carmen,NA,2017,Mujeres,periurbano,Total,0.6027
+COL,El Carmen,NA,2018,Mujeres,periurbano,Indígena,0.6824
+COL,El Carmen,NA,2018,Mujeres,periurbano,No indígena,0.6224
+COL,El Carmen,NA,2018,Mujeres,periurbano,Total,0.6405
+COL,El Carmen,NA,2019,Mujeres,periurbano,Indígena,0.5635
+COL,El Carmen,NA,2019,Mujeres,periurbano,No indígena,0.5035
+COL,El Carmen,NA,2019,Mujeres,periurbano,Total,0.5216
+COL,El Carmen,NA,2020,Mujeres,periurbano,Indígena,0.6266
+COL,El Carmen,NA,2020,Mujeres,periurbano,No indígena,0.5666
+COL,El Carmen,NA,2020,Mujeres,periurbano,Total,0.5846
+COL,El Carmen,NA,2021,Mujeres,periurbano,Indígena,0.5144
+COL,El Carmen,NA,2021,Mujeres,periurbano,No indígena,0.4544
+COL,El Carmen,NA,2021,Mujeres,periurbano,Total,0.4721
+COL,El Carmen,NA,2022,Mujeres,periurbano,Indígena,0.5472
+COL,El Carmen,NA,2022,Mujeres,periurbano,No indígena,0.4872
+COL,El Carmen,NA,2022,Mujeres,periurbano,Total,0.5053
+COL,El Carmen,NA,2023,Mujeres,periurbano,Indígena,0.5361
+COL,El Carmen,NA,2023,Mujeres,periurbano,No indígena,0.4761
+COL,El Carmen,NA,2023,Mujeres,periurbano,Total,0.4946
+COL,El Carmen,NA,2024,Mujeres,periurbano,Indígena,0.6303
+COL,El Carmen,NA,2024,Mujeres,periurbano,No indígena,0.5703
+COL,El Carmen,NA,2024,Mujeres,periurbano,Total,0.5888
+COL,El Carmen,NA,2025,Mujeres,periurbano,Indígena,0.4869
+COL,El Carmen,NA,2025,Mujeres,periurbano,No indígena,0.4269
+COL,El Carmen,NA,2025,Mujeres,periurbano,Total,0.4446
+COL,El Edén,NA,2016,Mujeres,periurbano,Indígena,0.5119
+COL,El Edén,NA,2016,Mujeres,periurbano,No indígena,0.4519
+COL,El Edén,NA,2016,Mujeres,periurbano,Total,0.47
+COL,El Edén,NA,2017,Mujeres,periurbano,Indígena,0.4618
+COL,El Edén,NA,2017,Mujeres,periurbano,No indígena,0.4018
+COL,El Edén,NA,2017,Mujeres,periurbano,Total,0.4197
+COL,El Edén,NA,2018,Mujeres,periurbano,Indígena,0.4419
+COL,El Edén,NA,2018,Mujeres,periurbano,No indígena,0.3819
+COL,El Edén,NA,2018,Mujeres,periurbano,Total,0.3997
+COL,El Edén,NA,2019,Mujeres,periurbano,Indígena,0.5619
+COL,El Edén,NA,2019,Mujeres,periurbano,No indígena,0.5019
+COL,El Edén,NA,2019,Mujeres,periurbano,Total,0.5198
+COL,El Edén,NA,2020,Mujeres,periurbano,Indígena,0.5335
+COL,El Edén,NA,2020,Mujeres,periurbano,No indígena,0.4735
+COL,El Edén,NA,2020,Mujeres,periurbano,Total,0.4918
+COL,El Edén,NA,2021,Mujeres,periurbano,Indígena,0.5647
+COL,El Edén,NA,2021,Mujeres,periurbano,No indígena,0.5047
+COL,El Edén,NA,2021,Mujeres,periurbano,Total,0.5224
+COL,El Edén,NA,2022,Mujeres,periurbano,Indígena,0.5691
+COL,El Edén,NA,2022,Mujeres,periurbano,No indígena,0.5091
+COL,El Edén,NA,2022,Mujeres,periurbano,Total,0.5271
+COL,El Edén,NA,2023,Mujeres,periurbano,Indígena,0.6887
+COL,El Edén,NA,2023,Mujeres,periurbano,No indígena,0.6287
+COL,El Edén,NA,2023,Mujeres,periurbano,Total,0.6468
+COL,El Edén,NA,2024,Mujeres,periurbano,Indígena,0.6043
+COL,El Edén,NA,2024,Mujeres,periurbano,No indígena,0.5443
+COL,El Edén,NA,2024,Mujeres,periurbano,Total,0.5627
+COL,El Edén,NA,2025,Mujeres,periurbano,Indígena,0.568
+COL,El Edén,NA,2025,Mujeres,periurbano,No indígena,0.508
+COL,El Edén,NA,2025,Mujeres,periurbano,Total,0.5257
+COL,El Mirador,NA,2016,Mujeres,rural,Indígena,0.5816
+COL,El Mirador,NA,2016,Mujeres,rural,No indígena,0.5216
+COL,El Mirador,NA,2016,Mujeres,rural,Total,0.5483
+COL,El Mirador,NA,2017,Mujeres,rural,Indígena,0.5418
+COL,El Mirador,NA,2017,Mujeres,rural,No indígena,0.4818
+COL,El Mirador,NA,2017,Mujeres,rural,Total,0.5085
+COL,El Mirador,NA,2018,Mujeres,rural,Indígena,0.8101
+COL,El Mirador,NA,2018,Mujeres,rural,No indígena,0.7501
+COL,El Mirador,NA,2018,Mujeres,rural,Total,0.7767
+COL,El Mirador,NA,2019,Mujeres,rural,Indígena,0.5636
+COL,El Mirador,NA,2019,Mujeres,rural,No indígena,0.5036
+COL,El Mirador,NA,2019,Mujeres,rural,Total,0.5303
+COL,El Mirador,NA,2020,Mujeres,rural,Indígena,0.5659
+COL,El Mirador,NA,2020,Mujeres,rural,No indígena,0.5059
+COL,El Mirador,NA,2020,Mujeres,rural,Total,0.5323
+COL,El Mirador,NA,2021,Mujeres,rural,Indígena,0.6331
+COL,El Mirador,NA,2021,Mujeres,rural,No indígena,0.5731
+COL,El Mirador,NA,2021,Mujeres,rural,Total,0.6008
+COL,El Mirador,NA,2022,Mujeres,rural,Indígena,0.6022
+COL,El Mirador,NA,2022,Mujeres,rural,No indígena,0.5422
+COL,El Mirador,NA,2022,Mujeres,rural,Total,0.5699
+COL,El Mirador,NA,2023,Mujeres,rural,Indígena,0.5526
+COL,El Mirador,NA,2023,Mujeres,rural,No indígena,0.4926
+COL,El Mirador,NA,2023,Mujeres,rural,Total,0.5203
+COL,El Mirador,NA,2024,Mujeres,rural,Indígena,0.5275
+COL,El Mirador,NA,2024,Mujeres,rural,No indígena,0.4675
+COL,El Mirador,NA,2024,Mujeres,rural,Total,0.4952
+COL,El Mirador,NA,2025,Mujeres,rural,Indígena,0.7011
+COL,El Mirador,NA,2025,Mujeres,rural,No indígena,0.6411
+COL,El Mirador,NA,2025,Mujeres,rural,Total,0.6688
+COL,El Porvenir,NA,2016,Mujeres,rural,Indígena,0.7362
+COL,El Porvenir,NA,2016,Mujeres,rural,No indígena,0.6762
+COL,El Porvenir,NA,2016,Mujeres,rural,Total,0.7025
+COL,El Porvenir,NA,2017,Mujeres,rural,Indígena,0.7399
+COL,El Porvenir,NA,2017,Mujeres,rural,No indígena,0.6799
+COL,El Porvenir,NA,2017,Mujeres,rural,Total,0.7062
+COL,El Porvenir,NA,2018,Mujeres,rural,Indígena,0.5875
+COL,El Porvenir,NA,2018,Mujeres,rural,No indígena,0.5275
+COL,El Porvenir,NA,2018,Mujeres,rural,Total,0.5537
+COL,El Porvenir,NA,2019,Mujeres,rural,Indígena,0.5334
+COL,El Porvenir,NA,2019,Mujeres,rural,No indígena,0.4734
+COL,El Porvenir,NA,2019,Mujeres,rural,Total,0.5005
+COL,El Porvenir,NA,2020,Mujeres,rural,Indígena,0.7535
+COL,El Porvenir,NA,2020,Mujeres,rural,No indígena,0.6935
+COL,El Porvenir,NA,2020,Mujeres,rural,Total,0.7204
+COL,El Porvenir,NA,2021,Mujeres,rural,Indígena,0.6769
+COL,El Porvenir,NA,2021,Mujeres,rural,No indígena,0.6169
+COL,El Porvenir,NA,2021,Mujeres,rural,Total,0.644
+COL,El Porvenir,NA,2022,Mujeres,rural,Indígena,0.6669
+COL,El Porvenir,NA,2022,Mujeres,rural,No indígena,0.6069
+COL,El Porvenir,NA,2022,Mujeres,rural,Total,0.634
+COL,El Porvenir,NA,2023,Mujeres,rural,Indígena,0.73
+COL,El Porvenir,NA,2023,Mujeres,rural,No indígena,0.67
+COL,El Porvenir,NA,2023,Mujeres,rural,Total,0.6971
+COL,El Porvenir,NA,2024,Mujeres,rural,Indígena,0.8576
+COL,El Porvenir,NA,2024,Mujeres,rural,No indígena,0.7976
+COL,El Porvenir,NA,2024,Mujeres,rural,Total,0.8247
+COL,El Porvenir,NA,2025,Mujeres,rural,Indígena,0.738
+COL,El Porvenir,NA,2025,Mujeres,rural,No indígena,0.678
+COL,El Porvenir,NA,2025,Mujeres,rural,Total,0.7051
+COL,La Alameda,NA,2016,Mujeres,rural,Indígena,0.6893
+COL,La Alameda,NA,2016,Mujeres,rural,No indígena,0.6293
+COL,La Alameda,NA,2016,Mujeres,rural,Total,0.6557
+COL,La Alameda,NA,2017,Mujeres,rural,Indígena,0.6336
+COL,La Alameda,NA,2017,Mujeres,rural,No indígena,0.5736
+COL,La Alameda,NA,2017,Mujeres,rural,Total,0.6
+COL,La Alameda,NA,2018,Mujeres,rural,Indígena,0.5121
+COL,La Alameda,NA,2018,Mujeres,rural,No indígena,0.4521
+COL,La Alameda,NA,2018,Mujeres,rural,Total,0.4785
+COL,La Alameda,NA,2019,Mujeres,rural,Indígena,0.7561
+COL,La Alameda,NA,2019,Mujeres,rural,No indígena,0.6961
+COL,La Alameda,NA,2019,Mujeres,rural,Total,0.7225
+COL,La Alameda,NA,2020,Mujeres,rural,Indígena,0.9
+COL,La Alameda,NA,2020,Mujeres,rural,No indígena,0.9
+COL,La Alameda,NA,2020,Mujeres,rural,Total,0.9
+COL,La Alameda,NA,2021,Mujeres,rural,Indígena,0.8136
+COL,La Alameda,NA,2021,Mujeres,rural,No indígena,0.7536
+COL,La Alameda,NA,2021,Mujeres,rural,Total,0.7811
+COL,La Alameda,NA,2022,Mujeres,rural,Indígena,0.795
+COL,La Alameda,NA,2022,Mujeres,rural,No indígena,0.735
+COL,La Alameda,NA,2022,Mujeres,rural,Total,0.7614
+COL,La Alameda,NA,2023,Mujeres,rural,Indígena,0.5184
+COL,La Alameda,NA,2023,Mujeres,rural,No indígena,0.4584
+COL,La Alameda,NA,2023,Mujeres,rural,Total,0.4859
+COL,La Alameda,NA,2024,Mujeres,rural,Indígena,0.7372
+COL,La Alameda,NA,2024,Mujeres,rural,No indígena,0.6772
+COL,La Alameda,NA,2024,Mujeres,rural,Total,0.7047
+COL,La Alameda,NA,2025,Mujeres,rural,Indígena,0.6263
+COL,La Alameda,NA,2025,Mujeres,rural,No indígena,0.5663
+COL,La Alameda,NA,2025,Mujeres,rural,Total,0.5938
+COL,La Arboleda,NA,2016,Mujeres,periurbano,Indígena,0.1932
+COL,La Arboleda,NA,2016,Mujeres,periurbano,No indígena,0.1332
+COL,La Arboleda,NA,2016,Mujeres,periurbano,Total,0.1516
+COL,La Arboleda,NA,2017,Mujeres,periurbano,Indígena,0.44
+COL,La Arboleda,NA,2017,Mujeres,periurbano,No indígena,0.38
+COL,La Arboleda,NA,2017,Mujeres,periurbano,Total,0.3984
+COL,La Arboleda,NA,2018,Mujeres,periurbano,Indígena,0.3736
+COL,La Arboleda,NA,2018,Mujeres,periurbano,No indígena,0.3136
+COL,La Arboleda,NA,2018,Mujeres,periurbano,Total,0.3311
+COL,La Arboleda,NA,2019,Mujeres,periurbano,Indígena,0.3747
+COL,La Arboleda,NA,2019,Mujeres,periurbano,No indígena,0.3147
+COL,La Arboleda,NA,2019,Mujeres,periurbano,Total,0.3322
+COL,La Arboleda,NA,2020,Mujeres,periurbano,Indígena,0.4586
+COL,La Arboleda,NA,2020,Mujeres,periurbano,No indígena,0.3986
+COL,La Arboleda,NA,2020,Mujeres,periurbano,Total,0.4164
+COL,La Arboleda,NA,2021,Mujeres,periurbano,Indígena,0.479
+COL,La Arboleda,NA,2021,Mujeres,periurbano,No indígena,0.419
+COL,La Arboleda,NA,2021,Mujeres,periurbano,Total,0.4373
+COL,La Arboleda,NA,2022,Mujeres,periurbano,Indígena,0.4758
+COL,La Arboleda,NA,2022,Mujeres,periurbano,No indígena,0.4158
+COL,La Arboleda,NA,2022,Mujeres,periurbano,Total,0.4336
+COL,La Arboleda,NA,2023,Mujeres,periurbano,Indígena,0.4922
+COL,La Arboleda,NA,2023,Mujeres,periurbano,No indígena,0.4322
+COL,La Arboleda,NA,2023,Mujeres,periurbano,Total,0.4501
+COL,La Arboleda,NA,2024,Mujeres,periurbano,Indígena,0.3455
+COL,La Arboleda,NA,2024,Mujeres,periurbano,No indígena,0.2855
+COL,La Arboleda,NA,2024,Mujeres,periurbano,Total,0.3033
+COL,La Arboleda,NA,2025,Mujeres,periurbano,Indígena,0.4628
+COL,La Arboleda,NA,2025,Mujeres,periurbano,No indígena,0.4028
+COL,La Arboleda,NA,2025,Mujeres,periurbano,Total,0.4207
+COL,La Cañada,NA,2016,Mujeres,rural,Indígena,0.6804
+COL,La Cañada,NA,2016,Mujeres,rural,No indígena,0.6204
+COL,La Cañada,NA,2016,Mujeres,rural,Total,0.6476
+COL,La Cañada,NA,2017,Mujeres,rural,Indígena,0.6176
+COL,La Cañada,NA,2017,Mujeres,rural,No indígena,0.5576
+COL,La Cañada,NA,2017,Mujeres,rural,Total,0.5849
+COL,La Cañada,NA,2018,Mujeres,rural,Indígena,0.7831
+COL,La Cañada,NA,2018,Mujeres,rural,No indígena,0.7231
+COL,La Cañada,NA,2018,Mujeres,rural,Total,0.7503
+COL,La Cañada,NA,2019,Mujeres,rural,Indígena,0.6142
+COL,La Cañada,NA,2019,Mujeres,rural,No indígena,0.5542
+COL,La Cañada,NA,2019,Mujeres,rural,Total,0.5815
+COL,La Cañada,NA,2020,Mujeres,rural,Indígena,0.6054
+COL,La Cañada,NA,2020,Mujeres,rural,No indígena,0.5454
+COL,La Cañada,NA,2020,Mujeres,rural,Total,0.5724
+COL,La Cañada,NA,2021,Mujeres,rural,Indígena,0.7935
+COL,La Cañada,NA,2021,Mujeres,rural,No indígena,0.7335
+COL,La Cañada,NA,2021,Mujeres,rural,Total,0.7592
+COL,La Cañada,NA,2022,Mujeres,rural,Indígena,0.6071
+COL,La Cañada,NA,2022,Mujeres,rural,No indígena,0.5471
+COL,La Cañada,NA,2022,Mujeres,rural,Total,0.5743
+COL,La Cañada,NA,2023,Mujeres,rural,Indígena,0.5549
+COL,La Cañada,NA,2023,Mujeres,rural,No indígena,0.4949
+COL,La Cañada,NA,2023,Mujeres,rural,Total,0.5222
+COL,La Cañada,NA,2024,Mujeres,rural,Indígena,0.5002
+COL,La Cañada,NA,2024,Mujeres,rural,No indígena,0.4402
+COL,La Cañada,NA,2024,Mujeres,rural,Total,0.4675
+COL,La Cañada,NA,2025,Mujeres,rural,Indígena,0.4335
+COL,La Cañada,NA,2025,Mujeres,rural,No indígena,0.3735
+COL,La Cañada,NA,2025,Mujeres,rural,Total,0.4007
+COL,La Esperanza,NA,2016,Mujeres,urbano,Indígena,0.1211
+COL,La Esperanza,NA,2016,Mujeres,urbano,No indígena,0.0611
+COL,La Esperanza,NA,2016,Mujeres,urbano,Total,0.0699
+COL,La Esperanza,NA,2017,Mujeres,urbano,Indígena,0.1267
+COL,La Esperanza,NA,2017,Mujeres,urbano,No indígena,0.0667
+COL,La Esperanza,NA,2017,Mujeres,urbano,Total,0.0756
+COL,La Esperanza,NA,2018,Mujeres,urbano,Indígena,0.1199
+COL,La Esperanza,NA,2018,Mujeres,urbano,No indígena,0.0599
+COL,La Esperanza,NA,2018,Mujeres,urbano,Total,0.0689
+COL,La Esperanza,NA,2019,Mujeres,urbano,Indígena,0.1402
+COL,La Esperanza,NA,2019,Mujeres,urbano,No indígena,0.0802
+COL,La Esperanza,NA,2019,Mujeres,urbano,Total,0.0892
+COL,La Esperanza,NA,2020,Mujeres,urbano,Indígena,0.1525
+COL,La Esperanza,NA,2020,Mujeres,urbano,No indígena,0.0925
+COL,La Esperanza,NA,2020,Mujeres,urbano,Total,0.1014
+COL,La Esperanza,NA,2021,Mujeres,urbano,Indígena,0.1283
+COL,La Esperanza,NA,2021,Mujeres,urbano,No indígena,0.0683
+COL,La Esperanza,NA,2021,Mujeres,urbano,Total,0.0776
+COL,La Esperanza,NA,2022,Mujeres,urbano,Indígena,0.0543
+COL,La Esperanza,NA,2022,Mujeres,urbano,No indígena,0.02
+COL,La Esperanza,NA,2022,Mujeres,urbano,Total,0.0252
+COL,La Esperanza,NA,2023,Mujeres,urbano,Indígena,0.0712
+COL,La Esperanza,NA,2023,Mujeres,urbano,No indígena,0.02
+COL,La Esperanza,NA,2023,Mujeres,urbano,Total,0.0278
+COL,La Esperanza,NA,2024,Mujeres,urbano,Indígena,0.0755
+COL,La Esperanza,NA,2024,Mujeres,urbano,No indígena,0.02
+COL,La Esperanza,NA,2024,Mujeres,urbano,Total,0.0285
+COL,La Esperanza,NA,2025,Mujeres,urbano,Indígena,0.1056
+COL,La Esperanza,NA,2025,Mujeres,urbano,No indígena,0.0456
+COL,La Esperanza,NA,2025,Mujeres,urbano,Total,0.0548
+COL,La Primavera,NA,2016,Mujeres,periurbano,Indígena,0.5592
+COL,La Primavera,NA,2016,Mujeres,periurbano,No indígena,0.4992
+COL,La Primavera,NA,2016,Mujeres,periurbano,Total,0.5171
+COL,La Primavera,NA,2017,Mujeres,periurbano,Indígena,0.5273
+COL,La Primavera,NA,2017,Mujeres,periurbano,No indígena,0.4673
+COL,La Primavera,NA,2017,Mujeres,periurbano,Total,0.4853
+COL,La Primavera,NA,2018,Mujeres,periurbano,Indígena,0.5287
+COL,La Primavera,NA,2018,Mujeres,periurbano,No indígena,0.4687
+COL,La Primavera,NA,2018,Mujeres,periurbano,Total,0.4869
+COL,La Primavera,NA,2019,Mujeres,periurbano,Indígena,0.429
+COL,La Primavera,NA,2019,Mujeres,periurbano,No indígena,0.369
+COL,La Primavera,NA,2019,Mujeres,periurbano,Total,0.3871
+COL,La Primavera,NA,2020,Mujeres,periurbano,Indígena,0.4725
+COL,La Primavera,NA,2020,Mujeres,periurbano,No indígena,0.4125
+COL,La Primavera,NA,2020,Mujeres,periurbano,Total,0.4302
+COL,La Primavera,NA,2021,Mujeres,periurbano,Indígena,0.5513
+COL,La Primavera,NA,2021,Mujeres,periurbano,No indígena,0.4913
+COL,La Primavera,NA,2021,Mujeres,periurbano,Total,0.5094
+COL,La Primavera,NA,2022,Mujeres,periurbano,Indígena,0.5042
+COL,La Primavera,NA,2022,Mujeres,periurbano,No indígena,0.4442
+COL,La Primavera,NA,2022,Mujeres,periurbano,Total,0.462
+COL,La Primavera,NA,2023,Mujeres,periurbano,Indígena,0.3999
+COL,La Primavera,NA,2023,Mujeres,periurbano,No indígena,0.3399
+COL,La Primavera,NA,2023,Mujeres,periurbano,Total,0.3577
+COL,La Primavera,NA,2024,Mujeres,periurbano,Indígena,0.4979
+COL,La Primavera,NA,2024,Mujeres,periurbano,No indígena,0.4379
+COL,La Primavera,NA,2024,Mujeres,periurbano,Total,0.4558
+COL,La Primavera,NA,2025,Mujeres,periurbano,Indígena,0.4551
+COL,La Primavera,NA,2025,Mujeres,periurbano,No indígena,0.3951
+COL,La Primavera,NA,2025,Mujeres,periurbano,Total,0.4132
+COL,La Rivera,NA,2016,Mujeres,urbano,Indígena,0.0458
 COL,La Rivera,NA,2016,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2016,Mujeres,urbano,Total,0.0223
-COL,La Rivera,NA,2017,Mujeres,urbano,Indígena,0.0457
+COL,La Rivera,NA,2016,Mujeres,urbano,Total,0.0239
+COL,La Rivera,NA,2017,Mujeres,urbano,Indígena,0.039
 COL,La Rivera,NA,2017,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2017,Mujeres,urbano,Total,0.0239
-COL,La Rivera,NA,2018,Mujeres,urbano,Indígena,0.0365
+COL,La Rivera,NA,2017,Mujeres,urbano,Total,0.0229
+COL,La Rivera,NA,2018,Mujeres,urbano,Indígena,0.02
 COL,La Rivera,NA,2018,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2018,Mujeres,urbano,Total,0.0225
-COL,La Rivera,NA,2019,Mujeres,urbano,Indígena,0.0472
-COL,La Rivera,NA,2019,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2019,Mujeres,urbano,Total,0.0242
-COL,La Rivera,NA,2020,Mujeres,urbano,Indígena,0.0754
-COL,La Rivera,NA,2020,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2020,Mujeres,urbano,Total,0.0285
-COL,La Rivera,NA,2021,Mujeres,urbano,Indígena,0.0649
-COL,La Rivera,NA,2021,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2021,Mujeres,urbano,Total,0.0267
-COL,La Rivera,NA,2022,Mujeres,urbano,Indígena,0.0449
-COL,La Rivera,NA,2022,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2022,Mujeres,urbano,Total,0.0237
-COL,La Rivera,NA,2023,Mujeres,urbano,Indígena,0.0441
+COL,La Rivera,NA,2018,Mujeres,urbano,Total,0.02
+COL,La Rivera,NA,2019,Mujeres,urbano,Indígena,0.1117
+COL,La Rivera,NA,2019,Mujeres,urbano,No indígena,0.0517
+COL,La Rivera,NA,2019,Mujeres,urbano,Total,0.0609
+COL,La Rivera,NA,2020,Mujeres,urbano,Indígena,0.1014
+COL,La Rivera,NA,2020,Mujeres,urbano,No indígena,0.0414
+COL,La Rivera,NA,2020,Mujeres,urbano,Total,0.0506
+COL,La Rivera,NA,2021,Mujeres,urbano,Indígena,0.0902
+COL,La Rivera,NA,2021,Mujeres,urbano,No indígena,0.0302
+COL,La Rivera,NA,2021,Mujeres,urbano,Total,0.0392
+COL,La Rivera,NA,2022,Mujeres,urbano,Indígena,0.1074
+COL,La Rivera,NA,2022,Mujeres,urbano,No indígena,0.0474
+COL,La Rivera,NA,2022,Mujeres,urbano,Total,0.0563
+COL,La Rivera,NA,2023,Mujeres,urbano,Indígena,0.056
 COL,La Rivera,NA,2023,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2023,Mujeres,urbano,Total,0.0236
-COL,La Rivera,NA,2024,Mujeres,urbano,Indígena,0.0376
+COL,La Rivera,NA,2023,Mujeres,urbano,Total,0.0254
+COL,La Rivera,NA,2024,Mujeres,urbano,Indígena,0.0333
 COL,La Rivera,NA,2024,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2024,Mujeres,urbano,Total,0.0226
-COL,La Rivera,NA,2025,Mujeres,urbano,Indígena,0.0332
+COL,La Rivera,NA,2024,Mujeres,urbano,Total,0.022
+COL,La Rivera,NA,2025,Mujeres,urbano,Indígena,0.02
 COL,La Rivera,NA,2025,Mujeres,urbano,No indígena,0.02
-COL,La Rivera,NA,2025,Mujeres,urbano,Total,0.022
-COL,Las Brisas,NA,2016,Mujeres,rural,Indígena,0.6297
-COL,Las Brisas,NA,2016,Mujeres,rural,No indígena,0.5697
-COL,Las Brisas,NA,2016,Mujeres,rural,Total,0.5968
-COL,Las Brisas,NA,2017,Mujeres,rural,Indígena,0.6401
-COL,Las Brisas,NA,2017,Mujeres,rural,No indígena,0.5801
-COL,Las Brisas,NA,2017,Mujeres,rural,Total,0.6072
-COL,Las Brisas,NA,2018,Mujeres,rural,Indígena,0.6309
-COL,Las Brisas,NA,2018,Mujeres,rural,No indígena,0.5709
-COL,Las Brisas,NA,2018,Mujeres,rural,Total,0.5978
-COL,Las Brisas,NA,2019,Mujeres,rural,Indígena,0.6417
-COL,Las Brisas,NA,2019,Mujeres,rural,No indígena,0.5817
-COL,Las Brisas,NA,2019,Mujeres,rural,Total,0.6086
-COL,Las Brisas,NA,2020,Mujeres,rural,Indígena,0.6698
-COL,Las Brisas,NA,2020,Mujeres,rural,No indígena,0.6098
-COL,Las Brisas,NA,2020,Mujeres,rural,Total,0.6365
-COL,Las Brisas,NA,2021,Mujeres,rural,Indígena,0.6594
-COL,Las Brisas,NA,2021,Mujeres,rural,No indígena,0.5994
-COL,Las Brisas,NA,2021,Mujeres,rural,Total,0.6263
-COL,Las Brisas,NA,2022,Mujeres,rural,Indígena,0.6393
-COL,Las Brisas,NA,2022,Mujeres,rural,No indígena,0.5793
-COL,Las Brisas,NA,2022,Mujeres,rural,Total,0.6062
-COL,Las Brisas,NA,2023,Mujeres,rural,Indígena,0.6486
-COL,Las Brisas,NA,2023,Mujeres,rural,No indígena,0.5886
-COL,Las Brisas,NA,2023,Mujeres,rural,Total,0.6155
-COL,Las Brisas,NA,2024,Mujeres,rural,Indígena,0.642
-COL,Las Brisas,NA,2024,Mujeres,rural,No indígena,0.582
-COL,Las Brisas,NA,2024,Mujeres,rural,Total,0.6089
-COL,Las Brisas,NA,2025,Mujeres,rural,Indígena,0.6377
-COL,Las Brisas,NA,2025,Mujeres,rural,No indígena,0.5777
-COL,Las Brisas,NA,2025,Mujeres,rural,Total,0.6046
-COL,Las Palmas,NA,2016,Mujeres,periurbano,Indígena,0.3609
-COL,Las Palmas,NA,2016,Mujeres,periurbano,No indígena,0.3009
-COL,Las Palmas,NA,2016,Mujeres,periurbano,Total,0.319
-COL,Las Palmas,NA,2017,Mujeres,periurbano,Indígena,0.3713
-COL,Las Palmas,NA,2017,Mujeres,periurbano,No indígena,0.3113
-COL,Las Palmas,NA,2017,Mujeres,periurbano,Total,0.3294
-COL,Las Palmas,NA,2018,Mujeres,periurbano,Indígena,0.3621
-COL,Las Palmas,NA,2018,Mujeres,periurbano,No indígena,0.3021
-COL,Las Palmas,NA,2018,Mujeres,periurbano,Total,0.3202
-COL,Las Palmas,NA,2019,Mujeres,periurbano,Indígena,0.3729
-COL,Las Palmas,NA,2019,Mujeres,periurbano,No indígena,0.3129
-COL,Las Palmas,NA,2019,Mujeres,periurbano,Total,0.3314
-COL,Las Palmas,NA,2020,Mujeres,periurbano,Indígena,0.401
-COL,Las Palmas,NA,2020,Mujeres,periurbano,No indígena,0.341
-COL,Las Palmas,NA,2020,Mujeres,periurbano,Total,0.3594
-COL,Las Palmas,NA,2021,Mujeres,periurbano,Indígena,0.3906
-COL,Las Palmas,NA,2021,Mujeres,periurbano,No indígena,0.3306
-COL,Las Palmas,NA,2021,Mujeres,periurbano,Total,0.3486
-COL,Las Palmas,NA,2022,Mujeres,periurbano,Indígena,0.3705
-COL,Las Palmas,NA,2022,Mujeres,periurbano,No indígena,0.3105
-COL,Las Palmas,NA,2022,Mujeres,periurbano,Total,0.3282
-COL,Las Palmas,NA,2023,Mujeres,periurbano,Indígena,0.3718
-COL,Las Palmas,NA,2023,Mujeres,periurbano,No indígena,0.3118
-COL,Las Palmas,NA,2023,Mujeres,periurbano,Total,0.3294
-COL,Las Palmas,NA,2024,Mujeres,periurbano,Indígena,0.3652
-COL,Las Palmas,NA,2024,Mujeres,periurbano,No indígena,0.3052
-COL,Las Palmas,NA,2024,Mujeres,periurbano,Total,0.3232
-COL,Las Palmas,NA,2025,Mujeres,periurbano,Indígena,0.3609
-COL,Las Palmas,NA,2025,Mujeres,periurbano,No indígena,0.3009
-COL,Las Palmas,NA,2025,Mujeres,periurbano,Total,0.3189
-COL,Los Arrayanes,NA,2016,Mujeres,rural,Indígena,0.6755
-COL,Los Arrayanes,NA,2016,Mujeres,rural,No indígena,0.6155
-COL,Los Arrayanes,NA,2016,Mujeres,rural,Total,0.6422
-COL,Los Arrayanes,NA,2017,Mujeres,rural,Indígena,0.6859
-COL,Los Arrayanes,NA,2017,Mujeres,rural,No indígena,0.6259
-COL,Los Arrayanes,NA,2017,Mujeres,rural,Total,0.6526
-COL,Los Arrayanes,NA,2018,Mujeres,rural,Indígena,0.6768
-COL,Los Arrayanes,NA,2018,Mujeres,rural,No indígena,0.6168
-COL,Los Arrayanes,NA,2018,Mujeres,rural,Total,0.6434
-COL,Los Arrayanes,NA,2019,Mujeres,rural,Indígena,0.6875
-COL,Los Arrayanes,NA,2019,Mujeres,rural,No indígena,0.6275
-COL,Los Arrayanes,NA,2019,Mujeres,rural,Total,0.6552
-COL,Los Arrayanes,NA,2020,Mujeres,rural,Indígena,0.7157
-COL,Los Arrayanes,NA,2020,Mujeres,rural,No indígena,0.6557
-COL,Los Arrayanes,NA,2020,Mujeres,rural,Total,0.6821
-COL,Los Arrayanes,NA,2021,Mujeres,rural,Indígena,0.7052
-COL,Los Arrayanes,NA,2021,Mujeres,rural,No indígena,0.6452
-COL,Los Arrayanes,NA,2021,Mujeres,rural,Total,0.6716
-COL,Los Arrayanes,NA,2022,Mujeres,rural,Indígena,0.6852
-COL,Los Arrayanes,NA,2022,Mujeres,rural,No indígena,0.6252
-COL,Los Arrayanes,NA,2022,Mujeres,rural,Total,0.6529
-COL,Los Arrayanes,NA,2023,Mujeres,rural,Indígena,0.6944
-COL,Los Arrayanes,NA,2023,Mujeres,rural,No indígena,0.6344
-COL,Los Arrayanes,NA,2023,Mujeres,rural,Total,0.6621
-COL,Los Arrayanes,NA,2024,Mujeres,rural,Indígena,0.6878
-COL,Los Arrayanes,NA,2024,Mujeres,rural,No indígena,0.6278
-COL,Los Arrayanes,NA,2024,Mujeres,rural,Total,0.6542
-COL,Los Arrayanes,NA,2025,Mujeres,rural,Indígena,0.6835
-COL,Los Arrayanes,NA,2025,Mujeres,rural,No indígena,0.6235
-COL,Los Arrayanes,NA,2025,Mujeres,rural,Total,0.6499
-COL,Los Pinos,NA,2016,Mujeres,rural,Indígena,0.6887
-COL,Los Pinos,NA,2016,Mujeres,rural,No indígena,0.6287
-COL,Los Pinos,NA,2016,Mujeres,rural,Total,0.6562
-COL,Los Pinos,NA,2017,Mujeres,rural,Indígena,0.6991
-COL,Los Pinos,NA,2017,Mujeres,rural,No indígena,0.6391
-COL,Los Pinos,NA,2017,Mujeres,rural,Total,0.6666
-COL,Los Pinos,NA,2018,Mujeres,rural,Indígena,0.6899
-COL,Los Pinos,NA,2018,Mujeres,rural,No indígena,0.6299
-COL,Los Pinos,NA,2018,Mujeres,rural,Total,0.6574
-COL,Los Pinos,NA,2019,Mujeres,rural,Indígena,0.7007
-COL,Los Pinos,NA,2019,Mujeres,rural,No indígena,0.6407
-COL,Los Pinos,NA,2019,Mujeres,rural,Total,0.6682
-COL,Los Pinos,NA,2020,Mujeres,rural,Indígena,0.7288
-COL,Los Pinos,NA,2020,Mujeres,rural,No indígena,0.6688
-COL,Los Pinos,NA,2020,Mujeres,rural,Total,0.6961
-COL,Los Pinos,NA,2021,Mujeres,rural,Indígena,0.7184
-COL,Los Pinos,NA,2021,Mujeres,rural,No indígena,0.6584
-COL,Los Pinos,NA,2021,Mujeres,rural,Total,0.6845
-COL,Los Pinos,NA,2022,Mujeres,rural,Indígena,0.6983
-COL,Los Pinos,NA,2022,Mujeres,rural,No indígena,0.6383
-COL,Los Pinos,NA,2022,Mujeres,rural,Total,0.6644
-COL,Los Pinos,NA,2023,Mujeres,rural,Indígena,0.7076
-COL,Los Pinos,NA,2023,Mujeres,rural,No indígena,0.6476
-COL,Los Pinos,NA,2023,Mujeres,rural,Total,0.6737
-COL,Los Pinos,NA,2024,Mujeres,rural,Indígena,0.701
-COL,Los Pinos,NA,2024,Mujeres,rural,No indígena,0.641
-COL,Los Pinos,NA,2024,Mujeres,rural,Total,0.6671
-COL,Los Pinos,NA,2025,Mujeres,rural,Indígena,0.6967
-COL,Los Pinos,NA,2025,Mujeres,rural,No indígena,0.6367
-COL,Los Pinos,NA,2025,Mujeres,rural,Total,0.6628
-COL,Los Álamos,NA,2016,Mujeres,rural,Indígena,0.6856
-COL,Los Álamos,NA,2016,Mujeres,rural,No indígena,0.6256
-COL,Los Álamos,NA,2016,Mujeres,rural,Total,0.6529
-COL,Los Álamos,NA,2017,Mujeres,rural,Indígena,0.696
-COL,Los Álamos,NA,2017,Mujeres,rural,No indígena,0.636
-COL,Los Álamos,NA,2017,Mujeres,rural,Total,0.6633
-COL,Los Álamos,NA,2018,Mujeres,rural,Indígena,0.6869
-COL,Los Álamos,NA,2018,Mujeres,rural,No indígena,0.6269
-COL,Los Álamos,NA,2018,Mujeres,rural,Total,0.6541
-COL,Los Álamos,NA,2019,Mujeres,rural,Indígena,0.6976
-COL,Los Álamos,NA,2019,Mujeres,rural,No indígena,0.6376
-COL,Los Álamos,NA,2019,Mujeres,rural,Total,0.6649
-COL,Los Álamos,NA,2020,Mujeres,rural,Indígena,0.7258
-COL,Los Álamos,NA,2020,Mujeres,rural,No indígena,0.6658
-COL,Los Álamos,NA,2020,Mujeres,rural,Total,0.6928
-COL,Los Álamos,NA,2021,Mujeres,rural,Indígena,0.7153
-COL,Los Álamos,NA,2021,Mujeres,rural,No indígena,0.6553
-COL,Los Álamos,NA,2021,Mujeres,rural,Total,0.681
-COL,Los Álamos,NA,2022,Mujeres,rural,Indígena,0.6953
-COL,Los Álamos,NA,2022,Mujeres,rural,No indígena,0.6353
-COL,Los Álamos,NA,2022,Mujeres,rural,Total,0.6625
-COL,Los Álamos,NA,2023,Mujeres,rural,Indígena,0.7045
-COL,Los Álamos,NA,2023,Mujeres,rural,No indígena,0.6445
-COL,Los Álamos,NA,2023,Mujeres,rural,Total,0.6718
-COL,Los Álamos,NA,2024,Mujeres,rural,Indígena,0.6979
-COL,Los Álamos,NA,2024,Mujeres,rural,No indígena,0.6379
-COL,Los Álamos,NA,2024,Mujeres,rural,Total,0.6652
-COL,Los Álamos,NA,2025,Mujeres,rural,Indígena,0.6936
-COL,Los Álamos,NA,2025,Mujeres,rural,No indígena,0.6336
-COL,Los Álamos,NA,2025,Mujeres,rural,Total,0.6593
-COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,Indígena,0.4833
-COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,No indígena,0.4233
-COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,Total,0.4415
-COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,Indígena,0.4938
-COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,No indígena,0.4338
-COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,Total,0.452
-COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,Indígena,0.4846
-COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,No indígena,0.4246
-COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,Total,0.4424
-COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,Indígena,0.4954
-COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,No indígena,0.4354
-COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,Total,0.4532
-COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,Indígena,0.5235
-COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,No indígena,0.4635
-COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,Total,0.4815
-COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,Indígena,0.5131
-COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,No indígena,0.4531
-COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,Total,0.4715
-COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,Indígena,0.493
-COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,No indígena,0.433
-COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,Total,0.4511
-COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,Indígena,0.4943
-COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,No indígena,0.4343
-COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,Total,0.4524
-COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,Indígena,0.4877
-COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,No indígena,0.4277
-COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,Total,0.4458
-COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,Indígena,0.4834
-COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,No indígena,0.4234
-COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,Total,0.4415
-COL,Nueva Vida,NA,2016,Mujeres,periurbano,Indígena,0.3763
-COL,Nueva Vida,NA,2016,Mujeres,periurbano,No indígena,0.3163
-COL,Nueva Vida,NA,2016,Mujeres,periurbano,Total,0.3338
-COL,Nueva Vida,NA,2017,Mujeres,periurbano,Indígena,0.3867
-COL,Nueva Vida,NA,2017,Mujeres,periurbano,No indígena,0.3267
-COL,Nueva Vida,NA,2017,Mujeres,periurbano,Total,0.3446
-COL,Nueva Vida,NA,2018,Mujeres,periurbano,Indígena,0.3775
-COL,Nueva Vida,NA,2018,Mujeres,periurbano,No indígena,0.3175
-COL,Nueva Vida,NA,2018,Mujeres,periurbano,Total,0.3354
-COL,Nueva Vida,NA,2019,Mujeres,periurbano,Indígena,0.3883
-COL,Nueva Vida,NA,2019,Mujeres,periurbano,No indígena,0.3283
-COL,Nueva Vida,NA,2019,Mujeres,periurbano,Total,0.3462
-COL,Nueva Vida,NA,2020,Mujeres,periurbano,Indígena,0.4164
-COL,Nueva Vida,NA,2020,Mujeres,periurbano,No indígena,0.3564
-COL,Nueva Vida,NA,2020,Mujeres,periurbano,Total,0.3742
-COL,Nueva Vida,NA,2021,Mujeres,periurbano,Indígena,0.406
-COL,Nueva Vida,NA,2021,Mujeres,periurbano,No indígena,0.346
-COL,Nueva Vida,NA,2021,Mujeres,periurbano,Total,0.3643
-COL,Nueva Vida,NA,2022,Mujeres,periurbano,Indígena,0.3859
-COL,Nueva Vida,NA,2022,Mujeres,periurbano,No indígena,0.3259
-COL,Nueva Vida,NA,2022,Mujeres,periurbano,Total,0.3438
-COL,Nueva Vida,NA,2023,Mujeres,periurbano,Indígena,0.3872
-COL,Nueva Vida,NA,2023,Mujeres,periurbano,No indígena,0.3272
-COL,Nueva Vida,NA,2023,Mujeres,periurbano,Total,0.3454
-COL,Nueva Vida,NA,2024,Mujeres,periurbano,Indígena,0.3806
-COL,Nueva Vida,NA,2024,Mujeres,periurbano,No indígena,0.3206
-COL,Nueva Vida,NA,2024,Mujeres,periurbano,Total,0.3389
-COL,Nueva Vida,NA,2025,Mujeres,periurbano,Indígena,0.3763
-COL,Nueva Vida,NA,2025,Mujeres,periurbano,No indígena,0.3163
-COL,Nueva Vida,NA,2025,Mujeres,periurbano,Total,0.3346
-COL,Plaza del Valle,NA,2016,Mujeres,rural,Indígena,0.745
-COL,Plaza del Valle,NA,2016,Mujeres,rural,No indígena,0.685
-COL,Plaza del Valle,NA,2016,Mujeres,rural,Total,0.7114
-COL,Plaza del Valle,NA,2017,Mujeres,rural,Indígena,0.7554
-COL,Plaza del Valle,NA,2017,Mujeres,rural,No indígena,0.6954
-COL,Plaza del Valle,NA,2017,Mujeres,rural,Total,0.7229
-COL,Plaza del Valle,NA,2018,Mujeres,rural,Indígena,0.7462
-COL,Plaza del Valle,NA,2018,Mujeres,rural,No indígena,0.6862
-COL,Plaza del Valle,NA,2018,Mujeres,rural,Total,0.7137
-COL,Plaza del Valle,NA,2019,Mujeres,rural,Indígena,0.757
-COL,Plaza del Valle,NA,2019,Mujeres,rural,No indígena,0.697
-COL,Plaza del Valle,NA,2019,Mujeres,rural,Total,0.7245
-COL,Plaza del Valle,NA,2020,Mujeres,rural,Indígena,0.7851
-COL,Plaza del Valle,NA,2020,Mujeres,rural,No indígena,0.7251
-COL,Plaza del Valle,NA,2020,Mujeres,rural,Total,0.7524
-COL,Plaza del Valle,NA,2021,Mujeres,rural,Indígena,0.7747
-COL,Plaza del Valle,NA,2021,Mujeres,rural,No indígena,0.7147
-COL,Plaza del Valle,NA,2021,Mujeres,rural,Total,0.7408
-COL,Plaza del Valle,NA,2022,Mujeres,rural,Indígena,0.7546
-COL,Plaza del Valle,NA,2022,Mujeres,rural,No indígena,0.6946
-COL,Plaza del Valle,NA,2022,Mujeres,rural,Total,0.7221
-COL,Plaza del Valle,NA,2023,Mujeres,rural,Indígena,0.7639
-COL,Plaza del Valle,NA,2023,Mujeres,rural,No indígena,0.7039
-COL,Plaza del Valle,NA,2023,Mujeres,rural,Total,0.7314
-COL,Plaza del Valle,NA,2024,Mujeres,rural,Indígena,0.7573
-COL,Plaza del Valle,NA,2024,Mujeres,rural,No indígena,0.6973
-COL,Plaza del Valle,NA,2024,Mujeres,rural,Total,0.7248
-COL,Plaza del Valle,NA,2025,Mujeres,rural,Indígena,0.753
-COL,Plaza del Valle,NA,2025,Mujeres,rural,No indígena,0.693
-COL,Plaza del Valle,NA,2025,Mujeres,rural,Total,0.7205
-COL,San Isidro,NA,2016,Mujeres,rural,Indígena,0.6263
-COL,San Isidro,NA,2016,Mujeres,rural,No indígena,0.5663
-COL,San Isidro,NA,2016,Mujeres,rural,Total,0.5934
-COL,San Isidro,NA,2017,Mujeres,rural,Indígena,0.6368
-COL,San Isidro,NA,2017,Mujeres,rural,No indígena,0.5768
-COL,San Isidro,NA,2017,Mujeres,rural,Total,0.6039
-COL,San Isidro,NA,2018,Mujeres,rural,Indígena,0.6276
-COL,San Isidro,NA,2018,Mujeres,rural,No indígena,0.5676
-COL,San Isidro,NA,2018,Mujeres,rural,Total,0.5947
-COL,San Isidro,NA,2019,Mujeres,rural,Indígena,0.6383
-COL,San Isidro,NA,2019,Mujeres,rural,No indígena,0.5783
-COL,San Isidro,NA,2019,Mujeres,rural,Total,0.6054
-COL,San Isidro,NA,2020,Mujeres,rural,Indígena,0.6665
-COL,San Isidro,NA,2020,Mujeres,rural,No indígena,0.6065
-COL,San Isidro,NA,2020,Mujeres,rural,Total,0.6343
-COL,San Isidro,NA,2021,Mujeres,rural,Indígena,0.656
-COL,San Isidro,NA,2021,Mujeres,rural,No indígena,0.596
-COL,San Isidro,NA,2021,Mujeres,rural,Total,0.6229
-COL,San Isidro,NA,2022,Mujeres,rural,Indígena,0.636
-COL,San Isidro,NA,2022,Mujeres,rural,No indígena,0.576
-COL,San Isidro,NA,2022,Mujeres,rural,Total,0.6029
-COL,San Isidro,NA,2023,Mujeres,rural,Indígena,0.6452
-COL,San Isidro,NA,2023,Mujeres,rural,No indígena,0.5852
-COL,San Isidro,NA,2023,Mujeres,rural,Total,0.6121
-COL,San Isidro,NA,2024,Mujeres,rural,Indígena,0.6387
-COL,San Isidro,NA,2024,Mujeres,rural,No indígena,0.5787
-COL,San Isidro,NA,2024,Mujeres,rural,Total,0.6056
-COL,San Isidro,NA,2025,Mujeres,rural,Indígena,0.6344
-COL,San Isidro,NA,2025,Mujeres,rural,No indígena,0.5744
-COL,San Isidro,NA,2025,Mujeres,rural,Total,0.6012
-COL,San Joaquín,NA,2016,Mujeres,periurbano,Indígena,0.4113
-COL,San Joaquín,NA,2016,Mujeres,periurbano,No indígena,0.3513
-COL,San Joaquín,NA,2016,Mujeres,periurbano,Total,0.3692
-COL,San Joaquín,NA,2017,Mujeres,periurbano,Indígena,0.4217
-COL,San Joaquín,NA,2017,Mujeres,periurbano,No indígena,0.3617
-COL,San Joaquín,NA,2017,Mujeres,periurbano,Total,0.3796
-COL,San Joaquín,NA,2018,Mujeres,periurbano,Indígena,0.4125
-COL,San Joaquín,NA,2018,Mujeres,periurbano,No indígena,0.3525
-COL,San Joaquín,NA,2018,Mujeres,periurbano,Total,0.3704
-COL,San Joaquín,NA,2019,Mujeres,periurbano,Indígena,0.4233
-COL,San Joaquín,NA,2019,Mujeres,periurbano,No indígena,0.3633
-COL,San Joaquín,NA,2019,Mujeres,periurbano,Total,0.3815
-COL,San Joaquín,NA,2020,Mujeres,periurbano,Indígena,0.4514
-COL,San Joaquín,NA,2020,Mujeres,periurbano,No indígena,0.3914
-COL,San Joaquín,NA,2020,Mujeres,periurbano,Total,0.4098
-COL,San Joaquín,NA,2021,Mujeres,periurbano,Indígena,0.441
-COL,San Joaquín,NA,2021,Mujeres,periurbano,No indígena,0.381
-COL,San Joaquín,NA,2021,Mujeres,periurbano,Total,0.3988
-COL,San Joaquín,NA,2022,Mujeres,periurbano,Indígena,0.4209
-COL,San Joaquín,NA,2022,Mujeres,periurbano,No indígena,0.3609
-COL,San Joaquín,NA,2022,Mujeres,periurbano,Total,0.3791
-COL,San Joaquín,NA,2023,Mujeres,periurbano,Indígena,0.4222
-COL,San Joaquín,NA,2023,Mujeres,periurbano,No indígena,0.3622
-COL,San Joaquín,NA,2023,Mujeres,periurbano,Total,0.38
-COL,San Joaquín,NA,2024,Mujeres,periurbano,Indígena,0.4156
-COL,San Joaquín,NA,2024,Mujeres,periurbano,No indígena,0.3556
-COL,San Joaquín,NA,2024,Mujeres,periurbano,Total,0.3734
-COL,San Joaquín,NA,2025,Mujeres,periurbano,Indígena,0.4113
-COL,San Joaquín,NA,2025,Mujeres,periurbano,No indígena,0.3513
-COL,San Joaquín,NA,2025,Mujeres,periurbano,Total,0.3691
-COL,San Martín del Valle,NA,2016,Mujeres,Total,Indígena,0.4801
-COL,San Martín del Valle,NA,2016,Mujeres,Total,No indígena,0.3337
-COL,San Martín del Valle,NA,2016,Mujeres,Total,Total,0.3796
-COL,San Martín del Valle,NA,2016,Mujeres,periurbano,Indígena,0.3918
-COL,San Martín del Valle,NA,2016,Mujeres,periurbano,No indígena,0.3318
-COL,San Martín del Valle,NA,2016,Mujeres,periurbano,Total,0.3498
-COL,San Martín del Valle,NA,2016,Mujeres,rural,Indígena,0.6757
-COL,San Martín del Valle,NA,2016,Mujeres,rural,No indígena,0.6152
-COL,San Martín del Valle,NA,2016,Mujeres,rural,Total,0.6424
-COL,San Martín del Valle,NA,2016,Mujeres,urbano,Indígena,0.1063
-COL,San Martín del Valle,NA,2016,Mujeres,urbano,No indígena,0.0637
-COL,San Martín del Valle,NA,2016,Mujeres,urbano,Total,0.0701
-COL,San Martín del Valle,NA,2017,Mujeres,Total,Indígena,0.4906
-COL,San Martín del Valle,NA,2017,Mujeres,Total,No indígena,0.3431
-COL,San Martín del Valle,NA,2017,Mujeres,Total,Total,0.3895
-COL,San Martín del Valle,NA,2017,Mujeres,periurbano,Indígena,0.402
-COL,San Martín del Valle,NA,2017,Mujeres,periurbano,No indígena,0.3421
-COL,San Martín del Valle,NA,2017,Mujeres,periurbano,Total,0.3601
-COL,San Martín del Valle,NA,2017,Mujeres,rural,Indígena,0.6862
-COL,San Martín del Valle,NA,2017,Mujeres,rural,No indígena,0.6253
-COL,San Martín del Valle,NA,2017,Mujeres,rural,Total,0.6527
-COL,San Martín del Valle,NA,2017,Mujeres,urbano,Indígena,0.1167
-COL,San Martín del Valle,NA,2017,Mujeres,urbano,No indígena,0.0704
-COL,San Martín del Valle,NA,2017,Mujeres,urbano,Total,0.0774
-COL,San Martín del Valle,NA,2018,Mujeres,Total,Indígena,0.4805
-COL,San Martín del Valle,NA,2018,Mujeres,Total,No indígena,0.3343
-COL,San Martín del Valle,NA,2018,Mujeres,Total,Total,0.3801
-COL,San Martín del Valle,NA,2018,Mujeres,periurbano,Indígena,0.3925
-COL,San Martín del Valle,NA,2018,Mujeres,periurbano,No indígena,0.3327
-COL,San Martín del Valle,NA,2018,Mujeres,periurbano,Total,0.3506
-COL,San Martín del Valle,NA,2018,Mujeres,rural,Indígena,0.6763
-COL,San Martín del Valle,NA,2018,Mujeres,rural,No indígena,0.6162
-COL,San Martín del Valle,NA,2018,Mujeres,rural,Total,0.6432
-COL,San Martín del Valle,NA,2018,Mujeres,urbano,Indígena,0.1076
-COL,San Martín del Valle,NA,2018,Mujeres,urbano,No indígena,0.0644
-COL,San Martín del Valle,NA,2018,Mujeres,urbano,Total,0.071
-COL,San Martín del Valle,NA,2019,Mujeres,Total,Indígena,0.4912
-COL,San Martín del Valle,NA,2019,Mujeres,Total,No indígena,0.344
-COL,San Martín del Valle,NA,2019,Mujeres,Total,Total,0.3903
-COL,San Martín del Valle,NA,2019,Mujeres,periurbano,Indígena,0.4033
-COL,San Martín del Valle,NA,2019,Mujeres,periurbano,No indígena,0.3437
-COL,San Martín del Valle,NA,2019,Mujeres,periurbano,Total,0.3616
-COL,San Martín del Valle,NA,2019,Mujeres,rural,Indígena,0.6871
-COL,San Martín del Valle,NA,2019,Mujeres,rural,No indígena,0.6271
-COL,San Martín del Valle,NA,2019,Mujeres,rural,Total,0.6542
-COL,San Martín del Valle,NA,2019,Mujeres,urbano,Indígena,0.1183
-COL,San Martín del Valle,NA,2019,Mujeres,urbano,No indígena,0.0713
-COL,San Martín del Valle,NA,2019,Mujeres,urbano,Total,0.0785
-COL,San Martín del Valle,NA,2020,Mujeres,Total,Indígena,0.5193
-COL,San Martín del Valle,NA,2020,Mujeres,Total,No indígena,0.3694
-COL,San Martín del Valle,NA,2020,Mujeres,Total,Total,0.4164
-COL,San Martín del Valle,NA,2020,Mujeres,periurbano,Indígena,0.432
-COL,San Martín del Valle,NA,2020,Mujeres,periurbano,No indígena,0.3718
-COL,San Martín del Valle,NA,2020,Mujeres,periurbano,Total,0.3898
-COL,San Martín del Valle,NA,2020,Mujeres,rural,Indígena,0.7156
-COL,San Martín del Valle,NA,2020,Mujeres,rural,No indígena,0.6551
-COL,San Martín del Valle,NA,2020,Mujeres,rural,Total,0.6823
-COL,San Martín del Valle,NA,2020,Mujeres,urbano,Indígena,0.146
-COL,San Martín del Valle,NA,2020,Mujeres,urbano,No indígena,0.0886
-COL,San Martín del Valle,NA,2020,Mujeres,urbano,Total,0.0972
-COL,San Martín del Valle,NA,2021,Mujeres,Total,Indígena,0.5092
-COL,San Martín del Valle,NA,2021,Mujeres,Total,No indígena,0.3615
-COL,San Martín del Valle,NA,2021,Mujeres,Total,Total,0.4077
-COL,San Martín del Valle,NA,2021,Mujeres,periurbano,Indígena,0.4216
-COL,San Martín del Valle,NA,2021,Mujeres,periurbano,No indígena,0.3613
-COL,San Martín del Valle,NA,2021,Mujeres,periurbano,Total,0.3793
-COL,San Martín del Valle,NA,2021,Mujeres,rural,Indígena,0.7045
-COL,San Martín del Valle,NA,2021,Mujeres,rural,No indígena,0.6453
-COL,San Martín del Valle,NA,2021,Mujeres,rural,Total,0.6716
-COL,San Martín del Valle,NA,2021,Mujeres,urbano,Indígena,0.137
-COL,San Martín del Valle,NA,2021,Mujeres,urbano,No indígena,0.0822
-COL,San Martín del Valle,NA,2021,Mujeres,urbano,Total,0.0905
-COL,San Martín del Valle,NA,2022,Mujeres,Total,Indígena,0.4905
-COL,San Martín del Valle,NA,2022,Mujeres,Total,No indígena,0.3421
-COL,San Martín del Valle,NA,2022,Mujeres,Total,Total,0.3886
-COL,San Martín del Valle,NA,2022,Mujeres,periurbano,Indígena,0.4015
-COL,San Martín del Valle,NA,2022,Mujeres,periurbano,No indígena,0.3413
-COL,San Martín del Valle,NA,2022,Mujeres,periurbano,Total,0.3593
-COL,San Martín del Valle,NA,2022,Mujeres,rural,Indígena,0.6851
-COL,San Martín del Valle,NA,2022,Mujeres,rural,No indígena,0.6249
-COL,San Martín del Valle,NA,2022,Mujeres,rural,Total,0.652
-COL,San Martín del Valle,NA,2022,Mujeres,urbano,Indígena,0.117
-COL,San Martín del Valle,NA,2022,Mujeres,urbano,No indígena,0.0698
-COL,San Martín del Valle,NA,2022,Mujeres,urbano,Total,0.0768
-COL,San Martín del Valle,NA,2023,Mujeres,Total,Indígena,0.495
-COL,San Martín del Valle,NA,2023,Mujeres,Total,No indígena,0.3451
-COL,San Martín del Valle,NA,2023,Mujeres,Total,Total,0.3923
-COL,San Martín del Valle,NA,2023,Mujeres,periurbano,Indígena,0.4027
-COL,San Martín del Valle,NA,2023,Mujeres,periurbano,No indígena,0.3426
-COL,San Martín del Valle,NA,2023,Mujeres,periurbano,Total,0.3606
-COL,San Martín del Valle,NA,2023,Mujeres,rural,Indígena,0.6944
-COL,San Martín del Valle,NA,2023,Mujeres,rural,No indígena,0.6345
-COL,San Martín del Valle,NA,2023,Mujeres,rural,Total,0.6615
-COL,San Martín del Valle,NA,2023,Mujeres,urbano,Indígena,0.1162
-COL,San Martín del Valle,NA,2023,Mujeres,urbano,No indígena,0.0693
-COL,San Martín del Valle,NA,2023,Mujeres,urbano,Total,0.0763
-COL,San Martín del Valle,NA,2024,Mujeres,Total,Indígena,0.488
-COL,San Martín del Valle,NA,2024,Mujeres,Total,No indígena,0.3391
-COL,San Martín del Valle,NA,2024,Mujeres,Total,Total,0.386
-COL,San Martín del Valle,NA,2024,Mujeres,periurbano,Indígena,0.3961
-COL,San Martín del Valle,NA,2024,Mujeres,periurbano,No indígena,0.336
-COL,San Martín del Valle,NA,2024,Mujeres,periurbano,Total,0.3541
-COL,San Martín del Valle,NA,2024,Mujeres,rural,Indígena,0.6878
-COL,San Martín del Valle,NA,2024,Mujeres,rural,No indígena,0.6279
-COL,San Martín del Valle,NA,2024,Mujeres,rural,Total,0.6549
-COL,San Martín del Valle,NA,2024,Mujeres,urbano,Indígena,0.1096
-COL,San Martín del Valle,NA,2024,Mujeres,urbano,No indígena,0.0652
-COL,San Martín del Valle,NA,2024,Mujeres,urbano,Total,0.0718
-COL,San Martín del Valle,NA,2025,Mujeres,Total,Indígena,0.4835
-COL,San Martín del Valle,NA,2025,Mujeres,Total,No indígena,0.3358
-COL,San Martín del Valle,NA,2025,Mujeres,Total,Total,0.3821
-COL,San Martín del Valle,NA,2025,Mujeres,periurbano,Indígena,0.3917
-COL,San Martín del Valle,NA,2025,Mujeres,periurbano,No indígena,0.3318
-COL,San Martín del Valle,NA,2025,Mujeres,periurbano,Total,0.3497
-COL,San Martín del Valle,NA,2025,Mujeres,rural,Indígena,0.6839
-COL,San Martín del Valle,NA,2025,Mujeres,rural,No indígena,0.6236
-COL,San Martín del Valle,NA,2025,Mujeres,rural,Total,0.6506
-COL,San Martín del Valle,NA,2025,Mujeres,urbano,Indígena,0.1053
-COL,San Martín del Valle,NA,2025,Mujeres,urbano,No indígena,0.0626
-COL,San Martín del Valle,NA,2025,Mujeres,urbano,Total,0.0691
-COL,San Rafael,NA,2016,Mujeres,urbano,Indígena,0.1373
-COL,San Rafael,NA,2016,Mujeres,urbano,No indígena,0.0773
-COL,San Rafael,NA,2016,Mujeres,urbano,Total,0.0864
-COL,San Rafael,NA,2017,Mujeres,urbano,Indígena,0.1477
-COL,San Rafael,NA,2017,Mujeres,urbano,No indígena,0.0877
-COL,San Rafael,NA,2017,Mujeres,urbano,Total,0.0968
-COL,San Rafael,NA,2018,Mujeres,urbano,Indígena,0.1385
-COL,San Rafael,NA,2018,Mujeres,urbano,No indígena,0.0785
-COL,San Rafael,NA,2018,Mujeres,urbano,Total,0.0877
-COL,San Rafael,NA,2019,Mujeres,urbano,Indígena,0.1493
-COL,San Rafael,NA,2019,Mujeres,urbano,No indígena,0.0893
-COL,San Rafael,NA,2019,Mujeres,urbano,Total,0.0985
-COL,San Rafael,NA,2020,Mujeres,urbano,Indígena,0.1774
-COL,San Rafael,NA,2020,Mujeres,urbano,No indígena,0.1174
-COL,San Rafael,NA,2020,Mujeres,urbano,Total,0.1266
-COL,San Rafael,NA,2021,Mujeres,urbano,Indígena,0.167
-COL,San Rafael,NA,2021,Mujeres,urbano,No indígena,0.107
-COL,San Rafael,NA,2021,Mujeres,urbano,Total,0.1159
-COL,San Rafael,NA,2022,Mujeres,urbano,Indígena,0.1469
-COL,San Rafael,NA,2022,Mujeres,urbano,No indígena,0.0869
-COL,San Rafael,NA,2022,Mujeres,urbano,Total,0.0956
-COL,San Rafael,NA,2023,Mujeres,urbano,Indígena,0.1462
-COL,San Rafael,NA,2023,Mujeres,urbano,No indígena,0.0862
-COL,San Rafael,NA,2023,Mujeres,urbano,Total,0.095
-COL,San Rafael,NA,2024,Mujeres,urbano,Indígena,0.1396
-COL,San Rafael,NA,2024,Mujeres,urbano,No indígena,0.0796
-COL,San Rafael,NA,2024,Mujeres,urbano,Total,0.0884
-COL,San Rafael,NA,2025,Mujeres,urbano,Indígena,0.1353
-COL,San Rafael,NA,2025,Mujeres,urbano,No indígena,0.0753
-COL,San Rafael,NA,2025,Mujeres,urbano,Total,0.0842
-COL,Santa Ana,NA,2016,Mujeres,rural,Indígena,0.5982
-COL,Santa Ana,NA,2016,Mujeres,rural,No indígena,0.5382
-COL,Santa Ana,NA,2016,Mujeres,rural,Total,0.5642
-COL,Santa Ana,NA,2017,Mujeres,rural,Indígena,0.6086
-COL,Santa Ana,NA,2017,Mujeres,rural,No indígena,0.5486
-COL,Santa Ana,NA,2017,Mujeres,rural,Total,0.5747
-COL,Santa Ana,NA,2018,Mujeres,rural,Indígena,0.5994
-COL,Santa Ana,NA,2018,Mujeres,rural,No indígena,0.5394
-COL,Santa Ana,NA,2018,Mujeres,rural,Total,0.5667
-COL,Santa Ana,NA,2019,Mujeres,rural,Indígena,0.6102
-COL,Santa Ana,NA,2019,Mujeres,rural,No indígena,0.5502
-COL,Santa Ana,NA,2019,Mujeres,rural,Total,0.5774
-COL,Santa Ana,NA,2020,Mujeres,rural,Indígena,0.6383
-COL,Santa Ana,NA,2020,Mujeres,rural,No indígena,0.5783
-COL,Santa Ana,NA,2020,Mujeres,rural,Total,0.604
-COL,Santa Ana,NA,2021,Mujeres,rural,Indígena,0.6279
-COL,Santa Ana,NA,2021,Mujeres,rural,No indígena,0.5679
-COL,Santa Ana,NA,2021,Mujeres,rural,Total,0.5951
-COL,Santa Ana,NA,2022,Mujeres,rural,Indígena,0.6078
-COL,Santa Ana,NA,2022,Mujeres,rural,No indígena,0.5478
-COL,Santa Ana,NA,2022,Mujeres,rural,Total,0.5751
-COL,Santa Ana,NA,2023,Mujeres,rural,Indígena,0.6171
-COL,Santa Ana,NA,2023,Mujeres,rural,No indígena,0.5571
-COL,Santa Ana,NA,2023,Mujeres,rural,Total,0.5843
-COL,Santa Ana,NA,2024,Mujeres,rural,Indígena,0.6105
-COL,Santa Ana,NA,2024,Mujeres,rural,No indígena,0.5505
-COL,Santa Ana,NA,2024,Mujeres,rural,Total,0.5778
-COL,Santa Ana,NA,2025,Mujeres,rural,Indígena,0.6062
-COL,Santa Ana,NA,2025,Mujeres,rural,No indígena,0.5462
-COL,Santa Ana,NA,2025,Mujeres,rural,Total,0.5735
-COL,Santa Elena,NA,2016,Mujeres,periurbano,Indígena,0.30620000000000003
-COL,Santa Elena,NA,2016,Mujeres,periurbano,No indígena,0.2462
-COL,Santa Elena,NA,2016,Mujeres,periurbano,Total,0.2643
-COL,Santa Elena,NA,2017,Mujeres,periurbano,Indígena,0.3167
-COL,Santa Elena,NA,2017,Mujeres,periurbano,No indígena,0.2567
-COL,Santa Elena,NA,2017,Mujeres,periurbano,Total,0.2747
-COL,Santa Elena,NA,2018,Mujeres,periurbano,Indígena,0.3075
-COL,Santa Elena,NA,2018,Mujeres,periurbano,No indígena,0.2475
-COL,Santa Elena,NA,2018,Mujeres,periurbano,Total,0.2656
-COL,Santa Elena,NA,2019,Mujeres,periurbano,Indígena,0.3182
-COL,Santa Elena,NA,2019,Mujeres,periurbano,No indígena,0.2582
-COL,Santa Elena,NA,2019,Mujeres,periurbano,Total,0.2766
-COL,Santa Elena,NA,2020,Mujeres,periurbano,Indígena,0.3464
-COL,Santa Elena,NA,2020,Mujeres,periurbano,No indígena,0.2864
-COL,Santa Elena,NA,2020,Mujeres,periurbano,Total,0.3039
-COL,Santa Elena,NA,2021,Mujeres,periurbano,Indígena,0.3359
-COL,Santa Elena,NA,2021,Mujeres,periurbano,No indígena,0.2759
-COL,Santa Elena,NA,2021,Mujeres,periurbano,Total,0.2939
-COL,Santa Elena,NA,2022,Mujeres,periurbano,Indígena,0.3159
-COL,Santa Elena,NA,2022,Mujeres,periurbano,No indígena,0.2559
-COL,Santa Elena,NA,2022,Mujeres,periurbano,Total,0.2736
-COL,Santa Elena,NA,2023,Mujeres,periurbano,Indígena,0.3171
-COL,Santa Elena,NA,2023,Mujeres,periurbano,No indígena,0.2571
-COL,Santa Elena,NA,2023,Mujeres,periurbano,Total,0.2751
-COL,Santa Elena,NA,2024,Mujeres,periurbano,Indígena,0.3105
-COL,Santa Elena,NA,2024,Mujeres,periurbano,No indígena,0.2505
-COL,Santa Elena,NA,2024,Mujeres,periurbano,Total,0.2685
-COL,Santa Elena,NA,2025,Mujeres,periurbano,Indígena,0.30620000000000003
-COL,Santa Elena,NA,2025,Mujeres,periurbano,No indígena,0.2462
-COL,Santa Elena,NA,2025,Mujeres,periurbano,Total,0.2642
-COL,Santa Lucía,NA,2016,Mujeres,rural,Indígena,0.7824
-COL,Santa Lucía,NA,2016,Mujeres,rural,No indígena,0.7224
-COL,Santa Lucía,NA,2016,Mujeres,rural,Total,0.7495
-COL,Santa Lucía,NA,2017,Mujeres,rural,Indígena,0.7929
-COL,Santa Lucía,NA,2017,Mujeres,rural,No indígena,0.7329
-COL,Santa Lucía,NA,2017,Mujeres,rural,Total,0.76
-COL,Santa Lucía,NA,2018,Mujeres,rural,Indígena,0.7837
-COL,Santa Lucía,NA,2018,Mujeres,rural,No indígena,0.7237
-COL,Santa Lucía,NA,2018,Mujeres,rural,Total,0.7506
-COL,Santa Lucía,NA,2019,Mujeres,rural,Indígena,0.7945
-COL,Santa Lucía,NA,2019,Mujeres,rural,No indígena,0.7345
-COL,Santa Lucía,NA,2019,Mujeres,rural,Total,0.7614
-COL,Santa Lucía,NA,2020,Mujeres,rural,Indígena,0.8226
-COL,Santa Lucía,NA,2020,Mujeres,rural,No indígena,0.7626
-COL,Santa Lucía,NA,2020,Mujeres,rural,Total,0.7893
-COL,Santa Lucía,NA,2021,Mujeres,rural,Indígena,0.8122
-COL,Santa Lucía,NA,2021,Mujeres,rural,No indígena,0.7522
-COL,Santa Lucía,NA,2021,Mujeres,rural,Total,0.7791
-COL,Santa Lucía,NA,2022,Mujeres,rural,Indígena,0.7921
-COL,Santa Lucía,NA,2022,Mujeres,rural,No indígena,0.7321
-COL,Santa Lucía,NA,2022,Mujeres,rural,Total,0.759
-COL,Santa Lucía,NA,2023,Mujeres,rural,Indígena,0.8014
-COL,Santa Lucía,NA,2023,Mujeres,rural,No indígena,0.7414
-COL,Santa Lucía,NA,2023,Mujeres,rural,Total,0.7682
-COL,Santa Lucía,NA,2024,Mujeres,rural,Indígena,0.7948
-COL,Santa Lucía,NA,2024,Mujeres,rural,No indígena,0.7348
-COL,Santa Lucía,NA,2024,Mujeres,rural,Total,0.7617
-COL,Santa Lucía,NA,2025,Mujeres,rural,Indígena,0.7905
-COL,Santa Lucía,NA,2025,Mujeres,rural,No indígena,0.7305
-COL,Santa Lucía,NA,2025,Mujeres,rural,Total,0.7574
-COL,Santa Rosa,NA,2016,Mujeres,periurbano,Indígena,0.2763
-COL,Santa Rosa,NA,2016,Mujeres,periurbano,No indígena,0.2163
-COL,Santa Rosa,NA,2016,Mujeres,periurbano,Total,0.2345
-COL,Santa Rosa,NA,2017,Mujeres,periurbano,Indígena,0.2867
-COL,Santa Rosa,NA,2017,Mujeres,periurbano,No indígena,0.2267
-COL,Santa Rosa,NA,2017,Mujeres,periurbano,Total,0.2449
-COL,Santa Rosa,NA,2018,Mujeres,periurbano,Indígena,0.2775
-COL,Santa Rosa,NA,2018,Mujeres,periurbano,No indígena,0.2175
-COL,Santa Rosa,NA,2018,Mujeres,periurbano,Total,0.2357
-COL,Santa Rosa,NA,2019,Mujeres,periurbano,Indígena,0.2883
-COL,Santa Rosa,NA,2019,Mujeres,periurbano,No indígena,0.2283
-COL,Santa Rosa,NA,2019,Mujeres,periurbano,Total,0.2465
-COL,Santa Rosa,NA,2020,Mujeres,periurbano,Indígena,0.3164
-COL,Santa Rosa,NA,2020,Mujeres,periurbano,No indígena,0.2564
-COL,Santa Rosa,NA,2020,Mujeres,periurbano,Total,0.2741
-COL,Santa Rosa,NA,2021,Mujeres,periurbano,Indígena,0.306
-COL,Santa Rosa,NA,2021,Mujeres,periurbano,No indígena,0.246
-COL,Santa Rosa,NA,2021,Mujeres,periurbano,Total,0.2641
-COL,Santa Rosa,NA,2022,Mujeres,periurbano,Indígena,0.2859
-COL,Santa Rosa,NA,2022,Mujeres,periurbano,No indígena,0.2259
-COL,Santa Rosa,NA,2022,Mujeres,periurbano,Total,0.2437
-COL,Santa Rosa,NA,2023,Mujeres,periurbano,Indígena,0.2872
-COL,Santa Rosa,NA,2023,Mujeres,periurbano,No indígena,0.2272
-COL,Santa Rosa,NA,2023,Mujeres,periurbano,Total,0.245
-COL,Santa Rosa,NA,2024,Mujeres,periurbano,Indígena,0.2806
-COL,Santa Rosa,NA,2024,Mujeres,periurbano,No indígena,0.2206
-COL,Santa Rosa,NA,2024,Mujeres,periurbano,Total,0.2384
-COL,Santa Rosa,NA,2025,Mujeres,periurbano,Indígena,0.2763
-COL,Santa Rosa,NA,2025,Mujeres,periurbano,No indígena,0.2163
-COL,Santa Rosa,NA,2025,Mujeres,periurbano,Total,0.2344
-COL,Villa Esperanza,NA,2016,Mujeres,rural,Indígena,0.5869
-COL,Villa Esperanza,NA,2016,Mujeres,rural,No indígena,0.5269
-COL,Villa Esperanza,NA,2016,Mujeres,rural,Total,0.5541
-COL,Villa Esperanza,NA,2017,Mujeres,rural,Indígena,0.5973
-COL,Villa Esperanza,NA,2017,Mujeres,rural,No indígena,0.5373
-COL,Villa Esperanza,NA,2017,Mujeres,rural,Total,0.5646
-COL,Villa Esperanza,NA,2018,Mujeres,rural,Indígena,0.5881
-COL,Villa Esperanza,NA,2018,Mujeres,rural,No indígena,0.5281
-COL,Villa Esperanza,NA,2018,Mujeres,rural,Total,0.5554
-COL,Villa Esperanza,NA,2019,Mujeres,rural,Indígena,0.5989
-COL,Villa Esperanza,NA,2019,Mujeres,rural,No indígena,0.5389
-COL,Villa Esperanza,NA,2019,Mujeres,rural,Total,0.5661
-COL,Villa Esperanza,NA,2020,Mujeres,rural,Indígena,0.627
-COL,Villa Esperanza,NA,2020,Mujeres,rural,No indígena,0.567
-COL,Villa Esperanza,NA,2020,Mujeres,rural,Total,0.594
-COL,Villa Esperanza,NA,2021,Mujeres,rural,Indígena,0.6166
-COL,Villa Esperanza,NA,2021,Mujeres,rural,No indígena,0.5566
-COL,Villa Esperanza,NA,2021,Mujeres,rural,Total,0.5823
-COL,Villa Esperanza,NA,2022,Mujeres,rural,Indígena,0.5965
-COL,Villa Esperanza,NA,2022,Mujeres,rural,No indígena,0.5365
-COL,Villa Esperanza,NA,2022,Mujeres,rural,Total,0.5638
-COL,Villa Esperanza,NA,2023,Mujeres,rural,Indígena,0.6058
-COL,Villa Esperanza,NA,2023,Mujeres,rural,No indígena,0.5458
-COL,Villa Esperanza,NA,2023,Mujeres,rural,Total,0.573
-COL,Villa Esperanza,NA,2024,Mujeres,rural,Indígena,0.5992
-COL,Villa Esperanza,NA,2024,Mujeres,rural,No indígena,0.5392
-COL,Villa Esperanza,NA,2024,Mujeres,rural,Total,0.5665
-COL,Villa Esperanza,NA,2025,Mujeres,rural,Indígena,0.5949
-COL,Villa Esperanza,NA,2025,Mujeres,rural,No indígena,0.5349
-COL,Villa Esperanza,NA,2025,Mujeres,rural,Total,0.5606
-COL,Villa Norte,NA,2016,Mujeres,periurbano,Indígena,0.3335
-COL,Villa Norte,NA,2016,Mujeres,periurbano,No indígena,0.2735
-COL,Villa Norte,NA,2016,Mujeres,periurbano,Total,0.2917
-COL,Villa Norte,NA,2017,Mujeres,periurbano,Indígena,0.344
-COL,Villa Norte,NA,2017,Mujeres,periurbano,No indígena,0.284
-COL,Villa Norte,NA,2017,Mujeres,periurbano,Total,0.3021
-COL,Villa Norte,NA,2018,Mujeres,periurbano,Indígena,0.3348
-COL,Villa Norte,NA,2018,Mujeres,periurbano,No indígena,0.2748
-COL,Villa Norte,NA,2018,Mujeres,periurbano,Total,0.2926
-COL,Villa Norte,NA,2019,Mujeres,periurbano,Indígena,0.3456
-COL,Villa Norte,NA,2019,Mujeres,periurbano,No indígena,0.2856
-COL,Villa Norte,NA,2019,Mujeres,periurbano,Total,0.3034
-COL,Villa Norte,NA,2020,Mujeres,periurbano,Indígena,0.3737
-COL,Villa Norte,NA,2020,Mujeres,periurbano,No indígena,0.3137
-COL,Villa Norte,NA,2020,Mujeres,periurbano,Total,0.3317
-COL,Villa Norte,NA,2021,Mujeres,periurbano,Indígena,0.3633
-COL,Villa Norte,NA,2021,Mujeres,periurbano,No indígena,0.3033
-COL,Villa Norte,NA,2021,Mujeres,periurbano,Total,0.321
-COL,Villa Norte,NA,2022,Mujeres,periurbano,Indígena,0.3432
-COL,Villa Norte,NA,2022,Mujeres,periurbano,No indígena,0.2832
-COL,Villa Norte,NA,2022,Mujeres,periurbano,Total,0.3013
-COL,Villa Norte,NA,2023,Mujeres,periurbano,Indígena,0.3445
-COL,Villa Norte,NA,2023,Mujeres,periurbano,No indígena,0.2845
-COL,Villa Norte,NA,2023,Mujeres,periurbano,Total,0.3025
-COL,Villa Norte,NA,2024,Mujeres,periurbano,Indígena,0.3379
-COL,Villa Norte,NA,2024,Mujeres,periurbano,No indígena,0.2779
-COL,Villa Norte,NA,2024,Mujeres,periurbano,Total,0.296
-COL,Villa Norte,NA,2025,Mujeres,periurbano,Indígena,0.3336
-COL,Villa Norte,NA,2025,Mujeres,periurbano,No indígena,0.2736
-COL,Villa Norte,NA,2025,Mujeres,periurbano,Total,0.2919
-COL,Villa Sur,NA,2016,Mujeres,rural,Indígena,0.7429
-COL,Villa Sur,NA,2016,Mujeres,rural,No indígena,0.6829
-COL,Villa Sur,NA,2016,Mujeres,rural,Total,0.7108
-COL,Villa Sur,NA,2017,Mujeres,rural,Indígena,0.7534
-COL,Villa Sur,NA,2017,Mujeres,rural,No indígena,0.6934
-COL,Villa Sur,NA,2017,Mujeres,rural,Total,0.7212
-COL,Villa Sur,NA,2018,Mujeres,rural,Indígena,0.7442
-COL,Villa Sur,NA,2018,Mujeres,rural,No indígena,0.6842
-COL,Villa Sur,NA,2018,Mujeres,rural,Total,0.7109
-COL,Villa Sur,NA,2019,Mujeres,rural,Indígena,0.7549
-COL,Villa Sur,NA,2019,Mujeres,rural,No indígena,0.6949
-COL,Villa Sur,NA,2019,Mujeres,rural,Total,0.7216
-COL,Villa Sur,NA,2020,Mujeres,rural,Indígena,0.7831
-COL,Villa Sur,NA,2020,Mujeres,rural,No indígena,0.7231
-COL,Villa Sur,NA,2020,Mujeres,rural,Total,0.7508
-COL,Villa Sur,NA,2021,Mujeres,rural,Indígena,0.7726
-COL,Villa Sur,NA,2021,Mujeres,rural,No indígena,0.7126
-COL,Villa Sur,NA,2021,Mujeres,rural,Total,0.7393
-COL,Villa Sur,NA,2022,Mujeres,rural,Indígena,0.7526
-COL,Villa Sur,NA,2022,Mujeres,rural,No indígena,0.6926
-COL,Villa Sur,NA,2022,Mujeres,rural,Total,0.7193
-COL,Villa Sur,NA,2023,Mujeres,rural,Indígena,0.7618
-COL,Villa Sur,NA,2023,Mujeres,rural,No indígena,0.7018
-COL,Villa Sur,NA,2023,Mujeres,rural,Total,0.7285
-COL,Villa Sur,NA,2024,Mujeres,rural,Indígena,0.7553
-COL,Villa Sur,NA,2024,Mujeres,rural,No indígena,0.6953
-COL,Villa Sur,NA,2024,Mujeres,rural,Total,0.7219
-COL,Villa Sur,NA,2025,Mujeres,rural,Indígena,0.751
-COL,Villa Sur,NA,2025,Mujeres,rural,No indígena,0.691
-COL,Villa Sur,NA,2025,Mujeres,rural,Total,0.7176
-COL,Vista Hermosa,NA,2016,Mujeres,rural,Indígena,0.6384
-COL,Vista Hermosa,NA,2016,Mujeres,rural,No indígena,0.5784
-COL,Vista Hermosa,NA,2016,Mujeres,rural,Total,0.6059
-COL,Vista Hermosa,NA,2017,Mujeres,rural,Indígena,0.6489
-COL,Vista Hermosa,NA,2017,Mujeres,rural,No indígena,0.5889
-COL,Vista Hermosa,NA,2017,Mujeres,rural,Total,0.6164
-COL,Vista Hermosa,NA,2018,Mujeres,rural,Indígena,0.6397
-COL,Vista Hermosa,NA,2018,Mujeres,rural,No indígena,0.5797
-COL,Vista Hermosa,NA,2018,Mujeres,rural,Total,0.6072
-COL,Vista Hermosa,NA,2019,Mujeres,rural,Indígena,0.6505
-COL,Vista Hermosa,NA,2019,Mujeres,rural,No indígena,0.5905
-COL,Vista Hermosa,NA,2019,Mujeres,rural,Total,0.618
-COL,Vista Hermosa,NA,2020,Mujeres,rural,Indígena,0.6786
-COL,Vista Hermosa,NA,2020,Mujeres,rural,No indígena,0.6186
-COL,Vista Hermosa,NA,2020,Mujeres,rural,Total,0.6459
-COL,Vista Hermosa,NA,2021,Mujeres,rural,Indígena,0.6682
-COL,Vista Hermosa,NA,2021,Mujeres,rural,No indígena,0.6082
-COL,Vista Hermosa,NA,2021,Mujeres,rural,Total,0.6342
-COL,Vista Hermosa,NA,2022,Mujeres,rural,Indígena,0.6481
-COL,Vista Hermosa,NA,2022,Mujeres,rural,No indígena,0.5881
-COL,Vista Hermosa,NA,2022,Mujeres,rural,Total,0.6142
-COL,Vista Hermosa,NA,2023,Mujeres,rural,Indígena,0.6573
-COL,Vista Hermosa,NA,2023,Mujeres,rural,No indígena,0.5973
-COL,Vista Hermosa,NA,2023,Mujeres,rural,Total,0.6234
-COL,Vista Hermosa,NA,2024,Mujeres,rural,Indígena,0.6508
-COL,Vista Hermosa,NA,2024,Mujeres,rural,No indígena,0.5908
-COL,Vista Hermosa,NA,2024,Mujeres,rural,Total,0.6169
-COL,Vista Hermosa,NA,2025,Mujeres,rural,Indígena,0.6465
-COL,Vista Hermosa,NA,2025,Mujeres,rural,No indígena,0.5865
-COL,Vista Hermosa,NA,2025,Mujeres,rural,Total,0.6126
+COL,La Rivera,NA,2025,Mujeres,urbano,Total,0.02
+COL,Las Brisas,NA,2016,Mujeres,rural,Indígena,0.7253
+COL,Las Brisas,NA,2016,Mujeres,rural,No indígena,0.6653
+COL,Las Brisas,NA,2016,Mujeres,rural,Total,0.6924
+COL,Las Brisas,NA,2017,Mujeres,rural,Indígena,0.8003
+COL,Las Brisas,NA,2017,Mujeres,rural,No indígena,0.7403
+COL,Las Brisas,NA,2017,Mujeres,rural,Total,0.7674
+COL,Las Brisas,NA,2018,Mujeres,rural,Indígena,0.6845
+COL,Las Brisas,NA,2018,Mujeres,rural,No indígena,0.6245
+COL,Las Brisas,NA,2018,Mujeres,rural,Total,0.6514
+COL,Las Brisas,NA,2019,Mujeres,rural,Indígena,0.6052
+COL,Las Brisas,NA,2019,Mujeres,rural,No indígena,0.5452
+COL,Las Brisas,NA,2019,Mujeres,rural,Total,0.5721
+COL,Las Brisas,NA,2020,Mujeres,rural,Indígena,0.8049
+COL,Las Brisas,NA,2020,Mujeres,rural,No indígena,0.7449
+COL,Las Brisas,NA,2020,Mujeres,rural,Total,0.7716
+COL,Las Brisas,NA,2021,Mujeres,rural,Indígena,0.7998
+COL,Las Brisas,NA,2021,Mujeres,rural,No indígena,0.7398
+COL,Las Brisas,NA,2021,Mujeres,rural,Total,0.7667
+COL,Las Brisas,NA,2022,Mujeres,rural,Indígena,0.7834
+COL,Las Brisas,NA,2022,Mujeres,rural,No indígena,0.7234
+COL,Las Brisas,NA,2022,Mujeres,rural,Total,0.7503
+COL,Las Brisas,NA,2023,Mujeres,rural,Indígena,0.6307
+COL,Las Brisas,NA,2023,Mujeres,rural,No indígena,0.5707
+COL,Las Brisas,NA,2023,Mujeres,rural,Total,0.5976
+COL,Las Brisas,NA,2024,Mujeres,rural,Indígena,0.7081
+COL,Las Brisas,NA,2024,Mujeres,rural,No indígena,0.6481
+COL,Las Brisas,NA,2024,Mujeres,rural,Total,0.675
+COL,Las Brisas,NA,2025,Mujeres,rural,Indígena,0.8595
+COL,Las Brisas,NA,2025,Mujeres,rural,No indígena,0.7995
+COL,Las Brisas,NA,2025,Mujeres,rural,Total,0.8264
+COL,Las Palmas,NA,2016,Mujeres,periurbano,Indígena,0.2989
+COL,Las Palmas,NA,2016,Mujeres,periurbano,No indígena,0.2389
+COL,Las Palmas,NA,2016,Mujeres,periurbano,Total,0.257
+COL,Las Palmas,NA,2017,Mujeres,periurbano,Indígena,0.4409
+COL,Las Palmas,NA,2017,Mujeres,periurbano,No indígena,0.3809
+COL,Las Palmas,NA,2017,Mujeres,periurbano,Total,0.399
+COL,Las Palmas,NA,2018,Mujeres,periurbano,Indígena,0.3251
+COL,Las Palmas,NA,2018,Mujeres,periurbano,No indígena,0.2651
+COL,Las Palmas,NA,2018,Mujeres,periurbano,Total,0.2832
+COL,Las Palmas,NA,2019,Mujeres,periurbano,Indígena,0.3856
+COL,Las Palmas,NA,2019,Mujeres,periurbano,No indígena,0.3256
+COL,Las Palmas,NA,2019,Mujeres,periurbano,Total,0.3441
+COL,Las Palmas,NA,2020,Mujeres,periurbano,Indígena,0.4339
+COL,Las Palmas,NA,2020,Mujeres,periurbano,No indígena,0.3739
+COL,Las Palmas,NA,2020,Mujeres,periurbano,Total,0.3922
+COL,Las Palmas,NA,2021,Mujeres,periurbano,Indígena,0.3563
+COL,Las Palmas,NA,2021,Mujeres,periurbano,No indígena,0.2963
+COL,Las Palmas,NA,2021,Mujeres,periurbano,Total,0.3143
+COL,Las Palmas,NA,2022,Mujeres,periurbano,Indígena,0.4269
+COL,Las Palmas,NA,2022,Mujeres,periurbano,No indígena,0.3669
+COL,Las Palmas,NA,2022,Mujeres,periurbano,Total,0.3845
+COL,Las Palmas,NA,2023,Mujeres,periurbano,Indígena,0.4115
+COL,Las Palmas,NA,2023,Mujeres,periurbano,No indígena,0.3515
+COL,Las Palmas,NA,2023,Mujeres,periurbano,Total,0.3692
+COL,Las Palmas,NA,2024,Mujeres,periurbano,Indígena,0.5562
+COL,Las Palmas,NA,2024,Mujeres,periurbano,No indígena,0.4962
+COL,Las Palmas,NA,2024,Mujeres,periurbano,Total,0.5142
+COL,Las Palmas,NA,2025,Mujeres,periurbano,Indígena,0.4357
+COL,Las Palmas,NA,2025,Mujeres,periurbano,No indígena,0.3757
+COL,Las Palmas,NA,2025,Mujeres,periurbano,Total,0.3937
+COL,Los Arrayanes,NA,2016,Mujeres,rural,Indígena,0.597
+COL,Los Arrayanes,NA,2016,Mujeres,rural,No indígena,0.537
+COL,Los Arrayanes,NA,2016,Mujeres,rural,Total,0.5637
+COL,Los Arrayanes,NA,2017,Mujeres,rural,Indígena,0.5691
+COL,Los Arrayanes,NA,2017,Mujeres,rural,No indígena,0.5091
+COL,Los Arrayanes,NA,2017,Mujeres,rural,Total,0.5357
+COL,Los Arrayanes,NA,2018,Mujeres,rural,Indígena,0.8569
+COL,Los Arrayanes,NA,2018,Mujeres,rural,No indígena,0.7969
+COL,Los Arrayanes,NA,2018,Mujeres,rural,Total,0.8236
+COL,Los Arrayanes,NA,2019,Mujeres,rural,Indígena,0.7021
+COL,Los Arrayanes,NA,2019,Mujeres,rural,No indígena,0.6421
+COL,Los Arrayanes,NA,2019,Mujeres,rural,Total,0.6698
+COL,Los Arrayanes,NA,2020,Mujeres,rural,Indígena,0.8168
+COL,Los Arrayanes,NA,2020,Mujeres,rural,No indígena,0.7568
+COL,Los Arrayanes,NA,2020,Mujeres,rural,Total,0.7832
+COL,Los Arrayanes,NA,2021,Mujeres,rural,Indígena,0.7894
+COL,Los Arrayanes,NA,2021,Mujeres,rural,No indígena,0.7294
+COL,Los Arrayanes,NA,2021,Mujeres,rural,Total,0.7558
+COL,Los Arrayanes,NA,2022,Mujeres,rural,Indígena,0.7531
+COL,Los Arrayanes,NA,2022,Mujeres,rural,No indígena,0.6931
+COL,Los Arrayanes,NA,2022,Mujeres,rural,Total,0.7208
+COL,Los Arrayanes,NA,2023,Mujeres,rural,Indígena,0.698
+COL,Los Arrayanes,NA,2023,Mujeres,rural,No indígena,0.638
+COL,Los Arrayanes,NA,2023,Mujeres,rural,Total,0.6657
+COL,Los Arrayanes,NA,2024,Mujeres,rural,Indígena,0.7289
+COL,Los Arrayanes,NA,2024,Mujeres,rural,No indígena,0.6689
+COL,Los Arrayanes,NA,2024,Mujeres,rural,Total,0.6953
+COL,Los Arrayanes,NA,2025,Mujeres,rural,Indígena,0.3965
+COL,Los Arrayanes,NA,2025,Mujeres,rural,No indígena,0.3365
+COL,Los Arrayanes,NA,2025,Mujeres,rural,Total,0.3629
+COL,Los Pinos,NA,2016,Mujeres,rural,Indígena,0.6669
+COL,Los Pinos,NA,2016,Mujeres,rural,No indígena,0.6069
+COL,Los Pinos,NA,2016,Mujeres,rural,Total,0.6344
+COL,Los Pinos,NA,2017,Mujeres,rural,Indígena,0.7088
+COL,Los Pinos,NA,2017,Mujeres,rural,No indígena,0.6488
+COL,Los Pinos,NA,2017,Mujeres,rural,Total,0.6763
+COL,Los Pinos,NA,2018,Mujeres,rural,Indígena,0.5974
+COL,Los Pinos,NA,2018,Mujeres,rural,No indígena,0.5374
+COL,Los Pinos,NA,2018,Mujeres,rural,Total,0.5649
+COL,Los Pinos,NA,2019,Mujeres,rural,Indígena,0.6188
+COL,Los Pinos,NA,2019,Mujeres,rural,No indígena,0.5588
+COL,Los Pinos,NA,2019,Mujeres,rural,Total,0.5863
+COL,Los Pinos,NA,2020,Mujeres,rural,Indígena,0.7326
+COL,Los Pinos,NA,2020,Mujeres,rural,No indígena,0.6726
+COL,Los Pinos,NA,2020,Mujeres,rural,Total,0.6999
+COL,Los Pinos,NA,2021,Mujeres,rural,Indígena,0.7045
+COL,Los Pinos,NA,2021,Mujeres,rural,No indígena,0.6445
+COL,Los Pinos,NA,2021,Mujeres,rural,Total,0.6706
+COL,Los Pinos,NA,2022,Mujeres,rural,Indígena,0.6735
+COL,Los Pinos,NA,2022,Mujeres,rural,No indígena,0.6135
+COL,Los Pinos,NA,2022,Mujeres,rural,Total,0.6396
+COL,Los Pinos,NA,2023,Mujeres,rural,Indígena,0.6762
+COL,Los Pinos,NA,2023,Mujeres,rural,No indígena,0.6162
+COL,Los Pinos,NA,2023,Mujeres,rural,Total,0.6423
+COL,Los Pinos,NA,2024,Mujeres,rural,Indígena,0.6078
+COL,Los Pinos,NA,2024,Mujeres,rural,No indígena,0.5478
+COL,Los Pinos,NA,2024,Mujeres,rural,Total,0.5739
+COL,Los Pinos,NA,2025,Mujeres,rural,Indígena,0.6105
+COL,Los Pinos,NA,2025,Mujeres,rural,No indígena,0.5505
+COL,Los Pinos,NA,2025,Mujeres,rural,Total,0.5765
+COL,Los Álamos,NA,2016,Mujeres,rural,Indígena,0.6894
+COL,Los Álamos,NA,2016,Mujeres,rural,No indígena,0.6294
+COL,Los Álamos,NA,2016,Mujeres,rural,Total,0.6567
+COL,Los Álamos,NA,2017,Mujeres,rural,Indígena,0.79990000000000006
+COL,Los Álamos,NA,2017,Mujeres,rural,No indígena,0.7399
+COL,Los Álamos,NA,2017,Mujeres,rural,Total,0.7672
+COL,Los Álamos,NA,2018,Mujeres,rural,Indígena,0.6477
+COL,Los Álamos,NA,2018,Mujeres,rural,No indígena,0.5877
+COL,Los Álamos,NA,2018,Mujeres,rural,Total,0.6149
+COL,Los Álamos,NA,2019,Mujeres,rural,Indígena,0.7777
+COL,Los Álamos,NA,2019,Mujeres,rural,No indígena,0.7177
+COL,Los Álamos,NA,2019,Mujeres,rural,Total,0.745
+COL,Los Álamos,NA,2020,Mujeres,rural,Indígena,0.7469
+COL,Los Álamos,NA,2020,Mujeres,rural,No indígena,0.6869
+COL,Los Álamos,NA,2020,Mujeres,rural,Total,0.7139
+COL,Los Álamos,NA,2021,Mujeres,rural,Indígena,0.7507
+COL,Los Álamos,NA,2021,Mujeres,rural,No indígena,0.6907
+COL,Los Álamos,NA,2021,Mujeres,rural,Total,0.7164
+COL,Los Álamos,NA,2022,Mujeres,rural,Indígena,0.8069
+COL,Los Álamos,NA,2022,Mujeres,rural,No indígena,0.7469
+COL,Los Álamos,NA,2022,Mujeres,rural,Total,0.7742
+COL,Los Álamos,NA,2023,Mujeres,rural,Indígena,0.8104
+COL,Los Álamos,NA,2023,Mujeres,rural,No indígena,0.7504
+COL,Los Álamos,NA,2023,Mujeres,rural,Total,0.7777
+COL,Los Álamos,NA,2024,Mujeres,rural,Indígena,0.6529
+COL,Los Álamos,NA,2024,Mujeres,rural,No indígena,0.5929
+COL,Los Álamos,NA,2024,Mujeres,rural,Total,0.6201
+COL,Los Álamos,NA,2025,Mujeres,rural,Indígena,0.5665
+COL,Los Álamos,NA,2025,Mujeres,rural,No indígena,0.5065
+COL,Los Álamos,NA,2025,Mujeres,rural,Total,0.5322
+COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,Indígena,0.6721
+COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,No indígena,0.6121
+COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,Total,0.6303
+COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,Indígena,0.6318
+COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,No indígena,0.5718
+COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,Total,0.59
+COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,Indígena,0.6205
+COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,No indígena,0.5605
+COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,Total,0.5783
+COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,Indígena,0.5448
+COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,No indígena,0.4848
+COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,Total,0.5026
+COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,Indígena,0.6518
+COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,No indígena,0.5918
+COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,Total,0.6098
+COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,Indígena,0.5611
+COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,No indígena,0.5011
+COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,Total,0.5195
+COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,Indígena,0.6182
+COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,No indígena,0.5582
+COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,Total,0.5763
+COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,Indígena,0.6099
+COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,No indígena,0.54990000000000006
+COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,Total,0.568
+COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,Indígena,0.5281
+COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,No indígena,0.4681
+COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,Total,0.4862
+COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,Indígena,0.3879
+COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,No indígena,0.3279
+COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,Total,0.346
+COL,Nueva Vida,NA,2016,Mujeres,periurbano,Indígena,0.6137
+COL,Nueva Vida,NA,2016,Mujeres,periurbano,No indígena,0.5537
+COL,Nueva Vida,NA,2016,Mujeres,periurbano,Total,0.5712
+COL,Nueva Vida,NA,2017,Mujeres,periurbano,Indígena,0.5322
+COL,Nueva Vida,NA,2017,Mujeres,periurbano,No indígena,0.4722
+COL,Nueva Vida,NA,2017,Mujeres,periurbano,Total,0.49
+COL,Nueva Vida,NA,2018,Mujeres,periurbano,Indígena,0.3682
+COL,Nueva Vida,NA,2018,Mujeres,periurbano,No indígena,0.3082
+COL,Nueva Vida,NA,2018,Mujeres,periurbano,Total,0.3261
+COL,Nueva Vida,NA,2019,Mujeres,periurbano,Indígena,0.1921
+COL,Nueva Vida,NA,2019,Mujeres,periurbano,No indígena,0.1321
+COL,Nueva Vida,NA,2019,Mujeres,periurbano,Total,0.15
+COL,Nueva Vida,NA,2020,Mujeres,periurbano,Indígena,0.3374
+COL,Nueva Vida,NA,2020,Mujeres,periurbano,No indígena,0.2774
+COL,Nueva Vida,NA,2020,Mujeres,periurbano,Total,0.2951
+COL,Nueva Vida,NA,2021,Mujeres,periurbano,Indígena,0.4387
+COL,Nueva Vida,NA,2021,Mujeres,periurbano,No indígena,0.3787
+COL,Nueva Vida,NA,2021,Mujeres,periurbano,Total,0.3969
+COL,Nueva Vida,NA,2022,Mujeres,periurbano,Indígena,0.2493
+COL,Nueva Vida,NA,2022,Mujeres,periurbano,No indígena,0.1893
+COL,Nueva Vida,NA,2022,Mujeres,periurbano,Total,0.2071
+COL,Nueva Vida,NA,2023,Mujeres,periurbano,Indígena,0.275
+COL,Nueva Vida,NA,2023,Mujeres,periurbano,No indígena,0.215
+COL,Nueva Vida,NA,2023,Mujeres,periurbano,Total,0.2332
+COL,Nueva Vida,NA,2024,Mujeres,periurbano,Indígena,0.2898
+COL,Nueva Vida,NA,2024,Mujeres,periurbano,No indígena,0.2298
+COL,Nueva Vida,NA,2024,Mujeres,periurbano,Total,0.248
+COL,Nueva Vida,NA,2025,Mujeres,periurbano,Indígena,0.3023
+COL,Nueva Vida,NA,2025,Mujeres,periurbano,No indígena,0.2423
+COL,Nueva Vida,NA,2025,Mujeres,periurbano,Total,0.2605
+COL,Plaza del Valle,NA,2016,Mujeres,rural,Indígena,0.4466
+COL,Plaza del Valle,NA,2016,Mujeres,rural,No indígena,0.3866
+COL,Plaza del Valle,NA,2016,Mujeres,rural,Total,0.413
+COL,Plaza del Valle,NA,2017,Mujeres,rural,Indígena,0.5046
+COL,Plaza del Valle,NA,2017,Mujeres,rural,No indígena,0.4446
+COL,Plaza del Valle,NA,2017,Mujeres,rural,Total,0.4721
+COL,Plaza del Valle,NA,2018,Mujeres,rural,Indígena,0.4759
+COL,Plaza del Valle,NA,2018,Mujeres,rural,No indígena,0.4159
+COL,Plaza del Valle,NA,2018,Mujeres,rural,Total,0.4434
+COL,Plaza del Valle,NA,2019,Mujeres,rural,Indígena,0.4409
+COL,Plaza del Valle,NA,2019,Mujeres,rural,No indígena,0.3809
+COL,Plaza del Valle,NA,2019,Mujeres,rural,Total,0.4084
+COL,Plaza del Valle,NA,2020,Mujeres,rural,Indígena,0.5898
+COL,Plaza del Valle,NA,2020,Mujeres,rural,No indígena,0.5298
+COL,Plaza del Valle,NA,2020,Mujeres,rural,Total,0.5571
+COL,Plaza del Valle,NA,2021,Mujeres,rural,Indígena,0.5622
+COL,Plaza del Valle,NA,2021,Mujeres,rural,No indígena,0.5022
+COL,Plaza del Valle,NA,2021,Mujeres,rural,Total,0.5282
+COL,Plaza del Valle,NA,2022,Mujeres,rural,Indígena,0.6426
+COL,Plaza del Valle,NA,2022,Mujeres,rural,No indígena,0.5826
+COL,Plaza del Valle,NA,2022,Mujeres,rural,Total,0.6101
+COL,Plaza del Valle,NA,2023,Mujeres,rural,Indígena,0.3874
+COL,Plaza del Valle,NA,2023,Mujeres,rural,No indígena,0.3274
+COL,Plaza del Valle,NA,2023,Mujeres,rural,Total,0.3549
+COL,Plaza del Valle,NA,2024,Mujeres,rural,Indígena,0.3353
+COL,Plaza del Valle,NA,2024,Mujeres,rural,No indígena,0.2753
+COL,Plaza del Valle,NA,2024,Mujeres,rural,Total,0.3028
+COL,Plaza del Valle,NA,2025,Mujeres,rural,Indígena,0.3956
+COL,Plaza del Valle,NA,2025,Mujeres,rural,No indígena,0.3356
+COL,Plaza del Valle,NA,2025,Mujeres,rural,Total,0.3631
+COL,San Isidro,NA,2016,Mujeres,rural,Indígena,0.7013
+COL,San Isidro,NA,2016,Mujeres,rural,No indígena,0.6413
+COL,San Isidro,NA,2016,Mujeres,rural,Total,0.6684
+COL,San Isidro,NA,2017,Mujeres,rural,Indígena,0.7747
+COL,San Isidro,NA,2017,Mujeres,rural,No indígena,0.7147
+COL,San Isidro,NA,2017,Mujeres,rural,Total,0.7418
+COL,San Isidro,NA,2018,Mujeres,rural,Indígena,0.7312
+COL,San Isidro,NA,2018,Mujeres,rural,No indígena,0.6712
+COL,San Isidro,NA,2018,Mujeres,rural,Total,0.6983
+COL,San Isidro,NA,2019,Mujeres,rural,Indígena,0.6266
+COL,San Isidro,NA,2019,Mujeres,rural,No indígena,0.5666
+COL,San Isidro,NA,2019,Mujeres,rural,Total,0.5937
+COL,San Isidro,NA,2020,Mujeres,rural,Indígena,0.664
+COL,San Isidro,NA,2020,Mujeres,rural,No indígena,0.604
+COL,San Isidro,NA,2020,Mujeres,rural,Total,0.6319
+COL,San Isidro,NA,2021,Mujeres,rural,Indígena,0.6531
+COL,San Isidro,NA,2021,Mujeres,rural,No indígena,0.5931
+COL,San Isidro,NA,2021,Mujeres,rural,Total,0.62
+COL,San Isidro,NA,2022,Mujeres,rural,Indígena,0.6129
+COL,San Isidro,NA,2022,Mujeres,rural,No indígena,0.5529
+COL,San Isidro,NA,2022,Mujeres,rural,Total,0.5798
+COL,San Isidro,NA,2023,Mujeres,rural,Indígena,0.4891
+COL,San Isidro,NA,2023,Mujeres,rural,No indígena,0.4291
+COL,San Isidro,NA,2023,Mujeres,rural,Total,0.4559
+COL,San Isidro,NA,2024,Mujeres,rural,Indígena,0.7242
+COL,San Isidro,NA,2024,Mujeres,rural,No indígena,0.6642
+COL,San Isidro,NA,2024,Mujeres,rural,Total,0.6911
+COL,San Isidro,NA,2025,Mujeres,rural,Indígena,0.8016
+COL,San Isidro,NA,2025,Mujeres,rural,No indígena,0.7416
+COL,San Isidro,NA,2025,Mujeres,rural,Total,0.7685
+COL,San Joaquín,NA,2016,Mujeres,periurbano,Indígena,0.3998
+COL,San Joaquín,NA,2016,Mujeres,periurbano,No indígena,0.3398
+COL,San Joaquín,NA,2016,Mujeres,periurbano,Total,0.3577
+COL,San Joaquín,NA,2017,Mujeres,periurbano,Indígena,0.3108
+COL,San Joaquín,NA,2017,Mujeres,periurbano,No indígena,0.2508
+COL,San Joaquín,NA,2017,Mujeres,periurbano,Total,0.2688
+COL,San Joaquín,NA,2018,Mujeres,periurbano,Indígena,0.4145
+COL,San Joaquín,NA,2018,Mujeres,periurbano,No indígena,0.3545
+COL,San Joaquín,NA,2018,Mujeres,periurbano,Total,0.3724
+COL,San Joaquín,NA,2019,Mujeres,periurbano,Indígena,0.4133
+COL,San Joaquín,NA,2019,Mujeres,periurbano,No indígena,0.3533
+COL,San Joaquín,NA,2019,Mujeres,periurbano,Total,0.3715
+COL,San Joaquín,NA,2020,Mujeres,periurbano,Indígena,0.4699
+COL,San Joaquín,NA,2020,Mujeres,periurbano,No indígena,0.4099
+COL,San Joaquín,NA,2020,Mujeres,periurbano,Total,0.4283
+COL,San Joaquín,NA,2021,Mujeres,periurbano,Indígena,0.5691
+COL,San Joaquín,NA,2021,Mujeres,periurbano,No indígena,0.5091
+COL,San Joaquín,NA,2021,Mujeres,periurbano,Total,0.5269
+COL,San Joaquín,NA,2022,Mujeres,periurbano,Indígena,0.5814
+COL,San Joaquín,NA,2022,Mujeres,periurbano,No indígena,0.5214
+COL,San Joaquín,NA,2022,Mujeres,periurbano,Total,0.5396
+COL,San Joaquín,NA,2023,Mujeres,periurbano,Indígena,0.4143
+COL,San Joaquín,NA,2023,Mujeres,periurbano,No indígena,0.3543
+COL,San Joaquín,NA,2023,Mujeres,periurbano,Total,0.3721
+COL,San Joaquín,NA,2024,Mujeres,periurbano,Indígena,0.3657
+COL,San Joaquín,NA,2024,Mujeres,periurbano,No indígena,0.3057
+COL,San Joaquín,NA,2024,Mujeres,periurbano,Total,0.3235
+COL,San Joaquín,NA,2025,Mujeres,periurbano,Indígena,0.2742
+COL,San Joaquín,NA,2025,Mujeres,periurbano,No indígena,0.2142
+COL,San Joaquín,NA,2025,Mujeres,periurbano,Total,0.232
+COL,San Martín del Valle,NA,2016,Mujeres,Total,Indígena,0.4944
+COL,San Martín del Valle,NA,2016,Mujeres,Total,No indígena,0.3492
+COL,San Martín del Valle,NA,2016,Mujeres,Total,Total,0.3948
+COL,San Martín del Valle,NA,2016,Mujeres,periurbano,Indígena,0.4381
+COL,San Martín del Valle,NA,2016,Mujeres,periurbano,No indígena,0.3792
+COL,San Martín del Valle,NA,2016,Mujeres,periurbano,Total,0.3969
+COL,San Martín del Valle,NA,2016,Mujeres,rural,Indígena,0.661
+COL,San Martín del Valle,NA,2016,Mujeres,rural,No indígena,0.6011
+COL,San Martín del Valle,NA,2016,Mujeres,rural,Total,0.628
+COL,San Martín del Valle,NA,2016,Mujeres,urbano,Indígena,0.068
+COL,San Martín del Valle,NA,2016,Mujeres,urbano,No indígena,0.0329
+COL,San Martín del Valle,NA,2016,Mujeres,urbano,Total,0.0382
+COL,San Martín del Valle,NA,2017,Mujeres,Total,Indígena,0.5211
+COL,San Martín del Valle,NA,2017,Mujeres,Total,No indígena,0.3699
+COL,San Martín del Valle,NA,2017,Mujeres,Total,Total,0.4174
+COL,San Martín del Valle,NA,2017,Mujeres,periurbano,Indígena,0.4592
+COL,San Martín del Valle,NA,2017,Mujeres,periurbano,No indígena,0.3992
+COL,San Martín del Valle,NA,2017,Mujeres,periurbano,Total,0.4172
+COL,San Martín del Valle,NA,2017,Mujeres,rural,Indígena,0.6969
+COL,San Martín del Valle,NA,2017,Mujeres,rural,No indígena,0.6378
+COL,San Martín del Valle,NA,2017,Mujeres,rural,Total,0.6644
+COL,San Martín del Valle,NA,2017,Mujeres,urbano,Indígena,0.0837
+COL,San Martín del Valle,NA,2017,Mujeres,urbano,No indígena,0.0396
+COL,San Martín del Valle,NA,2017,Mujeres,urbano,Total,0.0462
+COL,San Martín del Valle,NA,2018,Mujeres,Total,Indígena,0.5024
+COL,San Martín del Valle,NA,2018,Mujeres,Total,No indígena,0.3538
+COL,San Martín del Valle,NA,2018,Mujeres,Total,Total,0.4004
+COL,San Martín del Valle,NA,2018,Mujeres,periurbano,Indígena,0.4375
+COL,San Martín del Valle,NA,2018,Mujeres,periurbano,No indígena,0.3774
+COL,San Martín del Valle,NA,2018,Mujeres,periurbano,Total,0.3954
+COL,San Martín del Valle,NA,2018,Mujeres,rural,Indígena,0.685
+COL,San Martín del Valle,NA,2018,Mujeres,rural,No indígena,0.6278
+COL,San Martín del Valle,NA,2018,Mujeres,rural,Total,0.6535
+COL,San Martín del Valle,NA,2018,Mujeres,urbano,Indígena,0.0583
+COL,San Martín del Valle,NA,2018,Mujeres,urbano,No indígena,0.0326
+COL,San Martín del Valle,NA,2018,Mujeres,urbano,Total,0.0365
+COL,San Martín del Valle,NA,2019,Mujeres,Total,Indígena,0.4765
+COL,San Martín del Valle,NA,2019,Mujeres,Total,No indígena,0.3361
+COL,San Martín del Valle,NA,2019,Mujeres,Total,Total,0.3803
+COL,San Martín del Valle,NA,2019,Mujeres,periurbano,Indígena,0.4194
+COL,San Martín del Valle,NA,2019,Mujeres,periurbano,No indígena,0.3598
+COL,San Martín del Valle,NA,2019,Mujeres,periurbano,Total,0.3777
+COL,San Martín del Valle,NA,2019,Mujeres,rural,Indígena,0.6334
+COL,San Martín del Valle,NA,2019,Mujeres,rural,No indígena,0.5735
+COL,San Martín del Valle,NA,2019,Mujeres,rural,Total,0.6006
+COL,San Martín del Valle,NA,2019,Mujeres,urbano,Indígena,0.1021
+COL,San Martín del Valle,NA,2019,Mujeres,urbano,No indígena,0.0509
+COL,San Martín del Valle,NA,2019,Mujeres,urbano,Total,0.0587
+COL,San Martín del Valle,NA,2020,Mujeres,Total,Indígena,0.5544
+COL,San Martín del Valle,NA,2020,Mujeres,Total,No indígena,0.4009
+COL,San Martín del Valle,NA,2020,Mujeres,Total,Total,0.449
+COL,San Martín del Valle,NA,2020,Mujeres,periurbano,Indígena,0.4982
+COL,San Martín del Valle,NA,2020,Mujeres,periurbano,No indígena,0.4374
+COL,San Martín del Valle,NA,2020,Mujeres,periurbano,Total,0.4556
+COL,San Martín del Valle,NA,2020,Mujeres,rural,Indígena,0.7256
+COL,San Martín del Valle,NA,2020,Mujeres,rural,No indígena,0.6688
+COL,San Martín del Valle,NA,2020,Mujeres,rural,Total,0.6943
+COL,San Martín del Valle,NA,2020,Mujeres,urbano,Indígena,0.1166
+COL,San Martín del Valle,NA,2020,Mujeres,urbano,No indígena,0.0569
+COL,San Martín del Valle,NA,2020,Mujeres,urbano,Total,0.066
+COL,San Martín del Valle,NA,2021,Mujeres,Total,Indígena,0.5578
+COL,San Martín del Valle,NA,2021,Mujeres,Total,No indígena,0.404
+COL,San Martín del Valle,NA,2021,Mujeres,Total,Total,0.4521
+COL,San Martín del Valle,NA,2021,Mujeres,periurbano,Indígena,0.5054
+COL,San Martín del Valle,NA,2021,Mujeres,periurbano,No indígena,0.4462
+COL,San Martín del Valle,NA,2021,Mujeres,periurbano,Total,0.4639
+COL,San Martín del Valle,NA,2021,Mujeres,rural,Indígena,0.726
+COL,San Martín del Valle,NA,2021,Mujeres,rural,No indígena,0.6655
+COL,San Martín del Valle,NA,2021,Mujeres,rural,Total,0.6924
+COL,San Martín del Valle,NA,2021,Mujeres,urbano,Indígena,0.1069
+COL,San Martín del Valle,NA,2021,Mujeres,urbano,No indígena,0.0466
+COL,San Martín del Valle,NA,2021,Mujeres,urbano,Total,0.0557
+COL,San Martín del Valle,NA,2022,Mujeres,Total,Indígena,0.5225
+COL,San Martín del Valle,NA,2022,Mujeres,Total,No indígena,0.3717
+COL,San Martín del Valle,NA,2022,Mujeres,Total,Total,0.4189
+COL,San Martín del Valle,NA,2022,Mujeres,periurbano,Indígena,0.4764
+COL,San Martín del Valle,NA,2022,Mujeres,periurbano,No indígena,0.4155
+COL,San Martín del Valle,NA,2022,Mujeres,periurbano,Total,0.4337
+COL,San Martín del Valle,NA,2022,Mujeres,rural,Indígena,0.6775
+COL,San Martín del Valle,NA,2022,Mujeres,rural,No indígena,0.6176
+COL,San Martín del Valle,NA,2022,Mujeres,rural,Total,0.6445
+COL,San Martín del Valle,NA,2022,Mujeres,urbano,Indígena,0.0807
+COL,San Martín del Valle,NA,2022,Mujeres,urbano,No indígena,0.0303
+COL,San Martín del Valle,NA,2022,Mujeres,urbano,Total,0.0378
+COL,San Martín del Valle,NA,2023,Mujeres,Total,Indígena,0.4895
+COL,San Martín del Valle,NA,2023,Mujeres,Total,No indígena,0.3494
+COL,San Martín del Valle,NA,2023,Mujeres,Total,Total,0.3935
+COL,San Martín del Valle,NA,2023,Mujeres,periurbano,Indígena,0.4451
+COL,San Martín del Valle,NA,2023,Mujeres,periurbano,No indígena,0.3846
+COL,San Martín del Valle,NA,2023,Mujeres,periurbano,Total,0.4028
+COL,San Martín del Valle,NA,2023,Mujeres,rural,Indígena,0.6314
+COL,San Martín del Valle,NA,2023,Mujeres,rural,No indígena,0.5719
+COL,San Martín del Valle,NA,2023,Mujeres,rural,Total,0.5988
+COL,San Martín del Valle,NA,2023,Mujeres,urbano,Indígena,0.0969
+COL,San Martín del Valle,NA,2023,Mujeres,urbano,No indígena,0.0495
+COL,San Martín del Valle,NA,2023,Mujeres,urbano,Total,0.0566
+COL,San Martín del Valle,NA,2024,Mujeres,Total,Indígena,0.4889
+COL,San Martín del Valle,NA,2024,Mujeres,Total,No indígena,0.3434
+COL,San Martín del Valle,NA,2024,Mujeres,Total,Total,0.3892
+COL,San Martín del Valle,NA,2024,Mujeres,periurbano,Indígena,0.4395
+COL,San Martín del Valle,NA,2024,Mujeres,periurbano,No indígena,0.3789
+COL,San Martín del Valle,NA,2024,Mujeres,periurbano,Total,0.3972
+COL,San Martín del Valle,NA,2024,Mujeres,rural,Indígena,0.6489
+COL,San Martín del Valle,NA,2024,Mujeres,rural,No indígena,0.5899
+COL,San Martín del Valle,NA,2024,Mujeres,rural,Total,0.6165
+COL,San Martín del Valle,NA,2024,Mujeres,urbano,Indígena,0.0465
+COL,San Martín del Valle,NA,2024,Mujeres,urbano,No indígena,0.02
+COL,San Martín del Valle,NA,2024,Mujeres,urbano,Total,0.024
+COL,San Martín del Valle,NA,2025,Mujeres,Total,Indígena,0.4728
+COL,San Martín del Valle,NA,2025,Mujeres,Total,No indígena,0.3272
+COL,San Martín del Valle,NA,2025,Mujeres,Total,Total,0.3728
+COL,San Martín del Valle,NA,2025,Mujeres,periurbano,Indígena,0.3995
+COL,San Martín del Valle,NA,2025,Mujeres,periurbano,No indígena,0.3403
+COL,San Martín del Valle,NA,2025,Mujeres,periurbano,Total,0.358
+COL,San Martín del Valle,NA,2025,Mujeres,rural,Indígena,0.66
+COL,San Martín del Valle,NA,2025,Mujeres,rural,No indígena,0.6002
+COL,San Martín del Valle,NA,2025,Mujeres,rural,Total,0.627
+COL,San Martín del Valle,NA,2025,Mujeres,urbano,Indígena,0.0478
+COL,San Martín del Valle,NA,2025,Mujeres,urbano,No indígena,0.0282
+COL,San Martín del Valle,NA,2025,Mujeres,urbano,Total,0.0311
+COL,San Rafael,NA,2016,Mujeres,urbano,Indígena,0.0424
+COL,San Rafael,NA,2016,Mujeres,urbano,No indígena,0.02
+COL,San Rafael,NA,2016,Mujeres,urbano,Total,0.0234
+COL,San Rafael,NA,2017,Mujeres,urbano,Indígena,0.0956
+COL,San Rafael,NA,2017,Mujeres,urbano,No indígena,0.0356
+COL,San Rafael,NA,2017,Mujeres,urbano,Total,0.0446
+COL,San Rafael,NA,2018,Mujeres,urbano,Indígena,0.0437
+COL,San Rafael,NA,2018,Mujeres,urbano,No indígena,0.02
+COL,San Rafael,NA,2018,Mujeres,urbano,Total,0.0236
+COL,San Rafael,NA,2019,Mujeres,urbano,Indígena,0.0521
+COL,San Rafael,NA,2019,Mujeres,urbano,No indígena,0.02
+COL,San Rafael,NA,2019,Mujeres,urbano,Total,0.0249
+COL,San Rafael,NA,2020,Mujeres,urbano,Indígena,0.0995
+COL,San Rafael,NA,2020,Mujeres,urbano,No indígena,0.0395
+COL,San Rafael,NA,2020,Mujeres,urbano,Total,0.0486
+COL,San Rafael,NA,2021,Mujeres,urbano,Indígena,0.1045
+COL,San Rafael,NA,2021,Mujeres,urbano,No indígena,0.0445
+COL,San Rafael,NA,2021,Mujeres,urbano,Total,0.0534
+COL,San Rafael,NA,2022,Mujeres,urbano,Indígena,0.0759
+COL,San Rafael,NA,2022,Mujeres,urbano,No indígena,0.02
+COL,San Rafael,NA,2022,Mujeres,urbano,Total,0.0281
+COL,San Rafael,NA,2023,Mujeres,urbano,Indígena,0.176
+COL,San Rafael,NA,2023,Mujeres,urbano,No indígena,0.116
+COL,San Rafael,NA,2023,Mujeres,urbano,Total,0.1248
+COL,San Rafael,NA,2024,Mujeres,urbano,Indígena,0.0315
+COL,San Rafael,NA,2024,Mujeres,urbano,No indígena,0.02
+COL,San Rafael,NA,2024,Mujeres,urbano,Total,0.0217
+COL,San Rafael,NA,2025,Mujeres,urbano,Indígena,0.02
+COL,San Rafael,NA,2025,Mujeres,urbano,No indígena,0.02
+COL,San Rafael,NA,2025,Mujeres,urbano,Total,0.02
+COL,Santa Ana,NA,2016,Mujeres,rural,Indígena,0.6554
+COL,Santa Ana,NA,2016,Mujeres,rural,No indígena,0.5954
+COL,Santa Ana,NA,2016,Mujeres,rural,Total,0.6214
+COL,Santa Ana,NA,2017,Mujeres,rural,Indígena,0.7952
+COL,Santa Ana,NA,2017,Mujeres,rural,No indígena,0.7352
+COL,Santa Ana,NA,2017,Mujeres,rural,Total,0.7612
+COL,Santa Ana,NA,2018,Mujeres,rural,Indígena,0.9
+COL,Santa Ana,NA,2018,Mujeres,rural,No indígena,0.9
+COL,Santa Ana,NA,2018,Mujeres,rural,Total,0.9
+COL,Santa Ana,NA,2019,Mujeres,rural,Indígena,0.6317
+COL,Santa Ana,NA,2019,Mujeres,rural,No indígena,0.5717
+COL,Santa Ana,NA,2019,Mujeres,rural,Total,0.599
+COL,Santa Ana,NA,2020,Mujeres,rural,Indígena,0.6293
+COL,Santa Ana,NA,2020,Mujeres,rural,No indígena,0.5693
+COL,Santa Ana,NA,2020,Mujeres,rural,Total,0.595
+COL,Santa Ana,NA,2021,Mujeres,rural,Indígena,0.7227
+COL,Santa Ana,NA,2021,Mujeres,rural,No indígena,0.6627
+COL,Santa Ana,NA,2021,Mujeres,rural,Total,0.69
+COL,Santa Ana,NA,2022,Mujeres,rural,Indígena,0.7632
+COL,Santa Ana,NA,2022,Mujeres,rural,No indígena,0.7032
+COL,Santa Ana,NA,2022,Mujeres,rural,Total,0.7304
+COL,Santa Ana,NA,2023,Mujeres,rural,Indígena,0.8216
+COL,Santa Ana,NA,2023,Mujeres,rural,No indígena,0.7616
+COL,Santa Ana,NA,2023,Mujeres,rural,Total,0.7889
+COL,Santa Ana,NA,2024,Mujeres,rural,Indígena,0.8695
+COL,Santa Ana,NA,2024,Mujeres,rural,No indígena,0.8095
+COL,Santa Ana,NA,2024,Mujeres,rural,Total,0.8367
+COL,Santa Ana,NA,2025,Mujeres,rural,Indígena,0.7267
+COL,Santa Ana,NA,2025,Mujeres,rural,No indígena,0.6667
+COL,Santa Ana,NA,2025,Mujeres,rural,Total,0.6939
+COL,Santa Elena,NA,2016,Mujeres,periurbano,Indígena,0.3357
+COL,Santa Elena,NA,2016,Mujeres,periurbano,No indígena,0.2757
+COL,Santa Elena,NA,2016,Mujeres,periurbano,Total,0.2938
+COL,Santa Elena,NA,2017,Mujeres,periurbano,Indígena,0.4166
+COL,Santa Elena,NA,2017,Mujeres,periurbano,No indígena,0.3566
+COL,Santa Elena,NA,2017,Mujeres,periurbano,Total,0.3747
+COL,Santa Elena,NA,2018,Mujeres,periurbano,Indígena,0.4765
+COL,Santa Elena,NA,2018,Mujeres,periurbano,No indígena,0.4165
+COL,Santa Elena,NA,2018,Mujeres,periurbano,Total,0.4346
+COL,Santa Elena,NA,2019,Mujeres,periurbano,Indígena,0.3758
+COL,Santa Elena,NA,2019,Mujeres,periurbano,No indígena,0.3158
+COL,Santa Elena,NA,2019,Mujeres,periurbano,Total,0.3342
+COL,Santa Elena,NA,2020,Mujeres,periurbano,Indígena,0.4449
+COL,Santa Elena,NA,2020,Mujeres,periurbano,No indígena,0.3849
+COL,Santa Elena,NA,2020,Mujeres,periurbano,Total,0.4025
+COL,Santa Elena,NA,2021,Mujeres,periurbano,Indígena,0.4473
+COL,Santa Elena,NA,2021,Mujeres,periurbano,No indígena,0.3873
+COL,Santa Elena,NA,2021,Mujeres,periurbano,Total,0.4053
+COL,Santa Elena,NA,2022,Mujeres,periurbano,Indígena,0.3343
+COL,Santa Elena,NA,2022,Mujeres,periurbano,No indígena,0.2743
+COL,Santa Elena,NA,2022,Mujeres,periurbano,Total,0.292
+COL,Santa Elena,NA,2023,Mujeres,periurbano,Indígena,0.3756
+COL,Santa Elena,NA,2023,Mujeres,periurbano,No indígena,0.3156
+COL,Santa Elena,NA,2023,Mujeres,periurbano,Total,0.3336
+COL,Santa Elena,NA,2024,Mujeres,periurbano,Indígena,0.3157
+COL,Santa Elena,NA,2024,Mujeres,periurbano,No indígena,0.2557
+COL,Santa Elena,NA,2024,Mujeres,periurbano,Total,0.2737
+COL,Santa Elena,NA,2025,Mujeres,periurbano,Indígena,0.3185
+COL,Santa Elena,NA,2025,Mujeres,periurbano,No indígena,0.2585
+COL,Santa Elena,NA,2025,Mujeres,periurbano,Total,0.2765
+COL,Santa Lucía,NA,2016,Mujeres,rural,Indígena,0.8689
+COL,Santa Lucía,NA,2016,Mujeres,rural,No indígena,0.8089
+COL,Santa Lucía,NA,2016,Mujeres,rural,Total,0.836
+COL,Santa Lucía,NA,2017,Mujeres,rural,Indígena,0.8894
+COL,Santa Lucía,NA,2017,Mujeres,rural,No indígena,0.8294
+COL,Santa Lucía,NA,2017,Mujeres,rural,Total,0.8565
+COL,Santa Lucía,NA,2018,Mujeres,rural,Indígena,0.7475
+COL,Santa Lucía,NA,2018,Mujeres,rural,No indígena,0.6875
+COL,Santa Lucía,NA,2018,Mujeres,rural,Total,0.7144
+COL,Santa Lucía,NA,2019,Mujeres,rural,Indígena,0.7768
+COL,Santa Lucía,NA,2019,Mujeres,rural,No indígena,0.7168
+COL,Santa Lucía,NA,2019,Mujeres,rural,Total,0.7437
+COL,Santa Lucía,NA,2020,Mujeres,rural,Indígena,0.7142
+COL,Santa Lucía,NA,2020,Mujeres,rural,No indígena,0.6542
+COL,Santa Lucía,NA,2020,Mujeres,rural,Total,0.6808
+COL,Santa Lucía,NA,2021,Mujeres,rural,Indígena,0.7693
+COL,Santa Lucía,NA,2021,Mujeres,rural,No indígena,0.7093
+COL,Santa Lucía,NA,2021,Mujeres,rural,Total,0.7362
+COL,Santa Lucía,NA,2022,Mujeres,rural,Indígena,0.6774
+COL,Santa Lucía,NA,2022,Mujeres,rural,No indígena,0.6174
+COL,Santa Lucía,NA,2022,Mujeres,rural,Total,0.6443
+COL,Santa Lucía,NA,2023,Mujeres,rural,Indígena,0.6974
+COL,Santa Lucía,NA,2023,Mujeres,rural,No indígena,0.6374
+COL,Santa Lucía,NA,2023,Mujeres,rural,Total,0.6643
+COL,Santa Lucía,NA,2024,Mujeres,rural,Indígena,0.6721
+COL,Santa Lucía,NA,2024,Mujeres,rural,No indígena,0.6121
+COL,Santa Lucía,NA,2024,Mujeres,rural,Total,0.639
+COL,Santa Lucía,NA,2025,Mujeres,rural,Indígena,0.8043
+COL,Santa Lucía,NA,2025,Mujeres,rural,No indígena,0.7443
+COL,Santa Lucía,NA,2025,Mujeres,rural,Total,0.7712
+COL,Santa Rosa,NA,2016,Mujeres,periurbano,Indígena,0.3712
+COL,Santa Rosa,NA,2016,Mujeres,periurbano,No indígena,0.3112
+COL,Santa Rosa,NA,2016,Mujeres,periurbano,Total,0.3294
+COL,Santa Rosa,NA,2017,Mujeres,periurbano,Indígena,0.4046
+COL,Santa Rosa,NA,2017,Mujeres,periurbano,No indígena,0.3446
+COL,Santa Rosa,NA,2017,Mujeres,periurbano,Total,0.3628
+COL,Santa Rosa,NA,2018,Mujeres,periurbano,Indígena,0.2859
+COL,Santa Rosa,NA,2018,Mujeres,periurbano,No indígena,0.2259
+COL,Santa Rosa,NA,2018,Mujeres,periurbano,Total,0.2441
+COL,Santa Rosa,NA,2019,Mujeres,periurbano,Indígena,0.2646
+COL,Santa Rosa,NA,2019,Mujeres,periurbano,No indígena,0.2046
+COL,Santa Rosa,NA,2019,Mujeres,periurbano,Total,0.2228
+COL,Santa Rosa,NA,2020,Mujeres,periurbano,Indígena,0.3217
+COL,Santa Rosa,NA,2020,Mujeres,periurbano,No indígena,0.2617
+COL,Santa Rosa,NA,2020,Mujeres,periurbano,Total,0.2793
+COL,Santa Rosa,NA,2021,Mujeres,periurbano,Indígena,0.3572
+COL,Santa Rosa,NA,2021,Mujeres,periurbano,No indígena,0.2972
+COL,Santa Rosa,NA,2021,Mujeres,periurbano,Total,0.3153
+COL,Santa Rosa,NA,2022,Mujeres,periurbano,Indígena,0.3565
+COL,Santa Rosa,NA,2022,Mujeres,periurbano,No indígena,0.2965
+COL,Santa Rosa,NA,2022,Mujeres,periurbano,Total,0.3143
+COL,Santa Rosa,NA,2023,Mujeres,periurbano,Indígena,0.2631
+COL,Santa Rosa,NA,2023,Mujeres,periurbano,No indígena,0.2031
+COL,Santa Rosa,NA,2023,Mujeres,periurbano,Total,0.2209
+COL,Santa Rosa,NA,2024,Mujeres,periurbano,Indígena,0.3824
+COL,Santa Rosa,NA,2024,Mujeres,periurbano,No indígena,0.3224
+COL,Santa Rosa,NA,2024,Mujeres,periurbano,Total,0.3402
+COL,Santa Rosa,NA,2025,Mujeres,periurbano,Indígena,0.3908
+COL,Santa Rosa,NA,2025,Mujeres,periurbano,No indígena,0.3308
+COL,Santa Rosa,NA,2025,Mujeres,periurbano,Total,0.3489
+COL,Villa Esperanza,NA,2016,Mujeres,rural,Indígena,0.6499
+COL,Villa Esperanza,NA,2016,Mujeres,rural,No indígena,0.5899
+COL,Villa Esperanza,NA,2016,Mujeres,rural,Total,0.6172
+COL,Villa Esperanza,NA,2017,Mujeres,rural,Indígena,0.8312
+COL,Villa Esperanza,NA,2017,Mujeres,rural,No indígena,0.7712
+COL,Villa Esperanza,NA,2017,Mujeres,rural,Total,0.7984
+COL,Villa Esperanza,NA,2018,Mujeres,rural,Indígena,0.7536
+COL,Villa Esperanza,NA,2018,Mujeres,rural,No indígena,0.6936
+COL,Villa Esperanza,NA,2018,Mujeres,rural,Total,0.7208
+COL,Villa Esperanza,NA,2019,Mujeres,rural,Indígena,0.7865
+COL,Villa Esperanza,NA,2019,Mujeres,rural,No indígena,0.7265
+COL,Villa Esperanza,NA,2019,Mujeres,rural,Total,0.7537
+COL,Villa Esperanza,NA,2020,Mujeres,rural,Indígena,0.87
+COL,Villa Esperanza,NA,2020,Mujeres,rural,No indígena,0.81
+COL,Villa Esperanza,NA,2020,Mujeres,rural,Total,0.837
+COL,Villa Esperanza,NA,2021,Mujeres,rural,Indígena,0.5699
+COL,Villa Esperanza,NA,2021,Mujeres,rural,No indígena,0.5099
+COL,Villa Esperanza,NA,2021,Mujeres,rural,Total,0.5357
+COL,Villa Esperanza,NA,2022,Mujeres,rural,Indígena,0.6213
+COL,Villa Esperanza,NA,2022,Mujeres,rural,No indígena,0.5613
+COL,Villa Esperanza,NA,2022,Mujeres,rural,Total,0.5886
+COL,Villa Esperanza,NA,2023,Mujeres,rural,Indígena,0.6977
+COL,Villa Esperanza,NA,2023,Mujeres,rural,No indígena,0.6377
+COL,Villa Esperanza,NA,2023,Mujeres,rural,Total,0.665
+COL,Villa Esperanza,NA,2024,Mujeres,rural,Indígena,0.5184
+COL,Villa Esperanza,NA,2024,Mujeres,rural,No indígena,0.4584
+COL,Villa Esperanza,NA,2024,Mujeres,rural,Total,0.4856
+COL,Villa Esperanza,NA,2025,Mujeres,rural,Indígena,0.6724
+COL,Villa Esperanza,NA,2025,Mujeres,rural,No indígena,0.61240000000000006
+COL,Villa Esperanza,NA,2025,Mujeres,rural,Total,0.6381
+COL,Villa Norte,NA,2016,Mujeres,periurbano,Indígena,0.3918
+COL,Villa Norte,NA,2016,Mujeres,periurbano,No indígena,0.3318
+COL,Villa Norte,NA,2016,Mujeres,periurbano,Total,0.3499
+COL,Villa Norte,NA,2017,Mujeres,periurbano,Indígena,0.3855
+COL,Villa Norte,NA,2017,Mujeres,periurbano,No indígena,0.3255
+COL,Villa Norte,NA,2017,Mujeres,periurbano,Total,0.3437
+COL,Villa Norte,NA,2018,Mujeres,periurbano,Indígena,0.3672
+COL,Villa Norte,NA,2018,Mujeres,periurbano,No indígena,0.3072
+COL,Villa Norte,NA,2018,Mujeres,periurbano,Total,0.325
+COL,Villa Norte,NA,2019,Mujeres,periurbano,Indígena,0.326
+COL,Villa Norte,NA,2019,Mujeres,periurbano,No indígena,0.266
+COL,Villa Norte,NA,2019,Mujeres,periurbano,Total,0.2839
+COL,Villa Norte,NA,2020,Mujeres,periurbano,Indígena,0.4149
+COL,Villa Norte,NA,2020,Mujeres,periurbano,No indígena,0.3549
+COL,Villa Norte,NA,2020,Mujeres,periurbano,Total,0.3729
+COL,Villa Norte,NA,2021,Mujeres,periurbano,Indígena,0.6565
+COL,Villa Norte,NA,2021,Mujeres,periurbano,No indígena,0.5965
+COL,Villa Norte,NA,2021,Mujeres,periurbano,Total,0.6143
+COL,Villa Norte,NA,2022,Mujeres,periurbano,Indígena,0.5219
+COL,Villa Norte,NA,2022,Mujeres,periurbano,No indígena,0.4619
+COL,Villa Norte,NA,2022,Mujeres,periurbano,Total,0.4799
+COL,Villa Norte,NA,2023,Mujeres,periurbano,Indígena,0.3787
+COL,Villa Norte,NA,2023,Mujeres,periurbano,No indígena,0.3187
+COL,Villa Norte,NA,2023,Mujeres,periurbano,Total,0.3368
+COL,Villa Norte,NA,2024,Mujeres,periurbano,Indígena,0.4446
+COL,Villa Norte,NA,2024,Mujeres,periurbano,No indígena,0.3846
+COL,Villa Norte,NA,2024,Mujeres,periurbano,Total,0.4027
+COL,Villa Norte,NA,2025,Mujeres,periurbano,Indígena,0.2223
+COL,Villa Norte,NA,2025,Mujeres,periurbano,No indígena,0.1623
+COL,Villa Norte,NA,2025,Mujeres,periurbano,Total,0.1806
+COL,Villa Sur,NA,2016,Mujeres,rural,Indígena,0.5149
+COL,Villa Sur,NA,2016,Mujeres,rural,No indígena,0.4549
+COL,Villa Sur,NA,2016,Mujeres,rural,Total,0.4827
+COL,Villa Sur,NA,2017,Mujeres,rural,Indígena,0.4163
+COL,Villa Sur,NA,2017,Mujeres,rural,No indígena,0.3563
+COL,Villa Sur,NA,2017,Mujeres,rural,Total,0.3841
+COL,Villa Sur,NA,2018,Mujeres,rural,Indígena,0.4691
+COL,Villa Sur,NA,2018,Mujeres,rural,No indígena,0.4091
+COL,Villa Sur,NA,2018,Mujeres,rural,Total,0.4357
+COL,Villa Sur,NA,2019,Mujeres,rural,Indígena,0.5167
+COL,Villa Sur,NA,2019,Mujeres,rural,No indígena,0.4567
+COL,Villa Sur,NA,2019,Mujeres,rural,Total,0.4834
+COL,Villa Sur,NA,2020,Mujeres,rural,Indígena,0.6928
+COL,Villa Sur,NA,2020,Mujeres,rural,No indígena,0.6328
+COL,Villa Sur,NA,2020,Mujeres,rural,Total,0.6605
+COL,Villa Sur,NA,2021,Mujeres,rural,Indígena,0.7157
+COL,Villa Sur,NA,2021,Mujeres,rural,No indígena,0.6557
+COL,Villa Sur,NA,2021,Mujeres,rural,Total,0.6824
+COL,Villa Sur,NA,2022,Mujeres,rural,Indígena,0.5598
+COL,Villa Sur,NA,2022,Mujeres,rural,No indígena,0.4998
+COL,Villa Sur,NA,2022,Mujeres,rural,Total,0.5265
+COL,Villa Sur,NA,2023,Mujeres,rural,Indígena,0.6968
+COL,Villa Sur,NA,2023,Mujeres,rural,No indígena,0.6368
+COL,Villa Sur,NA,2023,Mujeres,rural,Total,0.6634
+COL,Villa Sur,NA,2024,Mujeres,rural,Indígena,0.6288
+COL,Villa Sur,NA,2024,Mujeres,rural,No indígena,0.5688
+COL,Villa Sur,NA,2024,Mujeres,rural,Total,0.5954
+COL,Villa Sur,NA,2025,Mujeres,rural,Indígena,0.6697
+COL,Villa Sur,NA,2025,Mujeres,rural,No indígena,0.6097
+COL,Villa Sur,NA,2025,Mujeres,rural,Total,0.6363
+COL,Vista Hermosa,NA,2016,Mujeres,rural,Indígena,0.6066
+COL,Vista Hermosa,NA,2016,Mujeres,rural,No indígena,0.5466
+COL,Vista Hermosa,NA,2016,Mujeres,rural,Total,0.5741
+COL,Vista Hermosa,NA,2017,Mujeres,rural,Indígena,0.7829
+COL,Vista Hermosa,NA,2017,Mujeres,rural,No indígena,0.7229
+COL,Vista Hermosa,NA,2017,Mujeres,rural,Total,0.7504
+COL,Vista Hermosa,NA,2018,Mujeres,rural,Indígena,0.6874
+COL,Vista Hermosa,NA,2018,Mujeres,rural,No indígena,0.6274
+COL,Vista Hermosa,NA,2018,Mujeres,rural,Total,0.6549
+COL,Vista Hermosa,NA,2019,Mujeres,rural,Indígena,0.6206
+COL,Vista Hermosa,NA,2019,Mujeres,rural,No indígena,0.5606
+COL,Vista Hermosa,NA,2019,Mujeres,rural,Total,0.5881
+COL,Vista Hermosa,NA,2020,Mujeres,rural,Indígena,0.7907
+COL,Vista Hermosa,NA,2020,Mujeres,rural,No indígena,0.7307
+COL,Vista Hermosa,NA,2020,Mujeres,rural,Total,0.758
+COL,Vista Hermosa,NA,2021,Mujeres,rural,Indígena,0.8516
+COL,Vista Hermosa,NA,2021,Mujeres,rural,No indígena,0.7916
+COL,Vista Hermosa,NA,2021,Mujeres,rural,Total,0.8177
+COL,Vista Hermosa,NA,2022,Mujeres,rural,Indígena,0.7242
+COL,Vista Hermosa,NA,2022,Mujeres,rural,No indígena,0.6642
+COL,Vista Hermosa,NA,2022,Mujeres,rural,Total,0.6903
+COL,Vista Hermosa,NA,2023,Mujeres,rural,Indígena,0.5749
+COL,Vista Hermosa,NA,2023,Mujeres,rural,No indígena,0.5149
+COL,Vista Hermosa,NA,2023,Mujeres,rural,Total,0.541
+COL,Vista Hermosa,NA,2024,Mujeres,rural,Indígena,0.642
+COL,Vista Hermosa,NA,2024,Mujeres,rural,No indígena,0.582
+COL,Vista Hermosa,NA,2024,Mujeres,rural,Total,0.6081
+COL,Vista Hermosa,NA,2025,Mujeres,rural,Indígena,0.7878
+COL,Vista Hermosa,NA,2025,Mujeres,rural,No indígena,0.7278
+COL,Vista Hermosa,NA,2025,Mujeres,rural,Total,0.7539

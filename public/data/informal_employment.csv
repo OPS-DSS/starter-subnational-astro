@@ -1,1081 +1,1081 @@
-iso3,NAME_2,cod_local,anio,sexo,zona,valor
-COL,Altos del Sol,NA,2016,Hombres,periurbano,0.6135
-COL,Altos del Sol,NA,2016,Mujeres,periurbano,0.6735
-COL,Altos del Sol,NA,2016,Total,periurbano,0.6441
-COL,Altos del Sol,NA,2017,Hombres,periurbano,0.6188
-COL,Altos del Sol,NA,2017,Mujeres,periurbano,0.6788
-COL,Altos del Sol,NA,2017,Total,periurbano,0.6494
-COL,Altos del Sol,NA,2018,Hombres,periurbano,0.6132
-COL,Altos del Sol,NA,2018,Mujeres,periurbano,0.6732
-COL,Altos del Sol,NA,2018,Total,periurbano,0.6438
-COL,Altos del Sol,NA,2019,Hombres,periurbano,0.6204
-COL,Altos del Sol,NA,2019,Mujeres,periurbano,0.6804
-COL,Altos del Sol,NA,2019,Total,periurbano,0.651
-COL,Altos del Sol,NA,2020,Hombres,periurbano,0.6831
-COL,Altos del Sol,NA,2020,Mujeres,periurbano,0.7431
-COL,Altos del Sol,NA,2020,Total,periurbano,0.7137
-COL,Altos del Sol,NA,2021,Hombres,periurbano,0.6672
-COL,Altos del Sol,NA,2021,Mujeres,periurbano,0.7272
-COL,Altos del Sol,NA,2021,Total,periurbano,0.6978
-COL,Altos del Sol,NA,2022,Hombres,periurbano,0.639
-COL,Altos del Sol,NA,2022,Mujeres,periurbano,0.699
-COL,Altos del Sol,NA,2022,Total,periurbano,0.6696
-COL,Altos del Sol,NA,2023,Hombres,periurbano,0.6123
-COL,Altos del Sol,NA,2023,Mujeres,periurbano,0.6723
-COL,Altos del Sol,NA,2023,Total,periurbano,0.6429
-COL,Altos del Sol,NA,2024,Hombres,periurbano,0.6091
-COL,Altos del Sol,NA,2024,Mujeres,periurbano,0.6691
-COL,Altos del Sol,NA,2024,Total,periurbano,0.6397
-COL,Altos del Sol,NA,2025,Hombres,periurbano,0.6062
-COL,Altos del Sol,NA,2025,Mujeres,periurbano,0.6662
-COL,Altos del Sol,NA,2025,Total,periurbano,0.6368
-COL,Bosques del Valle,NA,2016,Hombres,periurbano,0.6034
-COL,Bosques del Valle,NA,2016,Mujeres,periurbano,0.6634
-COL,Bosques del Valle,NA,2016,Total,periurbano,0.634
-COL,Bosques del Valle,NA,2017,Hombres,periurbano,0.6087
-COL,Bosques del Valle,NA,2017,Mujeres,periurbano,0.6687
-COL,Bosques del Valle,NA,2017,Total,periurbano,0.6393
-COL,Bosques del Valle,NA,2018,Hombres,periurbano,0.6031
-COL,Bosques del Valle,NA,2018,Mujeres,periurbano,0.6631
-COL,Bosques del Valle,NA,2018,Total,periurbano,0.6337
-COL,Bosques del Valle,NA,2019,Hombres,periurbano,0.6102
-COL,Bosques del Valle,NA,2019,Mujeres,periurbano,0.6702
-COL,Bosques del Valle,NA,2019,Total,periurbano,0.6408
-COL,Bosques del Valle,NA,2020,Hombres,periurbano,0.673
-COL,Bosques del Valle,NA,2020,Mujeres,periurbano,0.733
-COL,Bosques del Valle,NA,2020,Total,periurbano,0.7036
-COL,Bosques del Valle,NA,2021,Hombres,periurbano,0.6571
-COL,Bosques del Valle,NA,2021,Mujeres,periurbano,0.7171
-COL,Bosques del Valle,NA,2021,Total,periurbano,0.6877
-COL,Bosques del Valle,NA,2022,Hombres,periurbano,0.6289
-COL,Bosques del Valle,NA,2022,Mujeres,periurbano,0.6889
-COL,Bosques del Valle,NA,2022,Total,periurbano,0.6595
-COL,Bosques del Valle,NA,2023,Hombres,periurbano,0.6021
-COL,Bosques del Valle,NA,2023,Mujeres,periurbano,0.6621
-COL,Bosques del Valle,NA,2023,Total,periurbano,0.6327
-COL,Bosques del Valle,NA,2024,Hombres,periurbano,0.5989
-COL,Bosques del Valle,NA,2024,Mujeres,periurbano,0.6589
-COL,Bosques del Valle,NA,2024,Total,periurbano,0.6295
-COL,Bosques del Valle,NA,2025,Hombres,periurbano,0.596
-COL,Bosques del Valle,NA,2025,Mujeres,periurbano,0.656
-COL,Bosques del Valle,NA,2025,Total,periurbano,0.6266
-COL,Colinas del Valle,NA,2016,Hombres,rural,0.6543
-COL,Colinas del Valle,NA,2016,Mujeres,rural,0.7143
-COL,Colinas del Valle,NA,2016,Total,rural,0.6849
-COL,Colinas del Valle,NA,2017,Hombres,rural,0.6596
-COL,Colinas del Valle,NA,2017,Mujeres,rural,0.7196
-COL,Colinas del Valle,NA,2017,Total,rural,0.6902
-COL,Colinas del Valle,NA,2018,Hombres,rural,0.654
-COL,Colinas del Valle,NA,2018,Mujeres,rural,0.714
-COL,Colinas del Valle,NA,2018,Total,rural,0.6846
-COL,Colinas del Valle,NA,2019,Hombres,rural,0.6611
-COL,Colinas del Valle,NA,2019,Mujeres,rural,0.7211
-COL,Colinas del Valle,NA,2019,Total,rural,0.6918
-COL,Colinas del Valle,NA,2020,Hombres,rural,0.7239
-COL,Colinas del Valle,NA,2020,Mujeres,rural,0.7839
-COL,Colinas del Valle,NA,2020,Total,rural,0.7545
-COL,Colinas del Valle,NA,2021,Hombres,rural,0.708
-COL,Colinas del Valle,NA,2021,Mujeres,rural,0.768
-COL,Colinas del Valle,NA,2021,Total,rural,0.7385
-COL,Colinas del Valle,NA,2022,Hombres,rural,0.6798
-COL,Colinas del Valle,NA,2022,Mujeres,rural,0.7398
-COL,Colinas del Valle,NA,2022,Total,rural,0.7104
-COL,Colinas del Valle,NA,2023,Hombres,rural,0.66
-COL,Colinas del Valle,NA,2023,Mujeres,rural,0.72
-COL,Colinas del Valle,NA,2023,Total,rural,0.6906
-COL,Colinas del Valle,NA,2024,Hombres,rural,0.6568
-COL,Colinas del Valle,NA,2024,Mujeres,rural,0.7168
-COL,Colinas del Valle,NA,2024,Total,rural,0.6874
-COL,Colinas del Valle,NA,2025,Hombres,rural,0.6539
-COL,Colinas del Valle,NA,2025,Mujeres,rural,0.7139
-COL,Colinas del Valle,NA,2025,Total,rural,0.6845
-COL,El Carmen,NA,2016,Hombres,periurbano,0.5953
-COL,El Carmen,NA,2016,Mujeres,periurbano,0.6553
-COL,El Carmen,NA,2016,Total,periurbano,0.6259
-COL,El Carmen,NA,2017,Hombres,periurbano,0.6006
-COL,El Carmen,NA,2017,Mujeres,periurbano,0.6606
-COL,El Carmen,NA,2017,Total,periurbano,0.6312
-COL,El Carmen,NA,2018,Hombres,periurbano,0.595
-COL,El Carmen,NA,2018,Mujeres,periurbano,0.655
-COL,El Carmen,NA,2018,Total,periurbano,0.6256
-COL,El Carmen,NA,2019,Hombres,periurbano,0.6021
-COL,El Carmen,NA,2019,Mujeres,periurbano,0.6621
-COL,El Carmen,NA,2019,Total,periurbano,0.6327
-COL,El Carmen,NA,2020,Hombres,periurbano,0.6649
-COL,El Carmen,NA,2020,Mujeres,periurbano,0.7249
-COL,El Carmen,NA,2020,Total,periurbano,0.6955
-COL,El Carmen,NA,2021,Hombres,periurbano,0.649
-COL,El Carmen,NA,2021,Mujeres,periurbano,0.709
-COL,El Carmen,NA,2021,Total,periurbano,0.6796
-COL,El Carmen,NA,2022,Hombres,periurbano,0.6208
-COL,El Carmen,NA,2022,Mujeres,periurbano,0.6808
-COL,El Carmen,NA,2022,Total,periurbano,0.6514
-COL,El Carmen,NA,2023,Hombres,periurbano,0.594
-COL,El Carmen,NA,2023,Mujeres,periurbano,0.654
-COL,El Carmen,NA,2023,Total,periurbano,0.6246
-COL,El Carmen,NA,2024,Hombres,periurbano,0.5908
-COL,El Carmen,NA,2024,Mujeres,periurbano,0.6508
-COL,El Carmen,NA,2024,Total,periurbano,0.6214
-COL,El Carmen,NA,2025,Hombres,periurbano,0.5879
-COL,El Carmen,NA,2025,Mujeres,periurbano,0.6479
-COL,El Carmen,NA,2025,Total,periurbano,0.6185
-COL,El Edén,NA,2016,Hombres,periurbano,0.5937
-COL,El Edén,NA,2016,Mujeres,periurbano,0.6537
-COL,El Edén,NA,2016,Total,periurbano,0.6243
-COL,El Edén,NA,2017,Hombres,periurbano,0.5991
-COL,El Edén,NA,2017,Mujeres,periurbano,0.6591
-COL,El Edén,NA,2017,Total,periurbano,0.6297
-COL,El Edén,NA,2018,Hombres,periurbano,0.5934
-COL,El Edén,NA,2018,Mujeres,periurbano,0.6534
-COL,El Edén,NA,2018,Total,periurbano,0.624
-COL,El Edén,NA,2019,Hombres,periurbano,0.6006
-COL,El Edén,NA,2019,Mujeres,periurbano,0.6606
-COL,El Edén,NA,2019,Total,periurbano,0.6312
-COL,El Edén,NA,2020,Hombres,periurbano,0.6634
-COL,El Edén,NA,2020,Mujeres,periurbano,0.7234
-COL,El Edén,NA,2020,Total,periurbano,0.694
-COL,El Edén,NA,2021,Hombres,periurbano,0.6474
-COL,El Edén,NA,2021,Mujeres,periurbano,0.7074
-COL,El Edén,NA,2021,Total,periurbano,0.678
-COL,El Edén,NA,2022,Hombres,periurbano,0.6193
-COL,El Edén,NA,2022,Mujeres,periurbano,0.6793
-COL,El Edén,NA,2022,Total,periurbano,0.6499
-COL,El Edén,NA,2023,Hombres,periurbano,0.5925
-COL,El Edén,NA,2023,Mujeres,periurbano,0.6525
-COL,El Edén,NA,2023,Total,periurbano,0.6231
-COL,El Edén,NA,2024,Hombres,periurbano,0.5893
-COL,El Edén,NA,2024,Mujeres,periurbano,0.6493
-COL,El Edén,NA,2024,Total,periurbano,0.6199
-COL,El Edén,NA,2025,Hombres,periurbano,0.5864
-COL,El Edén,NA,2025,Mujeres,periurbano,0.6464
-COL,El Edén,NA,2025,Total,periurbano,0.617
-COL,El Mirador,NA,2016,Hombres,rural,0.572
-COL,El Mirador,NA,2016,Mujeres,rural,0.632
-COL,El Mirador,NA,2016,Total,rural,0.6026
-COL,El Mirador,NA,2017,Hombres,rural,0.5773
-COL,El Mirador,NA,2017,Mujeres,rural,0.6373
-COL,El Mirador,NA,2017,Total,rural,0.6079
-COL,El Mirador,NA,2018,Hombres,rural,0.5717
-COL,El Mirador,NA,2018,Mujeres,rural,0.6317
-COL,El Mirador,NA,2018,Total,rural,0.6023
-COL,El Mirador,NA,2019,Hombres,rural,0.5789
-COL,El Mirador,NA,2019,Mujeres,rural,0.6389
-COL,El Mirador,NA,2019,Total,rural,0.6095
-COL,El Mirador,NA,2020,Hombres,rural,0.6416
-COL,El Mirador,NA,2020,Mujeres,rural,0.7016
-COL,El Mirador,NA,2020,Total,rural,0.6722
-COL,El Mirador,NA,2021,Hombres,rural,0.6257
-COL,El Mirador,NA,2021,Mujeres,rural,0.6857
-COL,El Mirador,NA,2021,Total,rural,0.6563
-COL,El Mirador,NA,2022,Hombres,rural,0.5975
-COL,El Mirador,NA,2022,Mujeres,rural,0.6575
-COL,El Mirador,NA,2022,Total,rural,0.6281
-COL,El Mirador,NA,2023,Hombres,rural,0.5778
-COL,El Mirador,NA,2023,Mujeres,rural,0.6378
-COL,El Mirador,NA,2023,Total,rural,0.6084
-COL,El Mirador,NA,2024,Hombres,rural,0.5745
-COL,El Mirador,NA,2024,Mujeres,rural,0.6345
-COL,El Mirador,NA,2024,Total,rural,0.6051
-COL,El Mirador,NA,2025,Hombres,rural,0.5717
-COL,El Mirador,NA,2025,Mujeres,rural,0.6317
-COL,El Mirador,NA,2025,Total,rural,0.6022
-COL,El Porvenir,NA,2016,Hombres,rural,0.73
-COL,El Porvenir,NA,2016,Mujeres,rural,0.79
-COL,El Porvenir,NA,2016,Total,rural,0.7606
-COL,El Porvenir,NA,2017,Hombres,rural,0.7353
-COL,El Porvenir,NA,2017,Mujeres,rural,0.7953
-COL,El Porvenir,NA,2017,Total,rural,0.7659
-COL,El Porvenir,NA,2018,Hombres,rural,0.7297
-COL,El Porvenir,NA,2018,Mujeres,rural,0.7897
-COL,El Porvenir,NA,2018,Total,rural,0.7603
-COL,El Porvenir,NA,2019,Hombres,rural,0.7369
-COL,El Porvenir,NA,2019,Mujeres,rural,0.7969
-COL,El Porvenir,NA,2019,Total,rural,0.7675
-COL,El Porvenir,NA,2020,Hombres,rural,0.7996
-COL,El Porvenir,NA,2020,Mujeres,rural,0.8596
-COL,El Porvenir,NA,2020,Total,rural,0.8302
-COL,El Porvenir,NA,2021,Hombres,rural,0.7837
-COL,El Porvenir,NA,2021,Mujeres,rural,0.8437
-COL,El Porvenir,NA,2021,Total,rural,0.8143
-COL,El Porvenir,NA,2022,Hombres,rural,0.7555
-COL,El Porvenir,NA,2022,Mujeres,rural,0.8155
-COL,El Porvenir,NA,2022,Total,rural,0.7861
-COL,El Porvenir,NA,2023,Hombres,rural,0.7358
-COL,El Porvenir,NA,2023,Mujeres,rural,0.7958
-COL,El Porvenir,NA,2023,Total,rural,0.7664
-COL,El Porvenir,NA,2024,Hombres,rural,0.7326
-COL,El Porvenir,NA,2024,Mujeres,rural,0.7926
-COL,El Porvenir,NA,2024,Total,rural,0.7631
-COL,El Porvenir,NA,2025,Hombres,rural,0.7297
-COL,El Porvenir,NA,2025,Mujeres,rural,0.7897
-COL,El Porvenir,NA,2025,Total,rural,0.7603
-COL,La Alameda,NA,2016,Hombres,rural,0.7151
-COL,La Alameda,NA,2016,Mujeres,rural,0.7751
-COL,La Alameda,NA,2016,Total,rural,0.7457
-COL,La Alameda,NA,2017,Hombres,rural,0.7204
-COL,La Alameda,NA,2017,Mujeres,rural,0.7804
-COL,La Alameda,NA,2017,Total,rural,0.751
-COL,La Alameda,NA,2018,Hombres,rural,0.7148
-COL,La Alameda,NA,2018,Mujeres,rural,0.7748
-COL,La Alameda,NA,2018,Total,rural,0.7454
-COL,La Alameda,NA,2019,Hombres,rural,0.722
-COL,La Alameda,NA,2019,Mujeres,rural,0.782
-COL,La Alameda,NA,2019,Total,rural,0.7526
-COL,La Alameda,NA,2020,Hombres,rural,0.7847
-COL,La Alameda,NA,2020,Mujeres,rural,0.8447
-COL,La Alameda,NA,2020,Total,rural,0.8154
-COL,La Alameda,NA,2021,Hombres,rural,0.7688
-COL,La Alameda,NA,2021,Mujeres,rural,0.8288
-COL,La Alameda,NA,2021,Total,rural,0.7994
-COL,La Alameda,NA,2022,Hombres,rural,0.7406
-COL,La Alameda,NA,2022,Mujeres,rural,0.8006
-COL,La Alameda,NA,2022,Total,rural,0.7712
-COL,La Alameda,NA,2023,Hombres,rural,0.7209
-COL,La Alameda,NA,2023,Mujeres,rural,0.7809
-COL,La Alameda,NA,2023,Total,rural,0.7515
-COL,La Alameda,NA,2024,Hombres,rural,0.7176
-COL,La Alameda,NA,2024,Mujeres,rural,0.7776
-COL,La Alameda,NA,2024,Total,rural,0.7482
-COL,La Alameda,NA,2025,Hombres,rural,0.7148
-COL,La Alameda,NA,2025,Mujeres,rural,0.7748
-COL,La Alameda,NA,2025,Total,rural,0.7454
-COL,La Arboleda,NA,2016,Hombres,periurbano,0.4788
-COL,La Arboleda,NA,2016,Mujeres,periurbano,0.5388
-COL,La Arboleda,NA,2016,Total,periurbano,0.5094
-COL,La Arboleda,NA,2017,Hombres,periurbano,0.4841
-COL,La Arboleda,NA,2017,Mujeres,periurbano,0.5441
-COL,La Arboleda,NA,2017,Total,periurbano,0.5147
-COL,La Arboleda,NA,2018,Hombres,periurbano,0.4785
-COL,La Arboleda,NA,2018,Mujeres,periurbano,0.5385
-COL,La Arboleda,NA,2018,Total,periurbano,0.5091
-COL,La Arboleda,NA,2019,Hombres,periurbano,0.4856
-COL,La Arboleda,NA,2019,Mujeres,periurbano,0.5456
-COL,La Arboleda,NA,2019,Total,periurbano,0.5162
-COL,La Arboleda,NA,2020,Hombres,periurbano,0.5484
-COL,La Arboleda,NA,2020,Mujeres,periurbano,0.6084
-COL,La Arboleda,NA,2020,Total,periurbano,0.579
-COL,La Arboleda,NA,2021,Hombres,periurbano,0.5324
-COL,La Arboleda,NA,2021,Mujeres,periurbano,0.5924
-COL,La Arboleda,NA,2021,Total,periurbano,0.563
-COL,La Arboleda,NA,2022,Hombres,periurbano,0.5043
-COL,La Arboleda,NA,2022,Mujeres,periurbano,0.5643
-COL,La Arboleda,NA,2022,Total,periurbano,0.5349
-COL,La Arboleda,NA,2023,Hombres,periurbano,0.4775
-COL,La Arboleda,NA,2023,Mujeres,periurbano,0.5375
-COL,La Arboleda,NA,2023,Total,periurbano,0.5081
-COL,La Arboleda,NA,2024,Hombres,periurbano,0.4743
-COL,La Arboleda,NA,2024,Mujeres,periurbano,0.5343
-COL,La Arboleda,NA,2024,Total,periurbano,0.5049
-COL,La Arboleda,NA,2025,Hombres,periurbano,0.4714
-COL,La Arboleda,NA,2025,Mujeres,periurbano,0.5314
-COL,La Arboleda,NA,2025,Total,periurbano,0.502
-COL,La Cañada,NA,2016,Hombres,rural,0.8019
-COL,La Cañada,NA,2016,Mujeres,rural,0.8619
-COL,La Cañada,NA,2016,Total,rural,0.8326
-COL,La Cañada,NA,2017,Hombres,rural,0.8073
-COL,La Cañada,NA,2017,Mujeres,rural,0.8673
-COL,La Cañada,NA,2017,Total,rural,0.8379
-COL,La Cañada,NA,2018,Hombres,rural,0.8016
-COL,La Cañada,NA,2018,Mujeres,rural,0.8616
-COL,La Cañada,NA,2018,Total,rural,0.8322
-COL,La Cañada,NA,2019,Hombres,rural,0.8088
-COL,La Cañada,NA,2019,Mujeres,rural,0.8688
-COL,La Cañada,NA,2019,Total,rural,0.8394
-COL,La Cañada,NA,2020,Hombres,rural,0.8716
-COL,La Cañada,NA,2020,Mujeres,rural,0.9316
-COL,La Cañada,NA,2020,Total,rural,0.9022
-COL,La Cañada,NA,2021,Hombres,rural,0.8556
-COL,La Cañada,NA,2021,Mujeres,rural,0.9156
-COL,La Cañada,NA,2021,Total,rural,0.8862
-COL,La Cañada,NA,2022,Hombres,rural,0.8275
-COL,La Cañada,NA,2022,Mujeres,rural,0.8875
-COL,La Cañada,NA,2022,Total,rural,0.8581
-COL,La Cañada,NA,2023,Hombres,rural,0.8077
-COL,La Cañada,NA,2023,Mujeres,rural,0.8677
-COL,La Cañada,NA,2023,Total,rural,0.8383
-COL,La Cañada,NA,2024,Hombres,rural,0.8045
-COL,La Cañada,NA,2024,Mujeres,rural,0.8645
-COL,La Cañada,NA,2024,Total,rural,0.8351
-COL,La Cañada,NA,2025,Hombres,rural,0.8016
-COL,La Cañada,NA,2025,Mujeres,rural,0.8616
-COL,La Cañada,NA,2025,Total,rural,0.8322
-COL,La Esperanza,NA,2016,Hombres,urbano,0.2372
-COL,La Esperanza,NA,2016,Mujeres,urbano,0.2972
-COL,La Esperanza,NA,2016,Total,urbano,0.2679
-COL,La Esperanza,NA,2017,Hombres,urbano,0.2426
-COL,La Esperanza,NA,2017,Mujeres,urbano,0.3026
-COL,La Esperanza,NA,2017,Total,urbano,0.2732
-COL,La Esperanza,NA,2018,Hombres,urbano,0.237
-COL,La Esperanza,NA,2018,Mujeres,urbano,0.297
-COL,La Esperanza,NA,2018,Total,urbano,0.2676
-COL,La Esperanza,NA,2019,Hombres,urbano,0.2441
-COL,La Esperanza,NA,2019,Mujeres,urbano,0.3041
-COL,La Esperanza,NA,2019,Total,urbano,0.2747
-COL,La Esperanza,NA,2020,Hombres,urbano,0.3069
-COL,La Esperanza,NA,2020,Mujeres,urbano,0.3669
-COL,La Esperanza,NA,2020,Total,urbano,0.3375
-COL,La Esperanza,NA,2021,Hombres,urbano,0.2909
-COL,La Esperanza,NA,2021,Mujeres,urbano,0.3509
-COL,La Esperanza,NA,2021,Total,urbano,0.3216
-COL,La Esperanza,NA,2022,Hombres,urbano,0.2628
-COL,La Esperanza,NA,2022,Mujeres,urbano,0.3228
-COL,La Esperanza,NA,2022,Total,urbano,0.2934
-COL,La Esperanza,NA,2023,Hombres,urbano,0.228
-COL,La Esperanza,NA,2023,Mujeres,urbano,0.288
-COL,La Esperanza,NA,2023,Total,urbano,0.2586
-COL,La Esperanza,NA,2024,Hombres,urbano,0.2248
-COL,La Esperanza,NA,2024,Mujeres,urbano,0.2848
-COL,La Esperanza,NA,2024,Total,urbano,0.2554
-COL,La Esperanza,NA,2025,Hombres,urbano,0.2219
-COL,La Esperanza,NA,2025,Mujeres,urbano,0.2819
-COL,La Esperanza,NA,2025,Total,urbano,0.2525
-COL,La Primavera,NA,2016,Hombres,periurbano,0.7352
-COL,La Primavera,NA,2016,Mujeres,periurbano,0.7952
-COL,La Primavera,NA,2016,Total,periurbano,0.7657
-COL,La Primavera,NA,2017,Hombres,periurbano,0.7405
-COL,La Primavera,NA,2017,Mujeres,periurbano,0.8005
-COL,La Primavera,NA,2017,Total,periurbano,0.7711
-COL,La Primavera,NA,2018,Hombres,periurbano,0.7349
-COL,La Primavera,NA,2018,Mujeres,periurbano,0.7949
-COL,La Primavera,NA,2018,Total,periurbano,0.7655
-COL,La Primavera,NA,2019,Hombres,periurbano,0.742
-COL,La Primavera,NA,2019,Mujeres,periurbano,0.802
-COL,La Primavera,NA,2019,Total,periurbano,0.7727
-COL,La Primavera,NA,2020,Hombres,periurbano,0.8048
-COL,La Primavera,NA,2020,Mujeres,periurbano,0.8648
-COL,La Primavera,NA,2020,Total,periurbano,0.8354
-COL,La Primavera,NA,2021,Hombres,periurbano,0.7889
-COL,La Primavera,NA,2021,Mujeres,periurbano,0.8489
-COL,La Primavera,NA,2021,Total,periurbano,0.8195
-COL,La Primavera,NA,2022,Hombres,periurbano,0.7607
-COL,La Primavera,NA,2022,Mujeres,periurbano,0.8207
-COL,La Primavera,NA,2022,Total,periurbano,0.7913
-COL,La Primavera,NA,2023,Hombres,periurbano,0.7339
-COL,La Primavera,NA,2023,Mujeres,periurbano,0.7939
-COL,La Primavera,NA,2023,Total,periurbano,0.7645
-COL,La Primavera,NA,2024,Hombres,periurbano,0.7307
-COL,La Primavera,NA,2024,Mujeres,periurbano,0.7907
-COL,La Primavera,NA,2024,Total,periurbano,0.7613
-COL,La Primavera,NA,2025,Hombres,periurbano,0.7278
-COL,La Primavera,NA,2025,Mujeres,periurbano,0.7878
-COL,La Primavera,NA,2025,Total,periurbano,0.7584
-COL,La Rivera,NA,2016,Hombres,urbano,0.3258
-COL,La Rivera,NA,2016,Mujeres,urbano,0.3858
-COL,La Rivera,NA,2016,Total,urbano,0.3564
-COL,La Rivera,NA,2017,Hombres,urbano,0.3312
-COL,La Rivera,NA,2017,Mujeres,urbano,0.3912
-COL,La Rivera,NA,2017,Total,urbano,0.3618
-COL,La Rivera,NA,2018,Hombres,urbano,0.3255
-COL,La Rivera,NA,2018,Mujeres,urbano,0.3855
-COL,La Rivera,NA,2018,Total,urbano,0.3562
-COL,La Rivera,NA,2019,Hombres,urbano,0.3327
-COL,La Rivera,NA,2019,Mujeres,urbano,0.3927
-COL,La Rivera,NA,2019,Total,urbano,0.3633
-COL,La Rivera,NA,2020,Hombres,urbano,0.3955
-COL,La Rivera,NA,2020,Mujeres,urbano,0.4555
-COL,La Rivera,NA,2020,Total,urbano,0.4261
-COL,La Rivera,NA,2021,Hombres,urbano,0.3795
-COL,La Rivera,NA,2021,Mujeres,urbano,0.4395
-COL,La Rivera,NA,2021,Total,urbano,0.4101
-COL,La Rivera,NA,2022,Hombres,urbano,0.3514
-COL,La Rivera,NA,2022,Mujeres,urbano,0.4114
-COL,La Rivera,NA,2022,Total,urbano,0.382
-COL,La Rivera,NA,2023,Hombres,urbano,0.3166
-COL,La Rivera,NA,2023,Mujeres,urbano,0.3766
-COL,La Rivera,NA,2023,Total,urbano,0.3472
-COL,La Rivera,NA,2024,Hombres,urbano,0.3134
-COL,La Rivera,NA,2024,Mujeres,urbano,0.3734
-COL,La Rivera,NA,2024,Total,urbano,0.344
-COL,La Rivera,NA,2025,Hombres,urbano,0.3105
-COL,La Rivera,NA,2025,Mujeres,urbano,0.3705
-COL,La Rivera,NA,2025,Total,urbano,0.3411
-COL,Las Brisas,NA,2016,Hombres,rural,0.6218
-COL,Las Brisas,NA,2016,Mujeres,rural,0.6818
-COL,Las Brisas,NA,2016,Total,rural,0.6524
-COL,Las Brisas,NA,2017,Hombres,rural,0.6272
-COL,Las Brisas,NA,2017,Mujeres,rural,0.6872
-COL,Las Brisas,NA,2017,Total,rural,0.6578
-COL,Las Brisas,NA,2018,Hombres,rural,0.6215
-COL,Las Brisas,NA,2018,Mujeres,rural,0.6815
-COL,Las Brisas,NA,2018,Total,rural,0.6521
-COL,Las Brisas,NA,2019,Hombres,rural,0.6287
-COL,Las Brisas,NA,2019,Mujeres,rural,0.6887
-COL,Las Brisas,NA,2019,Total,rural,0.6593
-COL,Las Brisas,NA,2020,Hombres,rural,0.6915
-COL,Las Brisas,NA,2020,Mujeres,rural,0.7515
-COL,Las Brisas,NA,2020,Total,rural,0.7221
-COL,Las Brisas,NA,2021,Hombres,rural,0.6755
-COL,Las Brisas,NA,2021,Mujeres,rural,0.7355
-COL,Las Brisas,NA,2021,Total,rural,0.7061
-COL,Las Brisas,NA,2022,Hombres,rural,0.6474
-COL,Las Brisas,NA,2022,Mujeres,rural,0.7074
-COL,Las Brisas,NA,2022,Total,rural,0.678
-COL,Las Brisas,NA,2023,Hombres,rural,0.6276
-COL,Las Brisas,NA,2023,Mujeres,rural,0.6876
-COL,Las Brisas,NA,2023,Total,rural,0.6582
-COL,Las Brisas,NA,2024,Hombres,rural,0.6244
-COL,Las Brisas,NA,2024,Mujeres,rural,0.6844
-COL,Las Brisas,NA,2024,Total,rural,0.655
-COL,Las Brisas,NA,2025,Hombres,rural,0.6215
-COL,Las Brisas,NA,2025,Mujeres,rural,0.6815
-COL,Las Brisas,NA,2025,Total,rural,0.6521
-COL,Las Palmas,NA,2016,Hombres,periurbano,0.5543
-COL,Las Palmas,NA,2016,Mujeres,periurbano,0.6143
-COL,Las Palmas,NA,2016,Total,periurbano,0.5849
-COL,Las Palmas,NA,2017,Hombres,periurbano,0.5596
-COL,Las Palmas,NA,2017,Mujeres,periurbano,0.6196
-COL,Las Palmas,NA,2017,Total,periurbano,0.5902
-COL,Las Palmas,NA,2018,Hombres,periurbano,0.554
-COL,Las Palmas,NA,2018,Mujeres,periurbano,0.614
-COL,Las Palmas,NA,2018,Total,periurbano,0.5846
-COL,Las Palmas,NA,2019,Hombres,periurbano,0.5612
-COL,Las Palmas,NA,2019,Mujeres,periurbano,0.6212
-COL,Las Palmas,NA,2019,Total,periurbano,0.5917
-COL,Las Palmas,NA,2020,Hombres,periurbano,0.6239
-COL,Las Palmas,NA,2020,Mujeres,periurbano,0.6839
-COL,Las Palmas,NA,2020,Total,periurbano,0.6545
-COL,Las Palmas,NA,2021,Hombres,periurbano,0.608
-COL,Las Palmas,NA,2021,Mujeres,periurbano,0.668
-COL,Las Palmas,NA,2021,Total,periurbano,0.6386
-COL,Las Palmas,NA,2022,Hombres,periurbano,0.5798
-COL,Las Palmas,NA,2022,Mujeres,periurbano,0.6398
-COL,Las Palmas,NA,2022,Total,periurbano,0.6104
-COL,Las Palmas,NA,2023,Hombres,periurbano,0.5531
-COL,Las Palmas,NA,2023,Mujeres,periurbano,0.6131
-COL,Las Palmas,NA,2023,Total,periurbano,0.5837
-COL,Las Palmas,NA,2024,Hombres,periurbano,0.5498
-COL,Las Palmas,NA,2024,Mujeres,periurbano,0.6098
-COL,Las Palmas,NA,2024,Total,periurbano,0.5804
-COL,Las Palmas,NA,2025,Hombres,periurbano,0.5469
-COL,Las Palmas,NA,2025,Mujeres,periurbano,0.6069
-COL,Las Palmas,NA,2025,Total,periurbano,0.5775
-COL,Los Arrayanes,NA,2016,Hombres,rural,0.828
-COL,Los Arrayanes,NA,2016,Mujeres,rural,0.888
-COL,Los Arrayanes,NA,2016,Total,rural,0.8586
-COL,Los Arrayanes,NA,2017,Hombres,rural,0.8333
-COL,Los Arrayanes,NA,2017,Mujeres,rural,0.8933
-COL,Los Arrayanes,NA,2017,Total,rural,0.8639
-COL,Los Arrayanes,NA,2018,Hombres,rural,0.8277
-COL,Los Arrayanes,NA,2018,Mujeres,rural,0.8877
-COL,Los Arrayanes,NA,2018,Total,rural,0.8583
-COL,Los Arrayanes,NA,2019,Hombres,rural,0.8349
-COL,Los Arrayanes,NA,2019,Mujeres,rural,0.8949
-COL,Los Arrayanes,NA,2019,Total,rural,0.8654
-COL,Los Arrayanes,NA,2020,Hombres,rural,0.8976
-COL,Los Arrayanes,NA,2020,Mujeres,rural,0.95
-COL,Los Arrayanes,NA,2020,Total,rural,0.9243
-COL,Los Arrayanes,NA,2021,Hombres,rural,0.8817
-COL,Los Arrayanes,NA,2021,Mujeres,rural,0.9417
-COL,Los Arrayanes,NA,2021,Total,rural,0.9123
-COL,Los Arrayanes,NA,2022,Hombres,rural,0.8535
-COL,Los Arrayanes,NA,2022,Mujeres,rural,0.9135
-COL,Los Arrayanes,NA,2022,Total,rural,0.8841
-COL,Los Arrayanes,NA,2023,Hombres,rural,0.8338
-COL,Los Arrayanes,NA,2023,Mujeres,rural,0.8938
-COL,Los Arrayanes,NA,2023,Total,rural,0.8644
-COL,Los Arrayanes,NA,2024,Hombres,rural,0.8305
-COL,Los Arrayanes,NA,2024,Mujeres,rural,0.8905
-COL,Los Arrayanes,NA,2024,Total,rural,0.8611
-COL,Los Arrayanes,NA,2025,Hombres,rural,0.8276
-COL,Los Arrayanes,NA,2025,Mujeres,rural,0.8876
-COL,Los Arrayanes,NA,2025,Total,rural,0.8582
-COL,Los Pinos,NA,2016,Hombres,rural,0.7449
-COL,Los Pinos,NA,2016,Mujeres,rural,0.8049
-COL,Los Pinos,NA,2016,Total,rural,0.7755
-COL,Los Pinos,NA,2017,Hombres,rural,0.7502
-COL,Los Pinos,NA,2017,Mujeres,rural,0.8102
-COL,Los Pinos,NA,2017,Total,rural,0.7808
-COL,Los Pinos,NA,2018,Hombres,rural,0.7446
-COL,Los Pinos,NA,2018,Mujeres,rural,0.8046
-COL,Los Pinos,NA,2018,Total,rural,0.7752
-COL,Los Pinos,NA,2019,Hombres,rural,0.7517
-COL,Los Pinos,NA,2019,Mujeres,rural,0.8117
-COL,Los Pinos,NA,2019,Total,rural,0.7823
-COL,Los Pinos,NA,2020,Hombres,rural,0.8145
-COL,Los Pinos,NA,2020,Mujeres,rural,0.8745
-COL,Los Pinos,NA,2020,Total,rural,0.8451
-COL,Los Pinos,NA,2021,Hombres,rural,0.7986
-COL,Los Pinos,NA,2021,Mujeres,rural,0.8586
-COL,Los Pinos,NA,2021,Total,rural,0.8291
-COL,Los Pinos,NA,2022,Hombres,rural,0.7704
-COL,Los Pinos,NA,2022,Mujeres,rural,0.8304
-COL,Los Pinos,NA,2022,Total,rural,0.801
-COL,Los Pinos,NA,2023,Hombres,rural,0.7506
-COL,Los Pinos,NA,2023,Mujeres,rural,0.8106
-COL,Los Pinos,NA,2023,Total,rural,0.7813
-COL,Los Pinos,NA,2024,Hombres,rural,0.7474
-COL,Los Pinos,NA,2024,Mujeres,rural,0.8074
-COL,Los Pinos,NA,2024,Total,rural,0.778
-COL,Los Pinos,NA,2025,Hombres,rural,0.7445
-COL,Los Pinos,NA,2025,Mujeres,rural,0.8045
-COL,Los Pinos,NA,2025,Total,rural,0.7751
-COL,Los Álamos,NA,2016,Hombres,rural,0.6889
-COL,Los Álamos,NA,2016,Mujeres,rural,0.7489
-COL,Los Álamos,NA,2016,Total,rural,0.7195
-COL,Los Álamos,NA,2017,Hombres,rural,0.6942
-COL,Los Álamos,NA,2017,Mujeres,rural,0.7542
-COL,Los Álamos,NA,2017,Total,rural,0.7248
-COL,Los Álamos,NA,2018,Hombres,rural,0.6886
-COL,Los Álamos,NA,2018,Mujeres,rural,0.7486
-COL,Los Álamos,NA,2018,Total,rural,0.7192
-COL,Los Álamos,NA,2019,Hombres,rural,0.6957
-COL,Los Álamos,NA,2019,Mujeres,rural,0.7557
-COL,Los Álamos,NA,2019,Total,rural,0.7264
-COL,Los Álamos,NA,2020,Hombres,rural,0.7585
-COL,Los Álamos,NA,2020,Mujeres,rural,0.8185
-COL,Los Álamos,NA,2020,Total,rural,0.7891
-COL,Los Álamos,NA,2021,Hombres,rural,0.7426
-COL,Los Álamos,NA,2021,Mujeres,rural,0.8026
-COL,Los Álamos,NA,2021,Total,rural,0.7732
-COL,Los Álamos,NA,2022,Hombres,rural,0.7144
-COL,Los Álamos,NA,2022,Mujeres,rural,0.7744
-COL,Los Álamos,NA,2022,Total,rural,0.745
-COL,Los Álamos,NA,2023,Hombres,rural,0.6946
-COL,Los Álamos,NA,2023,Mujeres,rural,0.7546
-COL,Los Álamos,NA,2023,Total,rural,0.7252
-COL,Los Álamos,NA,2024,Hombres,rural,0.6914
-COL,Los Álamos,NA,2024,Mujeres,rural,0.7514
-COL,Los Álamos,NA,2024,Total,rural,0.722
-COL,Los Álamos,NA,2025,Hombres,rural,0.6885
-COL,Los Álamos,NA,2025,Mujeres,rural,0.7485
-COL,Los Álamos,NA,2025,Total,rural,0.7191
-COL,Nueva Esperanza,NA,2016,Hombres,periurbano,0.5066
-COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,0.5666
-COL,Nueva Esperanza,NA,2016,Total,periurbano,0.5372
-COL,Nueva Esperanza,NA,2017,Hombres,periurbano,0.5119
-COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,0.5719
-COL,Nueva Esperanza,NA,2017,Total,periurbano,0.5425
-COL,Nueva Esperanza,NA,2018,Hombres,periurbano,0.5063
-COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,0.5663
-COL,Nueva Esperanza,NA,2018,Total,periurbano,0.5369
-COL,Nueva Esperanza,NA,2019,Hombres,periurbano,0.5135
-COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,0.5735
-COL,Nueva Esperanza,NA,2019,Total,periurbano,0.5441
-COL,Nueva Esperanza,NA,2020,Hombres,periurbano,0.5762
-COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,0.6362
-COL,Nueva Esperanza,NA,2020,Total,periurbano,0.6068
-COL,Nueva Esperanza,NA,2021,Hombres,periurbano,0.5603
-COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,0.6203
-COL,Nueva Esperanza,NA,2021,Total,periurbano,0.5909
-COL,Nueva Esperanza,NA,2022,Hombres,periurbano,0.5321
-COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,0.5921
-COL,Nueva Esperanza,NA,2022,Total,periurbano,0.5627
-COL,Nueva Esperanza,NA,2023,Hombres,periurbano,0.5054
-COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,0.5654
-COL,Nueva Esperanza,NA,2023,Total,periurbano,0.536
-COL,Nueva Esperanza,NA,2024,Hombres,periurbano,0.5021
-COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,0.5621
-COL,Nueva Esperanza,NA,2024,Total,periurbano,0.5327
-COL,Nueva Esperanza,NA,2025,Hombres,periurbano,0.4993
-COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,0.5593
-COL,Nueva Esperanza,NA,2025,Total,periurbano,0.5298
-COL,Nueva Vida,NA,2016,Hombres,periurbano,0.562
-COL,Nueva Vida,NA,2016,Mujeres,periurbano,0.622
-COL,Nueva Vida,NA,2016,Total,periurbano,0.5926
-COL,Nueva Vida,NA,2017,Hombres,periurbano,0.5673
-COL,Nueva Vida,NA,2017,Mujeres,periurbano,0.6273
-COL,Nueva Vida,NA,2017,Total,periurbano,0.5979
-COL,Nueva Vida,NA,2018,Hombres,periurbano,0.5617
-COL,Nueva Vida,NA,2018,Mujeres,periurbano,0.6217
-COL,Nueva Vida,NA,2018,Total,periurbano,0.5923
-COL,Nueva Vida,NA,2019,Hombres,periurbano,0.5689
-COL,Nueva Vida,NA,2019,Mujeres,periurbano,0.6289
-COL,Nueva Vida,NA,2019,Total,periurbano,0.5995
-COL,Nueva Vida,NA,2020,Hombres,periurbano,0.6316
-COL,Nueva Vida,NA,2020,Mujeres,periurbano,0.6916
-COL,Nueva Vida,NA,2020,Total,periurbano,0.6622
-COL,Nueva Vida,NA,2021,Hombres,periurbano,0.6157
-COL,Nueva Vida,NA,2021,Mujeres,periurbano,0.6757
-COL,Nueva Vida,NA,2021,Total,periurbano,0.6463
-COL,Nueva Vida,NA,2022,Hombres,periurbano,0.5875
-COL,Nueva Vida,NA,2022,Mujeres,periurbano,0.6475
-COL,Nueva Vida,NA,2022,Total,periurbano,0.6181
-COL,Nueva Vida,NA,2023,Hombres,periurbano,0.5608
-COL,Nueva Vida,NA,2023,Mujeres,periurbano,0.6208
-COL,Nueva Vida,NA,2023,Total,periurbano,0.5914
-COL,Nueva Vida,NA,2024,Hombres,periurbano,0.5576
-COL,Nueva Vida,NA,2024,Mujeres,periurbano,0.6176
-COL,Nueva Vida,NA,2024,Total,periurbano,0.5882
-COL,Nueva Vida,NA,2025,Hombres,periurbano,0.5547
-COL,Nueva Vida,NA,2025,Mujeres,periurbano,0.6147
-COL,Nueva Vida,NA,2025,Total,periurbano,0.5853
-COL,Plaza del Valle,NA,2016,Hombres,rural,0.7338
-COL,Plaza del Valle,NA,2016,Mujeres,rural,0.7938
-COL,Plaza del Valle,NA,2016,Total,rural,0.7644
-COL,Plaza del Valle,NA,2017,Hombres,rural,0.7392
-COL,Plaza del Valle,NA,2017,Mujeres,rural,0.7992
-COL,Plaza del Valle,NA,2017,Total,rural,0.7698
-COL,Plaza del Valle,NA,2018,Hombres,rural,0.7335
-COL,Plaza del Valle,NA,2018,Mujeres,rural,0.7935
-COL,Plaza del Valle,NA,2018,Total,rural,0.7641
-COL,Plaza del Valle,NA,2019,Hombres,rural,0.7407
-COL,Plaza del Valle,NA,2019,Mujeres,rural,0.8007
-COL,Plaza del Valle,NA,2019,Total,rural,0.7713
-COL,Plaza del Valle,NA,2020,Hombres,rural,0.8035
-COL,Plaza del Valle,NA,2020,Mujeres,rural,0.8635
-COL,Plaza del Valle,NA,2020,Total,rural,0.8341
-COL,Plaza del Valle,NA,2021,Hombres,rural,0.7875
-COL,Plaza del Valle,NA,2021,Mujeres,rural,0.8475
-COL,Plaza del Valle,NA,2021,Total,rural,0.8181
-COL,Plaza del Valle,NA,2022,Hombres,rural,0.7594
-COL,Plaza del Valle,NA,2022,Mujeres,rural,0.8194
-COL,Plaza del Valle,NA,2022,Total,rural,0.79
-COL,Plaza del Valle,NA,2023,Hombres,rural,0.7396
-COL,Plaza del Valle,NA,2023,Mujeres,rural,0.7996
-COL,Plaza del Valle,NA,2023,Total,rural,0.7702
-COL,Plaza del Valle,NA,2024,Hombres,rural,0.7364
-COL,Plaza del Valle,NA,2024,Mujeres,rural,0.7964
-COL,Plaza del Valle,NA,2024,Total,rural,0.767
-COL,Plaza del Valle,NA,2025,Hombres,rural,0.7335
-COL,Plaza del Valle,NA,2025,Mujeres,rural,0.7935
-COL,Plaza del Valle,NA,2025,Total,rural,0.7641
-COL,San Isidro,NA,2016,Hombres,rural,0.7919
-COL,San Isidro,NA,2016,Mujeres,rural,0.8519
-COL,San Isidro,NA,2016,Total,rural,0.8225
-COL,San Isidro,NA,2017,Hombres,rural,0.7973
-COL,San Isidro,NA,2017,Mujeres,rural,0.8573
-COL,San Isidro,NA,2017,Total,rural,0.8279
-COL,San Isidro,NA,2018,Hombres,rural,0.7916
-COL,San Isidro,NA,2018,Mujeres,rural,0.8516
-COL,San Isidro,NA,2018,Total,rural,0.8222
-COL,San Isidro,NA,2019,Hombres,rural,0.7988
-COL,San Isidro,NA,2019,Mujeres,rural,0.8588
-COL,San Isidro,NA,2019,Total,rural,0.8294
-COL,San Isidro,NA,2020,Hombres,rural,0.8616
-COL,San Isidro,NA,2020,Mujeres,rural,0.9216
-COL,San Isidro,NA,2020,Total,rural,0.8922
-COL,San Isidro,NA,2021,Hombres,rural,0.8456
-COL,San Isidro,NA,2021,Mujeres,rural,0.9056
-COL,San Isidro,NA,2021,Total,rural,0.8762
-COL,San Isidro,NA,2022,Hombres,rural,0.8175
-COL,San Isidro,NA,2022,Mujeres,rural,0.8775
-COL,San Isidro,NA,2022,Total,rural,0.8481
-COL,San Isidro,NA,2023,Hombres,rural,0.7977
-COL,San Isidro,NA,2023,Mujeres,rural,0.8577
-COL,San Isidro,NA,2023,Total,rural,0.8283
-COL,San Isidro,NA,2024,Hombres,rural,0.7945
-COL,San Isidro,NA,2024,Mujeres,rural,0.8545
-COL,San Isidro,NA,2024,Total,rural,0.8251
-COL,San Isidro,NA,2025,Hombres,rural,0.7916
-COL,San Isidro,NA,2025,Mujeres,rural,0.8516
-COL,San Isidro,NA,2025,Total,rural,0.8222
-COL,San Joaquín,NA,2016,Hombres,periurbano,0.7326
-COL,San Joaquín,NA,2016,Mujeres,periurbano,0.7926
-COL,San Joaquín,NA,2016,Total,periurbano,0.7632
-COL,San Joaquín,NA,2017,Hombres,periurbano,0.7379
-COL,San Joaquín,NA,2017,Mujeres,periurbano,0.7979
-COL,San Joaquín,NA,2017,Total,periurbano,0.7685
-COL,San Joaquín,NA,2018,Hombres,periurbano,0.7323
-COL,San Joaquín,NA,2018,Mujeres,periurbano,0.7923
-COL,San Joaquín,NA,2018,Total,periurbano,0.7629
-COL,San Joaquín,NA,2019,Hombres,periurbano,0.7395
-COL,San Joaquín,NA,2019,Mujeres,periurbano,0.7995
-COL,San Joaquín,NA,2019,Total,periurbano,0.7701
-COL,San Joaquín,NA,2020,Hombres,periurbano,0.8022
-COL,San Joaquín,NA,2020,Mujeres,periurbano,0.8622
-COL,San Joaquín,NA,2020,Total,periurbano,0.8328
-COL,San Joaquín,NA,2021,Hombres,periurbano,0.7863
-COL,San Joaquín,NA,2021,Mujeres,periurbano,0.8463
-COL,San Joaquín,NA,2021,Total,periurbano,0.8169
-COL,San Joaquín,NA,2022,Hombres,periurbano,0.7581
-COL,San Joaquín,NA,2022,Mujeres,periurbano,0.8181
-COL,San Joaquín,NA,2022,Total,periurbano,0.7887
-COL,San Joaquín,NA,2023,Hombres,periurbano,0.7314
-COL,San Joaquín,NA,2023,Mujeres,periurbano,0.7914
-COL,San Joaquín,NA,2023,Total,periurbano,0.762
-COL,San Joaquín,NA,2024,Hombres,periurbano,0.7281
-COL,San Joaquín,NA,2024,Mujeres,periurbano,0.7881
-COL,San Joaquín,NA,2024,Total,periurbano,0.7587
-COL,San Joaquín,NA,2025,Hombres,periurbano,0.7253
-COL,San Joaquín,NA,2025,Mujeres,periurbano,0.7853
-COL,San Joaquín,NA,2025,Total,periurbano,0.7559
-COL,San Martín del Valle,NA,2016,Hombres,Total,0.5719
-COL,San Martín del Valle,NA,2016,Mujeres,Total,0.6319
-COL,San Martín del Valle,NA,2016,Total,Total,0.6025
-COL,San Martín del Valle,NA,2016,Hombres,periurbano,0.5902
-COL,San Martín del Valle,NA,2016,Mujeres,periurbano,0.6502
-COL,San Martín del Valle,NA,2016,Total,periurbano,0.6208
-COL,San Martín del Valle,NA,2016,Hombres,rural,0.7103
-COL,San Martín del Valle,NA,2016,Mujeres,rural,0.7703
-COL,San Martín del Valle,NA,2016,Total,rural,0.7409
-COL,San Martín del Valle,NA,2016,Hombres,urbano,0.2746
-COL,San Martín del Valle,NA,2016,Mujeres,urbano,0.3346
-COL,San Martín del Valle,NA,2016,Total,urbano,0.3052
-COL,San Martín del Valle,NA,2017,Hombres,Total,0.5772
-COL,San Martín del Valle,NA,2017,Mujeres,Total,0.6372
-COL,San Martín del Valle,NA,2017,Total,Total,0.6078
-COL,San Martín del Valle,NA,2017,Hombres,periurbano,0.5955
-COL,San Martín del Valle,NA,2017,Mujeres,periurbano,0.6555
-COL,San Martín del Valle,NA,2017,Total,periurbano,0.6261
-COL,San Martín del Valle,NA,2017,Hombres,rural,0.7157
+iso3,Territorio,cod_local,anio,sexo,zona,valor
+COL,Altos del Sol,NA,2016,Hombres,periurbano,0.6102
+COL,Altos del Sol,NA,2016,Mujeres,periurbano,0.6702
+COL,Altos del Sol,NA,2016,Total,periurbano,0.6408
+COL,Altos del Sol,NA,2017,Hombres,periurbano,0.514
+COL,Altos del Sol,NA,2017,Mujeres,periurbano,0.574
+COL,Altos del Sol,NA,2017,Total,periurbano,0.5446
+COL,Altos del Sol,NA,2018,Hombres,periurbano,0.4265
+COL,Altos del Sol,NA,2018,Mujeres,periurbano,0.4865
+COL,Altos del Sol,NA,2018,Total,periurbano,0.4571
+COL,Altos del Sol,NA,2019,Hombres,periurbano,0.5245
+COL,Altos del Sol,NA,2019,Mujeres,periurbano,0.5845
+COL,Altos del Sol,NA,2019,Total,periurbano,0.5551
+COL,Altos del Sol,NA,2020,Hombres,periurbano,0.6198
+COL,Altos del Sol,NA,2020,Mujeres,periurbano,0.6798
+COL,Altos del Sol,NA,2020,Total,periurbano,0.6504
+COL,Altos del Sol,NA,2021,Hombres,periurbano,0.6099
+COL,Altos del Sol,NA,2021,Mujeres,periurbano,0.6699
+COL,Altos del Sol,NA,2021,Total,periurbano,0.6405
+COL,Altos del Sol,NA,2022,Hombres,periurbano,0.53
+COL,Altos del Sol,NA,2022,Mujeres,periurbano,0.59
+COL,Altos del Sol,NA,2022,Total,periurbano,0.5606
+COL,Altos del Sol,NA,2023,Hombres,periurbano,0.5934
+COL,Altos del Sol,NA,2023,Mujeres,periurbano,0.6534
+COL,Altos del Sol,NA,2023,Total,periurbano,0.624
+COL,Altos del Sol,NA,2024,Hombres,periurbano,0.5691
+COL,Altos del Sol,NA,2024,Mujeres,periurbano,0.6291
+COL,Altos del Sol,NA,2024,Total,periurbano,0.5997
+COL,Altos del Sol,NA,2025,Hombres,periurbano,0.6
+COL,Altos del Sol,NA,2025,Mujeres,periurbano,0.66
+COL,Altos del Sol,NA,2025,Total,periurbano,0.6306
+COL,Bosques del Valle,NA,2016,Hombres,periurbano,0.6141
+COL,Bosques del Valle,NA,2016,Mujeres,periurbano,0.6741
+COL,Bosques del Valle,NA,2016,Total,periurbano,0.6447
+COL,Bosques del Valle,NA,2017,Hombres,periurbano,0.6794
+COL,Bosques del Valle,NA,2017,Mujeres,periurbano,0.7394
+COL,Bosques del Valle,NA,2017,Total,periurbano,0.71
+COL,Bosques del Valle,NA,2018,Hombres,periurbano,0.6555
+COL,Bosques del Valle,NA,2018,Mujeres,periurbano,0.7155
+COL,Bosques del Valle,NA,2018,Total,periurbano,0.6861
+COL,Bosques del Valle,NA,2019,Hombres,periurbano,0.6673
+COL,Bosques del Valle,NA,2019,Mujeres,periurbano,0.7273
+COL,Bosques del Valle,NA,2019,Total,periurbano,0.6979
+COL,Bosques del Valle,NA,2020,Hombres,periurbano,0.7519
+COL,Bosques del Valle,NA,2020,Mujeres,periurbano,0.8119
+COL,Bosques del Valle,NA,2020,Total,periurbano,0.7825
+COL,Bosques del Valle,NA,2021,Hombres,periurbano,0.6399
+COL,Bosques del Valle,NA,2021,Mujeres,periurbano,0.6999
+COL,Bosques del Valle,NA,2021,Total,periurbano,0.6705
+COL,Bosques del Valle,NA,2022,Hombres,periurbano,0.5668
+COL,Bosques del Valle,NA,2022,Mujeres,periurbano,0.6268
+COL,Bosques del Valle,NA,2022,Total,periurbano,0.5973
+COL,Bosques del Valle,NA,2023,Hombres,periurbano,0.5923
+COL,Bosques del Valle,NA,2023,Mujeres,periurbano,0.6523
+COL,Bosques del Valle,NA,2023,Total,periurbano,0.6229
+COL,Bosques del Valle,NA,2024,Hombres,periurbano,0.6806
+COL,Bosques del Valle,NA,2024,Mujeres,periurbano,0.7406
+COL,Bosques del Valle,NA,2024,Total,periurbano,0.7112
+COL,Bosques del Valle,NA,2025,Hombres,periurbano,0.7646
+COL,Bosques del Valle,NA,2025,Mujeres,periurbano,0.8246
+COL,Bosques del Valle,NA,2025,Total,periurbano,0.7952
+COL,Colinas del Valle,NA,2016,Hombres,rural,0.7384
+COL,Colinas del Valle,NA,2016,Mujeres,rural,0.7984
+COL,Colinas del Valle,NA,2016,Total,rural,0.769
+COL,Colinas del Valle,NA,2017,Hombres,rural,0.6196
+COL,Colinas del Valle,NA,2017,Mujeres,rural,0.6796
+COL,Colinas del Valle,NA,2017,Total,rural,0.6502
+COL,Colinas del Valle,NA,2018,Hombres,rural,0.6835
+COL,Colinas del Valle,NA,2018,Mujeres,rural,0.7435
+COL,Colinas del Valle,NA,2018,Total,rural,0.7141
+COL,Colinas del Valle,NA,2019,Hombres,rural,0.7674
+COL,Colinas del Valle,NA,2019,Mujeres,rural,0.8274
+COL,Colinas del Valle,NA,2019,Total,rural,0.798
+COL,Colinas del Valle,NA,2020,Hombres,rural,0.7757
+COL,Colinas del Valle,NA,2020,Mujeres,rural,0.8357
+COL,Colinas del Valle,NA,2020,Total,rural,0.8063
+COL,Colinas del Valle,NA,2021,Hombres,rural,0.8077
+COL,Colinas del Valle,NA,2021,Mujeres,rural,0.8677
+COL,Colinas del Valle,NA,2021,Total,rural,0.8383
+COL,Colinas del Valle,NA,2022,Hombres,rural,0.8139
+COL,Colinas del Valle,NA,2022,Mujeres,rural,0.8739
+COL,Colinas del Valle,NA,2022,Total,rural,0.8445
+COL,Colinas del Valle,NA,2023,Hombres,rural,0.784
+COL,Colinas del Valle,NA,2023,Mujeres,rural,0.844
+COL,Colinas del Valle,NA,2023,Total,rural,0.8146
+COL,Colinas del Valle,NA,2024,Hombres,rural,0.7301
+COL,Colinas del Valle,NA,2024,Mujeres,rural,0.7901
+COL,Colinas del Valle,NA,2024,Total,rural,0.7607
+COL,Colinas del Valle,NA,2025,Hombres,rural,0.8767
+COL,Colinas del Valle,NA,2025,Mujeres,rural,0.9
+COL,Colinas del Valle,NA,2025,Total,rural,0.8886
+COL,El Carmen,NA,2016,Hombres,periurbano,0.6946
+COL,El Carmen,NA,2016,Mujeres,periurbano,0.7546
+COL,El Carmen,NA,2016,Total,periurbano,0.7252
+COL,El Carmen,NA,2017,Hombres,periurbano,0.6373
+COL,El Carmen,NA,2017,Mujeres,periurbano,0.6973
+COL,El Carmen,NA,2017,Total,periurbano,0.6679
+COL,El Carmen,NA,2018,Hombres,periurbano,0.6031
+COL,El Carmen,NA,2018,Mujeres,periurbano,0.6631
+COL,El Carmen,NA,2018,Total,periurbano,0.6337
+COL,El Carmen,NA,2019,Hombres,periurbano,0.6655
+COL,El Carmen,NA,2019,Mujeres,periurbano,0.7255
+COL,El Carmen,NA,2019,Total,periurbano,0.6961
+COL,El Carmen,NA,2020,Hombres,periurbano,0.7465
+COL,El Carmen,NA,2020,Mujeres,periurbano,0.8065
+COL,El Carmen,NA,2020,Total,periurbano,0.7771
+COL,El Carmen,NA,2021,Hombres,periurbano,0.5983
+COL,El Carmen,NA,2021,Mujeres,periurbano,0.6583
+COL,El Carmen,NA,2021,Total,periurbano,0.6289
+COL,El Carmen,NA,2022,Hombres,periurbano,0.6222
+COL,El Carmen,NA,2022,Mujeres,periurbano,0.6822
+COL,El Carmen,NA,2022,Total,periurbano,0.6528
+COL,El Carmen,NA,2023,Hombres,periurbano,0.6058
+COL,El Carmen,NA,2023,Mujeres,periurbano,0.6658
+COL,El Carmen,NA,2023,Total,periurbano,0.6364
+COL,El Carmen,NA,2024,Hombres,periurbano,0.6384
+COL,El Carmen,NA,2024,Mujeres,periurbano,0.6984
+COL,El Carmen,NA,2024,Total,periurbano,0.669
+COL,El Carmen,NA,2025,Hombres,periurbano,0.6364
+COL,El Carmen,NA,2025,Mujeres,periurbano,0.6964
+COL,El Carmen,NA,2025,Total,periurbano,0.667
+COL,El Edén,NA,2016,Hombres,periurbano,0.5773
+COL,El Edén,NA,2016,Mujeres,periurbano,0.6373
+COL,El Edén,NA,2016,Total,periurbano,0.6079
+COL,El Edén,NA,2017,Hombres,periurbano,0.5446
+COL,El Edén,NA,2017,Mujeres,periurbano,0.6046
+COL,El Edén,NA,2017,Total,periurbano,0.5752
+COL,El Edén,NA,2018,Hombres,periurbano,0.7032
+COL,El Edén,NA,2018,Mujeres,periurbano,0.7632
+COL,El Edén,NA,2018,Total,periurbano,0.7338
+COL,El Edén,NA,2019,Hombres,periurbano,0.5225
+COL,El Edén,NA,2019,Mujeres,periurbano,0.5825
+COL,El Edén,NA,2019,Total,periurbano,0.5531
+COL,El Edén,NA,2020,Hombres,periurbano,0.6579
+COL,El Edén,NA,2020,Mujeres,periurbano,0.7179
+COL,El Edén,NA,2020,Total,periurbano,0.6885
+COL,El Edén,NA,2021,Hombres,periurbano,0.545
+COL,El Edén,NA,2021,Mujeres,periurbano,0.605
+COL,El Edén,NA,2021,Total,periurbano,0.5756
+COL,El Edén,NA,2022,Hombres,periurbano,0.5176
+COL,El Edén,NA,2022,Mujeres,periurbano,0.5776
+COL,El Edén,NA,2022,Total,periurbano,0.5482
+COL,El Edén,NA,2023,Hombres,periurbano,0.4511
+COL,El Edén,NA,2023,Mujeres,periurbano,0.5111
+COL,El Edén,NA,2023,Total,periurbano,0.4817
+COL,El Edén,NA,2024,Hombres,periurbano,0.649
+COL,El Edén,NA,2024,Mujeres,periurbano,0.709
+COL,El Edén,NA,2024,Total,periurbano,0.6797
+COL,El Edén,NA,2025,Hombres,periurbano,0.564
+COL,El Edén,NA,2025,Mujeres,periurbano,0.624
+COL,El Edén,NA,2025,Total,periurbano,0.5946
+COL,El Mirador,NA,2016,Hombres,rural,0.6478
+COL,El Mirador,NA,2016,Mujeres,rural,0.7078
+COL,El Mirador,NA,2016,Total,rural,0.6784
+COL,El Mirador,NA,2017,Hombres,rural,0.6508
+COL,El Mirador,NA,2017,Mujeres,rural,0.7108
+COL,El Mirador,NA,2017,Total,rural,0.6814
+COL,El Mirador,NA,2018,Hombres,rural,0.7854
+COL,El Mirador,NA,2018,Mujeres,rural,0.8454
+COL,El Mirador,NA,2018,Total,rural,0.816
+COL,El Mirador,NA,2019,Hombres,rural,0.6416
+COL,El Mirador,NA,2019,Mujeres,rural,0.7016
+COL,El Mirador,NA,2019,Total,rural,0.6722
+COL,El Mirador,NA,2020,Hombres,rural,0.7949
+COL,El Mirador,NA,2020,Mujeres,rural,0.8549
+COL,El Mirador,NA,2020,Total,rural,0.8255
+COL,El Mirador,NA,2021,Hombres,rural,0.8174
+COL,El Mirador,NA,2021,Mujeres,rural,0.8774
+COL,El Mirador,NA,2021,Total,rural,0.848
+COL,El Mirador,NA,2022,Hombres,rural,0.8448
+COL,El Mirador,NA,2022,Mujeres,rural,0.9
+COL,El Mirador,NA,2022,Total,rural,0.8729
+COL,El Mirador,NA,2023,Hombres,rural,0.8538
+COL,El Mirador,NA,2023,Mujeres,rural,0.9
+COL,El Mirador,NA,2023,Total,rural,0.8774
+COL,El Mirador,NA,2024,Hombres,rural,0.7845
+COL,El Mirador,NA,2024,Mujeres,rural,0.8445
+COL,El Mirador,NA,2024,Total,rural,0.8151
+COL,El Mirador,NA,2025,Hombres,rural,0.702
+COL,El Mirador,NA,2025,Mujeres,rural,0.762
+COL,El Mirador,NA,2025,Total,rural,0.7326
+COL,El Porvenir,NA,2016,Hombres,rural,0.9
+COL,El Porvenir,NA,2016,Mujeres,rural,0.9
+COL,El Porvenir,NA,2016,Total,rural,0.9
+COL,El Porvenir,NA,2017,Hombres,rural,0.8229
+COL,El Porvenir,NA,2017,Mujeres,rural,0.8829
+COL,El Porvenir,NA,2017,Total,rural,0.8535
+COL,El Porvenir,NA,2018,Hombres,rural,0.9
+COL,El Porvenir,NA,2018,Mujeres,rural,0.9
+COL,El Porvenir,NA,2018,Total,rural,0.9
+COL,El Porvenir,NA,2019,Hombres,rural,0.7759
+COL,El Porvenir,NA,2019,Mujeres,rural,0.8359
+COL,El Porvenir,NA,2019,Total,rural,0.8065
+COL,El Porvenir,NA,2020,Hombres,rural,0.8706
+COL,El Porvenir,NA,2020,Mujeres,rural,0.9
+COL,El Porvenir,NA,2020,Total,rural,0.8856
+COL,El Porvenir,NA,2021,Hombres,rural,0.9
+COL,El Porvenir,NA,2021,Mujeres,rural,0.9
+COL,El Porvenir,NA,2021,Total,rural,0.9
+COL,El Porvenir,NA,2022,Hombres,rural,0.8903
+COL,El Porvenir,NA,2022,Mujeres,rural,0.9
+COL,El Porvenir,NA,2022,Total,rural,0.8952
+COL,El Porvenir,NA,2023,Hombres,rural,0.8329
+COL,El Porvenir,NA,2023,Mujeres,rural,0.8929
+COL,El Porvenir,NA,2023,Total,rural,0.8635
+COL,El Porvenir,NA,2024,Hombres,rural,0.7817
+COL,El Porvenir,NA,2024,Mujeres,rural,0.8417
+COL,El Porvenir,NA,2024,Total,rural,0.8123
+COL,El Porvenir,NA,2025,Hombres,rural,0.9
+COL,El Porvenir,NA,2025,Mujeres,rural,0.9
+COL,El Porvenir,NA,2025,Total,rural,0.9
+COL,La Alameda,NA,2016,Hombres,rural,0.772
+COL,La Alameda,NA,2016,Mujeres,rural,0.832
+COL,La Alameda,NA,2016,Total,rural,0.8026
+COL,La Alameda,NA,2017,Hombres,rural,0.7651
+COL,La Alameda,NA,2017,Mujeres,rural,0.8251
+COL,La Alameda,NA,2017,Total,rural,0.7957
+COL,La Alameda,NA,2018,Hombres,rural,0.7402
+COL,La Alameda,NA,2018,Mujeres,rural,0.8002
+COL,La Alameda,NA,2018,Total,rural,0.7708
+COL,La Alameda,NA,2019,Hombres,rural,0.7525
+COL,La Alameda,NA,2019,Mujeres,rural,0.8125
+COL,La Alameda,NA,2019,Total,rural,0.7831
+COL,La Alameda,NA,2020,Hombres,rural,0.8381
+COL,La Alameda,NA,2020,Mujeres,rural,0.8981
+COL,La Alameda,NA,2020,Total,rural,0.8687
+COL,La Alameda,NA,2021,Hombres,rural,0.8035
+COL,La Alameda,NA,2021,Mujeres,rural,0.8635
+COL,La Alameda,NA,2021,Total,rural,0.8341
+COL,La Alameda,NA,2022,Hombres,rural,0.8447
+COL,La Alameda,NA,2022,Mujeres,rural,0.9
+COL,La Alameda,NA,2022,Total,rural,0.8729
+COL,La Alameda,NA,2023,Hombres,rural,0.8184
+COL,La Alameda,NA,2023,Mujeres,rural,0.8784
+COL,La Alameda,NA,2023,Total,rural,0.8491
+COL,La Alameda,NA,2024,Hombres,rural,0.7524
+COL,La Alameda,NA,2024,Mujeres,rural,0.8124
+COL,La Alameda,NA,2024,Total,rural,0.783
+COL,La Alameda,NA,2025,Hombres,rural,0.7415
+COL,La Alameda,NA,2025,Mujeres,rural,0.8015
+COL,La Alameda,NA,2025,Total,rural,0.7721
+COL,La Arboleda,NA,2016,Hombres,periurbano,0.4158
+COL,La Arboleda,NA,2016,Mujeres,periurbano,0.4758
+COL,La Arboleda,NA,2016,Total,periurbano,0.4464
+COL,La Arboleda,NA,2017,Hombres,periurbano,0.3532
+COL,La Arboleda,NA,2017,Mujeres,periurbano,0.4132
+COL,La Arboleda,NA,2017,Total,periurbano,0.3838
+COL,La Arboleda,NA,2018,Hombres,periurbano,0.4775
+COL,La Arboleda,NA,2018,Mujeres,periurbano,0.5375
+COL,La Arboleda,NA,2018,Total,periurbano,0.5081
+COL,La Arboleda,NA,2019,Hombres,periurbano,0.5142
+COL,La Arboleda,NA,2019,Mujeres,periurbano,0.5742
+COL,La Arboleda,NA,2019,Total,periurbano,0.5449
+COL,La Arboleda,NA,2020,Hombres,periurbano,0.4587
+COL,La Arboleda,NA,2020,Mujeres,periurbano,0.5187
+COL,La Arboleda,NA,2020,Total,periurbano,0.4893
+COL,La Arboleda,NA,2021,Hombres,periurbano,0.5507
+COL,La Arboleda,NA,2021,Mujeres,periurbano,0.6107
+COL,La Arboleda,NA,2021,Total,periurbano,0.5813
+COL,La Arboleda,NA,2022,Hombres,periurbano,0.4802
+COL,La Arboleda,NA,2022,Mujeres,periurbano,0.5402
+COL,La Arboleda,NA,2022,Total,periurbano,0.5108
+COL,La Arboleda,NA,2023,Hombres,periurbano,0.453
+COL,La Arboleda,NA,2023,Mujeres,periurbano,0.513
+COL,La Arboleda,NA,2023,Total,periurbano,0.4836
+COL,La Arboleda,NA,2024,Hombres,periurbano,0.3891
+COL,La Arboleda,NA,2024,Mujeres,periurbano,0.4491
+COL,La Arboleda,NA,2024,Total,periurbano,0.4197
+COL,La Arboleda,NA,2025,Hombres,periurbano,0.4991
+COL,La Arboleda,NA,2025,Mujeres,periurbano,0.5591
+COL,La Arboleda,NA,2025,Total,periurbano,0.5297
+COL,La Cañada,NA,2016,Hombres,rural,0.8825
+COL,La Cañada,NA,2016,Mujeres,rural,0.9
+COL,La Cañada,NA,2016,Total,rural,0.8914
+COL,La Cañada,NA,2017,Hombres,rural,0.8894
+COL,La Cañada,NA,2017,Mujeres,rural,0.9
+COL,La Cañada,NA,2017,Total,rural,0.8948
+COL,La Cañada,NA,2018,Hombres,rural,0.9
+COL,La Cañada,NA,2018,Mujeres,rural,0.9
+COL,La Cañada,NA,2018,Total,rural,0.9
+COL,La Cañada,NA,2019,Hombres,rural,0.9
+COL,La Cañada,NA,2019,Mujeres,rural,0.9
+COL,La Cañada,NA,2019,Total,rural,0.9
+COL,La Cañada,NA,2020,Hombres,rural,0.8567
+COL,La Cañada,NA,2020,Mujeres,rural,0.9
+COL,La Cañada,NA,2020,Total,rural,0.8788
+COL,La Cañada,NA,2021,Hombres,rural,0.7984
+COL,La Cañada,NA,2021,Mujeres,rural,0.8584
+COL,La Cañada,NA,2021,Total,rural,0.829
+COL,La Cañada,NA,2022,Hombres,rural,0.7437
+COL,La Cañada,NA,2022,Mujeres,rural,0.8037
+COL,La Cañada,NA,2022,Total,rural,0.7743
+COL,La Cañada,NA,2023,Hombres,rural,0.762
+COL,La Cañada,NA,2023,Mujeres,rural,0.822
+COL,La Cañada,NA,2023,Total,rural,0.7926
+COL,La Cañada,NA,2024,Hombres,rural,0.7416
+COL,La Cañada,NA,2024,Mujeres,rural,0.8016
+COL,La Cañada,NA,2024,Total,rural,0.7723
+COL,La Cañada,NA,2025,Hombres,rural,0.771
+COL,La Cañada,NA,2025,Mujeres,rural,0.831
+COL,La Cañada,NA,2025,Total,rural,0.8016
+COL,La Esperanza,NA,2016,Hombres,urbano,0.3519
+COL,La Esperanza,NA,2016,Mujeres,urbano,0.4119
+COL,La Esperanza,NA,2016,Total,urbano,0.3825
+COL,La Esperanza,NA,2017,Hombres,urbano,0.3575
+COL,La Esperanza,NA,2017,Mujeres,urbano,0.4175
+COL,La Esperanza,NA,2017,Total,urbano,0.3881
+COL,La Esperanza,NA,2018,Hombres,urbano,0.3555
+COL,La Esperanza,NA,2018,Mujeres,urbano,0.4155
+COL,La Esperanza,NA,2018,Total,urbano,0.3861
+COL,La Esperanza,NA,2019,Hombres,urbano,0.3415
+COL,La Esperanza,NA,2019,Mujeres,urbano,0.4015
+COL,La Esperanza,NA,2019,Total,urbano,0.3721
+COL,La Esperanza,NA,2020,Hombres,urbano,0.3746
+COL,La Esperanza,NA,2020,Mujeres,urbano,0.4346
+COL,La Esperanza,NA,2020,Total,urbano,0.4052
+COL,La Esperanza,NA,2021,Hombres,urbano,0.3185
+COL,La Esperanza,NA,2021,Mujeres,urbano,0.3785
+COL,La Esperanza,NA,2021,Total,urbano,0.3491
+COL,La Esperanza,NA,2022,Hombres,urbano,0.3191
+COL,La Esperanza,NA,2022,Mujeres,urbano,0.3791
+COL,La Esperanza,NA,2022,Total,urbano,0.3497
+COL,La Esperanza,NA,2023,Hombres,urbano,0.2831
+COL,La Esperanza,NA,2023,Mujeres,urbano,0.3431
+COL,La Esperanza,NA,2023,Total,urbano,0.3137
+COL,La Esperanza,NA,2024,Hombres,urbano,0.3059
+COL,La Esperanza,NA,2024,Mujeres,urbano,0.3659
+COL,La Esperanza,NA,2024,Total,urbano,0.3365
+COL,La Esperanza,NA,2025,Hombres,urbano,0.3319
+COL,La Esperanza,NA,2025,Mujeres,urbano,0.3919
+COL,La Esperanza,NA,2025,Total,urbano,0.3625
+COL,La Primavera,NA,2016,Hombres,periurbano,0.5277
+COL,La Primavera,NA,2016,Mujeres,periurbano,0.5877
+COL,La Primavera,NA,2016,Total,periurbano,0.5583
+COL,La Primavera,NA,2017,Hombres,periurbano,0.5668
+COL,La Primavera,NA,2017,Mujeres,periurbano,0.6268
+COL,La Primavera,NA,2017,Total,periurbano,0.5974
+COL,La Primavera,NA,2018,Hombres,periurbano,0.6254
+COL,La Primavera,NA,2018,Mujeres,periurbano,0.6854
+COL,La Primavera,NA,2018,Total,periurbano,0.656
+COL,La Primavera,NA,2019,Hombres,periurbano,0.587
+COL,La Primavera,NA,2019,Mujeres,periurbano,0.647
+COL,La Primavera,NA,2019,Total,periurbano,0.6176
+COL,La Primavera,NA,2020,Hombres,periurbano,0.6394
+COL,La Primavera,NA,2020,Mujeres,periurbano,0.6994
+COL,La Primavera,NA,2020,Total,periurbano,0.67
+COL,La Primavera,NA,2021,Hombres,periurbano,0.5974
+COL,La Primavera,NA,2021,Mujeres,periurbano,0.6574
+COL,La Primavera,NA,2021,Total,periurbano,0.6279
+COL,La Primavera,NA,2022,Hombres,periurbano,0.5725
+COL,La Primavera,NA,2022,Mujeres,periurbano,0.6325
+COL,La Primavera,NA,2022,Total,periurbano,0.6031
+COL,La Primavera,NA,2023,Hombres,periurbano,0.5049
+COL,La Primavera,NA,2023,Mujeres,periurbano,0.5649
+COL,La Primavera,NA,2023,Total,periurbano,0.5355
+COL,La Primavera,NA,2024,Hombres,periurbano,0.4233
+COL,La Primavera,NA,2024,Mujeres,periurbano,0.4833
+COL,La Primavera,NA,2024,Total,periurbano,0.4539
+COL,La Primavera,NA,2025,Hombres,periurbano,0.4273
+COL,La Primavera,NA,2025,Mujeres,periurbano,0.4873
+COL,La Primavera,NA,2025,Total,periurbano,0.4579
+COL,La Rivera,NA,2016,Hombres,urbano,0.3347
+COL,La Rivera,NA,2016,Mujeres,urbano,0.3947
+COL,La Rivera,NA,2016,Total,urbano,0.3653
+COL,La Rivera,NA,2017,Hombres,urbano,0.3281
+COL,La Rivera,NA,2017,Mujeres,urbano,0.3881
+COL,La Rivera,NA,2017,Total,urbano,0.3587
+COL,La Rivera,NA,2018,Hombres,urbano,0.3316
+COL,La Rivera,NA,2018,Mujeres,urbano,0.3916
+COL,La Rivera,NA,2018,Total,urbano,0.3623
+COL,La Rivera,NA,2019,Hombres,urbano,0.3395
+COL,La Rivera,NA,2019,Mujeres,urbano,0.3995
+COL,La Rivera,NA,2019,Total,urbano,0.3701
+COL,La Rivera,NA,2020,Hombres,urbano,0.3985
+COL,La Rivera,NA,2020,Mujeres,urbano,0.4585
+COL,La Rivera,NA,2020,Total,urbano,0.4291
+COL,La Rivera,NA,2021,Hombres,urbano,0.4239
+COL,La Rivera,NA,2021,Mujeres,urbano,0.4839
+COL,La Rivera,NA,2021,Total,urbano,0.4545
+COL,La Rivera,NA,2022,Hombres,urbano,0.3924
+COL,La Rivera,NA,2022,Mujeres,urbano,0.4524
+COL,La Rivera,NA,2022,Total,urbano,0.423
+COL,La Rivera,NA,2023,Hombres,urbano,0.3969
+COL,La Rivera,NA,2023,Mujeres,urbano,0.4569
+COL,La Rivera,NA,2023,Total,urbano,0.4275
+COL,La Rivera,NA,2024,Hombres,urbano,0.3579
+COL,La Rivera,NA,2024,Mujeres,urbano,0.4179
+COL,La Rivera,NA,2024,Total,urbano,0.3885
+COL,La Rivera,NA,2025,Hombres,urbano,0.3588
+COL,La Rivera,NA,2025,Mujeres,urbano,0.4188
+COL,La Rivera,NA,2025,Total,urbano,0.3894
+COL,Las Brisas,NA,2016,Hombres,rural,0.6405
+COL,Las Brisas,NA,2016,Mujeres,rural,0.7005
+COL,Las Brisas,NA,2016,Total,rural,0.6711
+COL,Las Brisas,NA,2017,Hombres,rural,0.6849
+COL,Las Brisas,NA,2017,Mujeres,rural,0.7449
+COL,Las Brisas,NA,2017,Total,rural,0.7155
+COL,Las Brisas,NA,2018,Hombres,rural,0.782
+COL,Las Brisas,NA,2018,Mujeres,rural,0.842
+COL,Las Brisas,NA,2018,Total,rural,0.8126
+COL,Las Brisas,NA,2019,Hombres,rural,0.6463
+COL,Las Brisas,NA,2019,Mujeres,rural,0.7063
+COL,Las Brisas,NA,2019,Total,rural,0.6769
+COL,Las Brisas,NA,2020,Hombres,rural,0.6761
+COL,Las Brisas,NA,2020,Mujeres,rural,0.7361
+COL,Las Brisas,NA,2020,Total,rural,0.7067
+COL,Las Brisas,NA,2021,Hombres,rural,0.7291
+COL,Las Brisas,NA,2021,Mujeres,rural,0.7891
+COL,Las Brisas,NA,2021,Total,rural,0.7597
+COL,Las Brisas,NA,2022,Hombres,rural,0.6989
+COL,Las Brisas,NA,2022,Mujeres,rural,0.7589
+COL,Las Brisas,NA,2022,Total,rural,0.7295
+COL,Las Brisas,NA,2023,Hombres,rural,0.8559
+COL,Las Brisas,NA,2023,Mujeres,rural,0.9
+COL,Las Brisas,NA,2023,Total,rural,0.8784
+COL,Las Brisas,NA,2024,Hombres,rural,0.8402
+COL,Las Brisas,NA,2024,Mujeres,rural,0.9
+COL,Las Brisas,NA,2024,Total,rural,0.8707
+COL,Las Brisas,NA,2025,Hombres,rural,0.9
+COL,Las Brisas,NA,2025,Mujeres,rural,0.9
+COL,Las Brisas,NA,2025,Total,rural,0.9
+COL,Las Palmas,NA,2016,Hombres,periurbano,0.5352
+COL,Las Palmas,NA,2016,Mujeres,periurbano,0.5952
+COL,Las Palmas,NA,2016,Total,periurbano,0.5658
+COL,Las Palmas,NA,2017,Hombres,periurbano,0.5188
+COL,Las Palmas,NA,2017,Mujeres,periurbano,0.5788
+COL,Las Palmas,NA,2017,Total,periurbano,0.5494
+COL,Las Palmas,NA,2018,Hombres,periurbano,0.6244
+COL,Las Palmas,NA,2018,Mujeres,periurbano,0.6844
+COL,Las Palmas,NA,2018,Total,periurbano,0.655
+COL,Las Palmas,NA,2019,Hombres,periurbano,0.7671
+COL,Las Palmas,NA,2019,Mujeres,periurbano,0.8271
+COL,Las Palmas,NA,2019,Total,periurbano,0.7977
+COL,Las Palmas,NA,2020,Hombres,periurbano,0.7762
+COL,Las Palmas,NA,2020,Mujeres,periurbano,0.8362
+COL,Las Palmas,NA,2020,Total,periurbano,0.8068
+COL,Las Palmas,NA,2021,Hombres,periurbano,0.6349
+COL,Las Palmas,NA,2021,Mujeres,periurbano,0.6949
+COL,Las Palmas,NA,2021,Total,periurbano,0.6655
+COL,Las Palmas,NA,2022,Hombres,periurbano,0.5489
+COL,Las Palmas,NA,2022,Mujeres,periurbano,0.6089
+COL,Las Palmas,NA,2022,Total,periurbano,0.5795
+COL,Las Palmas,NA,2023,Hombres,periurbano,0.5037
+COL,Las Palmas,NA,2023,Mujeres,periurbano,0.5637
+COL,Las Palmas,NA,2023,Total,periurbano,0.5343
+COL,Las Palmas,NA,2024,Hombres,periurbano,0.6251
+COL,Las Palmas,NA,2024,Mujeres,periurbano,0.6851
+COL,Las Palmas,NA,2024,Total,periurbano,0.6557
+COL,Las Palmas,NA,2025,Hombres,periurbano,0.6331
+COL,Las Palmas,NA,2025,Mujeres,periurbano,0.6931
+COL,Las Palmas,NA,2025,Total,periurbano,0.6637
+COL,Los Arrayanes,NA,2016,Hombres,rural,0.7234
+COL,Los Arrayanes,NA,2016,Mujeres,rural,0.7834
+COL,Los Arrayanes,NA,2016,Total,rural,0.754
+COL,Los Arrayanes,NA,2017,Hombres,rural,0.6816
+COL,Los Arrayanes,NA,2017,Mujeres,rural,0.7416
+COL,Los Arrayanes,NA,2017,Total,rural,0.7122
+COL,Los Arrayanes,NA,2018,Hombres,rural,0.6859
+COL,Los Arrayanes,NA,2018,Mujeres,rural,0.7459
+COL,Los Arrayanes,NA,2018,Total,rural,0.7165
+COL,Los Arrayanes,NA,2019,Hombres,rural,0.642
+COL,Los Arrayanes,NA,2019,Mujeres,rural,0.702
+COL,Los Arrayanes,NA,2019,Total,rural,0.6726
+COL,Los Arrayanes,NA,2020,Hombres,rural,0.6534
+COL,Los Arrayanes,NA,2020,Mujeres,rural,0.7134
+COL,Los Arrayanes,NA,2020,Total,rural,0.684
+COL,Los Arrayanes,NA,2021,Hombres,rural,0.5769
+COL,Los Arrayanes,NA,2021,Mujeres,rural,0.6369
+COL,Los Arrayanes,NA,2021,Total,rural,0.6075
+COL,Los Arrayanes,NA,2022,Hombres,rural,0.7716
+COL,Los Arrayanes,NA,2022,Mujeres,rural,0.8316
+COL,Los Arrayanes,NA,2022,Total,rural,0.8022
+COL,Los Arrayanes,NA,2023,Hombres,rural,0.6919
+COL,Los Arrayanes,NA,2023,Mujeres,rural,0.7519
+COL,Los Arrayanes,NA,2023,Total,rural,0.7225
+COL,Los Arrayanes,NA,2024,Hombres,rural,0.7549
+COL,Los Arrayanes,NA,2024,Mujeres,rural,0.8149
+COL,Los Arrayanes,NA,2024,Total,rural,0.7855
+COL,Los Arrayanes,NA,2025,Hombres,rural,0.9
+COL,Los Arrayanes,NA,2025,Mujeres,rural,0.9
+COL,Los Arrayanes,NA,2025,Total,rural,0.9
+COL,Los Pinos,NA,2016,Hombres,rural,0.6136
+COL,Los Pinos,NA,2016,Mujeres,rural,0.6736
+COL,Los Pinos,NA,2016,Total,rural,0.6442
+COL,Los Pinos,NA,2017,Hombres,rural,0.6476
+COL,Los Pinos,NA,2017,Mujeres,rural,0.7076
+COL,Los Pinos,NA,2017,Total,rural,0.6782
+COL,Los Pinos,NA,2018,Hombres,rural,0.6902
+COL,Los Pinos,NA,2018,Mujeres,rural,0.7502
+COL,Los Pinos,NA,2018,Total,rural,0.7208
+COL,Los Pinos,NA,2019,Hombres,rural,0.6144
+COL,Los Pinos,NA,2019,Mujeres,rural,0.6744
+COL,Los Pinos,NA,2019,Total,rural,0.645
+COL,Los Pinos,NA,2020,Hombres,rural,0.6888
+COL,Los Pinos,NA,2020,Mujeres,rural,0.7488
+COL,Los Pinos,NA,2020,Total,rural,0.7194
+COL,Los Pinos,NA,2021,Hombres,rural,0.7088
+COL,Los Pinos,NA,2021,Mujeres,rural,0.7688
+COL,Los Pinos,NA,2021,Total,rural,0.7394
+COL,Los Pinos,NA,2022,Hombres,rural,0.6455
+COL,Los Pinos,NA,2022,Mujeres,rural,0.7055
+COL,Los Pinos,NA,2022,Total,rural,0.6761
+COL,Los Pinos,NA,2023,Hombres,rural,0.4764
+COL,Los Pinos,NA,2023,Mujeres,rural,0.5364
+COL,Los Pinos,NA,2023,Total,rural,0.507
+COL,Los Pinos,NA,2024,Hombres,rural,0.5705
+COL,Los Pinos,NA,2024,Mujeres,rural,0.6305
+COL,Los Pinos,NA,2024,Total,rural,0.6011
+COL,Los Pinos,NA,2025,Hombres,rural,0.6778
+COL,Los Pinos,NA,2025,Mujeres,rural,0.7378
+COL,Los Pinos,NA,2025,Total,rural,0.7084
+COL,Los Álamos,NA,2016,Hombres,rural,0.6836
+COL,Los Álamos,NA,2016,Mujeres,rural,0.7436
+COL,Los Álamos,NA,2016,Total,rural,0.7142
+COL,Los Álamos,NA,2017,Hombres,rural,0.7288
+COL,Los Álamos,NA,2017,Mujeres,rural,0.7888
+COL,Los Álamos,NA,2017,Total,rural,0.7594
+COL,Los Álamos,NA,2018,Hombres,rural,0.8109
+COL,Los Álamos,NA,2018,Mujeres,rural,0.8709
+COL,Los Álamos,NA,2018,Total,rural,0.8415
+COL,Los Álamos,NA,2019,Hombres,rural,0.7964
+COL,Los Álamos,NA,2019,Mujeres,rural,0.8564
+COL,Los Álamos,NA,2019,Total,rural,0.827
+COL,Los Álamos,NA,2020,Hombres,rural,0.735
+COL,Los Álamos,NA,2020,Mujeres,rural,0.795
+COL,Los Álamos,NA,2020,Total,rural,0.7656
+COL,Los Álamos,NA,2021,Hombres,rural,0.6684
+COL,Los Álamos,NA,2021,Mujeres,rural,0.7284
+COL,Los Álamos,NA,2021,Total,rural,0.699
+COL,Los Álamos,NA,2022,Hombres,rural,0.7868
+COL,Los Álamos,NA,2022,Mujeres,rural,0.8468
+COL,Los Álamos,NA,2022,Total,rural,0.8174
+COL,Los Álamos,NA,2023,Hombres,rural,0.7796
+COL,Los Álamos,NA,2023,Mujeres,rural,0.8396
+COL,Los Álamos,NA,2023,Total,rural,0.8102
+COL,Los Álamos,NA,2024,Hombres,rural,0.6998
+COL,Los Álamos,NA,2024,Mujeres,rural,0.7598
+COL,Los Álamos,NA,2024,Total,rural,0.7305
+COL,Los Álamos,NA,2025,Hombres,rural,0.7978
+COL,Los Álamos,NA,2025,Mujeres,rural,0.8578
+COL,Los Álamos,NA,2025,Total,rural,0.8285
+COL,Nueva Esperanza,NA,2016,Hombres,periurbano,0.7254
+COL,Nueva Esperanza,NA,2016,Mujeres,periurbano,0.7854
+COL,Nueva Esperanza,NA,2016,Total,periurbano,0.756
+COL,Nueva Esperanza,NA,2017,Hombres,periurbano,0.7802
+COL,Nueva Esperanza,NA,2017,Mujeres,periurbano,0.8402
+COL,Nueva Esperanza,NA,2017,Total,periurbano,0.8108
+COL,Nueva Esperanza,NA,2018,Hombres,periurbano,0.7931
+COL,Nueva Esperanza,NA,2018,Mujeres,periurbano,0.8531
+COL,Nueva Esperanza,NA,2018,Total,periurbano,0.8237
+COL,Nueva Esperanza,NA,2019,Hombres,periurbano,0.793
+COL,Nueva Esperanza,NA,2019,Mujeres,periurbano,0.853
+COL,Nueva Esperanza,NA,2019,Total,periurbano,0.8236
+COL,Nueva Esperanza,NA,2020,Hombres,periurbano,0.7519
+COL,Nueva Esperanza,NA,2020,Mujeres,periurbano,0.8119
+COL,Nueva Esperanza,NA,2020,Total,periurbano,0.7825
+COL,Nueva Esperanza,NA,2021,Hombres,periurbano,0.7995
+COL,Nueva Esperanza,NA,2021,Mujeres,periurbano,0.8595
+COL,Nueva Esperanza,NA,2021,Total,periurbano,0.83
+COL,Nueva Esperanza,NA,2022,Hombres,periurbano,0.7492
+COL,Nueva Esperanza,NA,2022,Mujeres,periurbano,0.8092
+COL,Nueva Esperanza,NA,2022,Total,periurbano,0.7798
+COL,Nueva Esperanza,NA,2023,Hombres,periurbano,0.7125
+COL,Nueva Esperanza,NA,2023,Mujeres,periurbano,0.7725
+COL,Nueva Esperanza,NA,2023,Total,periurbano,0.7431
+COL,Nueva Esperanza,NA,2024,Hombres,periurbano,0.7048
+COL,Nueva Esperanza,NA,2024,Mujeres,periurbano,0.7648
+COL,Nueva Esperanza,NA,2024,Total,periurbano,0.7354
+COL,Nueva Esperanza,NA,2025,Hombres,periurbano,0.7226
+COL,Nueva Esperanza,NA,2025,Mujeres,periurbano,0.7826
+COL,Nueva Esperanza,NA,2025,Total,periurbano,0.7531
+COL,Nueva Vida,NA,2016,Hombres,periurbano,0.4628
+COL,Nueva Vida,NA,2016,Mujeres,periurbano,0.5228
+COL,Nueva Vida,NA,2016,Total,periurbano,0.4934
+COL,Nueva Vida,NA,2017,Hombres,periurbano,0.4531
+COL,Nueva Vida,NA,2017,Mujeres,periurbano,0.5131
+COL,Nueva Vida,NA,2017,Total,periurbano,0.4837
+COL,Nueva Vida,NA,2018,Hombres,periurbano,0.4635
+COL,Nueva Vida,NA,2018,Mujeres,periurbano,0.5235
+COL,Nueva Vida,NA,2018,Total,periurbano,0.4941
+COL,Nueva Vida,NA,2019,Hombres,periurbano,0.489
+COL,Nueva Vida,NA,2019,Mujeres,periurbano,0.549
+COL,Nueva Vida,NA,2019,Total,periurbano,0.5196
+COL,Nueva Vida,NA,2020,Hombres,periurbano,0.4911
+COL,Nueva Vida,NA,2020,Mujeres,periurbano,0.5511
+COL,Nueva Vida,NA,2020,Total,periurbano,0.5217
+COL,Nueva Vida,NA,2021,Hombres,periurbano,0.5536
+COL,Nueva Vida,NA,2021,Mujeres,periurbano,0.6136
+COL,Nueva Vida,NA,2021,Total,periurbano,0.5842
+COL,Nueva Vida,NA,2022,Hombres,periurbano,0.4876
+COL,Nueva Vida,NA,2022,Mujeres,periurbano,0.5476
+COL,Nueva Vida,NA,2022,Total,periurbano,0.5182
+COL,Nueva Vida,NA,2023,Hombres,periurbano,0.4571
+COL,Nueva Vida,NA,2023,Mujeres,periurbano,0.5171
+COL,Nueva Vida,NA,2023,Total,periurbano,0.4877
+COL,Nueva Vida,NA,2024,Hombres,periurbano,0.3781
+COL,Nueva Vida,NA,2024,Mujeres,periurbano,0.4381
+COL,Nueva Vida,NA,2024,Total,periurbano,0.4087
+COL,Nueva Vida,NA,2025,Hombres,periurbano,0.4054
+COL,Nueva Vida,NA,2025,Mujeres,periurbano,0.4654
+COL,Nueva Vida,NA,2025,Total,periurbano,0.436
+COL,Plaza del Valle,NA,2016,Hombres,rural,0.7978
+COL,Plaza del Valle,NA,2016,Mujeres,rural,0.8578
+COL,Plaza del Valle,NA,2016,Total,rural,0.8284
+COL,Plaza del Valle,NA,2017,Hombres,rural,0.8029
+COL,Plaza del Valle,NA,2017,Mujeres,rural,0.8629
+COL,Plaza del Valle,NA,2017,Total,rural,0.8335
+COL,Plaza del Valle,NA,2018,Hombres,rural,0.848
+COL,Plaza del Valle,NA,2018,Mujeres,rural,0.9
+COL,Plaza del Valle,NA,2018,Total,rural,0.8745
+COL,Plaza del Valle,NA,2019,Hombres,rural,0.7408
+COL,Plaza del Valle,NA,2019,Mujeres,rural,0.8008
+COL,Plaza del Valle,NA,2019,Total,rural,0.7714
+COL,Plaza del Valle,NA,2020,Hombres,rural,0.8122
+COL,Plaza del Valle,NA,2020,Mujeres,rural,0.8722
+COL,Plaza del Valle,NA,2020,Total,rural,0.8428
+COL,Plaza del Valle,NA,2021,Hombres,rural,0.8385
+COL,Plaza del Valle,NA,2021,Mujeres,rural,0.8985
+COL,Plaza del Valle,NA,2021,Total,rural,0.8691
+COL,Plaza del Valle,NA,2022,Hombres,rural,0.5995
+COL,Plaza del Valle,NA,2022,Mujeres,rural,0.6595
+COL,Plaza del Valle,NA,2022,Total,rural,0.6301
+COL,Plaza del Valle,NA,2023,Hombres,rural,0.8438
+COL,Plaza del Valle,NA,2023,Mujeres,rural,0.9
+COL,Plaza del Valle,NA,2023,Total,rural,0.8725
+COL,Plaza del Valle,NA,2024,Hombres,rural,0.8036
+COL,Plaza del Valle,NA,2024,Mujeres,rural,0.8636
+COL,Plaza del Valle,NA,2024,Total,rural,0.8342
+COL,Plaza del Valle,NA,2025,Hombres,rural,0.8671
+COL,Plaza del Valle,NA,2025,Mujeres,rural,0.9
+COL,Plaza del Valle,NA,2025,Total,rural,0.8839
+COL,San Isidro,NA,2016,Hombres,rural,0.7483
+COL,San Isidro,NA,2016,Mujeres,rural,0.8083
+COL,San Isidro,NA,2016,Total,rural,0.7789
+COL,San Isidro,NA,2017,Hombres,rural,0.6736
+COL,San Isidro,NA,2017,Mujeres,rural,0.7336
+COL,San Isidro,NA,2017,Total,rural,0.7043
+COL,San Isidro,NA,2018,Hombres,rural,0.705
+COL,San Isidro,NA,2018,Mujeres,rural,0.765
+COL,San Isidro,NA,2018,Total,rural,0.7356
+COL,San Isidro,NA,2019,Hombres,rural,0.7453
+COL,San Isidro,NA,2019,Mujeres,rural,0.8053
+COL,San Isidro,NA,2019,Total,rural,0.7759
+COL,San Isidro,NA,2020,Hombres,rural,0.8601
+COL,San Isidro,NA,2020,Mujeres,rural,0.9
+COL,San Isidro,NA,2020,Total,rural,0.8804
+COL,San Isidro,NA,2021,Hombres,rural,0.9
+COL,San Isidro,NA,2021,Mujeres,rural,0.9
+COL,San Isidro,NA,2021,Total,rural,0.9
+COL,San Isidro,NA,2022,Hombres,rural,0.8176
+COL,San Isidro,NA,2022,Mujeres,rural,0.8776
+COL,San Isidro,NA,2022,Total,rural,0.8482
+COL,San Isidro,NA,2023,Hombres,rural,0.8639
+COL,San Isidro,NA,2023,Mujeres,rural,0.9
+COL,San Isidro,NA,2023,Total,rural,0.8823
+COL,San Isidro,NA,2024,Hombres,rural,0.8153
+COL,San Isidro,NA,2024,Mujeres,rural,0.8753
+COL,San Isidro,NA,2024,Total,rural,0.8459
+COL,San Isidro,NA,2025,Hombres,rural,0.7078
+COL,San Isidro,NA,2025,Mujeres,rural,0.7678
+COL,San Isidro,NA,2025,Total,rural,0.7384
+COL,San Joaquín,NA,2016,Hombres,periurbano,0.4255
+COL,San Joaquín,NA,2016,Mujeres,periurbano,0.4855
+COL,San Joaquín,NA,2016,Total,periurbano,0.4561
+COL,San Joaquín,NA,2017,Hombres,periurbano,0.5275
+COL,San Joaquín,NA,2017,Mujeres,periurbano,0.5875
+COL,San Joaquín,NA,2017,Total,periurbano,0.5581
+COL,San Joaquín,NA,2018,Hombres,periurbano,0.5724
+COL,San Joaquín,NA,2018,Mujeres,periurbano,0.6324
+COL,San Joaquín,NA,2018,Total,periurbano,0.603
+COL,San Joaquín,NA,2019,Hombres,periurbano,0.5735
+COL,San Joaquín,NA,2019,Mujeres,periurbano,0.6335
+COL,San Joaquín,NA,2019,Total,periurbano,0.6041
+COL,San Joaquín,NA,2020,Hombres,periurbano,0.7159
+COL,San Joaquín,NA,2020,Mujeres,periurbano,0.7759
+COL,San Joaquín,NA,2020,Total,periurbano,0.7465
+COL,San Joaquín,NA,2021,Hombres,periurbano,0.6688
+COL,San Joaquín,NA,2021,Mujeres,periurbano,0.7288
+COL,San Joaquín,NA,2021,Total,periurbano,0.6994
+COL,San Joaquín,NA,2022,Hombres,periurbano,0.5859
+COL,San Joaquín,NA,2022,Mujeres,periurbano,0.6459
+COL,San Joaquín,NA,2022,Total,periurbano,0.6165
+COL,San Joaquín,NA,2023,Hombres,periurbano,0.4922
+COL,San Joaquín,NA,2023,Mujeres,periurbano,0.5522
+COL,San Joaquín,NA,2023,Total,periurbano,0.5228
+COL,San Joaquín,NA,2024,Hombres,periurbano,0.5416
+COL,San Joaquín,NA,2024,Mujeres,periurbano,0.6016
+COL,San Joaquín,NA,2024,Total,periurbano,0.5722
+COL,San Joaquín,NA,2025,Hombres,periurbano,0.5944
+COL,San Joaquín,NA,2025,Mujeres,periurbano,0.6544
+COL,San Joaquín,NA,2025,Total,periurbano,0.625
+COL,San Martín del Valle,NA,2016,Hombres,Total,0.5851
+COL,San Martín del Valle,NA,2016,Mujeres,Total,0.6423
+COL,San Martín del Valle,NA,2016,Total,Total,0.6143
+COL,San Martín del Valle,NA,2016,Hombres,periurbano,0.5671
+COL,San Martín del Valle,NA,2016,Mujeres,periurbano,0.6271
+COL,San Martín del Valle,NA,2016,Total,periurbano,0.5977
+COL,San Martín del Valle,NA,2016,Hombres,rural,0.7416
+COL,San Martín del Valle,NA,2016,Mujeres,rural,0.7922
+COL,San Martín del Valle,NA,2016,Total,rural,0.7674
+COL,San Martín del Valle,NA,2016,Hombres,urbano,0.3642
+COL,San Martín del Valle,NA,2016,Mujeres,urbano,0.4242
+COL,San Martín del Valle,NA,2016,Total,urbano,0.3948
+COL,San Martín del Valle,NA,2017,Hombres,Total,0.582
+COL,San Martín del Valle,NA,2017,Mujeres,Total,0.6413
+COL,San Martín del Valle,NA,2017,Total,Total,0.6123
+COL,San Martín del Valle,NA,2017,Hombres,periurbano,0.5757
+COL,San Martín del Valle,NA,2017,Mujeres,periurbano,0.6356
+COL,San Martín del Valle,NA,2017,Total,periurbano,0.6062
+COL,San Martín del Valle,NA,2017,Hombres,rural,0.718
 COL,San Martín del Valle,NA,2017,Mujeres,rural,0.7757
-COL,San Martín del Valle,NA,2017,Total,rural,0.7463
-COL,San Martín del Valle,NA,2017,Hombres,urbano,0.28
-COL,San Martín del Valle,NA,2017,Mujeres,urbano,0.34
-COL,San Martín del Valle,NA,2017,Total,urbano,0.3106
-COL,San Martín del Valle,NA,2018,Hombres,Total,0.5715
-COL,San Martín del Valle,NA,2018,Mujeres,Total,0.6316
-COL,San Martín del Valle,NA,2018,Total,Total,0.6022
-COL,San Martín del Valle,NA,2018,Hombres,periurbano,0.5899
-COL,San Martín del Valle,NA,2018,Mujeres,periurbano,0.6499
-COL,San Martín del Valle,NA,2018,Total,periurbano,0.6205
-COL,San Martín del Valle,NA,2018,Hombres,rural,0.71
-COL,San Martín del Valle,NA,2018,Mujeres,rural,0.77
-COL,San Martín del Valle,NA,2018,Total,rural,0.7406
-COL,San Martín del Valle,NA,2018,Hombres,urbano,0.2743
-COL,San Martín del Valle,NA,2018,Mujeres,urbano,0.3343
-COL,San Martín del Valle,NA,2018,Total,urbano,0.3049
-COL,San Martín del Valle,NA,2019,Hombres,Total,0.5787
-COL,San Martín del Valle,NA,2019,Mujeres,Total,0.6387
-COL,San Martín del Valle,NA,2019,Total,Total,0.6093
-COL,San Martín del Valle,NA,2019,Hombres,periurbano,0.5971
-COL,San Martín del Valle,NA,2019,Mujeres,periurbano,0.6571
-COL,San Martín del Valle,NA,2019,Total,periurbano,0.6277
-COL,San Martín del Valle,NA,2019,Hombres,rural,0.7172
-COL,San Martín del Valle,NA,2019,Mujeres,rural,0.7772
-COL,San Martín del Valle,NA,2019,Total,rural,0.7478
-COL,San Martín del Valle,NA,2019,Hombres,urbano,0.2815
-COL,San Martín del Valle,NA,2019,Mujeres,urbano,0.3415
-COL,San Martín del Valle,NA,2019,Total,urbano,0.3121
-COL,San Martín del Valle,NA,2020,Hombres,Total,0.6415
-COL,San Martín del Valle,NA,2020,Mujeres,Total,0.7014
-COL,San Martín del Valle,NA,2020,Total,Total,0.672
-COL,San Martín del Valle,NA,2020,Hombres,periurbano,0.6598
-COL,San Martín del Valle,NA,2020,Mujeres,periurbano,0.7198
-COL,San Martín del Valle,NA,2020,Total,periurbano,0.6904
-COL,San Martín del Valle,NA,2020,Hombres,rural,0.78
-COL,San Martín del Valle,NA,2020,Mujeres,rural,0.8395
-COL,San Martín del Valle,NA,2020,Total,rural,0.8103
-COL,San Martín del Valle,NA,2020,Hombres,urbano,0.3443
-COL,San Martín del Valle,NA,2020,Mujeres,urbano,0.4043
-COL,San Martín del Valle,NA,2020,Total,urbano,0.3749
-COL,San Martín del Valle,NA,2021,Hombres,Total,0.6255
-COL,San Martín del Valle,NA,2021,Mujeres,Total,0.6855
-COL,San Martín del Valle,NA,2021,Total,Total,0.6561
-COL,San Martín del Valle,NA,2021,Hombres,periurbano,0.6439
-COL,San Martín del Valle,NA,2021,Mujeres,periurbano,0.7039
-COL,San Martín del Valle,NA,2021,Total,periurbano,0.6745
-COL,San Martín del Valle,NA,2021,Hombres,rural,0.764
-COL,San Martín del Valle,NA,2021,Mujeres,rural,0.824
-COL,San Martín del Valle,NA,2021,Total,rural,0.7946
-COL,San Martín del Valle,NA,2021,Hombres,urbano,0.3283
-COL,San Martín del Valle,NA,2021,Mujeres,urbano,0.3883
-COL,San Martín del Valle,NA,2021,Total,urbano,0.3589
-COL,San Martín del Valle,NA,2022,Hombres,Total,0.5974
-COL,San Martín del Valle,NA,2022,Mujeres,Total,0.6574
-COL,San Martín del Valle,NA,2022,Total,Total,0.628
-COL,San Martín del Valle,NA,2022,Hombres,periurbano,0.6157
-COL,San Martín del Valle,NA,2022,Mujeres,periurbano,0.6757
-COL,San Martín del Valle,NA,2022,Total,periurbano,0.6463
-COL,San Martín del Valle,NA,2022,Hombres,rural,0.7359
-COL,San Martín del Valle,NA,2022,Mujeres,rural,0.7959
-COL,San Martín del Valle,NA,2022,Total,rural,0.7665
-COL,San Martín del Valle,NA,2022,Hombres,urbano,0.3002
-COL,San Martín del Valle,NA,2022,Mujeres,urbano,0.3602
-COL,San Martín del Valle,NA,2022,Total,urbano,0.3308
-COL,San Martín del Valle,NA,2023,Hombres,Total,0.5713
-COL,San Martín del Valle,NA,2023,Mujeres,Total,0.6313
-COL,San Martín del Valle,NA,2023,Total,Total,0.6019
-COL,San Martín del Valle,NA,2023,Hombres,periurbano,0.589
-COL,San Martín del Valle,NA,2023,Mujeres,periurbano,0.649
-COL,San Martín del Valle,NA,2023,Total,periurbano,0.6196
-COL,San Martín del Valle,NA,2023,Hombres,rural,0.7161
-COL,San Martín del Valle,NA,2023,Mujeres,rural,0.7761
-COL,San Martín del Valle,NA,2023,Total,rural,0.7467
-COL,San Martín del Valle,NA,2023,Hombres,urbano,0.2654
-COL,San Martín del Valle,NA,2023,Mujeres,urbano,0.3254
-COL,San Martín del Valle,NA,2023,Total,urbano,0.296
-COL,San Martín del Valle,NA,2024,Hombres,Total,0.5681
-COL,San Martín del Valle,NA,2024,Mujeres,Total,0.6281
-COL,San Martín del Valle,NA,2024,Total,Total,0.5987
-COL,San Martín del Valle,NA,2024,Hombres,periurbano,0.5857
-COL,San Martín del Valle,NA,2024,Mujeres,periurbano,0.6457
-COL,San Martín del Valle,NA,2024,Total,periurbano,0.6163
-COL,San Martín del Valle,NA,2024,Hombres,rural,0.7129
-COL,San Martín del Valle,NA,2024,Mujeres,rural,0.7729
-COL,San Martín del Valle,NA,2024,Total,rural,0.7435
-COL,San Martín del Valle,NA,2024,Hombres,urbano,0.2622
-COL,San Martín del Valle,NA,2024,Mujeres,urbano,0.3222
-COL,San Martín del Valle,NA,2024,Total,urbano,0.2928
-COL,San Martín del Valle,NA,2025,Hombres,Total,0.5652
-COL,San Martín del Valle,NA,2025,Mujeres,Total,0.6252
-COL,San Martín del Valle,NA,2025,Total,Total,0.5958
-COL,San Martín del Valle,NA,2025,Hombres,periurbano,0.5828
-COL,San Martín del Valle,NA,2025,Mujeres,periurbano,0.6428
-COL,San Martín del Valle,NA,2025,Total,periurbano,0.6134
-COL,San Martín del Valle,NA,2025,Hombres,rural,0.71
-COL,San Martín del Valle,NA,2025,Mujeres,rural,0.77
-COL,San Martín del Valle,NA,2025,Total,rural,0.7406
-COL,San Martín del Valle,NA,2025,Hombres,urbano,0.2593
-COL,San Martín del Valle,NA,2025,Mujeres,urbano,0.3193
-COL,San Martín del Valle,NA,2025,Total,urbano,0.2899
-COL,San Rafael,NA,2016,Hombres,urbano,0.2653
-COL,San Rafael,NA,2016,Mujeres,urbano,0.3253
-COL,San Rafael,NA,2016,Total,urbano,0.2959
-COL,San Rafael,NA,2017,Hombres,urbano,0.2707
-COL,San Rafael,NA,2017,Mujeres,urbano,0.3307
-COL,San Rafael,NA,2017,Total,urbano,0.3013
-COL,San Rafael,NA,2018,Hombres,urbano,0.265
-COL,San Rafael,NA,2018,Mujeres,urbano,0.325
-COL,San Rafael,NA,2018,Total,urbano,0.2956
-COL,San Rafael,NA,2019,Hombres,urbano,0.2722
-COL,San Rafael,NA,2019,Mujeres,urbano,0.3322
-COL,San Rafael,NA,2019,Total,urbano,0.3028
-COL,San Rafael,NA,2020,Hombres,urbano,0.335
-COL,San Rafael,NA,2020,Mujeres,urbano,0.395
-COL,San Rafael,NA,2020,Total,urbano,0.3656
-COL,San Rafael,NA,2021,Hombres,urbano,0.319
-COL,San Rafael,NA,2021,Mujeres,urbano,0.379
-COL,San Rafael,NA,2021,Total,urbano,0.3496
-COL,San Rafael,NA,2022,Hombres,urbano,0.2909
-COL,San Rafael,NA,2022,Mujeres,urbano,0.3509
-COL,San Rafael,NA,2022,Total,urbano,0.3215
-COL,San Rafael,NA,2023,Hombres,urbano,0.2561
-COL,San Rafael,NA,2023,Mujeres,urbano,0.3161
-COL,San Rafael,NA,2023,Total,urbano,0.2867
-COL,San Rafael,NA,2024,Hombres,urbano,0.2529
-COL,San Rafael,NA,2024,Mujeres,urbano,0.3129
-COL,San Rafael,NA,2024,Total,urbano,0.2835
-COL,San Rafael,NA,2025,Hombres,urbano,0.25
-COL,San Rafael,NA,2025,Mujeres,urbano,0.31
-COL,San Rafael,NA,2025,Total,urbano,0.2806
-COL,Santa Ana,NA,2016,Hombres,rural,0.7737
-COL,Santa Ana,NA,2016,Mujeres,rural,0.8337
-COL,Santa Ana,NA,2016,Total,rural,0.8043
-COL,Santa Ana,NA,2017,Hombres,rural,0.7791
-COL,Santa Ana,NA,2017,Mujeres,rural,0.8391
-COL,Santa Ana,NA,2017,Total,rural,0.8096
-COL,Santa Ana,NA,2018,Hombres,rural,0.7734
-COL,Santa Ana,NA,2018,Mujeres,rural,0.8334
-COL,Santa Ana,NA,2018,Total,rural,0.804
-COL,Santa Ana,NA,2019,Hombres,rural,0.7806
-COL,Santa Ana,NA,2019,Mujeres,rural,0.8406
-COL,Santa Ana,NA,2019,Total,rural,0.8112
-COL,Santa Ana,NA,2020,Hombres,rural,0.8434
-COL,Santa Ana,NA,2020,Mujeres,rural,0.9034
-COL,Santa Ana,NA,2020,Total,rural,0.874
-COL,Santa Ana,NA,2021,Hombres,rural,0.8274
-COL,Santa Ana,NA,2021,Mujeres,rural,0.8874
-COL,Santa Ana,NA,2021,Total,rural,0.858
-COL,Santa Ana,NA,2022,Hombres,rural,0.7993
-COL,Santa Ana,NA,2022,Mujeres,rural,0.8593
-COL,Santa Ana,NA,2022,Total,rural,0.8299
-COL,Santa Ana,NA,2023,Hombres,rural,0.7795
-COL,Santa Ana,NA,2023,Mujeres,rural,0.8395
-COL,Santa Ana,NA,2023,Total,rural,0.8101
-COL,Santa Ana,NA,2024,Hombres,rural,0.7763
-COL,Santa Ana,NA,2024,Mujeres,rural,0.8363
-COL,Santa Ana,NA,2024,Total,rural,0.8069
-COL,Santa Ana,NA,2025,Hombres,rural,0.7734
-COL,Santa Ana,NA,2025,Mujeres,rural,0.8334
-COL,Santa Ana,NA,2025,Total,rural,0.804
-COL,Santa Elena,NA,2016,Hombres,periurbano,0.5242
-COL,Santa Elena,NA,2016,Mujeres,periurbano,0.5842
-COL,Santa Elena,NA,2016,Total,periurbano,0.5548
-COL,Santa Elena,NA,2017,Hombres,periurbano,0.5295
-COL,Santa Elena,NA,2017,Mujeres,periurbano,0.5895
-COL,Santa Elena,NA,2017,Total,periurbano,0.5601
-COL,Santa Elena,NA,2018,Hombres,periurbano,0.5239
-COL,Santa Elena,NA,2018,Mujeres,periurbano,0.5839
-COL,Santa Elena,NA,2018,Total,periurbano,0.5545
-COL,Santa Elena,NA,2019,Hombres,periurbano,0.5311
-COL,Santa Elena,NA,2019,Mujeres,periurbano,0.5911
-COL,Santa Elena,NA,2019,Total,periurbano,0.5617
-COL,Santa Elena,NA,2020,Hombres,periurbano,0.5939
-COL,Santa Elena,NA,2020,Mujeres,periurbano,0.6539
-COL,Santa Elena,NA,2020,Total,periurbano,0.6244
-COL,Santa Elena,NA,2021,Hombres,periurbano,0.5779
-COL,Santa Elena,NA,2021,Mujeres,periurbano,0.6379
-COL,Santa Elena,NA,2021,Total,periurbano,0.6085
-COL,Santa Elena,NA,2022,Hombres,periurbano,0.5497
-COL,Santa Elena,NA,2022,Mujeres,periurbano,0.6097
-COL,Santa Elena,NA,2022,Total,periurbano,0.5804
-COL,Santa Elena,NA,2023,Hombres,periurbano,0.523
-COL,Santa Elena,NA,2023,Mujeres,periurbano,0.583
-COL,Santa Elena,NA,2023,Total,periurbano,0.5536
-COL,Santa Elena,NA,2024,Hombres,periurbano,0.5198
-COL,Santa Elena,NA,2024,Mujeres,periurbano,0.5798
-COL,Santa Elena,NA,2024,Total,periurbano,0.5504
-COL,Santa Elena,NA,2025,Hombres,periurbano,0.5169
-COL,Santa Elena,NA,2025,Mujeres,periurbano,0.5769
-COL,Santa Elena,NA,2025,Total,periurbano,0.5475
-COL,Santa Lucía,NA,2016,Hombres,rural,0.7396
-COL,Santa Lucía,NA,2016,Mujeres,rural,0.7996
-COL,Santa Lucía,NA,2016,Total,rural,0.7702
-COL,Santa Lucía,NA,2017,Hombres,rural,0.745
-COL,Santa Lucía,NA,2017,Mujeres,rural,0.805
-COL,Santa Lucía,NA,2017,Total,rural,0.7756
-COL,Santa Lucía,NA,2018,Hombres,rural,0.7393
-COL,Santa Lucía,NA,2018,Mujeres,rural,0.7993
-COL,Santa Lucía,NA,2018,Total,rural,0.7699
-COL,Santa Lucía,NA,2019,Hombres,rural,0.7465
-COL,Santa Lucía,NA,2019,Mujeres,rural,0.8065
-COL,Santa Lucía,NA,2019,Total,rural,0.7771
-COL,Santa Lucía,NA,2020,Hombres,rural,0.8093
-COL,Santa Lucía,NA,2020,Mujeres,rural,0.8693
-COL,Santa Lucía,NA,2020,Total,rural,0.8399
-COL,Santa Lucía,NA,2021,Hombres,rural,0.7933
-COL,Santa Lucía,NA,2021,Mujeres,rural,0.8533
-COL,Santa Lucía,NA,2021,Total,rural,0.8239
-COL,Santa Lucía,NA,2022,Hombres,rural,0.7652
-COL,Santa Lucía,NA,2022,Mujeres,rural,0.8252
-COL,Santa Lucía,NA,2022,Total,rural,0.7958
-COL,Santa Lucía,NA,2023,Hombres,rural,0.7454
-COL,Santa Lucía,NA,2023,Mujeres,rural,0.8054
-COL,Santa Lucía,NA,2023,Total,rural,0.776
-COL,Santa Lucía,NA,2024,Hombres,rural,0.7422
-COL,Santa Lucía,NA,2024,Mujeres,rural,0.8022
-COL,Santa Lucía,NA,2024,Total,rural,0.7728
-COL,Santa Lucía,NA,2025,Hombres,rural,0.7393
-COL,Santa Lucía,NA,2025,Mujeres,rural,0.7993
-COL,Santa Lucía,NA,2025,Total,rural,0.7699
-COL,Santa Rosa,NA,2016,Hombres,periurbano,0.5686
-COL,Santa Rosa,NA,2016,Mujeres,periurbano,0.6286
-COL,Santa Rosa,NA,2016,Total,periurbano,0.5992
-COL,Santa Rosa,NA,2017,Hombres,periurbano,0.5739
-COL,Santa Rosa,NA,2017,Mujeres,periurbano,0.6339
-COL,Santa Rosa,NA,2017,Total,periurbano,0.6045
-COL,Santa Rosa,NA,2018,Hombres,periurbano,0.5683
-COL,Santa Rosa,NA,2018,Mujeres,periurbano,0.6283
-COL,Santa Rosa,NA,2018,Total,periurbano,0.5989
-COL,Santa Rosa,NA,2019,Hombres,periurbano,0.5755
-COL,Santa Rosa,NA,2019,Mujeres,periurbano,0.6355
-COL,Santa Rosa,NA,2019,Total,periurbano,0.6061
-COL,Santa Rosa,NA,2020,Hombres,periurbano,0.6382
-COL,Santa Rosa,NA,2020,Mujeres,periurbano,0.6982
-COL,Santa Rosa,NA,2020,Total,periurbano,0.6688
-COL,Santa Rosa,NA,2021,Hombres,periurbano,0.6223
-COL,Santa Rosa,NA,2021,Mujeres,periurbano,0.6823
-COL,Santa Rosa,NA,2021,Total,periurbano,0.6529
-COL,Santa Rosa,NA,2022,Hombres,periurbano,0.5941
-COL,Santa Rosa,NA,2022,Mujeres,periurbano,0.6541
-COL,Santa Rosa,NA,2022,Total,periurbano,0.6247
-COL,Santa Rosa,NA,2023,Hombres,periurbano,0.5674
-COL,Santa Rosa,NA,2023,Mujeres,periurbano,0.6274
-COL,Santa Rosa,NA,2023,Total,periurbano,0.598
-COL,Santa Rosa,NA,2024,Hombres,periurbano,0.5641
-COL,Santa Rosa,NA,2024,Mujeres,periurbano,0.6241
-COL,Santa Rosa,NA,2024,Total,periurbano,0.5947
-COL,Santa Rosa,NA,2025,Hombres,periurbano,0.5612
-COL,Santa Rosa,NA,2025,Mujeres,periurbano,0.6212
-COL,Santa Rosa,NA,2025,Total,periurbano,0.5918
-COL,Villa Esperanza,NA,2016,Hombres,rural,0.6975
-COL,Villa Esperanza,NA,2016,Mujeres,rural,0.7575
-COL,Villa Esperanza,NA,2016,Total,rural,0.7281
-COL,Villa Esperanza,NA,2017,Hombres,rural,0.7029
-COL,Villa Esperanza,NA,2017,Mujeres,rural,0.7629
-COL,Villa Esperanza,NA,2017,Total,rural,0.7335
-COL,Villa Esperanza,NA,2018,Hombres,rural,0.6972
-COL,Villa Esperanza,NA,2018,Mujeres,rural,0.7572
-COL,Villa Esperanza,NA,2018,Total,rural,0.7278
-COL,Villa Esperanza,NA,2019,Hombres,rural,0.7044
-COL,Villa Esperanza,NA,2019,Mujeres,rural,0.7644
-COL,Villa Esperanza,NA,2019,Total,rural,0.735
-COL,Villa Esperanza,NA,2020,Hombres,rural,0.7672
-COL,Villa Esperanza,NA,2020,Mujeres,rural,0.8272
-COL,Villa Esperanza,NA,2020,Total,rural,0.7978
-COL,Villa Esperanza,NA,2021,Hombres,rural,0.7512
-COL,Villa Esperanza,NA,2021,Mujeres,rural,0.8112
-COL,Villa Esperanza,NA,2021,Total,rural,0.7818
-COL,Villa Esperanza,NA,2022,Hombres,rural,0.7231
-COL,Villa Esperanza,NA,2022,Mujeres,rural,0.7831
-COL,Villa Esperanza,NA,2022,Total,rural,0.7537
-COL,Villa Esperanza,NA,2023,Hombres,rural,0.7033
-COL,Villa Esperanza,NA,2023,Mujeres,rural,0.7633
-COL,Villa Esperanza,NA,2023,Total,rural,0.7339
-COL,Villa Esperanza,NA,2024,Hombres,rural,0.7001
-COL,Villa Esperanza,NA,2024,Mujeres,rural,0.7601
-COL,Villa Esperanza,NA,2024,Total,rural,0.7307
-COL,Villa Esperanza,NA,2025,Hombres,rural,0.6972
-COL,Villa Esperanza,NA,2025,Mujeres,rural,0.7572
-COL,Villa Esperanza,NA,2025,Total,rural,0.7278
-COL,Villa Norte,NA,2016,Hombres,periurbano,0.6542
-COL,Villa Norte,NA,2016,Mujeres,periurbano,0.7142
-COL,Villa Norte,NA,2016,Total,periurbano,0.6848
-COL,Villa Norte,NA,2017,Hombres,periurbano,0.6595
-COL,Villa Norte,NA,2017,Mujeres,periurbano,0.7195
-COL,Villa Norte,NA,2017,Total,periurbano,0.6901
-COL,Villa Norte,NA,2018,Hombres,periurbano,0.6539
-COL,Villa Norte,NA,2018,Mujeres,periurbano,0.7139
-COL,Villa Norte,NA,2018,Total,periurbano,0.6845
-COL,Villa Norte,NA,2019,Hombres,periurbano,0.6611
-COL,Villa Norte,NA,2019,Mujeres,periurbano,0.7211
-COL,Villa Norte,NA,2019,Total,periurbano,0.6917
-COL,Villa Norte,NA,2020,Hombres,periurbano,0.7238
-COL,Villa Norte,NA,2020,Mujeres,periurbano,0.7838
-COL,Villa Norte,NA,2020,Total,periurbano,0.7544
-COL,Villa Norte,NA,2021,Hombres,periurbano,0.7079
-COL,Villa Norte,NA,2021,Mujeres,periurbano,0.7679
-COL,Villa Norte,NA,2021,Total,periurbano,0.7385
-COL,Villa Norte,NA,2022,Hombres,periurbano,0.6797
-COL,Villa Norte,NA,2022,Mujeres,periurbano,0.7397
-COL,Villa Norte,NA,2022,Total,periurbano,0.7103
-COL,Villa Norte,NA,2023,Hombres,periurbano,0.6529
-COL,Villa Norte,NA,2023,Mujeres,periurbano,0.7129
-COL,Villa Norte,NA,2023,Total,periurbano,0.6835
-COL,Villa Norte,NA,2024,Hombres,periurbano,0.6497
-COL,Villa Norte,NA,2024,Mujeres,periurbano,0.7097
-COL,Villa Norte,NA,2024,Total,periurbano,0.6803
-COL,Villa Norte,NA,2025,Hombres,periurbano,0.6468
-COL,Villa Norte,NA,2025,Mujeres,periurbano,0.7068
-COL,Villa Norte,NA,2025,Total,periurbano,0.6774
-COL,Villa Sur,NA,2016,Hombres,rural,0.6716
-COL,Villa Sur,NA,2016,Mujeres,rural,0.7316
-COL,Villa Sur,NA,2016,Total,rural,0.7022
-COL,Villa Sur,NA,2017,Hombres,rural,0.6769
-COL,Villa Sur,NA,2017,Mujeres,rural,0.7369
-COL,Villa Sur,NA,2017,Total,rural,0.7075
-COL,Villa Sur,NA,2018,Hombres,rural,0.6713
-COL,Villa Sur,NA,2018,Mujeres,rural,0.7313
-COL,Villa Sur,NA,2018,Total,rural,0.7019
-COL,Villa Sur,NA,2019,Hombres,rural,0.6785
-COL,Villa Sur,NA,2019,Mujeres,rural,0.7385
-COL,Villa Sur,NA,2019,Total,rural,0.7091
-COL,Villa Sur,NA,2020,Hombres,rural,0.7412
-COL,Villa Sur,NA,2020,Mujeres,rural,0.8012
-COL,Villa Sur,NA,2020,Total,rural,0.7718
-COL,Villa Sur,NA,2021,Hombres,rural,0.7253
-COL,Villa Sur,NA,2021,Mujeres,rural,0.7853
-COL,Villa Sur,NA,2021,Total,rural,0.7559
-COL,Villa Sur,NA,2022,Hombres,rural,0.6971
-COL,Villa Sur,NA,2022,Mujeres,rural,0.7571
-COL,Villa Sur,NA,2022,Total,rural,0.7277
-COL,Villa Sur,NA,2023,Hombres,rural,0.6774
-COL,Villa Sur,NA,2023,Mujeres,rural,0.73740000000000006
-COL,Villa Sur,NA,2023,Total,rural,0.7079
-COL,Villa Sur,NA,2024,Hombres,rural,0.6741
-COL,Villa Sur,NA,2024,Mujeres,rural,0.7341
-COL,Villa Sur,NA,2024,Total,rural,0.7047
-COL,Villa Sur,NA,2025,Hombres,rural,0.6712
-COL,Villa Sur,NA,2025,Mujeres,rural,0.7312
-COL,Villa Sur,NA,2025,Total,rural,0.7018
-COL,Vista Hermosa,NA,2016,Hombres,rural,0.56
-COL,Vista Hermosa,NA,2016,Mujeres,rural,0.62
-COL,Vista Hermosa,NA,2016,Total,rural,0.5906
-COL,Vista Hermosa,NA,2017,Hombres,rural,0.5653
-COL,Vista Hermosa,NA,2017,Mujeres,rural,0.6253
-COL,Vista Hermosa,NA,2017,Total,rural,0.5959
-COL,Vista Hermosa,NA,2018,Hombres,rural,0.5597
-COL,Vista Hermosa,NA,2018,Mujeres,rural,0.6197
-COL,Vista Hermosa,NA,2018,Total,rural,0.5903
-COL,Vista Hermosa,NA,2019,Hombres,rural,0.5669
-COL,Vista Hermosa,NA,2019,Mujeres,rural,0.6269
-COL,Vista Hermosa,NA,2019,Total,rural,0.5975
-COL,Vista Hermosa,NA,2020,Hombres,rural,0.6296
-COL,Vista Hermosa,NA,2020,Mujeres,rural,0.6896
-COL,Vista Hermosa,NA,2020,Total,rural,0.6602
-COL,Vista Hermosa,NA,2021,Hombres,rural,0.6137
-COL,Vista Hermosa,NA,2021,Mujeres,rural,0.6737
-COL,Vista Hermosa,NA,2021,Total,rural,0.6443
-COL,Vista Hermosa,NA,2022,Hombres,rural,0.5855
-COL,Vista Hermosa,NA,2022,Mujeres,rural,0.6455
-COL,Vista Hermosa,NA,2022,Total,rural,0.6161
-COL,Vista Hermosa,NA,2023,Hombres,rural,0.5658
-COL,Vista Hermosa,NA,2023,Mujeres,rural,0.6258
-COL,Vista Hermosa,NA,2023,Total,rural,0.5964
-COL,Vista Hermosa,NA,2024,Hombres,rural,0.5625
-COL,Vista Hermosa,NA,2024,Mujeres,rural,0.6225
-COL,Vista Hermosa,NA,2024,Total,rural,0.5931
-COL,Vista Hermosa,NA,2025,Hombres,rural,0.5597
-COL,Vista Hermosa,NA,2025,Mujeres,rural,0.6197
-COL,Vista Hermosa,NA,2025,Total,rural,0.5903
+COL,San Martín del Valle,NA,2017,Total,rural,0.7474
+COL,San Martín del Valle,NA,2017,Hombres,urbano,0.3593
+COL,San Martín del Valle,NA,2017,Mujeres,urbano,0.4193
+COL,San Martín del Valle,NA,2017,Total,urbano,0.3899
+COL,San Martín del Valle,NA,2018,Hombres,Total,0.6213
+COL,San Martín del Valle,NA,2018,Mujeres,Total,0.6787
+COL,San Martín del Valle,NA,2018,Total,Total,0.6506
+COL,San Martín del Valle,NA,2018,Hombres,periurbano,0.6096
+COL,San Martín del Valle,NA,2018,Mujeres,periurbano,0.6696
+COL,San Martín del Valle,NA,2018,Total,periurbano,0.6402
+COL,San Martín del Valle,NA,2018,Hombres,rural,0.7743
+COL,San Martín del Valle,NA,2018,Mujeres,rural,0.8254
+COL,San Martín del Valle,NA,2018,Total,rural,0.8004
+COL,San Martín del Valle,NA,2018,Hombres,urbano,0.3857
+COL,San Martín del Valle,NA,2018,Mujeres,urbano,0.4457
+COL,San Martín del Valle,NA,2018,Total,urbano,0.4163
+COL,San Martín del Valle,NA,2019,Hombres,Total,0.6165
+COL,San Martín del Valle,NA,2019,Mujeres,Total,0.675
+COL,San Martín del Valle,NA,2019,Total,Total,0.6463
+COL,San Martín del Valle,NA,2019,Hombres,periurbano,0.6268
+COL,San Martín del Valle,NA,2019,Mujeres,periurbano,0.6867
+COL,San Martín del Valle,NA,2019,Total,periurbano,0.6573
+COL,San Martín del Valle,NA,2019,Hombres,rural,0.736
+COL,San Martín del Valle,NA,2019,Mujeres,rural,0.7909
+COL,San Martín del Valle,NA,2019,Total,rural,0.764
+COL,San Martín del Valle,NA,2019,Hombres,urbano,0.3677
+COL,San Martín del Valle,NA,2019,Mujeres,urbano,0.4277
+COL,San Martín del Valle,NA,2019,Total,urbano,0.3983
+COL,San Martín del Valle,NA,2020,Hombres,Total,0.6665
+COL,San Martín del Valle,NA,2020,Mujeres,Total,0.7225
+COL,San Martín del Valle,NA,2020,Total,Total,0.6951
+COL,San Martín del Valle,NA,2020,Hombres,periurbano,0.6829
+COL,San Martín del Valle,NA,2020,Mujeres,periurbano,0.7414
+COL,San Martín del Valle,NA,2020,Total,periurbano,0.7127
+COL,San Martín del Valle,NA,2020,Hombres,rural,0.7773
+COL,San Martín del Valle,NA,2020,Mujeres,rural,0.8263
+COL,San Martín del Valle,NA,2020,Total,rural,0.8023
+COL,San Martín del Valle,NA,2020,Hombres,urbano,0.413
+COL,San Martín del Valle,NA,2020,Mujeres,urbano,0.473
+COL,San Martín del Valle,NA,2020,Total,urbano,0.4436
+COL,San Martín del Valle,NA,2021,Hombres,Total,0.6386
+COL,San Martín del Valle,NA,2021,Mujeres,Total,0.6952
+COL,San Martín del Valle,NA,2021,Total,Total,0.6675
+COL,San Martín del Valle,NA,2021,Hombres,periurbano,0.6423
+COL,San Martín del Valle,NA,2021,Mujeres,periurbano,0.7023
+COL,San Martín del Valle,NA,2021,Total,periurbano,0.6729
+COL,San Martín del Valle,NA,2021,Hombres,rural,0.7738
+COL,San Martín del Valle,NA,2021,Mujeres,rural,0.8223
+COL,San Martín del Valle,NA,2021,Total,rural,0.7985
+COL,San Martín del Valle,NA,2021,Hombres,urbano,0.3837
+COL,San Martín del Valle,NA,2021,Mujeres,urbano,0.4437
+COL,San Martín del Valle,NA,2021,Total,urbano,0.4143
+COL,San Martín del Valle,NA,2022,Hombres,Total,0.6094
+COL,San Martín del Valle,NA,2022,Mujeres,Total,0.6672
+COL,San Martín del Valle,NA,2022,Total,Total,0.6389
+COL,San Martín del Valle,NA,2022,Hombres,periurbano,0.5927
+COL,San Martín del Valle,NA,2022,Mujeres,periurbano,0.6527
+COL,San Martín del Valle,NA,2022,Total,periurbano,0.6233
+COL,San Martín del Valle,NA,2022,Hombres,rural,0.7641
+COL,San Martín del Valle,NA,2022,Mujeres,rural,0.8167
+COL,San Martín del Valle,NA,2022,Total,rural,0.7909
+COL,San Martín del Valle,NA,2022,Hombres,urbano,0.3876
+COL,San Martín del Valle,NA,2022,Mujeres,urbano,0.4476
+COL,San Martín del Valle,NA,2022,Total,urbano,0.4182
+COL,San Martín del Valle,NA,2023,Hombres,Total,0.587
+COL,San Martín del Valle,NA,2023,Mujeres,Total,0.646
+COL,San Martín del Valle,NA,2023,Total,Total,0.6171
+COL,San Martín del Valle,NA,2023,Hombres,periurbano,0.5596
+COL,San Martín del Valle,NA,2023,Mujeres,periurbano,0.6196
+COL,San Martín del Valle,NA,2023,Total,periurbano,0.5902
+COL,San Martín del Valle,NA,2023,Hombres,rural,0.7632
+COL,San Martín del Valle,NA,2023,Mujeres,rural,0.8196
+COL,San Martín del Valle,NA,2023,Total,rural,0.792
+COL,San Martín del Valle,NA,2023,Hombres,urbano,0.3625
+COL,San Martín del Valle,NA,2023,Mujeres,urbano,0.4225
+COL,San Martín del Valle,NA,2023,Total,urbano,0.3931
+COL,San Martín del Valle,NA,2024,Hombres,Total,0.5982
+COL,San Martín del Valle,NA,2024,Mujeres,Total,0.6582
+COL,San Martín del Valle,NA,2024,Total,Total,0.6289
+COL,San Martín del Valle,NA,2024,Hombres,periurbano,0.5985
+COL,San Martín del Valle,NA,2024,Mujeres,periurbano,0.6585
+COL,San Martín del Valle,NA,2024,Total,periurbano,0.6291
+COL,San Martín del Valle,NA,2024,Hombres,rural,0.7362
+COL,San Martín del Valle,NA,2024,Mujeres,rural,0.7962
+COL,San Martín del Valle,NA,2024,Total,rural,0.7668
+COL,San Martín del Valle,NA,2024,Hombres,urbano,0.3497
+COL,San Martín del Valle,NA,2024,Mujeres,urbano,0.4097
+COL,San Martín del Valle,NA,2024,Total,urbano,0.3803
+COL,San Martín del Valle,NA,2025,Hombres,Total,0.6165
+COL,San Martín del Valle,NA,2025,Mujeres,Total,0.671
+COL,San Martín del Valle,NA,2025,Total,Total,0.6443
+COL,San Martín del Valle,NA,2025,Hombres,periurbano,0.5934
+COL,San Martín del Valle,NA,2025,Mujeres,periurbano,0.6534
+COL,San Martín del Valle,NA,2025,Total,periurbano,0.624
+COL,San Martín del Valle,NA,2025,Hombres,rural,0.7837
+COL,San Martín del Valle,NA,2025,Mujeres,rural,0.8248
+COL,San Martín del Valle,NA,2025,Total,rural,0.8047
+COL,San Martín del Valle,NA,2025,Hombres,urbano,0.3936
+COL,San Martín del Valle,NA,2025,Mujeres,urbano,0.4535
+COL,San Martín del Valle,NA,2025,Total,urbano,0.4241
+COL,San Rafael,NA,2016,Hombres,urbano,0.4013
+COL,San Rafael,NA,2016,Mujeres,urbano,0.4613
+COL,San Rafael,NA,2016,Total,urbano,0.4319
+COL,San Rafael,NA,2017,Hombres,urbano,0.3877
+COL,San Rafael,NA,2017,Mujeres,urbano,0.4477
+COL,San Rafael,NA,2017,Total,urbano,0.4183
+COL,San Rafael,NA,2018,Hombres,urbano,0.4613
+COL,San Rafael,NA,2018,Mujeres,urbano,0.5213
+COL,San Rafael,NA,2018,Total,urbano,0.4919
+COL,San Rafael,NA,2019,Hombres,urbano,0.4172
+COL,San Rafael,NA,2019,Mujeres,urbano,0.4772
+COL,San Rafael,NA,2019,Total,urbano,0.4478
+COL,San Rafael,NA,2020,Hombres,urbano,0.4624
+COL,San Rafael,NA,2020,Mujeres,urbano,0.5224
+COL,San Rafael,NA,2020,Total,urbano,0.493
+COL,San Rafael,NA,2021,Hombres,urbano,0.4116
+COL,San Rafael,NA,2021,Mujeres,urbano,0.4716
+COL,San Rafael,NA,2021,Total,urbano,0.4422
+COL,San Rafael,NA,2022,Hombres,urbano,0.4492
+COL,San Rafael,NA,2022,Mujeres,urbano,0.5092
+COL,San Rafael,NA,2022,Total,urbano,0.4798
+COL,San Rafael,NA,2023,Hombres,urbano,0.4091
+COL,San Rafael,NA,2023,Mujeres,urbano,0.4691
+COL,San Rafael,NA,2023,Total,urbano,0.4397
+COL,San Rafael,NA,2024,Hombres,urbano,0.3846
+COL,San Rafael,NA,2024,Mujeres,urbano,0.4446
+COL,San Rafael,NA,2024,Total,urbano,0.4152
+COL,San Rafael,NA,2025,Hombres,urbano,0.4826
+COL,San Rafael,NA,2025,Mujeres,urbano,0.5426
+COL,San Rafael,NA,2025,Total,urbano,0.5132
+COL,Santa Ana,NA,2016,Hombres,rural,0.9
+COL,Santa Ana,NA,2016,Mujeres,rural,0.9
+COL,Santa Ana,NA,2016,Total,rural,0.9
+COL,Santa Ana,NA,2017,Hombres,rural,0.8015
+COL,Santa Ana,NA,2017,Mujeres,rural,0.8615
+COL,Santa Ana,NA,2017,Total,rural,0.8321
+COL,Santa Ana,NA,2018,Hombres,rural,0.7918
+COL,Santa Ana,NA,2018,Mujeres,rural,0.8518
+COL,Santa Ana,NA,2018,Total,rural,0.8224
+COL,Santa Ana,NA,2019,Hombres,rural,0.7946
+COL,Santa Ana,NA,2019,Mujeres,rural,0.8546
+COL,Santa Ana,NA,2019,Total,rural,0.8252
+COL,Santa Ana,NA,2020,Hombres,rural,0.9
+COL,Santa Ana,NA,2020,Mujeres,rural,0.9
+COL,Santa Ana,NA,2020,Total,rural,0.9
+COL,Santa Ana,NA,2021,Hombres,rural,0.9
+COL,Santa Ana,NA,2021,Mujeres,rural,0.9
+COL,Santa Ana,NA,2021,Total,rural,0.9
+COL,Santa Ana,NA,2022,Hombres,rural,0.9
+COL,Santa Ana,NA,2022,Mujeres,rural,0.9
+COL,Santa Ana,NA,2022,Total,rural,0.9
+COL,Santa Ana,NA,2023,Hombres,rural,0.758
+COL,Santa Ana,NA,2023,Mujeres,rural,0.818
+COL,Santa Ana,NA,2023,Total,rural,0.7886
+COL,Santa Ana,NA,2024,Hombres,rural,0.7609
+COL,Santa Ana,NA,2024,Mujeres,rural,0.8209
+COL,Santa Ana,NA,2024,Total,rural,0.7916
+COL,Santa Ana,NA,2025,Hombres,rural,0.8915
+COL,Santa Ana,NA,2025,Mujeres,rural,0.9
+COL,Santa Ana,NA,2025,Total,rural,0.8958
+COL,Santa Elena,NA,2016,Hombres,periurbano,0.6539
+COL,Santa Elena,NA,2016,Mujeres,periurbano,0.7139
+COL,Santa Elena,NA,2016,Total,periurbano,0.6845
+COL,Santa Elena,NA,2017,Hombres,periurbano,0.631
+COL,Santa Elena,NA,2017,Mujeres,periurbano,0.691
+COL,Santa Elena,NA,2017,Total,periurbano,0.6616
+COL,Santa Elena,NA,2018,Hombres,periurbano,0.7039
+COL,Santa Elena,NA,2018,Mujeres,periurbano,0.7639
+COL,Santa Elena,NA,2018,Total,periurbano,0.7345
+COL,Santa Elena,NA,2019,Hombres,periurbano,0.7224
+COL,Santa Elena,NA,2019,Mujeres,periurbano,0.7824
+COL,Santa Elena,NA,2019,Total,periurbano,0.753
+COL,Santa Elena,NA,2020,Hombres,periurbano,0.7555
+COL,Santa Elena,NA,2020,Mujeres,periurbano,0.8155
+COL,Santa Elena,NA,2020,Total,periurbano,0.7861
+COL,Santa Elena,NA,2021,Hombres,periurbano,0.7022
+COL,Santa Elena,NA,2021,Mujeres,periurbano,0.7622
+COL,Santa Elena,NA,2021,Total,periurbano,0.7328
+COL,Santa Elena,NA,2022,Hombres,periurbano,0.65
+COL,Santa Elena,NA,2022,Mujeres,periurbano,0.71
+COL,Santa Elena,NA,2022,Total,periurbano,0.6806
+COL,Santa Elena,NA,2023,Hombres,periurbano,0.6868
+COL,Santa Elena,NA,2023,Mujeres,periurbano,0.7468
+COL,Santa Elena,NA,2023,Total,periurbano,0.7174
+COL,Santa Elena,NA,2024,Hombres,periurbano,0.6732
+COL,Santa Elena,NA,2024,Mujeres,periurbano,0.7332
+COL,Santa Elena,NA,2024,Total,periurbano,0.7038
+COL,Santa Elena,NA,2025,Hombres,periurbano,0.632
+COL,Santa Elena,NA,2025,Mujeres,periurbano,0.692
+COL,Santa Elena,NA,2025,Total,periurbano,0.6626
+COL,Santa Lucía,NA,2016,Hombres,rural,0.6653
+COL,Santa Lucía,NA,2016,Mujeres,rural,0.7253
+COL,Santa Lucía,NA,2016,Total,rural,0.6959
+COL,Santa Lucía,NA,2017,Hombres,rural,0.6659
+COL,Santa Lucía,NA,2017,Mujeres,rural,0.7259
+COL,Santa Lucía,NA,2017,Total,rural,0.6965
+COL,Santa Lucía,NA,2018,Hombres,rural,0.6997
+COL,Santa Lucía,NA,2018,Mujeres,rural,0.7597
+COL,Santa Lucía,NA,2018,Total,rural,0.7303
+COL,Santa Lucía,NA,2019,Hombres,rural,0.614
+COL,Santa Lucía,NA,2019,Mujeres,rural,0.674
+COL,Santa Lucía,NA,2019,Total,rural,0.6446
+COL,Santa Lucía,NA,2020,Hombres,rural,0.5921
+COL,Santa Lucía,NA,2020,Mujeres,rural,0.6521
+COL,Santa Lucía,NA,2020,Total,rural,0.6227
+COL,Santa Lucía,NA,2021,Hombres,rural,0.7388
+COL,Santa Lucía,NA,2021,Mujeres,rural,0.7988
+COL,Santa Lucía,NA,2021,Total,rural,0.7694
+COL,Santa Lucía,NA,2022,Hombres,rural,0.6222
+COL,Santa Lucía,NA,2022,Mujeres,rural,0.6822
+COL,Santa Lucía,NA,2022,Total,rural,0.6528
+COL,Santa Lucía,NA,2023,Hombres,rural,0.6926
+COL,Santa Lucía,NA,2023,Mujeres,rural,0.7526
+COL,Santa Lucía,NA,2023,Total,rural,0.7232
+COL,Santa Lucía,NA,2024,Hombres,rural,0.7747
+COL,Santa Lucía,NA,2024,Mujeres,rural,0.8347
+COL,Santa Lucía,NA,2024,Total,rural,0.8053
+COL,Santa Lucía,NA,2025,Hombres,rural,0.6782
+COL,Santa Lucía,NA,2025,Mujeres,rural,0.7382
+COL,Santa Lucía,NA,2025,Total,rural,0.7088
+COL,Santa Rosa,NA,2016,Hombres,periurbano,0.5525
+COL,Santa Rosa,NA,2016,Mujeres,periurbano,0.6125
+COL,Santa Rosa,NA,2016,Total,periurbano,0.5831
+COL,Santa Rosa,NA,2017,Hombres,periurbano,0.7124
+COL,Santa Rosa,NA,2017,Mujeres,periurbano,0.7724
+COL,Santa Rosa,NA,2017,Total,periurbano,0.7429
+COL,Santa Rosa,NA,2018,Hombres,periurbano,0.6402
+COL,Santa Rosa,NA,2018,Mujeres,periurbano,0.7002
+COL,Santa Rosa,NA,2018,Total,periurbano,0.6708
+COL,Santa Rosa,NA,2019,Hombres,periurbano,0.6289
+COL,Santa Rosa,NA,2019,Mujeres,periurbano,0.6889
+COL,Santa Rosa,NA,2019,Total,periurbano,0.6595
+COL,Santa Rosa,NA,2020,Hombres,periurbano,0.8612
+COL,Santa Rosa,NA,2020,Mujeres,periurbano,0.9
+COL,Santa Rosa,NA,2020,Total,periurbano,0.881
+COL,Santa Rosa,NA,2021,Hombres,periurbano,0.7811
+COL,Santa Rosa,NA,2021,Mujeres,periurbano,0.8411
+COL,Santa Rosa,NA,2021,Total,periurbano,0.8117
+COL,Santa Rosa,NA,2022,Hombres,periurbano,0.7841
+COL,Santa Rosa,NA,2022,Mujeres,periurbano,0.8441
+COL,Santa Rosa,NA,2022,Total,periurbano,0.8147
+COL,Santa Rosa,NA,2023,Hombres,periurbano,0.6485
+COL,Santa Rosa,NA,2023,Mujeres,periurbano,0.7085
+COL,Santa Rosa,NA,2023,Total,periurbano,0.6791
+COL,Santa Rosa,NA,2024,Hombres,periurbano,0.7568
+COL,Santa Rosa,NA,2024,Mujeres,periurbano,0.8168
+COL,Santa Rosa,NA,2024,Total,periurbano,0.7874
+COL,Santa Rosa,NA,2025,Hombres,periurbano,0.6065
+COL,Santa Rosa,NA,2025,Mujeres,periurbano,0.6665
+COL,Santa Rosa,NA,2025,Total,periurbano,0.6371
+COL,Villa Esperanza,NA,2016,Hombres,rural,0.6598
+COL,Villa Esperanza,NA,2016,Mujeres,rural,0.7198
+COL,Villa Esperanza,NA,2016,Total,rural,0.6904
+COL,Villa Esperanza,NA,2017,Hombres,rural,0.6802
+COL,Villa Esperanza,NA,2017,Mujeres,rural,0.7402
+COL,Villa Esperanza,NA,2017,Total,rural,0.7108
+COL,Villa Esperanza,NA,2018,Hombres,rural,0.7658
+COL,Villa Esperanza,NA,2018,Mujeres,rural,0.8258
+COL,Villa Esperanza,NA,2018,Total,rural,0.7964
+COL,Villa Esperanza,NA,2019,Hombres,rural,0.7784
+COL,Villa Esperanza,NA,2019,Mujeres,rural,0.8384
+COL,Villa Esperanza,NA,2019,Total,rural,0.809
+COL,Villa Esperanza,NA,2020,Hombres,rural,0.7109
+COL,Villa Esperanza,NA,2020,Mujeres,rural,0.7709
+COL,Villa Esperanza,NA,2020,Total,rural,0.7415
+COL,Villa Esperanza,NA,2021,Hombres,rural,0.7014
+COL,Villa Esperanza,NA,2021,Mujeres,rural,0.7614
+COL,Villa Esperanza,NA,2021,Total,rural,0.732
+COL,Villa Esperanza,NA,2022,Hombres,rural,0.7721
+COL,Villa Esperanza,NA,2022,Mujeres,rural,0.8321
+COL,Villa Esperanza,NA,2022,Total,rural,0.8027
+COL,Villa Esperanza,NA,2023,Hombres,rural,0.6821
+COL,Villa Esperanza,NA,2023,Mujeres,rural,0.7421
+COL,Villa Esperanza,NA,2023,Total,rural,0.7127
+COL,Villa Esperanza,NA,2024,Hombres,rural,0.5271
+COL,Villa Esperanza,NA,2024,Mujeres,rural,0.5871
+COL,Villa Esperanza,NA,2024,Total,rural,0.5577
+COL,Villa Esperanza,NA,2025,Hombres,rural,0.6121
+COL,Villa Esperanza,NA,2025,Mujeres,rural,0.6721
+COL,Villa Esperanza,NA,2025,Total,rural,0.6427
+COL,Villa Norte,NA,2016,Hombres,periurbano,0.5726
+COL,Villa Norte,NA,2016,Mujeres,periurbano,0.6326
+COL,Villa Norte,NA,2016,Total,periurbano,0.6032
+COL,Villa Norte,NA,2017,Hombres,periurbano,0.5844
+COL,Villa Norte,NA,2017,Mujeres,periurbano,0.6444
+COL,Villa Norte,NA,2017,Total,periurbano,0.615
+COL,Villa Norte,NA,2018,Hombres,periurbano,0.6248
+COL,Villa Norte,NA,2018,Mujeres,periurbano,0.6848
+COL,Villa Norte,NA,2018,Total,periurbano,0.6554
+COL,Villa Norte,NA,2019,Hombres,periurbano,0.7017
+COL,Villa Norte,NA,2019,Mujeres,periurbano,0.7617
+COL,Villa Norte,NA,2019,Total,periurbano,0.7323
+COL,Villa Norte,NA,2020,Hombres,periurbano,0.6697
+COL,Villa Norte,NA,2020,Mujeres,periurbano,0.7297
+COL,Villa Norte,NA,2020,Total,periurbano,0.7003
+COL,Villa Norte,NA,2021,Hombres,periurbano,0.6872
+COL,Villa Norte,NA,2021,Mujeres,periurbano,0.7472
+COL,Villa Norte,NA,2021,Total,periurbano,0.7178
+COL,Villa Norte,NA,2022,Hombres,periurbano,0.6259
+COL,Villa Norte,NA,2022,Mujeres,periurbano,0.6859
+COL,Villa Norte,NA,2022,Total,periurbano,0.6565
+COL,Villa Norte,NA,2023,Hombres,periurbano,0.5824
+COL,Villa Norte,NA,2023,Mujeres,periurbano,0.6424
+COL,Villa Norte,NA,2023,Total,periurbano,0.613
+COL,Villa Norte,NA,2024,Hombres,periurbano,0.7688
+COL,Villa Norte,NA,2024,Mujeres,periurbano,0.8288
+COL,Villa Norte,NA,2024,Total,periurbano,0.7995
+COL,Villa Norte,NA,2025,Hombres,periurbano,0.6246
+COL,Villa Norte,NA,2025,Mujeres,periurbano,0.6846
+COL,Villa Norte,NA,2025,Total,periurbano,0.6552
+COL,Villa Sur,NA,2016,Hombres,rural,0.7521
+COL,Villa Sur,NA,2016,Mujeres,rural,0.8121
+COL,Villa Sur,NA,2016,Total,rural,0.7827
+COL,Villa Sur,NA,2017,Hombres,rural,0.6578
+COL,Villa Sur,NA,2017,Mujeres,rural,0.7178
+COL,Villa Sur,NA,2017,Total,rural,0.6884
+COL,Villa Sur,NA,2018,Hombres,rural,0.7987
+COL,Villa Sur,NA,2018,Mujeres,rural,0.8587
+COL,Villa Sur,NA,2018,Total,rural,0.8293
+COL,Villa Sur,NA,2019,Hombres,rural,0.7725
+COL,Villa Sur,NA,2019,Mujeres,rural,0.8325
+COL,Villa Sur,NA,2019,Total,rural,0.8031
+COL,Villa Sur,NA,2020,Hombres,rural,0.9
+COL,Villa Sur,NA,2020,Mujeres,rural,0.9
+COL,Villa Sur,NA,2020,Total,rural,0.9
+COL,Villa Sur,NA,2021,Hombres,rural,0.7339
+COL,Villa Sur,NA,2021,Mujeres,rural,0.7939
+COL,Villa Sur,NA,2021,Total,rural,0.7644
+COL,Villa Sur,NA,2022,Hombres,rural,0.758
+COL,Villa Sur,NA,2022,Mujeres,rural,0.818
+COL,Villa Sur,NA,2022,Total,rural,0.7886
+COL,Villa Sur,NA,2023,Hombres,rural,0.7755
+COL,Villa Sur,NA,2023,Mujeres,rural,0.8355
+COL,Villa Sur,NA,2023,Total,rural,0.8061
+COL,Villa Sur,NA,2024,Hombres,rural,0.7379
+COL,Villa Sur,NA,2024,Mujeres,rural,0.7979
+COL,Villa Sur,NA,2024,Total,rural,0.7685
+COL,Villa Sur,NA,2025,Hombres,rural,0.8448
+COL,Villa Sur,NA,2025,Mujeres,rural,0.9
+COL,Villa Sur,NA,2025,Total,rural,0.873
+COL,Vista Hermosa,NA,2016,Hombres,rural,0.8102
+COL,Vista Hermosa,NA,2016,Mujeres,rural,0.8702
+COL,Vista Hermosa,NA,2016,Total,rural,0.8408
+COL,Vista Hermosa,NA,2017,Hombres,rural,0.7487
+COL,Vista Hermosa,NA,2017,Mujeres,rural,0.8087
+COL,Vista Hermosa,NA,2017,Total,rural,0.7793
+COL,Vista Hermosa,NA,2018,Hombres,rural,0.8716
+COL,Vista Hermosa,NA,2018,Mujeres,rural,0.9
+COL,Vista Hermosa,NA,2018,Total,rural,0.8861
+COL,Vista Hermosa,NA,2019,Hombres,rural,0.8863
+COL,Vista Hermosa,NA,2019,Mujeres,rural,0.9
+COL,Vista Hermosa,NA,2019,Total,rural,0.8933
+COL,Vista Hermosa,NA,2020,Hombres,rural,0.8445
+COL,Vista Hermosa,NA,2020,Mujeres,rural,0.9
+COL,Vista Hermosa,NA,2020,Total,rural,0.8728
+COL,Vista Hermosa,NA,2021,Hombres,rural,0.7789
+COL,Vista Hermosa,NA,2021,Mujeres,rural,0.8389
+COL,Vista Hermosa,NA,2021,Total,rural,0.8096
+COL,Vista Hermosa,NA,2022,Hombres,rural,0.7424
+COL,Vista Hermosa,NA,2022,Mujeres,rural,0.8024
+COL,Vista Hermosa,NA,2022,Total,rural,0.773
+COL,Vista Hermosa,NA,2023,Hombres,rural,0.7995
+COL,Vista Hermosa,NA,2023,Mujeres,rural,0.8595
+COL,Vista Hermosa,NA,2023,Total,rural,0.8302
+COL,Vista Hermosa,NA,2024,Hombres,rural,0.7534
+COL,Vista Hermosa,NA,2024,Mujeres,rural,0.8134
+COL,Vista Hermosa,NA,2024,Total,rural,0.784
+COL,Vista Hermosa,NA,2025,Hombres,rural,0.7015
+COL,Vista Hermosa,NA,2025,Mujeres,rural,0.7615
+COL,Vista Hermosa,NA,2025,Total,rural,0.7321
