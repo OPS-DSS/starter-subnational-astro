@@ -60,7 +60,7 @@ the texts, and the general schema of the data fed to the dashboard.
 Know these repositories and what each one is for. Never confuse their roles.
 
 | Repository | Purpose | User action |
-|---|---|---|
+| --- | --- | --- |
 | `OPS-DSS/starter-local-astro` | The template this repo came from | Already used |
 | `ops-dss.github.io/config-generator` | Web tool that produces `app.config.json` | Use in browser |
 | `OPS-DSS/config-generator` | Source of the generator | Contribute upstream |
@@ -121,6 +121,7 @@ That work is still being tested; a separate skill for **stratified indicators**
 is planned. Both are intended as upstream contributions to `dss-data-r`.
 
 If the user needs a new data script, your help is limited to:
+
 - Explaining how the existing R scripts are structured.
 - Pointing them to the reference example and the experimental skill.
 - Reviewing R code **they** wrote and suggesting corrections, with approval.
