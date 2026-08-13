@@ -1,33 +1,36 @@
 ---
 import { AnalyticsPageContent } from './AnalyticsPageContent'
-import type {
-  ForestPlotDataRow,
-  AnalyticsMaternalRow,
-  ScatterMaternalRow,
-} from '@/lib/parquet'
-import type { EducationIndicator } from '@/lib/parquet'
+import type { ForestPlotDataRow, AnalyticsRow, ScatterRow } from '@/lib/parquet'
+import type { AnalyticsIndicatorKey } from '@/lib/parquet'
+import type { IndicatorMeta } from '@/config/general'
 
 interface Props {
   title: string
   text: string
+  priority: IndicatorMeta
   forestPlotData?: ForestPlotDataRow[]
-  analyticsMaternalData?: AnalyticsMaternalRow[]
-  scatterMaternalData?: ScatterMaternalRow[]
-  csvPath?: string
-  geojsonUrls: Record<EducationIndicator, string>
-  maternalGeojsonUrl?: string
+  analyticsData?: AnalyticsRow[]
+  scatterData?: ScatterRow[]
+  geojsonUrls?: Record<AnalyticsIndicatorKey, Record<number, string>>
+  priorityGeojsonUrls?: Record<number, string>
+  dssBivariateGeojsonUrls?: Partial<
+    Record<
+      AnalyticsIndicatorKey,
+      Partial<Record<AnalyticsIndicatorKey, Record<number, string>>>
+    >
+  >
   csvUrl?: string
 }
 
 const {
+  priority,
   title,
-  text,
   forestPlotData,
-  analyticsMaternalData,
-  scatterMaternalData,
-  csvPath,
+  analyticsData,
+  scatterData,
   geojsonUrls,
-  maternalGeojsonUrl,
+  priorityGeojsonUrls,
+  dssBivariateGeojsonUrls,
   csvUrl,
 } = Astro.props
 ---
@@ -35,14 +38,14 @@ const {
 <div class="mx-auto max-w-[120em] px-2 sm:px-6 lg:px-10 mb-16">
   <div class="flex flex-col gap-2">
     <h1 class="text-3xl font-bold my-6">{title}</h1>
-    <!-- <p class="text-gray-700">{text}</p> -->
     <AnalyticsPageContent
+      priority={priority}
       forestPlotData={forestPlotData}
-      analyticsMaternalData={analyticsMaternalData}
-      scatterMaternalData={scatterMaternalData}
-      csvPath={csvPath}
+      analyticsData={analyticsData}
+      scatterData={scatterData}
       geojsonUrls={geojsonUrls}
-      maternalGeojsonUrl={maternalGeojsonUrl}
+      priorityGeojsonUrls={priorityGeojsonUrls}
+      dssBivariateGeojsonUrls={dssBivariateGeojsonUrls}
       csvUrl={csvUrl}
       client:only="react"
     />

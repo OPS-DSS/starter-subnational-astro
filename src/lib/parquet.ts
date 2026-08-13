@@ -1,17 +1,23 @@
 import { asyncBufferFromFile, parquetRead } from 'hyparquet'
 import { resolve, isAbsolute } from 'node:path'
+import { app } from '@/config/general'
+import type { DatasetScheme } from '@/config/general'
 
 export function dataPath(filename: string) {
-  return resolve(process.cwd(), 'src/data', filename)
+  return resolve(process.cwd(), app.data.path, filename)
 }
+
+/** A raw parquet row as returned by hyparquet: cells addressed by position. */
+export type RawRow = unknown[]
+
+/** A mapped row: cells addressed by the field names configured in the scheme. */
+export type DataRow = Record<string, string | number>
 
 /**
  * Reads a parquet file at build time (Node.js / Astro SSG).
- * Pass a path relative to the project root, e.g. 'src/data/foo.parquet'.
+ * Pass a path relative to the project root, e.g. 'public/data/parquet/foo.parquet'.
  */
-export async function readParquet<T = Record<string, unknown>>(
-  filePath: string,
-): Promise<T[]> {
+export async function readParquet<T = RawRow>(filePath: string): Promise<T[]> {
   const resolvedPath = isAbsolute(filePath)
     ? filePath
     : resolve(process.cwd(), filePath)
@@ -21,21 +27,7 @@ export async function readParquet<T = Record<string, unknown>>(
     try {
       parquetRead({
         file,
-        onComplete: (rows) => {
-          try {
-            // rows is an array of row-arrays from hyparquet
-            // Each row is an array of column values
-            if (!rows || rows.length === 0) {
-              resolve([] as unknown as T[])
-              return
-            }
-            // parquetRead returns row-oriented arrays (each row is an array of values)
-            // We need column names from metadata to build objects
-            resolve(rows as unknown as T[])
-          } catch (err) {
-            reject(err)
-          }
-        },
+        onComplete: (rows) => resolve((rows ?? []) as unknown as T[]),
       })
     } catch (err) {
       reject(err)
@@ -43,477 +35,115 @@ export async function readParquet<T = Record<string, unknown>>(
   })
 }
 
-/**
- * Reads a parquet file and returns row objects with named keys.
- * Uses parquet schema to map column indices to field names.
- */
-export async function readParquetAsObjects<T = Record<string, unknown>>(
-  filePath: string,
-): Promise<T[]> {
-  const resolvedPath = isAbsolute(filePath)
-    ? filePath
-    : resolve(process.cwd(), filePath)
-
-  const file = await asyncBufferFromFile(resolvedPath)
-  return new Promise<T[]>((resolve, reject) => {
-    try {
-      // First pass: read metadata to get column names
-      let columnNames: string[] = []
-      parquetRead({
-        file,
-        onComplete: (rows) => {
-          try {
-            if (!rows || rows.length === 0) {
-              resolve([] as unknown as T[])
-              return
-            }
-            // If rows are already objects, return as-is
-            if (!Array.isArray(rows[0])) {
-              resolve(rows as unknown as T[])
-              return
-            }
-            // Get column names from metadata if available
-            if (columnNames.length === 0) {
-              // Fallback: generate indexed column names
-              const numCols = (rows[0] as unknown[]).length
-              columnNames = Array.from({ length: numCols }, (_, i) => `col${i}`)
-            }
-            // Convert each row array to a named object
-            const objects = rows.map((row) => {
-              const rowArr = row as unknown[]
-              const obj: Record<string, unknown> = {}
-              for (let i = 0; i < columnNames.length; i++) {
-                obj[columnNames[i]] = rowArr[i]
-              }
-              return obj as T
-            })
-            resolve(objects)
-          } catch (err) {
-            reject(err)
-          }
-        },
-        columns: undefined, // read all columns
-      })
-    } catch (err) {
-      reject(err)
-    }
-  })
+export interface MapRowsOptions {
+  /**
+   * Keep only rows whose territory-role column equals this value
+   * (e.g. app.local to keep municipality-level rows). When omitted,
+   * rows for every territory are kept.
+   */
+  territory?: string
 }
-
-export type SuicideRow = {
-  anio: number
-  sexo: string
-  valor: number
-  [key: string]: unknown
-}
-export type ChartPoint = { anio: number; [key: string]: number | string }
-
-export function pivotBySexo(rows: SuicideRow[]): ChartPoint[] {
-  const byYear = new Map<number, ChartPoint>()
-  for (const row of rows) {
-    const year = Number(row[4])
-    const sex = String(row[5])
-    const value = Number(row[6])
-    if (!byYear.has(year)) byYear.set(year, { anio: year })
-    if (value !== 0) byYear.get(year)![sex] = value
-  }
-  return Array.from(byYear.values()).sort(
-    (a, b) => (a.anio as number) - (b.anio as number),
-  )
-}
-
-export type SuicideDataRow = {
-  anio: number
-  territorio: string
-  sexo: string
-  valor: number
-}
-
-const CHART_TERRITORIES = new Set(['Suaza', 'Huila', 'Nacional'])
 
 /**
- * Filters the raw suicide parquet rows to only Suaza, Huila, and Nacional,
- * returning flat objects suitable for client-side pivoting.
- * Columns: iso3[0], territorio[1], cod_sub[2], cod_local[3], anio[4], sexo[5], valor[6]
+ * Maps raw parquet rows to named objects using a scheme from app.config.json.
+ * The scheme drives everything: which columns are read, at which position,
+ * under which name, and with which type.
+ *
+ * Column roles:
+ * - `territory` — used for the optional territory filter.
+ * - `year` / `value` — rows where these are missing or non-numeric are
+ *   dropped (e.g. years before a programme existed); when a year column
+ *   exists, rows are sorted by it.
  */
-export function filterSuicideRows(rows: SuicideRow[]): SuicideDataRow[] {
-  const result: SuicideDataRow[] = []
-  for (const row of rows) {
-    const territorio = String(row[1])
-    if (!CHART_TERRITORIES.has(territorio)) continue
-    const anio = Number(row[4])
-    const sexo = String(row[5])
-    const valor = Number(row[6])
-    if (Number.isFinite(anio) && Number.isFinite(valor) && valor !== 0) {
-      result.push({ anio, territorio, sexo, valor })
-    }
-  }
-  return result
-}
+export function mapRows<T extends DataRow = DataRow>(
+  rows: RawRow[],
+  scheme: DatasetScheme,
+  { territory }: MapRowsOptions = {},
+): T[] {
+  const territoryCol = scheme.find((c) => c.role === 'territory')
+  const yearCol = scheme.find((c) => c.role === 'year')
+  const valueCol = scheme.find((c) => c.role === 'value')
 
-// Gaps data types — columns: anio, territorio, Femenino, Masculino, brecha_absoluta, razon
-export type GapsRow = unknown[]
-export type GapsChartPoint = {
-  anio: number
-  brechaHuila?: number
-  brechaNacional?: number
-  brechaSuaza?: number
-  razonHuila?: number
-  razonNacional?: number
-  razonSuaza?: number
-  femeninoHuila?: number
-  femeninoNacional?: number
-  femeninoSuaza?: number
-  masculinoHuila?: number
-  masculinoNacional?: number
-  masculinoSuaza?: number
-}
-
-// Education data types
-// Parquet columns (by index): anio[0], municipio[1], departamento[2],
-// cobertura_bruta[3], cobertura_neta[4], deserci_n[5],
-// aprobaci_n[6], reprobaci_n[7], repitencia[8]
-export type EducationRow = unknown[]
-
-export type EducationDataRow = {
-  anio: number
-  cobertura_bruta: number
-  cobertura_neta: number
-  deserci_n: number
-  aprobaci_n: number
-  reprobaci_n: number
-  repitencia: number
-}
-
-export type EducationIndicator =
-  | 'cobertura_bruta'
-  | 'cobertura_neta'
-  | 'deserci_n'
-  | 'aprobaci_n'
-  | 'reprobaci_n'
-  | 'repitencia'
-
-export function filterEducationRows(rows: EducationRow[]): EducationDataRow[] {
-  const result: EducationDataRow[] = []
-  for (const row of rows) {
-    const anio = Number(row[0])
-    if (!Number.isFinite(anio)) continue
-
-    const cobertura_bruta = Number(row[3])
-    const cobertura_neta = Number(row[4])
-    const deserci_n = Number(row[5])
-    const aprobaci_n = Number(row[6])
-    const reprobaci_n = Number(row[7])
-    const repitencia = Number(row[8])
-
-    // Skip rows where any indicator value is not a finite number
+  const result: T[] = []
+  for (const raw of rows) {
     if (
-      !Number.isFinite(cobertura_bruta) ||
-      !Number.isFinite(cobertura_neta) ||
-      !Number.isFinite(deserci_n) ||
-      !Number.isFinite(aprobaci_n) ||
-      !Number.isFinite(reprobaci_n) ||
-      !Number.isFinite(repitencia)
-    ) {
+      territory &&
+      territoryCol &&
+      String(raw[territoryCol.index]) !== territory
+    )
       continue
+
+    const row: DataRow = {}
+    let valid = true
+    for (const col of scheme) {
+      const cell = raw[col.index]
+      if (col.type === 'number') {
+        const num = cell == null ? NaN : Number(cell)
+        if (!Number.isFinite(num) && (col === yearCol || col === valueCol)) {
+          valid = false
+          break
+        }
+        row[col.name] = num
+      } else {
+        row[col.name] = cell == null ? '' : String(cell)
+      }
     }
-
-    result.push({
-      anio,
-      cobertura_bruta,
-      cobertura_neta,
-      deserci_n,
-      aprobaci_n,
-      reprobaci_n,
-      repitencia,
-    })
+    if (valid) result.push(row as T)
   }
-  return result.sort((a, b) => a.anio - b.anio)
-}
 
-// ── Analytics data types ──────────────────────────────────────────────────────
-// Cross-indicator: suicide mortality (Suaza, Total) joined with education data.
-// Parquet columns (by index) when analytics_suaza.parquet is present:
-//   anio[0], valor[1], cobertura_bruta[2], cobertura_neta[3],
-//   desercion[4], aprobacion[5], reprobacion[6], repitencia[7]
-export type AnalyticsRow = unknown[]
-
-export type AnalyticsDataRow = {
-  anio: number
-  valor: number
-  cobertura_bruta: number
-  cobertura_neta: number
-  desercion: number
-  aprobacion: number
-  reprobacion: number
-  repitencia: number
-}
-
-/** Parse rows from analytics_suaza.parquet (produced by the R script). */
-export function filterAnalyticsRows(rows: AnalyticsRow[]): AnalyticsDataRow[] {
-  const result: AnalyticsDataRow[] = []
-  for (const row of rows) {
-    const anio = Number(row[0])
-    const valor = Number(row[1])
-    const cobertura_bruta = Number(row[2])
-    const cobertura_neta = Number(row[3])
-    const desercion = Number(row[4])
-    const aprobacion = Number(row[5])
-    const reprobacion = Number(row[6])
-    const repitencia = Number(row[7])
-    if (!Number.isFinite(anio) || !Number.isFinite(repitencia)) continue
-    result.push({
-      anio,
-      valor,
-      cobertura_bruta,
-      cobertura_neta,
-      desercion,
-      aprobacion,
-      reprobacion,
-      repitencia,
-    })
-  }
-  return result.sort((a, b) => a.anio - b.anio)
-}
-
-/**
- * Build the analytics joined dataset from already-read suicide and education
- * parquet rows (fallback when analytics_suaza.parquet has not been generated yet).
- * Mirrors the R inner_join(suicidio, educacion, by="anio") for Suaza/Total.
- */
-export function buildAnalyticsData(
-  suicideRows: SuicideRow[],
-  educationRows: EducationRow[],
-): AnalyticsDataRow[] {
-  // Index education by year
-  const eduByYear = new Map<number, AnalyticsDataRow>()
-  for (const row of educationRows) {
-    const anio = Number(row[0])
-    const repitencia = Number(row[8])
-    if (!Number.isFinite(anio) || !Number.isFinite(repitencia)) continue
-    eduByYear.set(anio, {
-      anio,
-      valor: 0, // filled below
-      cobertura_bruta: Number(row[3]),
-      cobertura_neta: Number(row[4]),
-      desercion: Number(row[5]),
-      aprobacion: Number(row[6]),
-      reprobacion: Number(row[7]),
-      repitencia,
-    })
-  }
-  // Join with Suaza/Total suicide rows
-  const result: AnalyticsDataRow[] = []
-  for (const row of suicideRows) {
-    const territorio = String(row[1])
-    const sexo = String(row[5])
-    if (territorio !== 'Suaza' || sexo !== 'Total') continue
-    const anio = Number(row[4])
-    const valor = Number(row[6])
-    if (!Number.isFinite(anio)) continue
-    const edu = eduByYear.get(anio)
-    if (!edu) continue
-    result.push({ ...edu, valor })
-  }
-  return result.sort((a, b) => a.anio - b.anio)
-}
-
-// ── Maternal Mortality data types ─────────────────────────────────────────────
-
-/**
- * Row from maternal_mortality_rate.parquet
- * Columns (by index): iso3[0], Territorio[1], cod_local[2], anio[3], valor[4]
- */
-export type MaternalMortalityRateRawRow = unknown[]
-
-export type MaternalMortalityRateRow = {
-  territorio: string
-  anio: number
-  valor: number
-}
-
-export function filterMaternalMortalityRateRows(
-  rows: MaternalMortalityRateRawRow[],
-): MaternalMortalityRateRow[] {
-  const result: MaternalMortalityRateRow[] = []
-  for (const row of rows) {
-    const territorio = String(row[1])
-    const anio = Number(row[3])
-    const valor = Number(row[4])
-    if (!Number.isFinite(anio) || !Number.isFinite(valor)) continue
-    result.push({ territorio, anio, valor })
-  }
-  return result.sort((a, b) => a.anio - b.anio)
-}
-
-/**
- * Row from maternal_mortality_quintiles.parquet (resumen dataframe)
- * Columns: anio[0], quintil_dss[1], tasa_ponderada[2], n[3], total_pob[4],
- *          sd_pond[5], se[6], ic_inf[7], ic_sup[8]
- */
-export type MaternalMortalityQuintilRawRow = unknown[]
-
-export type MaternalMortalityQuintilRow = {
-  anio: number
-  quintil_dss: number
-  tasa_ponderada: number
-  n: number
-  total_pob: number
-  se: number
-  ic_inf: number
-  ic_sup: number
-}
-
-export function filterMaternalMortalityQuintilRows(
-  rows: MaternalMortalityQuintilRawRow[],
-): MaternalMortalityQuintilRow[] {
-  const result: MaternalMortalityQuintilRow[] = []
-  for (const row of rows) {
-    const anio = Number(row[0])
-    const quintil_dss = Number(row[1])
-    const tasa_ponderada = Number(row[2])
-    const n = Number(row[3])
-    const total_pob = Number(row[4])
-    const se = Number(row[6])
-    const ic_inf = Number(row[7])
-    const ic_sup = Number(row[8])
-    if (!Number.isFinite(anio) || !Number.isFinite(quintil_dss)) continue
-    result.push({ anio, quintil_dss, tasa_ponderada, n, total_pob, se, ic_inf, ic_sup })
-  }
-  return result.sort((a, b) => a.anio - b.anio || a.quintil_dss - b.quintil_dss)
-}
-
-/**
- * Row from maternal_mortality_gaps.parquet (brecha_quintiles dataframe)
- * Columns: anio[0], valor_ref[1], valor_comp[2],
- *          brecha_absoluta[3], ic_inf_abs[4], ic_sup_abs[5],
- *          brecha_relativa[6], ic_inf_rel[7], ic_sup_rel[8]
- */
-export type MaternalMortalityGapsRawRow = unknown[]
-
-export type MaternalMortalityGapsRow = {
-  anio: number
-  valor_ref: number
-  valor_comp: number
-  brecha_absoluta: number
-  ic_inf_abs: number
-  ic_sup_abs: number
-  brecha_relativa: number
-  ic_inf_rel: number
-  ic_sup_rel: number
-}
-
-export function filterMaternalMortalityGapsRows(
-  rows: MaternalMortalityGapsRawRow[],
-): MaternalMortalityGapsRow[] {
-  const result: MaternalMortalityGapsRow[] = []
-  for (const row of rows) {
-    const anio = Number(row[0])
-    if (!Number.isFinite(anio)) continue
-    result.push({
-      anio,
-      valor_ref: Number(row[1]),
-      valor_comp: Number(row[2]),
-      brecha_absoluta: Number(row[3]),
-      ic_inf_abs: Number(row[4]),
-      ic_sup_abs: Number(row[5]),
-      brecha_relativa: Number(row[6]),
-      ic_inf_rel: Number(row[7]),
-      ic_sup_rel: Number(row[8]),
-    })
-  }
-  return result.sort((a, b) => a.anio - b.anio)
-}
-
-// ── Maternal mortality analytics: temporal data (Huila rate + education avg) ──
-// Parquet columns: anio[0], valor[1], cobertura_bruta[2], cobertura_neta[3],
-//   desercion[4], aprobacion[5], reprobacion[6], repitencia[7]
-export type AnalyticsMaternalRawRow = unknown[]
-
-export type AnalyticsMaternalRow = {
-  anio: number
-  valor: number
-  cobertura_bruta: number
-  cobertura_neta: number
-  desercion: number
-  aprobacion: number
-  reprobacion: number
-  repitencia: number
-}
-
-export function filterAnalyticsMaternalRows(
-  rows: AnalyticsMaternalRawRow[],
-): AnalyticsMaternalRow[] {
-  const result: AnalyticsMaternalRow[] = []
-  for (const row of rows) {
-    const anio = Number(row[0])
-    const valor = Number(row[1])
-    if (!Number.isFinite(anio) || !Number.isFinite(valor)) continue
-    result.push({
-      anio,
-      valor,
-      cobertura_bruta: Number(row[2]),
-      cobertura_neta: Number(row[3]),
-      desercion: Number(row[4]),
-      aprobacion: Number(row[5]),
-      reprobacion: Number(row[6]),
-      repitencia: Number(row[7]),
-    })
-  }
-  return result.sort((a, b) => a.anio - b.anio)
-}
-
-// ── Maternal mortality scatter: cross-sectional municipality data ──────────────
-// Parquet columns: anio[0], territorio[1], valor[2], cobertura_bruta[3],
-//   cobertura_neta[4], desercion[5], aprobacion[6], reprobacion[7],
-//   repitencia[8], nacimientos[9]
-export type ScatterMaternalRawRow = unknown[]
-
-export type ScatterMaternalRow = {
-  anio: number
-  territorio: string
-  valor: number
-  cobertura_bruta: number
-  cobertura_neta: number
-  desercion: number
-  aprobacion: number
-  reprobacion: number
-  repitencia: number
-  nacimientos: number
-}
-
-export function filterScatterMaternalRows(
-  rows: ScatterMaternalRawRow[],
-): ScatterMaternalRow[] {
-  const result: ScatterMaternalRow[] = []
-  for (const row of rows) {
-    const anio = Number(row[0])
-    const territorio = String(row[1])
-    const valor = Number(row[2])
-    if (!Number.isFinite(anio) || !Number.isFinite(valor)) continue
-    result.push({
-      anio,
-      territorio,
-      valor,
-      cobertura_bruta: Number(row[3]),
-      cobertura_neta: Number(row[4]),
-      desercion: Number(row[5]),
-      aprobacion: Number(row[6]),
-      reprobacion: Number(row[7]),
-      repitencia: Number(row[8]),
-      nacimientos: Number(row[9]),
-    })
+  if (yearCol) {
+    result.sort((a, b) => Number(a[yearCol.name]) - Number(b[yearCol.name]))
   }
   return result
 }
 
-// ── Forest plot / Correlation data types ─────────────────────────────────────
-// Parquet columns (by index):
-//   indicador[0], label[1], correlacion[2], ci_lower[3], ci_upper[4],
-//   p_value[5], n[6]
-export type ForestPlotRawRow = unknown[]
+/** Reads a parquet file from the configured data directory and maps its rows. */
+export async function loadDataset<T extends DataRow = DataRow>(
+  file: string,
+  scheme: DatasetScheme,
+  options?: MapRowsOptions,
+): Promise<T[]> {
+  const rows = await readParquet<RawRow>(dataPath(file))
+  return mapRows<T>(rows, scheme, options)
+}
+
+// ─── Canonical row shapes ─────────────────────────────────────────────────────
+// These describe the field names the chart components expect. The scheme in
+// app.config.json decides which parquet column feeds each field; the names
+// below are the template's internal vocabulary and must match the `name`
+// entries used in the config schemes.
+
+/** Priority indicator rows: kept for every territory so charts can compare. */
+export type PriorityRow = {
+  territorio: string
+  anio: number
+  valor: number
+} & DataRow
+
+/** Stratified indicator rows: year/value plus any configured stratifiers. */
+export type StratifiedRow = {
+  anio: number
+  valor: number
+} & DataRow
+
+/** Wide-format rows keyed by indicator slug (analytics/scatter datasets). */
+export type AnalyticsRow = {
+  anio: number
+  valor: number
+} & DataRow
+
+/** Indicator slugs used as data-row keys across the analytics dashboard. */
+export type AnalyticsIndicatorKey = string
+
+export type ScatterRow = {
+  anio: number
+  territorio: string
+  valor: number
+  nacimientos: number
+} & DataRow
 
 export type ForestPlotDataRow = {
+  anio: number
   indicador: string
   label: string
   correlacion: number
@@ -521,72 +151,4 @@ export type ForestPlotDataRow = {
   ci_upper: number
   p_value: number
   n: number
-}
-
-export function filterForestPlotRows(
-  rows: ForestPlotRawRow[],
-): ForestPlotDataRow[] {
-  const result: ForestPlotDataRow[] = []
-  for (const row of rows) {
-    const indicador = String(row[0])
-    const label = String(row[1])
-    const correlacion = Number(row[2])
-    if (!indicador || !label || !Number.isFinite(correlacion)) continue
-    result.push({
-      indicador,
-      label,
-      correlacion,
-      ci_lower: Number(row[3]),
-      ci_upper: Number(row[4]),
-      p_value: Number(row[5]),
-      n: Number(row[6]),
-    })
-  }
-  return result
-}
-
-export function pivotGaps(rows: GapsRow[]): GapsChartPoint[] {
-  const byYear = new Map<number, GapsChartPoint>()
-
-  for (const row of rows) {
-    const anio = Number(row[0])
-    if (!Number.isFinite(anio)) continue
-
-    const territorio = String(row[1])
-    if (
-      territorio !== 'Huila' &&
-      territorio !== 'Nacional' &&
-      territorio !== 'Suaza'
-    )
-      continue
-
-    const brechaAbsoluta = Number(row[4])
-    if (!Number.isFinite(brechaAbsoluta)) continue
-
-    if (!byYear.has(anio)) byYear.set(anio, { anio })
-    const point = byYear.get(anio)!
-
-    const femenino = Number(row[2])
-    const masculino = Number(row[3])
-    const razon = Number(row[5])
-
-    if (territorio === 'Huila') {
-      point.brechaHuila = brechaAbsoluta
-      if (Number.isFinite(razon)) point.razonHuila = razon
-      if (Number.isFinite(masculino)) point.masculinoHuila = masculino
-      if (Number.isFinite(femenino)) point.femeninoHuila = femenino
-    } else if (territorio === 'Nacional') {
-      point.brechaNacional = brechaAbsoluta
-      if (Number.isFinite(razon)) point.razonNacional = razon
-      if (Number.isFinite(masculino)) point.masculinoNacional = masculino
-      if (Number.isFinite(femenino)) point.femeninoNacional = femenino
-    } else {
-      point.brechaSuaza = brechaAbsoluta
-      if (Number.isFinite(razon)) point.razonSuaza = razon
-      if (Number.isFinite(masculino)) point.masculinoSuaza = masculino
-      if (Number.isFinite(femenino)) point.femeninoSuaza = femenino
-    }
-  }
-
-  return Array.from(byYear.values()).sort((a, b) => a.anio - b.anio)
-}
+} & DataRow

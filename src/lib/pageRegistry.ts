@@ -1,38 +1,37 @@
 import type { AstroComponentFactory } from 'astro/runtime/server/index.js'
 
-import Education from '@/components/education/Education.astro'
-import MaternalMortalityInequity from '@/components/maternal-mortality/MaternalMortalityInequity.astro'
+import PriorityInequity from '@/components/priority/PriorityInequity.astro'
 import Analytics from '@/components/analytics/Analytics.astro'
 import Welcome from '@/components/Welcome.astro'
-import MaternalMortalitySDoH from '@/components/maternal-mortality/MaternalMortalitySDoH.astro'
+import PrioritySDoH from '@/components/priority/PrioritySDoH.astro'
 import PrioritySelector from '@/components/PrioritySelector.astro'
+import StratifiedIndicator from '@/components/StratifiedIndicator.astro'
 
 import type {
-  SuicideDataRow,
-  GapsChartPoint,
-  EducationDataRow,
-  AnalyticsDataRow,
-  MaternalMortalityRateRow,
-  MaternalMortalityQuintilRow,
-  MaternalMortalityGapsRow,
+  PriorityRow,
   ForestPlotDataRow,
-  AnalyticsMaternalRow,
-  ScatterMaternalRow,
+  AnalyticsRow,
+  ScatterRow,
+  StratifiedRow,
 } from '@/lib/parquet'
+import type { IndicatorStratifier } from '@/config/general'
+import { app, priorities, indicators, indicatorSlugs } from '@/config/general'
 
 export interface PageProps {
   title: string
   text: string
+  dimension?: string
+  subdimensions?: string[]
   pages: unknown[]
   slug: string | undefined
   date: Date
-  data?: SuicideDataRow[] | EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
+  source?: string
+  data?: PriorityRow[]
   forestPlotData?: ForestPlotDataRow[]
-  analyticsMaternalData?: AnalyticsMaternalRow[]
-  scatterMaternalData?: ScatterMaternalRow[]
-  gapsData?: GapsChartPoint[]
-  quintilData?: MaternalMortalityQuintilRow[]
-  maternalGapsData?: MaternalMortalityGapsRow[]
+  analyticsData?: AnalyticsRow[]
+  scatterData?: ScatterRow[]
+  stratifiedData?: StratifiedRow[]
+  stratifiers?: IndicatorStratifier[]
 }
 
 type PropsResolver = (
@@ -45,9 +44,15 @@ interface PageRegistryEntry {
   resolveProps: PropsResolver
 }
 
-const base = (url: string, path: string) => `${url}/data/${path}`
+const csvUrl = (url: string, path: string) => `${url}/data/csv/${path}`
+const geojsonUrl = (url: string, path: string) => `${url}/data/geojson/${path}`
 
-export const pageRegistry: Record<string, PageRegistryEntry> = {
+/** Years present in a dataset — geojson assets are generated per year. */
+const dataYears = (rows: { anio: number }[] = []) => [
+  ...new Set(rows.map((r) => r.anio)),
+]
+
+const staticEntries: Record<string, PageRegistryEntry> = {
   // ─── No slug (home) ────────────────────────────────────────────────────────
   '': {
     component: Welcome,
@@ -67,56 +72,156 @@ export const pageRegistry: Record<string, PageRegistryEntry> = {
     component: PrioritySelector,
     resolveProps: ({ title, text, slug }) => ({ title, text, section: slug }),
   },
+}
 
-  // ─── Detail pages ──────────────────────────────────────────────────────────
-  'determinantes-de-la-salud/mortalidad-materna': {
-    component: MaternalMortalitySDoH,
-    resolveProps: ({ title, text }) => ({ title, text }),
-  },
-  'analisis-de-inequidad/mortalidad-materna': {
-    component: MaternalMortalityInequity,
-    resolveProps: ({ title, text, data, quintilData, maternalGapsData }, baseUrl) => ({
-      title,
-      text,
-      data,
-      quintilData,
-      maternalGapsData,
-      csvPath: base(baseUrl, 'maternal_mortality_rate.csv'),
-      quintilCsvPath: base(baseUrl, 'maternal_mortality_quintiles.csv'),
-      gapsCsvPath: base(baseUrl, 'maternal_mortality_gaps.csv'),
-    }),
-  },
-  'analisis/mortalidad-materna': {
-    component: Analytics,
-    resolveProps: (
-      { title, text, forestPlotData, analyticsMaternalData, scatterMaternalData },
-      baseUrl,
-    ) => ({
-      title,
-      text,
-      forestPlotData,
-      analyticsMaternalData,
-      scatterMaternalData,
-      csvPath: base(baseUrl, 'analytics_maternal.csv'),
-      geojsonUrls: {
-        cobertura_bruta: base(baseUrl, 'map_cobertura_bruta.geojson'),
-        cobertura_neta: base(baseUrl, 'map_cobertura_neta.geojson'),
-        deserci_n: base(baseUrl, 'map_desercion.geojson'),
-        aprobaci_n: base(baseUrl, 'map_aprobacion.geojson'),
-        reprobaci_n: base(baseUrl, 'map_reprobacion.geojson'),
-        repitencia: base(baseUrl, 'map_repitencia.geojson'),
+// ─── Priority indicator pages (one set per configured priority) ──────────────
+
+const priorityEntries: Record<string, PageRegistryEntry> = Object.fromEntries(
+  priorities.flatMap((priority) => [
+    [
+      `determinantes-de-la-salud/${priority.slug}`,
+      {
+        component: PrioritySDoH,
+        resolveProps: ({ title, text }) => ({ title, text }),
       },
-      maternalGeojsonUrl: base(baseUrl, 'map_maternal_mortality.geojson'),
-      csvUrl: base(baseUrl, 'map.csv'),
-    }),
-  },
-  educacion: {
-    component: Education,
-    resolveProps: ({ title, text, data }, baseUrl) => ({
-      title,
-      text,
-      data,
-      csvPath: base(baseUrl, 'education.csv'),
-    }),
-  },
+    ],
+    [
+      `analisis-de-inequidad/${priority.slug}`,
+      {
+        component: PriorityInequity,
+        resolveProps: ({ title, text, data, source }, baseUrl) => ({
+          title,
+          text,
+          data,
+          source,
+          csvPath: csvUrl(baseUrl, `${priority.slug}.csv`),
+          priority,
+        }),
+      },
+    ],
+    [
+      `analisis/${priority.slug}`,
+      {
+        component: Analytics,
+        resolveProps: (
+          { title, text, forestPlotData, analyticsData, scatterData },
+          baseUrl,
+        ) => {
+          const years = dataYears(analyticsData)
+
+          const geojsonUrls = app.features.map
+            ? (Object.fromEntries(
+                indicatorSlugs.map((ind) => [
+                  ind,
+                  Object.fromEntries(
+                    years.map((yr) => [
+                      yr,
+                      geojsonUrl(baseUrl, `bivariate-${ind}-${yr}.geojson`),
+                    ]),
+                  ),
+                ]),
+              ) as Record<string, Record<number, string>>)
+            : undefined
+
+          const priorityGeojsonUrls = app.features.map
+            ? (Object.fromEntries(
+                years.map((yr) => [
+                  yr,
+                  geojsonUrl(baseUrl, `${priority.slug}-${yr}.geojson`),
+                ]),
+              ) as Record<number, string>)
+            : undefined
+
+          const dssBivariateGeojsonUrls = app.features.map
+            ? Object.fromEntries(
+                indicatorSlugs.map((ind_x) => [
+                  ind_x,
+                  Object.fromEntries(
+                    indicatorSlugs
+                      .filter((ind_y) => ind_y !== ind_x)
+                      .map((ind_y) => [
+                        ind_y,
+                        Object.fromEntries(
+                          years.map((yr) => [
+                            yr,
+                            geojsonUrl(
+                              baseUrl,
+                              `bivariate-dss-${ind_x}-${ind_y}-${yr}.geojson`,
+                            ),
+                          ]),
+                        ),
+                      ]),
+                  ),
+                ]),
+              )
+            : undefined
+
+          const scatterCsv = app.features.scatter
+            ? app.datasets?.scatter?.file.replace(/\.parquet$/, '.csv')
+            : undefined
+
+          return {
+            priority,
+            title,
+            text,
+            forestPlotData,
+            analyticsData,
+            scatterData,
+            geojsonUrls,
+            priorityGeojsonUrls,
+            dssBivariateGeojsonUrls,
+            csvUrl: scatterCsv ? csvUrl(baseUrl, scatterCsv) : undefined,
+          }
+        },
+      },
+    ],
+  ]),
+)
+
+// ─── Stratified indicator pages (one per configured indicator) ───────────────
+
+const indicatorEntries: Record<string, PageRegistryEntry> = Object.fromEntries(
+  indicators.map((ind) => [
+    ind.slug,
+    {
+      component: StratifiedIndicator,
+      resolveProps: (
+        {
+          title,
+          text,
+          dimension,
+          subdimensions,
+          stratifiers,
+          stratifiedData,
+          source,
+        },
+        baseUrl,
+      ) => ({
+        title,
+        text,
+        dimension,
+        source,
+        subdimensions: subdimensions ?? [],
+        stratifiers: stratifiers ?? [],
+        data: stratifiedData ?? [],
+        indicator: ind,
+        yAxisLabel: ind.axisLabel,
+        csvPath: csvUrl(baseUrl, `${ind.slug}.csv`),
+        geojsonUrls: app.features.map
+          ? Object.fromEntries(
+              dataYears(stratifiedData).map((yr) => [
+                yr,
+                geojsonUrl(baseUrl, `${ind.slug}-${yr}.geojson`),
+              ]),
+            )
+          : undefined,
+      }),
+    },
+  ]),
+)
+
+export const pageRegistry: Record<string, PageRegistryEntry> = {
+  ...staticEntries,
+  ...priorityEntries,
+  ...indicatorEntries,
 }

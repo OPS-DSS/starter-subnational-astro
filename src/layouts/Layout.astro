@@ -18,9 +18,11 @@ const { title, date, pages, currentPage } = Astro.props
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class="flex flex-col min-h-screen">
     {pages && <NavBarMenu pages={pages} />}
-    <slot />
+    <main class="flex-1 min-h-0">
+      <slot />
+    </main>
     {pages && <CiteThis title={title} date={date} currentPage={currentPage} />}
   </body>
 </html>

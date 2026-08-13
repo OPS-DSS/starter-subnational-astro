@@ -1,141 +1,83 @@
-import {
-  readParquet,
-  dataPath,
-  filterEducationRows,
-  filterAnalyticsRows,
-  buildAnalyticsData,
-  filterMaternalMortalityRateRows,
-  filterMaternalMortalityQuintilRows,
-  filterMaternalMortalityGapsRows,
-  filterForestPlotRows,
-  filterAnalyticsMaternalRows,
-  filterScatterMaternalRows,
-} from './parquet'
-import { maternalMortalityIndicators } from '@/data/indicators'
+import { loadDataset } from './parquet'
+import { app, priorities, indicators } from '@/config/general'
+import type {
+  IndicatorMeta,
+  IndicatorStratifier,
+  DatasetScheme,
+} from '@/config/general'
 
 import type {
-  EducationRow,
-  EducationDataRow,
-  AnalyticsRow,
-  AnalyticsDataRow,
-  MaternalMortalityRateRawRow,
-  MaternalMortalityRateRow,
-  MaternalMortalityQuintilRawRow,
-  MaternalMortalityQuintilRow,
-  MaternalMortalityGapsRawRow,
-  MaternalMortalityGapsRow,
-  ForestPlotRawRow,
+  DataRow,
+  MapRowsOptions,
+  PriorityRow,
   ForestPlotDataRow,
-  AnalyticsMaternalRawRow,
-  AnalyticsMaternalRow,
-  ScatterMaternalRawRow,
-  ScatterMaternalRow,
+  AnalyticsRow,
+  ScatterRow,
+  StratifiedRow,
 } from './parquet'
 
 // ─── Loaded datasets ─────────────────────────────────────────────────────────
 
 export interface PageDatasets {
-  educationData: EducationDataRow[]
-  educationRawRows: EducationRow[]
-  analyticsData: AnalyticsDataRow[]
   forestPlotData: ForestPlotDataRow[]
-  analyticsMaternalData: AnalyticsMaternalRow[]
-  scatterMaternalData: ScatterMaternalRow[]
-  maternalMortalityRateData: MaternalMortalityRateRow[]
-  maternalMortalityQuintilData: MaternalMortalityQuintilRow[]
-  maternalMortalityGapsData: MaternalMortalityGapsRow[]
+  analyticsData: AnalyticsRow[]
+  scatterData: ScatterRow[]
+  /** Priority indicator data, keyed by indicator slug. */
+  priorityData: Record<string, PriorityRow[]>
+  /** Stratified indicator data, keyed by indicator slug. */
+  stratifiedData: Record<string, StratifiedRow[]>
+}
+
+async function tryLoad<T extends DataRow>(
+  name: string,
+  file: string | undefined,
+  scheme: DatasetScheme | undefined,
+  options?: MapRowsOptions,
+): Promise<T[]> {
+  if (!file || !scheme) return []
+  try {
+    return await loadDataset<T>(file, scheme, options)
+  } catch (e) {
+    console.error(`[loadAllDatasets] ${name}:`, e)
+    return []
+  }
 }
 
 export async function loadAllDatasets(): Promise<PageDatasets> {
-  let educationRawRows: EducationRow[] = []
-  let educationData: EducationDataRow[] = []
-  try {
-    educationRawRows = await readParquet<EducationRow>(
-      dataPath('education.parquet'),
+  // Priority indicators keep rows for every territory so charts can compare
+  // the municipality against its barrios; the rest keep only local rows.
+  const priorityData: Record<string, PriorityRow[]> = {}
+  for (const p of priorities) {
+    priorityData[p.slug] = await tryLoad<PriorityRow>(p.slug, p.file, p.scheme)
+  }
+
+  const stratifiedData: Record<string, StratifiedRow[]> = {}
+  for (const ind of indicators) {
+    stratifiedData[ind.slug] = await tryLoad<StratifiedRow>(
+      ind.slug,
+      ind.file,
+      ind.scheme,
+      { territory: app.local },
     )
-    educationData = filterEducationRows(educationRawRows)
-  } catch (e) {
-    console.error('[loadAllDatasets] education:', e)
   }
 
-  let analyticsData: AnalyticsDataRow[] = []
-  try {
-    const rows = await readParquet<AnalyticsRow>(dataPath('analytics.parquet'))
-    analyticsData = filterAnalyticsRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] analytics:', e)
-  }
-
-  let forestPlotData: ForestPlotDataRow[] = []
-  try {
-    const rows = await readParquet<ForestPlotRawRow>(
-      dataPath('forest_plot.parquet'),
-    )
-    forestPlotData = filterForestPlotRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] forest_plot_suaza:', e)
-  }
-
-  let analyticsMaternalData: AnalyticsMaternalRow[] = []
-  try {
-    const rows = await readParquet<AnalyticsMaternalRawRow>(
-      dataPath('analytics_maternal.parquet'),
-    )
-    analyticsMaternalData = filterAnalyticsMaternalRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] analytics_maternal:', e)
-  }
-
-  let scatterMaternalData: ScatterMaternalRow[] = []
-  try {
-    const rows = await readParquet<ScatterMaternalRawRow>(
-      dataPath('scatter_maternal.parquet'),
-    )
-    scatterMaternalData = filterScatterMaternalRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] scatter_maternal:', e)
-  }
-
-  let maternalMortalityRateData: MaternalMortalityRateRow[] = []
-  try {
-    const rows = await readParquet<MaternalMortalityRateRawRow>(
-      dataPath('maternal_mortality_rate.parquet'),
-    )
-    maternalMortalityRateData = filterMaternalMortalityRateRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] maternal_mortality_rate:', e)
-  }
-
-  let maternalMortalityQuintilData: MaternalMortalityQuintilRow[] = []
-  try {
-    const rows = await readParquet<MaternalMortalityQuintilRawRow>(
-      dataPath('maternal_mortality_quintiles.parquet'),
-    )
-    maternalMortalityQuintilData = filterMaternalMortalityQuintilRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] maternal_mortality_quintiles:', e)
-  }
-
-  let maternalMortalityGapsData: MaternalMortalityGapsRow[] = []
-  try {
-    const rows = await readParquet<MaternalMortalityGapsRawRow>(
-      dataPath('maternal_mortality_gaps.parquet'),
-    )
-    maternalMortalityGapsData = filterMaternalMortalityGapsRows(rows)
-  } catch (e) {
-    console.error('[loadAllDatasets] maternal_mortality_gaps:', e)
-  }
-
+  const { analytics, scatter, forestPlot } = app.datasets ?? {}
   return {
-    educationData,
-    educationRawRows,
-    analyticsData,
-    forestPlotData,
-    analyticsMaternalData,
-    scatterMaternalData,
-    maternalMortalityRateData,
-    maternalMortalityQuintilData,
-    maternalMortalityGapsData,
+    forestPlotData: await tryLoad<ForestPlotDataRow>(
+      'forestPlot',
+      forestPlot?.file,
+      forestPlot?.scheme,
+    ),
+    analyticsData: await tryLoad<AnalyticsRow>(
+      'analytics',
+      analytics?.file,
+      analytics?.scheme,
+    ),
+    scatterData: app.features.scatter
+      ? await tryLoad<ScatterRow>('scatter', scatter?.file, scatter?.scheme)
+      : [],
+    priorityData,
+    stratifiedData,
   }
 }
 
@@ -144,18 +86,21 @@ export async function loadAllDatasets(): Promise<PageDatasets> {
 export interface PageDefinition {
   slug: string | undefined
   title: string
-  text: string
+  text?: string
   date: string
   navbar: boolean
-  data?: EducationDataRow[] | AnalyticsDataRow[] | MaternalMortalityRateRow[]
+  source?: string
+  data?: PriorityRow[]
   forestPlotData?: ForestPlotDataRow[]
-  analyticsMaternalData?: AnalyticsMaternalRow[]
-  scatterMaternalData?: ScatterMaternalRow[]
-  quintilData?: MaternalMortalityQuintilRow[]
-  maternalGapsData?: MaternalMortalityGapsRow[]
+  analyticsData?: AnalyticsRow[]
+  scatterData?: ScatterRow[]
+  stratifiedData?: StratifiedRow[]
+  dimension?: string
+  subdimensions?: string[]
   description?: string
   category?: string
   priority?: boolean
+  stratifiers?: IndicatorStratifier[]
 }
 
 export function buildPages(datasets: PageDatasets): PageDefinition[] {
@@ -163,75 +108,84 @@ export function buildPages(datasets: PageDatasets): PageDefinition[] {
     {
       slug: undefined,
       title: 'Inicio',
-      text: 'Bienvenidos al Observatorio de Determinantes Sociales de la Salud, un espacio dedicado a la recopilación, análisis y visualización de datos relacionados con la salud. Nuestro objetivo es proporcionar información precisa y actualizada para apoyar la toma de decisiones informadas en el ámbito de la salud pública.',
+      description:
+        'Bienvenidos al Observatorio de Determinantes Sociales de la Salud, un espacio dedicado a la recopilación, análisis y visualización de datos relacionados con la salud. Nuestro objetivo es proporcionar información precisa y actualizada para apoyar la toma de decisiones informadas en el ámbito de la salud pública.',
       date: '2026-01-01',
       navbar: true,
     },
     {
       slug: 'analisis-de-inequidad',
       title: 'Análisis de Inequidad',
-      text: 'Problemas, gráficos de tendencias y mediciones de brechas',
+      description: 'Problemas, gráficos de tendencias y mediciones de brechas',
       date: '2026-01-01',
       navbar: true,
-    },
-    {
-      slug: 'analisis-de-inequidad/mortalidad-materna',
-      title: 'Mortalidad Materna',
-      text: 'Problemas, gráficos de tendencias y mediciones de brechas',
-      date: '2026-01-01',
-      navbar: false,
-      data: datasets.maternalMortalityRateData,
-      quintilData: datasets.maternalMortalityQuintilData,
-      maternalGapsData: datasets.maternalMortalityGapsData,
     },
     {
       slug: 'determinantes-de-la-salud',
       title: 'Determinantes Sociales de la Salud',
-      text: 'Factores que influyen en la salud de la población',
+      description: 'Factores que influyen en la salud de la población',
       date: '2026-01-01',
       navbar: true,
-    },
-    {
-      slug: 'determinantes-de-la-salud/mortalidad-materna',
-      title: 'Mortalidad Materna',
-      text: 'Problemas, gráficos de tendencias y mediciones de brechas',
-      date: '2026-01-01',
-      navbar: false,
     },
     {
       slug: 'analisis',
       title: 'Análisis Avanzado',
-      text: 'Análisis de relaciones',
+      description: 'Análisis de relaciones',
       date: '2026-01-01',
       navbar: true,
     },
-    {
-      slug: 'analisis/mortalidad-materna',
-      title: 'Análisis de Mortalidad Materna',
-      text: 'Análisis de relaciones',
-      description: 'Indicadores de análisis de datos y visualización.',
-      date: '2026-01-01',
-      category: 'Tendencia',
-      navbar: false,
-      priority: false,
-      forestPlotData: datasets.forestPlotData,
-      analyticsMaternalData: datasets.analyticsMaternalData,
-      scatterMaternalData: datasets.scatterMaternalData,
-    },
   ]
 
-  const indicatorPages: PageDefinition[] = maternalMortalityIndicators.map(
-    (ind) => ({
-      slug: ind.slug,
-      title: ind.title,
-      text: ind.text,
-      date: ind.date,
-      navbar: false,
-      ...(ind.slug === 'educacion' ? { data: datasets.educationData } : {}),
-    }),
+  const priorityPages: PageDefinition[] = priorities.flatMap(
+    (priority: IndicatorMeta) => [
+      {
+        slug: `analisis-de-inequidad/${priority.slug}`,
+        title: priority.title,
+        text: priority.description,
+        date: priority.date,
+        category: priority.category,
+        source: priority.source,
+        navbar: false,
+        data: datasets.priorityData[priority.slug],
+      },
+      {
+        slug: `determinantes-de-la-salud/${priority.slug}`,
+        title: priority.title,
+        text: priority.description,
+        date: priority.date,
+        source: priority.source,
+        category: priority.category,
+        navbar: false,
+      },
+      {
+        slug: `analisis/${priority.slug}`,
+        title: `Análisis de ${priority.label}`,
+        description: 'Indicadores de análisis de datos y visualización.',
+        date: priority.date,
+        category: 'Tendencia',
+        navbar: false,
+        priority: false,
+        forestPlotData: datasets.forestPlotData,
+        analyticsData: datasets.analyticsData,
+        scatterData: datasets.scatterData,
+      },
+    ],
   )
 
-  return [...staticPages, ...indicatorPages]
+  const indicatorPages: PageDefinition[] = indicators.map((ind) => ({
+    slug: ind.slug,
+    title: ind.title,
+    description: ind.description,
+    dimension: ind.dimension,
+    subdimensions: ind.subdimensions,
+    date: ind.date,
+    navbar: false,
+    stratifiers: ind.stratifiers,
+    source: ind.source,
+    stratifiedData: datasets.stratifiedData[ind.slug],
+  }))
+
+  return [...staticPages, ...indicatorPages, ...priorityPages]
 }
 
 // ─── Static path factory ──────────────────────────────────────────────────────
@@ -240,16 +194,19 @@ export async function buildStaticPaths() {
   const datasets = await loadAllDatasets()
   const pages = buildPages(datasets)
 
-  return pages.map(({ slug, title, text, date, navbar, ...rest }) => ({
-    params: { slug },
-    props: {
-      title,
-      text,
-      slug,
-      date: new Date(date),
-      navbar,
-      pages,
-      ...rest,
-    },
-  }))
+  return pages.map(
+    ({ slug, title, description, date, navbar, source, ...rest }) => ({
+      params: { slug },
+      props: {
+        title,
+        description,
+        slug,
+        date: new Date(date),
+        navbar,
+        source,
+        pages,
+        ...rest,
+      },
+    }),
+  )
 }
