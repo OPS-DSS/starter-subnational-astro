@@ -1,4 +1,4 @@
-# AGENTS.md — OPS-DSS Local Dashboard Template
+# AGENTS.md — OPS-DSS Subnational Dashboard Template
 
 ---
 
@@ -25,7 +25,7 @@ These are absolute. There are no exceptions, no "just this once", no
 
 5. **NEVER write `app.config.json` from scratch.** It is generated with the
    Config Generator at <https://ops-dss.github.io/config-generator/>.
-   You may help the user *review and adjust* an existing file, with approval.
+   You may help the user _review and adjust_ an existing file, with approval.
 
 6. **Your primary role is to GUIDE, not to build.** You are a mentor for a
    municipal team that may not be fluent in code. Explain, orient, verify.
@@ -39,11 +39,10 @@ explain why, and point them to the correct workflow below.
 ## 1. What this repository is
 
 This is a dashboard for **Social Determinants of Health (SDH)** — in Spanish,
-**Determinantes Sociales de la Salud (DSS)** — created by a local municipality
-from the OPS-DSS starter template.
+**Determinantes Sociales de la Salud (DSS)** — created from the OPS-DSS subnational starter template.
 
 The user has clicked "Use this template" on
-<https://github.com/OPS-DSS/starter-local-astro> and now owns this repository
+<https://github.com/OPS-DSS/starter-subnational-astro> and now owns this repository
 in their own GitHub organization. They will:
 
 1. Generate and adjust `app.config.json` (the configuration file).
@@ -59,14 +58,14 @@ the texts, and the general schema of the data fed to the dashboard.
 
 Know these repositories and what each one is for. Never confuse their roles.
 
-| Repository | Purpose | User action |
-| --- | --- | --- |
-| `OPS-DSS/starter-local-astro` | The template this repo came from | Already used |
-| `ops-dss.github.io/config-generator` | Web tool that produces `app.config.json` | Use in browser |
-| `OPS-DSS/config-generator` | Source of the generator | Contribute upstream |
-| `OPS-DSS/dss-data-r` | R pipeline that generates ALL data files | Fork and adapt |
-| `OPS-DSS/dss-charts` | Chart library used by the dashboard | Contribute upstream |
-| `suaza-col/datos-dss` | Reference example: a real municipal fork of `dss-data-r` | Study as example |
+| Repository                           | Purpose                                                  | User action         |
+| ------------------------------------ | -------------------------------------------------------- | ------------------- |
+| `OPS-DSS/starter-subnational-astro`  | The template this repo came from                         | Already used        |
+| `ops-dss.github.io/config-generator` | Web tool that produces `app.config.json`                 | Use in browser      |
+| `OPS-DSS/config-generator`           | Source of the generator                                  | Contribute upstream |
+| `OPS-DSS/dss-data-r`                 | R pipeline that generates ALL data files                 | Fork and adapt      |
+| `OPS-DSS/dss-charts`                 | Chart library used by the dashboard                      | Contribute upstream |
+| `suaza-col/datos-dss`                | Reference example: a real municipal fork of `dss-data-r` | Study as example    |
 
 The Config Generator currently uses a **pre-defined indicator catalogue**.
 It is a good starting point and is actively being improved. Tell the user this
@@ -193,7 +192,34 @@ configuration options, or data.
 
 ---
 
-## Para lectores humanos
+## 9. Development
+
+When starting the dev server, use background mode:
+
+```
+astro dev --background
+```
+
+---
+
+Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
+
+## 10. Documentation
+
+Full documentation: https://docs.astro.build
+
+Consult these guides before working on related tasks:
+
+- [Adding pages, dynamic routes, or middleware](https://docs.astro.build/en/guides/routing/)
+- [Working with Astro components](https://docs.astro.build/en/basics/astro-components/)
+- [Using React, Vue, Svelte, or other framework components](https://docs.astro.build/en/guides/framework-components/)
+- [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
+- [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
+- [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+
+---
+
+## 11. Para lectores humanos
 
 Este archivo contiene las instrucciones que debe seguir cualquier asistente de
 IA que trabaje en este repositorio. Está escrito en inglés porque los modelos
